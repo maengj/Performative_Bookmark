@@ -1,0 +1,89 @@
+body {
+  background: #f3f4f6;
+  color: rgb(78, 78, 78);
+}
+h1 {
+  border-bottom: 2px dotted rgb(137, 137, 137);
+  margin-bottom: 8px;
+  padding-bottom: 3px;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 80px;
+  width: full;
+  background: var(--Shark-50, #fbfbfb);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+.separate {
+  width: 100%;
+  padding: 2rem;
+
+  border: 1px solid black;
+}
+.card {
+  width: 30rem;
+  height: 20rem;
+  margin: 1rem;
+  padding: 2rem;
+
+  border-radius: 2rem;
+  background: var(--Shark-50, #fbfbfb);
+
+  /* neumorphism outerblur */
+  box-shadow: -10px -10px 20px 0px rgba(204, 204, 204, 0.25),
+    10px 10px 20px 0px rgba(149, 149, 149, 0.25);
+
+  line-height: 180%;
+}
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icon {
+  width: 24px;
+  height: 24px;
+  background: gray;
+}
+
+.bookmark-name {
+  color: rgb(52, 52, 52);
+  font-size: large;
+  font-weight: bold;
+}
+
+.category-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  border: 1px solid black;
+  width: 100%;
+  padding: 1rem;
+  background: var(--Shark-50, #fbfbfb);
+}
+
+.button {
+  padding: 12px;
+  border-radius: 5rem;
+  background-color: gray;
+  color: white;
+}
