@@ -321,3 +321,14 @@ var bookmarkData = {
 //   addDate: "1732584697",
 //   description: "기획자들이 알아야 할 UI 기본 용어 | 요즘IT",
 // },
+
+// array = {
+//   "맨처음":"ui",
+//   1:"thist",
+//   2:"sdd",
+// }
+
+// array = ["ui","htesius","sdd"]
+
+// array[0]
+// array["맨처음"]

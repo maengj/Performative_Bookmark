@@ -1,73 +1,72 @@
-var categories = ["uiux", "graphic", "thesis"];
+var category = ["uiux", "graphic", "thesis"];
 
 $(document).ready(function () {
-  var result = ``;
-  $.each(categories, function (i, key) {
-    var KeyArray = bookmarkData[key];
-    result += `<div class="category-container ${key}">`;
-    result += `<h2 class="separate">${key.toUpperCase()}</h2>`;
-    $.each(KeyArray, function (i, context) {
-      var timestamp = new Date(parseInt(context.addDate) * 1000);
-      var savedTime = `${timestamp.getFullYear()}-${timestamp.getMonth()}-${timestamp.getDate()}`;
+  // console.log(bookmarkData);
 
-      result += `<div class="card ${key}">
-            <h1>${i + 1}</h1>
-            <p class="bookmark-name "><a href="${context.url}">${
-        context.description
-      }</a></p>
-            <p>${savedTime}</p>
-        </div>`;
+  $.each(bookmarkData, function (category, item) {
+    // console.log(index, item);
+
+    //상단 카테고리 분할
+    result = "";
+    result += `<div class="${category} box"><div class="title"><h1>${category}</h1></div>`;
+
+    var timestamp = new Date();
+    var dateAdded = `${timestamp.getFullYear()}-${timestamp.getMonth()}-${timestamp.getDate()}`;
+
+    $.each(item, function (index, data) {
+      result += `
+      <div class="card">
+        <p>${index + 1}</p>
+        <a href=${data.url}>${data.description}</a>
+        <p>${dateAdded}</p>
+      </div>`;
     });
-    result += "</div>";
-  });
-  result += "";
-  $(".container").append(result);
+    //위에 상단 카테고리 묶어주는 div
+    result += `</div>`;
 
-  $(".uiux-btn").on("click", function () {
-    $(".category-container.uiux").css("display", "flex");
-    $(".category-container.graphic").css("display", "none");
-    $(".category-container.thesis").css("display", "none");
+    //아래 카드 내용 불러오는 부분
+    $(".category-container").append(result);
   });
+  //상단 카테고리 분류 바 (버튼)
+  $.each(bookmarkData, function (barname, i) {
+    result = "";
+    result += `<div class="${barname} btn" asdf="false">${barname}</div>`;
 
-  $(".graphic-btn").on("click", function () {
-    $(".category-container.graphic").css("display", "flex");
-    $(".category-container.uiux").css("display", "none");
-    $(".category-container.thesis").css("display", "none");
+    $(".top-bar").append(result);
   });
-
-  $(".thesis-btn").on("click", function () {
-    $(".category-container.thesis").css("display", "flex");
-    $(".category-container.uiux").css("display", "none");
-    $(".category-container.graphic").css("display", "none");
+  $(".uiux.btn").on("click", function () {
+    if ($(this).attr("asdf") == "false") {
+      $(this).addClass("asdf");
+      $(this).attr("asdf", "true");
+      $(".uiux.box").css("display", "flex");
+    } else {
+      $(this).removeClass("asdf");
+      $(this).attr("asdf", "false");
+      $(".uiux.box").css("display", "none");
+    }
+  });
+  $(".graphic.btn").on("click", function () {
+    $(this).addClass("asdf");
+  });
+  $(".thesis.btn").on("click", function () {
+    $(this).addClass("asdf");
   });
 });
 
-// var result = "";
-// var tiemconv = new Date(parseInt(item.addDate) * 1000);
-// var todayString = `${tiemconv.getFullYear()}-${tiemconv.getMonth()}-${tiemconv.getDate()}`;
+// var btn_array = $(".btn");
+// var btn_asdf_array = [];
 
-// result += `
-//   <div class="card">
-//         <h1>${index}</h1>
-//     <p class="bookmark-name "><a href="${item.url}">${item.description}</a></p>
-//     <p>${todayString}</p>
-// </div>
-// `;
+// $.each(btn_array, function (i, d) {
+//   console.log($(d).attr("asdf"));
+//   btn_asdf_array[i + "btn"] = $(d).attr("asdf");
+// });
 
-// $(".container").append(result);
+// console.log(btn_asdf_array);
 
-//double each
-// $.each(categories, function (i, key) {
-//     console.log(bookmarkData[key]);
+// num 이라는 이름을 가진 attribute의 값 반환
+// $(this).attr("num");
 
-//     var keyArray = bookmarkData[key];
-//     $.each(keyArray, function (i, item) {
-//       console.log(item);
-//     });
-//   });
+// num 이라는 이름을 가진 attribute의 값을 2로 정의
+// $(this).attr("num", 2);
 
-// 다시 만들기
-// 카테고리별 버튼 ui만들기
-// 카테고리별 버튼을 클릭할때 해당 카테고리 card만 남게 하기
-// jQuery on - click 메소드에 대한 이해, addClass Remove를 통한 스타일 컨트롤
-// 시간이 된다면 Github Page로 퍼블리싱
+// $(“”).on(“click”, function (){ $().css(“”,””);});
