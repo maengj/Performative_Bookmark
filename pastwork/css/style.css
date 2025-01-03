@@ -1,0 +1,75 @@
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 1rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: rgb(216, 216, 216);
+
+  border-radius: 1rem;
+
+  overflow-wrap: break-word;
+  border: 1px solid black;
+  width: 220px;
+  height: 310px;
+  transition: 0.1s all ease-in;
+  overflow: hidden;
+
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 220px;
+  height: 310px;
+  background: linear-gradient(
+    115deg,
+    transparent 40%,
+    #e66465 45%,
+    #9198e5 50%,
+    transparent 40%
+  );
+  filter: brightness(1.2) opacity(0.7);
+  mix-blend-mode: color-dodge;
+  background-size: 150% 100%;
+  background-position: 100%;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.title {
+  padding-left: 24px;
+  display: flex;
+  width: 100%;
+  background-color: rgb(218, 218, 218);
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: full;
+  height: 80px;
+  padding: 0px 40px 0px 40px;
+}
+
+.btn {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.btn.asdf {
+  background-color: black;
+  color: white;
+}
