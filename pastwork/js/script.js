@@ -11,10 +11,10 @@ $(document).ready(function () {
     result += `<div class="${category} box"><div class="title"><h1>${category}</h1></div>`;
 
     $.each(item, function (index, data) {
-      var timestamp = new Date(parseInt(data.addDate) * 1000);
-      var dateAdded = `${timestamp.getFullYear()}-${
-        timestamp.getMonth() + 1
-      }-${timestamp.getDate()}`;
+      // var timestamp = new Date(parseInt(data.addDate) * 1000);
+      // var dateAdded = `${timestamp.getFullYear()}-${
+      //   timestamp.getMonth() + 1
+      // }-${timestamp.getDate()}`;
 
       result += `
       <div class="card"><div class="overlay"></div>
