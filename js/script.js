@@ -6,23 +6,53 @@ $(document).ready(function () {
 //URL json > description, images
 
 function setInitCard() {
-  setBookHeader();
   setBookShelf();
+  setBookHeader();
+  setCategoryFunction();
+}
+function setCategoryFunction() {
+  $(".Design.btn").on("click", function () {
+    if ($(this).attr("active") == "true") {
+      $(this).removeClass("active").attr("active", "false");
+      $(".cardBox.Design").css("display", "none");
+    } else {
+      $(this).attr("active", "true").addClass("active");
+      $(".cardBox.Design").css("display", "flex").attr("active", "true");
+    }
+
+    // $(".cardBox.Academic").css("display", "none");
+    // $(".cardBox.Designerswebsite").css("display", "none");
+    // $(".cardBox.AItools").css("display", "none");
+  });
+}
+
+function setBookHeader() {
+  //헤더 카테고리 버튼 스크립트
+  $.each(bookmarkData, function (header, name) {
+    //   console.log(header, name);
+    result = "";
+    result += `<div class="${header} btn active" active="true">${header}</div>`;
+    $(".Header").append(result);
+  });
 }
 
 function setBookShelf() {
   $.each(bookmarkData, function (index, item) {
     // console.log(index, item);
     result = "";
-    result += `<div class="${index} cardBox"><div class="categoryTitle"><h1>${index}</h1></div>`;
-
+    result += `<div class="${index} cardBox" style="height:${
+      item.length * 90
+    }px"><div class="categoryTitle ${index}"><h1>${index}</h1></div>`;
+    console.log(item.length);
     $.each(item, function (firstCategory, subitem) {
       //   console.log(firstCategory, subitem);
       //하단에 카드 불러오는 결과
 
       result += `<div class="indexCard" style="background-image:url('${
         subitem.images
-      }');"><div class="overlay"></div>
+      }'); top:${
+        80 * firstCategory
+      }px;" clicked="false"><div class="overlay"></div>
         <div class="cardHeader">
             <h1>${firstCategory + 1}</h1>
             <p><a href="${subitem.url}">${subitem.sitename}</a></p>
@@ -38,53 +68,27 @@ function setBookShelf() {
   });
 
   //카드 마우스무브 이벤트
-  $(".indexCard").on("mousemove", function (e) {
-    var x = e.offsetX;
-    var y = e.offsetY;
 
-    var rotateX = y / 30 - 20;
-    var rotateY = x / 30 + 20;
-    // console.log(rotateX, rotateY);
-    $(this).css("perspective", "250px");
-    $(this).css("transform", `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`);
-
-    //카드 반짝이 이벤트
-    $(this).children(".overlay").css("perspective", "300px");
-    // $(this)
-    //   .children(".overlay")
-    //   .css("background-position", `${x / 5 + 150}px ${y / 5 + 95}px`);
-    $(this)
-      .children(".overlay")
-      .css("transform", `translate(${-x / 5}px,${-y / 5}px`);
-
-    $(".indexCard").on("mouseout", function (e) {
-      $(this).css("transform", `rotateY(0deg) rotateX(0deg)`);
-      $(this).children(".overlay").css("background-position", `center`);
-    });
+  $(".indexCard").on("mouseenter", function () {
+    if ($(this).attr("clicked") == "false") {
+      $(this).css("transform", "translateY(-20px)");
+    }
   });
-}
-
-function setBookHeader() {
-  //헤더 카테고리 버튼 스크립트
-  $.each(bookmarkData, function (header, name) {
-    //   console.log(header, name);
-    result = "";
-    result += `<div class="${header} btn active" active="true">${header}</div>`;
-    $(".Header").append(result);
+  $(".indexCard").on("mouseleave", function () {
+    if ($(this).attr("clicked") == "false") {
+      $(this).css("transform", "translateY(0px)");
+    }
   });
 
-  $.each(bookmarkData, function (header, name) {
-    $(`.${header}.btn`).on("click", function () {
-      console.log(header);
-      if ($(this).attr("active") == "false") {
-        $(this).addClass("active");
-        $(this).attr("active", "true");
-        $(`.${header}.cardBox`).css("display", "flex");
-      } else {
-        $(this).removeClass("active");
-        $(this).attr("active", "false");
-        $(`.${header}.cardBox`).css("display", "none");
-      }
-    });
+  $(".indexCard").on("click", function (e) {
+    if ($(this).attr("clicked") == "false") {
+      $(this).addClass("clicked", "true");
+      $(this).attr("clicked", "true");
+      $(this).css({ transform: "translateY(-600px)" });
+    } else {
+      $(this).removeClass("clicked");
+      $(this).css({ transform: "translateY(0px)" });
+      $(this).attr("clicked", "false");
+    }
   });
 }

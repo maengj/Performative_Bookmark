@@ -29,12 +29,15 @@
 }
 
 .cardBox {
-  margin: 2px;
-  display: flex;
+  /* margin: 2px; */
+  /* display: flex;
   flex-wrap: wrap;
+  position: relative; */
+
+  position: relative;
 }
 
-/* effect CSS */
+/* card effect CSS */
 .overlay {
   position: absolute;
   background-position: 150% 50%;
@@ -70,24 +73,31 @@
   overflow: hidden;
 }
 
-/* card CSS */
+/* .indexCard:click .indexCard {
+  transform: rotateY(180deg);
+} */
+
+/* card style CSS */
 
 .indexCard {
   width: 600px;
   height: 450px;
   border: 1px solid gray;
   border-radius: 5%;
-
-  margin: 1rem;
-
+  /* margin: 1rem; */
   background-size: cover; /* 이미지를 요소 크기에 맞게 조정 */
   background-position: center; /* 이미지를 중앙에 위치 */
   background-repeat: no-repeat; /* 이미지 반복 방지 */
-
   overflow: hidden;
-  position: relative;
-  justify-content: center;
-  transition: 0.1s transform ease-in;
+
+  /* moving test */
+  position: absolute;
+  top: 30%;
+  left: calc(50% - 300px);
+  /* transform: traslate(-50%, -50%); */
+  transition: 0.4s transform cubic-bezier(0.34, 0.07, 0.45, 0.94);
+
+  background-color: white;
 }
 
 .cardHeader {
