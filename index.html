@@ -1,37 +1,138 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
   <head>
-    <!-- Jquery load -->
-    <script
-      src="https://code.jquery.com/jquery-3.7.1.js"
-      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
-      crossorigin="anonymous"
-    ></script>
-    <!-- CSS load -->
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/style.css" />
-
-    <!-- script.js Load -->
-    <script src="js/data.js"></script>
-    <script src="js/script.js"></script>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>3D 방 내부 패닝 예제</title>
+    <style>
+      /* 기본 설정: 전체 화면, 여백 없음 */
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        overflow: hidden;
+        background: #111;
+      }
+      /* 원근 효과를 주는 컨테이너 */
+      #scene {
+        width: 100%;
+        height: 100%;
+        perspective: 1000px;
+        perspective-origin: 50% 50%;
+        position: relative;
+      }
+      /* 방 전체 – 내부 면들의 부모
+       → 화면 중앙에 위치하고, 3D 자식요소들을 유지 */
+      #room {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform-style: preserve-3d;
+        /* 초기: 중앙에 위치한 후 회전 없음 */
+        transform: translate(-50%, -50%) rotateY(0deg);
+      }
+      /* 각 면의 공통 스타일 (상대 위치, 내부 면 보이게) */
+      .face {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        /* 내부(뒷면)를 보이지 않게 하려면 hidden, 
+         내부를 보이게 하려면 필요에 따라 visible 혹은 뒤집기(transform) */
+        backface-visibility: hidden;
+      }
+      /* --- 각 면의 개별 설정 --- */
+      /* [정면 벽] – 크기 800×600, 빨간색 
+       → 카메라에서 4m(400px) 떨어지도록 translateZ(-400px)
+       → translate(-50%, -50%)로 자신의 중심을 부모의 (0,0)에 맞춤 */
+      #front {
+        width: 800px;
+        height: 600px;
+        background: red;
+        transform: translate(-50%, -50%) translateZ(-400px);
+      }
+      /* [좌측 벽] – 크기 400×600, 초록색 
+       → 원래 면은 정면을 향하므로, rotateY(90deg) 후 
+          translateZ(-400px)를 적용하면 (0,0,-400)를 회전시켜 (-400,0,0)에 배치됨 */
+      #left {
+        width: 400px;
+        height: 600px;
+        background: green;
+        transform: translate(-50%, -50%) rotateY(90deg) translateZ(-400px);
+      }
+      /* [우측 벽] – 크기 400×600, 파란색 
+       → rotateY(-90deg) 후 translateZ(-400px)를 적용하면 (400,0,0)에 배치됨 */
+      #right {
+        width: 400px;
+        height: 600px;
+        background: blue;
+        transform: translate(-50%, -50%) rotateY(-90deg) translateZ(-400px);
+      }
+      /* [바닥] – 크기 800×400, 회색 
+       → 바닥은 수평면이 되도록 rotateX(90deg) 사용  
+       → translateZ(-300px)를 적용하면 (0,300,0)에 배치됨 (방 높이 600px의 아래쪽) */
+      #floor {
+        width: 800px;
+        height: 400px;
+        background: gray;
+        transform: translate(-50%, -50%) rotateX(90deg) translateZ(-300px);
+      }
+      /* [천장] – 크기 800×400, 노란색 
+       → 천장은 rotateX(-90deg)로 회전하고 translateZ(-300px) 적용하면 (0,-300,0)에 배치됨 */
+      #ceiling {
+        width: 800px;
+        height: 400px;
+        background: yellow;
+        transform: translate(-50%, -50%) rotateX(-90deg) translateZ(-300px);
+      }
+    </style>
   </head>
   <body>
-    <div class="page-1">
-      <div class="Header"></div>
-      <div class="canvas"></div>
+    <div id="scene">
+      <div id="room">
+        <div id="front" class="face"></div>
+        <div id="left" class="face"></div>
+        <div id="right" class="face"></div>
+        <div id="floor" class="face"></div>
+        <div id="ceiling" class="face"></div>
+      </div>
     </div>
-    <div class="cardBox">
-      <!-- <div class="indexCard" style="top: 20px" clicked="false"></div>
-      <div class="indexCard" style="top: 80px" clicked="false"></div>
-      <div class="indexCard" style="top: 140px" clicked="false"></div>
-      <div class="indexCard" style="top: 200px" clicked="false"></div>
-      <div class="indexCard" style="top: 260px" clicked="false"></div>
-      <div class="indexCard" style="top: 320px" clicked="false"></div>
-      <div class="indexCard" style="top: 380px" clicked="false"></div>
-      <div class="indexCard" style="top: 440px" clicked="false"></div> -->
-    </div>
+
+    <!-- jQuery 로드 (버전 3.6.0) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $(function () {
+        // 마우스(혹은 터치) 드래그로 회전시킬 변수들
+        var isDragging = false;
+        var startX = 0;
+        var currentRotationY = 0;
+        var startRotationY = 0;
+        var sensitivity = 0.3; // 픽셀 당 회전각(°)
+
+        // 마우스 다운(또는 터치 시작) 시점 기록
+        $("#scene").on("mousedown touchstart", function (e) {
+          isDragging = true;
+          // PC: e.pageX, 모바일 터치: e.originalEvent.touches[0].pageX
+          startX = e.pageX || e.originalEvent.touches[0].pageX;
+          startRotationY = currentRotationY;
+        });
+
+        // 마우스 이동(또는 터치 이동) 시 회전각 업데이트
+        $(document).on("mousemove touchmove", function (e) {
+          if (!isDragging) return;
+          var x = e.pageX || e.originalEvent.touches[0].pageX;
+          var dx = x - startX;
+          currentRotationY = startRotationY + dx * sensitivity;
+          // #room 컨테이너에 회전 변환을 적용
+          $("#room").css(
+            "transform",
+            "translate(-50%, -50%) rotateY(" + currentRotationY + "deg)"
+          );
+        });
+
+        // 마우스 업(또는 터치 종료) 시 드래그 종료
+        $(document).on("mouseup touchend", function (e) {
+          isDragging = false;
+        });
+      });
+    </script>
   </body>
 </html>
