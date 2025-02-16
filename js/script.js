@@ -1,36 +1,58 @@
-// script.js
+// 전역 변수: x축 이동(currentX)와 z축 이동(currentZ)
+var currentX = 0;
+var currentZ = 0;
 
-// 마우스가 #scene 위에서 움직일 때, #room 컨테이너를 회전시켜 3D 패닝 효과를 줍니다.
+// .stage 요소의 transform을 업데이트하는 함수
+function updateStageTransform() {
+  $(".stage").css(
+    "transform",
+    "translate(-50%, -50%) translateX(" +
+      currentX +
+      "px) translateZ(" +
+      currentZ +
+      "px) scale(1.3)"
+  );
+}
+
+// 마우스 이동 이벤트: x축 좌우 이동 (최대 ±200px)
+$(document).mousemove(function (e) {
+  var windowWidth = $(window).width();
+  var centerX = windowWidth / 2;
+  var diffX = e.clientX - centerX;
+  var maxTranslation = 200; // 최대 ±200px
+  currentX = (diffX / centerX) * maxTranslation;
+  updateStageTransform();
+});
+
+// 휠(스크롤) 이벤트: z축 줌 인/줌 아웃 (10px 단위, 최대 ±1000px)
+$(window).on("wheel", function (e) {
+  e.preventDefault(); // 기본 스크롤 동작 방지
+  if (e.originalEvent.deltaY > 0) {
+    currentZ += 10;
+  } else {
+    currentZ -= 10;
+  }
+  // z축 이동 범위를 0px ~ 100px로 제한
+  currentZ = Math.max(-100, Math.min(200, currentZ));
+  updateStageTransform();
+});
+
 $(document).ready(function () {
-  $("#scene").on("mousemove", function (e) {
-    var offset = $(this).offset();
-    var sceneWidth = $(this).width();
-    var sceneHeight = $(this).height();
+  // 페이지 1 버튼 클릭 시 page1.html의 내용을 불러옴
+  $("#pageToCard").click(function () {
+    $(".scene").fadeOut(300, function () {
+      $(".scene").load("indexCard.html", function () {
+        $(".scene").fadeIn(300);
+      });
+    });
+  });
 
-    // 마우스 위치 (페이지 좌표에서 #scene 내 상대 좌표)
-    var mouseX = e.pageX - offset.left;
-    var mouseY = e.pageY - offset.top;
-
-    // #scene 중앙에서의 상대 위치를 -1 ~ 1 사이 값으로 계산
-    var percentX = (mouseX - sceneWidth / 2) / (sceneWidth / 2);
-    var percentY = (mouseY - sceneHeight / 2) / (sceneHeight / 2);
-
-    // 최대 회전 각도 (필요에 따라 조정)
-    var maxRotateY = 15; // 좌우 회전
-    var maxRotateX = 15; // 상하 회전
-
-    // 마우스 위치에 따라 회전각 산출 (마우스가 오른쪽이면 왼쪽으로 회전하도록 부호 반전)
-    var rotateY = -percentX * maxRotateY;
-    var rotateX = percentY * maxRotateX;
-
-    // #room의 기본 중심 정렬(transform: translate(-50%, -50%)) 위에 회전 변환 적용
-    $("#room").css(
-      "transform",
-      "translate(-50%, -50%) rotateX(" +
-        rotateX +
-        "deg) rotateY(" +
-        rotateY +
-        "deg)"
-    );
+  // 페이지 2 버튼 클릭 시 page2.html의 내용을 불러옴
+  $("#pageToMain").click(function () {
+    $(".page-1").fadeOut(300, function () {
+      $(".page-1").load("index.html", function () {
+        $(".page-1").fadeIn(300);
+      });
+    });
   });
 });

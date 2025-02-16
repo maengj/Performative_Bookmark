@@ -2,137 +2,159 @@
 <html lang="ko">
   <head>
     <meta charset="UTF-8" />
-    <title>3D 방 내부 패닝 예제</title>
+    <title>3D Stage - Mouse X Pan</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
     <style>
-      /* 기본 설정: 전체 화면, 여백 없음 */
+      /* 기본 화면 설정 */
       html,
       body {
-        height: 100%;
         margin: 0;
-        overflow: hidden;
-        background: #111;
-      }
-      /* 원근 효과를 주는 컨테이너 */
-      #scene {
+        padding: 0;
         width: 100%;
         height: 100%;
-        perspective: 1000px;
-        perspective-origin: 50% 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+      }
+
+      /* 3D 공간: 카메라(원근감) 설정 */
+      .scene {
+        width: 100vw; /* 장면 전체 너비 */
+        height: 100vh; /* 장면 전체 높이 */
+        perspective: 1000px; /* 원근감 */
+        perspective-origin: 50% 50%; /* 중앙 시점 */
         position: relative;
+        background: radial-gradient(
+          circle,
+          rgba(255, 255, 255, 1) 0%,
+          rgba(175, 173, 173, 1) 0%,
+          rgba(221, 217, 192, 1) 54%,
+          rgba(255, 255, 255, 1) 100%
+        );
       }
-      /* 방 전체 – 내부 면들의 부모
-       → 화면 중앙에 위치하고, 3D 자식요소들을 유지 */
-      #room {
+
+      /* 3D 객체를 담는 컨테이너 (.stage) */
+      .stage {
         position: absolute;
-        top: 50%;
         left: 50%;
+        top: 50%;
         transform-style: preserve-3d;
-        /* 초기: 중앙에 위치한 후 회전 없음 */
-        transform: translate(-50%, -50%) rotateY(0deg);
+        /* 기본 상태: 중앙 정렬 + 줌 인 효과 (scale 1.3) */
+        transform: translate(-50%, -50%) scale(1.3);
       }
-      /* 각 면의 공통 스타일 (상대 위치, 내부 면 보이게) */
+
+      /* 공통 면 스타일 */
       .face {
         position: absolute;
-        top: 50%;
-        left: 50%;
-        /* 내부(뒷면)를 보이지 않게 하려면 hidden, 
-         내부를 보이게 하려면 필요에 따라 visible 혹은 뒤집기(transform) */
-        backface-visibility: hidden;
+        background: #444; /* 면 색상 */
+        border: 2px solid #fff; /* 면 테두리 */
+        box-sizing: border-box;
+        opacity: 0.8;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        font-size: 1.2rem;
+        text-transform: uppercase;
       }
-      /* --- 각 면의 개별 설정 --- */
-      /* [정면 벽] – 크기 800×600, 빨간색 
-       → 카메라에서 4m(400px) 떨어지도록 translateZ(-400px)
-       → translate(-50%, -50%)로 자신의 중심을 부모의 (0,0)에 맞춤 */
-      #front {
-        width: 800px;
-        height: 600px;
-        background: red;
-        transform: translate(-50%, -50%) translateZ(-400px);
-      }
-      /* [좌측 벽] – 크기 400×600, 초록색 
-       → 원래 면은 정면을 향하므로, rotateY(90deg) 후 
-          translateZ(-400px)를 적용하면 (0,0,-400)를 회전시켜 (-400,0,0)에 배치됨 */
-      #left {
-        width: 400px;
-        height: 600px;
-        background: green;
-        transform: translate(-50%, -50%) rotateY(90deg) translateZ(-400px);
-      }
-      /* [우측 벽] – 크기 400×600, 파란색 
-       → rotateY(-90deg) 후 translateZ(-400px)를 적용하면 (400,0,0)에 배치됨 */
-      #right {
-        width: 400px;
-        height: 600px;
-        background: blue;
-        transform: translate(-50%, -50%) rotateY(-90deg) translateZ(-400px);
-      }
-      /* [바닥] – 크기 800×400, 회색 
-       → 바닥은 수평면이 되도록 rotateX(90deg) 사용  
-       → translateZ(-300px)를 적용하면 (0,300,0)에 배치됨 (방 높이 600px의 아래쪽) */
-      #floor {
-        width: 800px;
+
+      /* Front 면: 600×400, 중앙 정렬 */
+      .front {
+        width: 600px;
         height: 400px;
-        background: gray;
-        transform: translate(-50%, -50%) rotateX(90deg) translateZ(-300px);
+        transform: translate(-300px, -200px) translateZ(0px);
       }
-      /* [천장] – 크기 800×400, 노란색 
-       → 천장은 rotateX(-90deg)로 회전하고 translateZ(-300px) 적용하면 (0,-300,0)에 배치됨 */
-      #ceiling {
-        width: 800px;
+
+      /* Bottom 면: 600×400, front 하단에 연결 */
+      .bottom {
+        width: 600px;
+        height: 1000px;
+        transform-origin: top center;
+        transform: translate(-300px, 200px) rotateX(90deg) translateZ(0px);
+      }
+
+      /* Top 면: 600×400, front 상단에 연결 */
+      .top {
+        width: 600px;
+        height: 1000px;
+        transform-origin: bottom center;
+        transform: translate(-300px, -600px) rotateX(-90deg) translateZ(-600px);
+      }
+
+      /* Right 면: 800×400, front 오른쪽에 연결 */
+      .right {
+        width: 1000px;
         height: 400px;
-        background: yellow;
-        transform: translate(-50%, -50%) rotateX(-90deg) translateZ(-300px);
+        transform-origin: left center;
+        transform: translate(500px, -200px) rotateY(-90deg) translateZ(200px);
+      }
+
+      /* Left 면: 800×400, front 왼쪽에 연결 */
+      .left {
+        width: 1000px;
+        height: 400px;
+        transform-origin: right center;
+        transform: translate(-1100px, -200px) rotateY(90deg) translateZ(-200px);
+      }
+
+      .reset {
+        width: 100%;
+        height: 100%;
+        color: black;
+
+        padding: 10px;
+      }
+
+      .header {
+        position: sticky; /* 또는 fixed를 사용해도 됨 */
+        top: 0;
+        width: 100%;
+        height: 80px;
+        background-color: black;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        padding: 0 20px;
+        z-index: 1000; /* 다른 요소보다 앞에 표시 */
+        justify-content: space-between;
+      }
+
+      .btn {
+        margin-right: 10px;
+        padding: 10px 20px;
+        border-radius: 0.5rem;
+        background-color: #555;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+        transition: background-color 0.3s;
       }
     </style>
   </head>
   <body>
-    <div id="scene">
-      <div id="room">
-        <div id="front" class="face"></div>
-        <div id="left" class="face"></div>
-        <div id="right" class="face"></div>
-        <div id="floor" class="face"></div>
-        <div id="ceiling" class="face"></div>
+    <div class="scene">
+      <div class="header">
+        <div>Hello welcome to bookmark space</div>
+        <button class="btn" id="pageToCard">move to card library</button>
+      </div>
+      <div class="stage">
+        <div class="face front">
+          <div class="reset">front</div>
+        </div>
+        <div class="face bottom">
+          <div class="reset">new box</div>
+        </div>
+        <div class="face top">
+          <div class="reset"></div>
+        </div>
+        <div class="face left">Left</div>
+        <div class="face right">Right</div>
       </div>
     </div>
 
-    <!-- jQuery 로드 (버전 3.6.0) -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script>
-      $(function () {
-        // 마우스(혹은 터치) 드래그로 회전시킬 변수들
-        var isDragging = false;
-        var startX = 0;
-        var currentRotationY = 0;
-        var startRotationY = 0;
-        var sensitivity = 0.3; // 픽셀 당 회전각(°)
-
-        // 마우스 다운(또는 터치 시작) 시점 기록
-        $("#scene").on("mousedown touchstart", function (e) {
-          isDragging = true;
-          // PC: e.pageX, 모바일 터치: e.originalEvent.touches[0].pageX
-          startX = e.pageX || e.originalEvent.touches[0].pageX;
-          startRotationY = currentRotationY;
-        });
-
-        // 마우스 이동(또는 터치 이동) 시 회전각 업데이트
-        $(document).on("mousemove touchmove", function (e) {
-          if (!isDragging) return;
-          var x = e.pageX || e.originalEvent.touches[0].pageX;
-          var dx = x - startX;
-          currentRotationY = startRotationY + dx * sensitivity;
-          // #room 컨테이너에 회전 변환을 적용
-          $("#room").css(
-            "transform",
-            "translate(-50%, -50%) rotateY(" + currentRotationY + "deg)"
-          );
-        });
-
-        // 마우스 업(또는 터치 종료) 시 드래그 종료
-        $(document).on("mouseup touchend", function (e) {
-          isDragging = false;
-        });
-      });
-    </script>
+    <!-- jQuery 라이브러리 로드 -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
