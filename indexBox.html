@@ -4,6 +4,93 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>catalog boxes</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <style>
+      .box {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        perspective: 800px;
+        perspective-origin: 50% 50%;
+        overflow: visible;
+        flex-wrap: wrap;
+      }
+      .drawer {
+        /* 
+        static - 기본
+        relative - 기본의 법칙에 따라 있어야하는 위치를 기준으로.
+        absolute - 부모들(부모의 부모 포함) Position이 정의된 거 기준으로
+        sticky - 스크롤때 위에 달라붙는거
+        */
+        flex: 33.33% 0 0;
+        position: relative;
+        border: 1px solid black;
+        width: 100%;
+        height: 20rem;
+        perspective: 800px;
+        perspective-origin: 50% 50%;
+      }
+      .drawerOpen {
+        width: 100%;
+        height: 100%;
+        background: #ddd;
+        transition: transform 0.5s ease;
+        /* 왼쪽 변을 고정하고, 오른쪽 변만 변형시키기 위해 transform-origin을 왼쪽 중앙으로 설정 */
+        transform-origin: left center;
+        transition: all 0.8s ease-in-out;
+        border: 1px solid black;
+        box-shadow: -3px 26px 31px -9px rgba(0, 0, 0, 0.37);
+      }
+      /* 마우스 오버 시: skewY(10deg)를 적용하면 x값에 따라 y가 비례적으로 늘어나 오른쪽 변이 아래로 내려감 */
+      /* .drawer:hover {
+        z-index: 100;
+      } */
+      .drawer:hover .drawerOpen {
+        transform: skewY(30deg);
+        width: 60%;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <div class="box">
+      <div class="drawer" style="z-index: 99">
+        <div class="drawerOpen" srt></div>
+      </div>
+      <div class="drawer" style="z-index: 99">
+        <div class="drawerOpen"></div>
+      </div>
+      <div class="drawer" style="z-index: 99">
+        <div class="drawerOpen"></div>
+      </div>
+      <div class="drawer" style="z-index: 98">
+        <div class="drawerOpen"></div>
+      </div>
+      <div class="drawer" style="z-index: 98">
+        <div class="drawerOpen"></div>
+      </div>
+      <div class="drawer" style="z-index: 98">
+        <div class="drawerOpen"></div>
+      </div>
+      <div class="drawer" style="z-index: 97">
+        <div class="drawerOpen"></div>
+      </div>
+      <div class="drawer" style="z-index: 97">
+        <div class="drawerOpen"></div>
+      </div>
+      <div class="drawer" style="z-index: 97">
+        <div class="drawerOpen"></div>
+      </div>
+      <div class="drawer" style="z-index: 96">
+        <div class="drawerOpen"></div>
+      </div>
+      <div class="drawer" style="z-index: 96">
+        <div class="drawerOpen"></div>
+      </div>
+      <div class="drawer" style="z-index: 96">
+        <div class="drawerOpen"></div>
+      </div>
+    </div>
+  </body>
 </html>

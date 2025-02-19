@@ -40,18 +40,18 @@ $(window).on("wheel", function (e) {
 $(document).ready(function () {
   // 페이지 1 버튼 클릭 시 page1.html의 내용을 불러옴
   $("#pageToCard").click(function () {
-    $(".scene").fadeOut(300, function () {
-      $(".scene").load("indexCard.html", function () {
-        $(".scene").fadeIn(300);
+    $("body").fadeOut(300, function () {
+      $("body").load("indexCard.html", function () {
+        $("body").fadeIn(300);
       });
     });
   });
 
   // 페이지 2 버튼 클릭 시 page2.html의 내용을 불러옴
-  $("#pageToMain").click(function () {
-    $(".page-1").fadeOut(300, function () {
-      $(".page-1").load("index.html", function () {
-        $(".page-1").fadeIn(300);
+  $("#pageToBox").click(function () {
+    $("body").fadeOut(300, function () {
+      $("body").load("indexBox.html", function () {
+        $("body").fadeIn(300);
       });
     });
   });
