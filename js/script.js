@@ -38,7 +38,7 @@ $(window).on("wheel", function (e) {
 });
 
 $(document).ready(function () {
-  // 페이지 1 버튼 클릭 시 page1.html의 내용을 불러옴
+  // pageToCard 버튼 클릭시 indexCard.html의 내용을 불러옴
   $("#pageToCard").click(function () {
     $("body").fadeOut(300, function () {
       $("body").load("indexCard.html", function () {
@@ -47,7 +47,7 @@ $(document).ready(function () {
     });
   });
 
-  // 페이지 2 버튼 클릭 시 page2.html의 내용을 불러옴
+  // pageToBox 버튼 클릭 시 indexBox.html의 내용을 불러옴
   $("#pageToBox").click(function () {
     $("body").fadeOut(300, function () {
       $("body").load("indexBox.html", function () {

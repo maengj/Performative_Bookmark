@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <title>3D Stage - Mouse X Pan</title>
     <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
     <style>
       /* 기본 화면 설정 */
       html,
@@ -105,6 +110,16 @@
 
         padding: 10px;
       }
+      .reset.grid {
+        display: grid;
+        grid-template-columns: repeat(20, 1fr);
+        grid-template-rows: 3, 1fr;
+        grid-auto-rows: minmax(12px, auto);
+        border: 1px solid red;
+      }
+      .element {
+        border: 1px solid blue;
+      }
 
       .header {
         position: sticky; /* 또는 fixed를 사용해도 됨 */
@@ -143,21 +158,64 @@
       </div>
       <div class="stage">
         <div class="face front">
-          <div class="reset">front</div>
+          <div class="reset grid rect-front"></div>
         </div>
         <div class="face bottom">
-          <div class="reset">new box</div>
+          <div class="reset grid rect-bottom">new box</div>
         </div>
         <div class="face top">
-          <div class="reset"></div>
+          <div class="reset grid rect-top"></div>
         </div>
-        <div class="face left">Left</div>
-        <div class="face right">Right</div>
+        <div class="face left">
+          <div class="reset grid rect-left"></div>
+        </div>
+        <div class="face right">
+          <div class="reset grid rect-right"></div>
+        </div>
       </div>
     </div>
 
     <!-- jQuery 라이브러리 로드 -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script src="js/script.js"></script>
+    <script src="js/script.js">
+      // 각 벽면에 빼곡하게 책이 차있는 것 처럼 그리드를 넣어서 책장을 반복해서 그려낸다.
+      // 각 책은 실제 즐겨찾기 데이터의 타이틀을 포함하고 있고, 클릭하면 페이지로 이동할 수 있다 (A태그)
+      $(document).ready(function(){
+        setBookshelf();
+      });
+      function setBookshelf(){
+        $.each(kan, function(grid, data){
+          result = "";
+          result += `<div class="button active">test</div>`
+            $(".reset").append(result);
+        });
+
+      };
+    </script>
   </body>
 </html>
+
+<!-- $(document).ready(function () {
+  // grid에 속한 클래스에 div를 반복해서 100개씩 삽입한다.
+  var arr = [
+    ".rect-front",
+    ".rect-bottom",
+    "rect-top",
+    "rect-left",
+    ".rect-right",
+  ];
+
+  for (i = 0; i < 5; i++) {
+    for (j = 0; j < 100; j++) {``
+      $(".grid").append(`<div class="element">${j + 1}</div>`);
+    }
+  }
+  // 클래스는 5개의 부모를 가지고 있다.
+}); -->
+
+<!--  var rectArray = ["front", "bottom", "top", "left", "right"];
+  for (var j = 0; j < 5; j = j + 1) {
+    for (var i = 0; i < 100; i = i + 1) {
+      $(`.rect-${rectArray[j]}`).append(`<div class="element">${i + 1}</div>`);
+    }
+  } -->
