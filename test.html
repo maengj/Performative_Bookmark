@@ -1,54 +1,14 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Parallelogram Hover Effect</title>
-    <style>
-      /* 기본 리셋 및 배경 */
-      html,
-      body {
-        margin: 0;
-        padding: 0;
-        background: #444;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-      }
-      /* 3D 원근감을 주기 위해 scene 컨테이너에 perspective 추가 */
-      .scene {
-        width: 600px;
-        height: 400px;
-        perspective: 800px;
-        perspective-origin: 50% 50%;
-      }
-      /* 기본 상태의 사각형 (card) */
-      .card {
-        width: 100%;
-        height: 100%;
-        background: #ddd;
-        transition: transform 0.5s ease;
-        /* 왼쪽 변을 고정하고, 오른쪽 변만 변형시키기 위해 transform-origin을 왼쪽 중앙으로 설정 */
-        transform-origin: left center;
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>test document</title>
 
-        /*
-        transition은 시작과 끝이 정해야져 한다.
-        transition-property: width, transform; css property
-        transition-duration: 0.3s; 변화 지속시간
-        transition-timing-function: ease-in; 변화에 대한 비지에 커브 곡선*/
-
-        transition: all 0.8s cubic-bezier(0.12, 1.17, 0.64, -0.01);
-      }
-      /* 마우스 오버 시: skewY(10deg)를 적용하면 x값에 따라 y가 비례적으로 늘어나 오른쪽 변이 아래로 내려감 */
-      .scene:hover .card {
-        transform: skewY(30deg);
-        width: 60%;
-      }
-    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="/js/test.js"></script>
   </head>
   <body>
-    <div class="scene">
-      <div class="card"></div>
-    </div>
+    <div id="result"></div>
   </body>
 </html>
