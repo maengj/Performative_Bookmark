@@ -15,15 +15,15 @@ $(document).ready(function () {
   loadpage();
 });
 
-// function loadpage() {
-//   $.each(CategoryData, function (i, category) {
-//     console.log(i, category);
-//     var result = `<div class="drawer" style="z-index:${
-//       100 - i
-//     }"><div class="drawerOpen">${category}</div></div>`;
-//     $(".box").append(result);
-//   });
-// }
+function loadpage() {
+  $.each(CategoryData, function (i, category) {
+    console.log(i, category);
+    var result = `<div class="drawer" style="z-index:${
+      100 - i
+    }"><div class="drawerOpen">${category}</div></div>`;
+    $(".box").append(result);
+  });
+}
 
 function loadpage() {
   var result = "";

@@ -36,7 +36,25 @@ $(window).on("wheel", function (e) {
   currentZ = Math.max(-100, Math.min(200, currentZ));
   updateStageTransform();
 });
+// 각 벽면에 빼곡하게 책이 차있는 것 처럼 그리드를 넣어서 책장을 반복해서 그려낸다.
+// 각 책은 실제 즐겨찾기 데이터의 타이틀을 포함하고 있고, 클릭하면 페이지로 이동할 수 있다 (A태그)
 
+$(document).ready(function () {
+  // grid에 속한 클래스에 div를 반복해서 100개씩 삽입한다.
+  var arr = [
+    ".rect-front",
+    ".rect-bottom",
+    ".rect-top", // 여기 .이 빠져있었음
+    ".rect-left",
+    ".rect-right",
+  ];
+
+  for (i = 0; i < 5; i++) {
+    for (j = 0; j < 20; j++) {
+      $(".grid").append(`<div class="element">${j + 1}</div>`);
+    }
+  }
+});
 $(document).ready(function () {
   // pageToCard 버튼 클릭시 indexCard.html의 내용을 불러옴
   $("#pageToCard").click(function () {

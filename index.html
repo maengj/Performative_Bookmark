@@ -177,21 +177,7 @@
 
     <!-- jQuery 라이브러리 로드 -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script src="js/script.js">
-      // 각 벽면에 빼곡하게 책이 차있는 것 처럼 그리드를 넣어서 책장을 반복해서 그려낸다.
-      // 각 책은 실제 즐겨찾기 데이터의 타이틀을 포함하고 있고, 클릭하면 페이지로 이동할 수 있다 (A태그)
-      $(document).ready(function(){
-        setBookshelf();
-      });
-      function setBookshelf(){
-        $.each(kan, function(grid, data){
-          result = "";
-          result += `<div class="button active">test</div>`
-            $(".reset").append(result);
-        });
-
-      };
-    </script>
+    <script src="js/script.js"></script>
   </body>
 </html>
 
