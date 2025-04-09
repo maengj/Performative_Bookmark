@@ -95,27 +95,24 @@ $(".close-btn").click(function () {
 });
 
 // 페이지 전환
-$(document).ready(function () {
-  // pageToCard 버튼 클릭시 indexCard.html의 내용을 불러옴
-  $(document).ready(function () {
-    $("#pageToCard").click(function () {
-      window.location.href = "indexCard.html";
-    });
-    // pageToBox 버튼 클릭 시 indexBox.html의 내용을 불러옴
-    $("#pageToBox").click(function () {
-      window.location.href = "indexBox.html";
-    });
-    // pageToBox 버튼 클릭 시 indexBox.html의 내용을 불러옴
-    $("#pageToTest").click(function () {
-      window.location.href = "test.html";
-    });
-  });
 
-  // $("#pageToBox").click(function () {
-  //   $("body").fadeOut(300, function () {
-  //     $("body").load("indexBox.html", function () {
-  //       $("body").fadeIn(300);
-  //     });
-  //   });
-  // });
+// pageToCard 버튼 클릭시 indexCard.html의 내용을 불러옴
+$("#pageToCard").click(function () {
+  window.location.href = "indexCard.html";
 });
+// pageToBox 버튼 클릭 시 indexBox.html의 내용을 불러옴
+$("#pageToBox").click(function () {
+  window.location.href = "indexBox.html";
+});
+// pageToBox 버튼 클릭 시 indexBox.html의 내용을 불러옴
+$("#pageToTest").click(function () {
+  window.location.href = "test.html";
+});
+
+// $("#pageToBox").click(function () {
+//   $("body").fadeOut(300, function () {
+//     $("body").load("indexBox.html", function () {
+//       $("body").fadeIn(300);
+//     });
+//   });
+// });
