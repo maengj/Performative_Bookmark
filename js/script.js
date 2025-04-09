@@ -49,8 +49,8 @@ $(document).ready(function () {
     ".rect-right",
   ];
 
-  for (i = 0; i < 5; i++) {
-    for (j = 0; j < 20; j++) {
+  for (var i = 0; i < 5; i++) {
+    for (var j = 0; j < 20; j++) {
       $(".grid").append(`<div class="element">${j + 1}</div>`);
     }
   }
