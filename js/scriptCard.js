@@ -11,25 +11,22 @@ function setInitCard() {
   setCategoryFunction();
 }
 function setCategoryFunction() {
-  $(".Design.btn").on("click", function () {
-    if ($(this).attr("active") == "true") {
-      $(this).removeClass("active").attr("active", "false");
-      $(".cardBox.Design").css("display", "none");
-    } else {
-      $(this).attr("active", "true").addClass("active");
-      $(".cardBox.Design").css("display", "flex").attr("active", "true");
-    }
-
-    // $(".cardBox.Academic").css("display", "none");
-    // $(".cardBox.Designerswebsite").css("display", "none");
-    // $(".cardBox.AItools").css("display", "none");
+  ["Design", "Academic", "Designerswebsite", "AItools"].forEach(function (
+    category
+  ) {
+    $(`.${category}.btn`).on("click", function () {
+      const isActive = $(this).attr("active") === "true";
+      $(this).toggleClass("active").attr("active", !isActive);
+      $(`.cardBox.${category}`)
+        .css("display", isActive ? "none" : "flex")
+        .attr("active", !isActive);
+    });
   });
 }
 
 function setBookHeader() {
   //헤더 카테고리 버튼 스크립트
   $.each(bookmarkData, function (header, name) {
-    //   console.log(header, name);
     result = "";
     result += `<div class="${header} btn active" active="true">${header}</div>`;
     $(".Header").append(result);
@@ -38,16 +35,12 @@ function setBookHeader() {
 
 function setBookShelf() {
   $.each(bookmarkData, function (index, item) {
-    // console.log(index, item);
     result = "";
     result += `<div class="${index} cardBox" style="height:${
       item.length * 90
     }px"><div class="categoryTitle ${index}"><h1>${index}</h1></div>`;
     console.log(item.length);
     $.each(item, function (firstCategory, subitem) {
-      //   console.log(firstCategory, subitem);
-      //하단에 카드 불러오는 결과
-
       result += `<div class="indexCard" style="background-image:url('${
         subitem.images
       }'); top:${
@@ -64,7 +57,7 @@ function setBookShelf() {
         </div>`;
     });
     result += "</div>";
-    $(".canvas").append(result);
+    $(".cardList").append(result);
   });
 
   //카드 마우스무브 이벤트
@@ -80,17 +73,6 @@ function setBookShelf() {
     }
   });
 
-  // $(".indexCard").on("click", function (e) {
-  //   if ($(this).attr("clicked") == "false") {
-  //     $(this).addClass("clicked", "true");
-  //     $(this).attr("clicked", "true");
-  //     $(this).css({ transform: "translateY(-600px)" });
-  //   } else {
-  //     $(this).removeClass("clicked");
-  //     $(this).css({ transform: "translateY(0px)" });
-  //     $(this).attr("clicked", "false");
-  //   }
-  // });
   $(".indexCard").on("click", function () {
     const $card = $(this);
     const clicked = $card.attr("clicked") === "true";
@@ -112,13 +94,13 @@ function setBookShelf() {
       const originalTop = $card.css("top"); // 기존 위치 저장
       $card.data("originalTop", originalTop);
 
-      //     // 클릭된 카드 오른쪽으로 옮기고 확대
-      // $card.addClass("clicked").attr("clicked", "true").css({
-      //   top: "50%",
-      //   left: "calc(100% - 620px)", // 우측 고정 (카드 폭 고려)
-      //   transform: "translateY(-50%) scale(1.25) rotateY(0deg)",
-      //   zIndex: 10000,
-      // });
+      // 클릭된 카드 오른쪽으로 옮기고 확대
+      $card.addClass("clicked").attr("clicked", "true").css({
+        top: "50%",
+        left: "calc(100% - 620px)", // 우측 고정 (카드 폭 고려)
+        transform: "translateY(-50%) scale(1.25) rotateY(0deg)",
+        zIndex: 10000,
+      });
     }
   });
 
@@ -135,40 +117,49 @@ function setBookShelf() {
       <div class="detailImage" style="background-image: ${bg}"></div>
       <div class="text-box">
         <h2>${sitename}</h2>
-        <p>${description}</p>
+        <p class="textContent">${description}</p>
       </div>
       <iframe class="detailIframe" src="${url}" onerror="this.style.display='none';"></iframe>
     `;
 
     $(".cardDetail").html(detailHTML);
+    enableHoverHighlighting(); // ✅ html 삽입 이후에 호출해야 함
   });
 
   // 텍스트 하이라이트 효과
+  ///________________________________________________________________________________________________________________________
+
   function enableHoverHighlighting() {
-    const $text = $(".textContent");
+    const $text = $(".cardDetail .textContent");
     const originalText = $text.text().trim();
 
-    // 텍스트를 글자 단위로 span으로 감싸기
-    const split = originalText.split("").map((char, i) => {
-      return `<span class="char" data-index="${i}">${char}</span>`;
+    // ✅ 단어 단위로 분할
+    const words = originalText.split(/\s+/).map((word, i) => {
+      return `<span class="word" data-index="${i}">${word}</span>`;
     });
+    $text.html(words.join(" "));
+    $text.addClass("processed");
 
-    $text.html(split.join(""));
-
-    // 마우스 움직일 때 글자 위치 계산
+    // ✅ 마우스 위치 기반 하이라이팅
     $text.on("mousemove", function (e) {
       const offset = $(this).offset();
-      const x = e.pageX - offset.left;
+      const mouseX = e.pageX + 2;
+      const mouseY = e.pageY + 1;
 
       let closestIndex = 0;
       let closestDistance = Infinity;
 
-      // 현재 마우스와 가장 가까운 글자 찾기
       $(this)
-        .find(".char")
+        .find(".word")
         .each(function () {
-          const charOffset = $(this).position().left;
-          const distance = Math.abs(charOffset - x);
+          const wordOffset = $(this).offset();
+          const wordCenterX = wordOffset.left + $(this).outerWidth() / 2;
+          const wordCenterY = wordOffset.top + $(this).outerHeight() / 2;
+
+          const dx = mouseX - wordCenterX;
+          const dy = mouseY - wordCenterY;
+          const distance = Math.sqrt(dx * dx + dy * dy); // ✅ x+y 모두 반영
+
           const index = parseInt($(this).data("index"));
           if (distance < closestDistance) {
             closestDistance = distance;
@@ -176,25 +167,17 @@ function setBookShelf() {
           }
         });
 
-      // 모든 글자 초기화
-      $(this).find(".char").removeClass("highlighted");
+      // ✅ 중심 기준 5단어 하이라이트
+      $(this).find(".word").removeClass("highlighted");
 
-      // 기준 인덱스 전후 5글자 하이라이트
-      for (let i = closestIndex - 2; i <= closestIndex + 2; i++) {
-        $(this).find(`.char[data-index="${i}"]`).addClass("highlighted");
+      for (let i = closestIndex - 1; i <= closestIndex + 1; i++) {
+        $(this).find(`.word[data-index="${i}"]`).addClass("highlighted");
       }
     });
 
-    // 마우스 나가면 하이라이트 제거
+    // ✅ 마우스 떠나면 초기화
     $text.on("mouseleave", function () {
-      $(this).find(".char").removeClass("highlighted");
-    });
-    $(".indexCard").on("mouseenter", function () {
-      // 기존 정보 추출 및 .cardDetail HTML 구성 ...
-
-      $(".cardDetail").html(detailHTML);
-      // 하이라이트 기능 활성화
-      enableHoverHighlighting();
+      $(this).find(".word").removeClass("highlighted");
     });
   }
 }

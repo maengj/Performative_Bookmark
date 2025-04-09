@@ -19,7 +19,6 @@
   color: white;
 }
 .canvas {
-  margin: 1rem;
   position: relative; /* ← 추가 */
   z-index: 0;
 }

@@ -105,6 +105,10 @@ $(document).ready(function () {
     $("#pageToBox").click(function () {
       window.location.href = "indexBox.html";
     });
+    // pageToBox 버튼 클릭 시 indexBox.html의 내용을 불러옴
+    $("#pageToTest").click(function () {
+      window.location.href = "test.html";
+    });
   });
 
   // $("#pageToBox").click(function () {
