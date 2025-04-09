@@ -21,6 +21,7 @@
         justify-content: center;
         align-items: center;
         overflow: hidden;
+        color: black;
       }
 
       /* 3D 공간: 카메라(원근감) 설정 */
@@ -30,13 +31,6 @@
         perspective: 1000px; /* 원근감 */
         perspective-origin: 50% 50%; /* 중앙 시점 */
         position: relative;
-        background: radial-gradient(
-          circle,
-          rgba(255, 255, 255, 1) 0%,
-          rgba(175, 173, 173, 1) 0%,
-          rgba(221, 217, 192, 1) 54%,
-          rgba(255, 255, 255, 1) 100%
-        );
       }
 
       /* 3D 객체를 담는 컨테이너 (.stage) */
@@ -52,8 +46,8 @@
       /* 공통 면 스타일 */
       .face {
         position: absolute;
-        background: #444; /* 면 색상 */
-        border: 2px solid #fff; /* 면 테두리 */
+        background: #ffffff; /* 면 색상 */
+        border: 2px solid #c2c2c2; /* 면 테두리 */
         box-sizing: border-box;
         opacity: 0.8;
         display: flex;
@@ -69,6 +63,7 @@
         width: 600px;
         height: 400px;
         transform: translate(-300px, -200px) translateZ(0px);
+        background: rgb(231, 231, 231);
       }
 
       /* Bottom 면: 600×400, front 하단에 연결 */
@@ -77,10 +72,12 @@
         height: 1000px;
         transform-origin: top center;
         transform: translate(-300px, 200px) rotateX(90deg) translateZ(0px);
+        background: #ffffff;
       }
 
       /* Top 면: 600×400, front 상단에 연결 */
       .top {
+        background: #cdcdcd;
         width: 600px;
         height: 1000px;
         transform-origin: bottom center;
@@ -89,6 +86,7 @@
 
       /* Right 면: 800×400, front 오른쪽에 연결 */
       .right {
+        background: #b9b9b9;
         width: 1000px;
         height: 400px;
         transform-origin: left center;
@@ -97,6 +95,7 @@
 
       /* Left 면: 800×400, front 왼쪽에 연결 */
       .left {
+        background: #b9b9b9;
         width: 1000px;
         height: 400px;
         transform-origin: right center;
@@ -115,10 +114,10 @@
         grid-template-columns: repeat(20, 1fr);
         grid-template-rows: 3, 1fr;
         grid-auto-rows: minmax(12px, auto);
-        border: 1px solid red;
+        /* border: 1px solid red; */
       }
       .element {
-        border: 1px solid blue;
+        border: 1px solid rgb(0, 0, 0);
       }
 
       .header {
@@ -145,17 +144,92 @@
         cursor: pointer;
         transition: background-color 0.3s;
       }
+
+      .element {
+        padding: 4px;
+      }
+      .ui-overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        pointer-events: none;
+      }
+      .floating-window {
+        position: absolute;
+        width: 50rem;
+        height: 20rem;
+        background: white;
+        top: 500%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2000;
+        border-radius: 1rem;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        padding: 1rem;
+        color: black;
+        text-align: center;
+        pointer-events: all;
+      }
+      .control-panel {
+        position: absolute;
+        top: 500px;
+        bottom: 20px;
+        left: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        z-index: 2000;
+        pointer-events: all;
+      }
+      .zoom-btn,
+      .view-btn {
+        padding: 10px;
+        background-color: #333;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 1rem;
+      }
+      .close-btn {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background: transparent;
+        border: none;
+        font-size: 1.5rem;
+        cursor: pointer;
+      }
     </style>
   </head>
   <body>
     <div class="scene">
       <div class="header">
         <div>Hello welcome to bookmark space</div>
+        <div class="ui-overlay">
+          <div class="floating-window">
+            <button class="close-btn">&times;</button>
+            <h2>2D Floating Window</h2>
+            <p>This is a central overlay window</p>
+          </div>
+          <div class="control-panel">
+            <button class="zoom-btn" data-zoom="in">+</button>
+            <button class="zoom-btn" data-zoom="out">-</button>
+            <button class="view-btn" data-face="front">Front</button>
+            <button class="view-btn" data-face="left">Left</button>
+            <button class="view-btn" data-face="right">Right</button>
+            <button class="view-btn" data-face="top">Top</button>
+            <button class="view-btn" data-face="bottom">Bottom</button>
+          </div>
+        </div>
         <div>
           <button class="btn" id="pageToCard">move to card library</button>
           <button class="btn" id="pageToBox">move to catalogue boxes</button>
         </div>
       </div>
+      <div class="toast">where is my toast card</div>
       <div class="stage">
         <div class="face front">
           <div class="reset grid rect-front"></div>
@@ -175,9 +249,9 @@
       </div>
     </div>
 
-    <!-- jQuery 라이브러리 로드 -->
+    <!-- jQuery 라이브러리----- 로드 -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script src="js/script.js"></script>
+    <script src="js/index_script.js"></script>
   </body>
 </html>
 

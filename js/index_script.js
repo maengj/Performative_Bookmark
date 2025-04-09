@@ -55,12 +55,52 @@ $(document).ready(function () {
     }
   }
 });
+//GPTs
+$(document).ready(function () {
+  let scale = 1.3;
+
+  $(".zoom-btn").click(function () {
+    const direction = $(this).data("zoom");
+    if (direction === "in") scale += 0.1;
+    else if (direction === "out") scale = Math.max(0.1, scale - 0.1);
+
+    $(".stage").css("transform", `translate(-50%, -50%) scale(${scale})`);
+  });
+
+  $(".view-btn").click(function () {
+    const face = $(this).data("face");
+    const transforms = {
+      front: "translateZ(300px)",
+      back: "rotateY(180deg) translateZ(300px)",
+      left: "rotateY(-90deg) translateZ(500px)",
+      right: "rotateY(90deg) translateZ(500px)",
+      top: "rotateX(90deg) translateZ(500px)",
+      bottom: "rotateX(-90deg) translateZ(500px)",
+    };
+
+    $(".stage").css({
+      // transition: "transform 0.1s ease",
+      transform: `translate(-50%, -50%) scale(1.0) ${transforms[face]}`,
+    });
+
+    $(".scene").css({
+      // transition: "perspective 0.1s ease",
+      perspective: "0px",
+    });
+  });
+});
+//닫기 버튼 이벤트
+$(".close-btn").click(function () {
+  $(".floating-window").fadeOut();
+});
+
+// 페이지 전환
 $(document).ready(function () {
   // pageToCard 버튼 클릭시 indexCard.html의 내용을 불러옴
   $("#pageToCard").click(function () {
     $("body").fadeOut(300, function () {
       $("body").load("indexCard.html", function () {
-        $("body").fadeIn(300);
+        $("body").fadeIn(100);
       });
     });
   });
