@@ -1,0 +1,527 @@
+html {
+  overflow: hidden;
+  width: 2560px;
+  height: 1440px;
+}
+
+body {
+  background-color: black;
+  // padding: 1rem;
+  cursor: none;
+  overflow: hidden;
+  position: relative;
+}
+
+.cursor,
+.cursor-follower {
+  position: fixed;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  transition: transform 0.01s ease;
+  transform: translate(-50%, -50%);
+}
+
+.cursor {
+  width: 24px;
+  height: 24px;
+  background-color: rgb(255, 255, 255);
+  mix-blend-mode: difference;
+}
+
+.cursor-follower {
+  width: 24px;
+  height: 24px;
+  border: 2px solid rgb(255, 255, 255);
+}
+#home {
+  position: absolute;
+  font-family: var(--space-mono);
+  font-weight: bold;
+  font-size: 70px;
+
+  color: var(--yellow);
+  pointer-events: auto;
+  cursor: grab;
+
+  top: 12px;
+  left: 12px;
+  z-index: 9999;
+}
+.top-face {
+  position: absolute;
+  z-index: 99;
+  font-size: 24px;
+  font-family: var(--space-mono);
+  letter-spacing: 2px;
+  color: white;
+  // border: 1px solid yellow;
+
+  top: 120px;
+  left: 1750px;
+  transform: skewY(-20deg) skewX(60deg);
+}
+
+#main-grid-container {
+  display: grid;
+  grid-template-columns: 3fr 1fr; /* 왼쪽 2/3, 오른쪽 1/3 */
+  width: 100%;
+  height: 100%;
+  gap: 0rem; /* 그리드 간격 제거 */
+}
+
+/* 왼쪽 컨테이너 */
+#left-container {
+  perspective: 2000px;
+  transform: rotateX(20deg) rotateY(30deg) translate(0rem, 3rem);
+  transform-style: preserve-3d;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 600px);
+  gap: 0px;
+
+  .cross-line {
+    transform: skewY(0deg);
+    z-index: 100;
+    transform: translate(129px, -267px);
+  }
+}
+
+/* 오른쪽 컨테이너 */
+#right-container {
+  perspective: 2000px;
+  transform: rotateX(40deg) rotateY(-30deg) translate(-200px, -195px); /* 반대 방향 회전 및 이동 */
+  transform-style: preserve-3d;
+  display: grid;
+  grid-template-columns: repeat(1, 2fr); /* 오른쪽은 1열 그리드로 단순화 */
+  grid-template-rows: repeat(3, 737px);
+  gap: 0px;
+}
+
+/* folder-container는 각 컨테이너 내부에서 flexbox로 동작하게 합니다. */
+.folder-container {
+  display: flex; /* grid-item 내에서 flexbox로 동작하도록 */
+  flex-wrap: wrap;
+  gap: 16px; /* 이 값은 필요에 따라 조절하세요 */
+  /* transform: translateZ(0); /* 3D 렌더링 컨텍스트를 위해 추가 */
+
+  .folder-item {
+    position: relative;
+    pointer-events: none;
+
+    .folder-name {
+      position: absolute;
+      width: 190px;
+      height: fit-content;
+      left: 50%;
+      top: 150px;
+      transform: translate(-50%, -50%);
+      padding: 8px;
+      // border-radius: 0.2rem;
+      background-color: white;
+      z-index: 100;
+      box-shadow: inset 2px 2px 5px 5px rgba(0, 0, 0, 0.351);
+      text-transform: uppercase;
+      .catname {
+        display: flex;
+        justify-content: center;
+        font-size: 24px;
+        font-family: var(--space-mono);
+        color: black;
+      }
+    }
+    .handle {
+      position: absolute;
+      width: 3rem;
+      height: 3rem;
+      left: 37%;
+      top: 250px;
+
+      border: 1px solid rgb(27, 27, 27);
+      border-radius: 99px;
+      box-shadow: inset 2px 2px 2px 2px rgb(34, 34, 34);
+    }
+
+    // &:hover .folder-list-item {
+    //   pointer-events: auto;
+    //   transform: translateY(-20px);
+    // }
+
+    .folder-side {
+      position: absolute;
+      right: 1rem;
+      bottom: -3rem;
+      border: 2px solid black;
+      background-color: gray;
+      width: 12.1rem;
+      height: 12rem;
+      z-index: 999;
+      transform: skewY(-30deg) translateX(5rem);
+      transition: all 0.6s ease;
+      pointer-events: none;
+      opacity: 0;
+    }
+    .folder-cover {
+      z-index: 99;
+      position: absolute;
+      border: 3px solid black;
+      // top: 10px;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      // border-radius: 8px;
+      box-shadow: 2px 1px 4px 2px rgba(0, 0, 0, 0.562);
+      background-color: rgb(0, 0, 0);
+      border: 1px solid white;
+      // transition: 0.4s ease;
+      // border-top: 300px solid #00bfff;
+      // border-right: 0px solid black;
+      // border-left: 0px solid black;
+    }
+    &:hover .cross-line {
+      z-index: 0;
+    }
+    &:hover .folder-side {
+      transform: skewY(-30deg) translateX(0rem);
+      width: 12.1rem;
+      opacity: 1;
+      background-color: #fbb45c;
+    }
+    &:hover .folder-cover {
+      transform: translateX(-13rem) translateY(7rem);
+      z-index: 199;
+      transition: 0.5s ease;
+      pointer-events: none;
+      background-color: #fbb45c;
+    }
+    &:hover .folder-name {
+      transform: translateX(-19rem) translateY(6rem);
+      z-index: 200;
+      transition: 0.5s ease;
+    }
+    &:hover .folder-list-container {
+      z-index: 101;
+    }
+
+    .folder-list-container {
+      position: relative;
+      display: flex;
+      box-shadow: inset 10rem 3rem 3rem 3rem rgb(32, 32, 32, 0.8);
+      // border: 10px solid rgb(50, 50, 50);
+      width: 100%;
+      height: 100%;
+      padding: 8px;
+      &:hover .cross-line {
+        z-index: 0;
+      }
+
+      .folder-list-item {
+        font-family: var(--space-mono);
+        font-size: 16px;
+        pointer-events: auto;
+        flex: 1;
+        flex-direction: column;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+        word-break: break-all;
+        padding: 20px;
+        color: white;
+        background-color: rgb(90, 90, 90);
+        border: 1px solid white;
+        transition: 0.5s ease;
+        &:hover {
+          pointer-events: auto;
+          transform: translateY(-20px);
+        }
+      }
+    }
+  }
+}
+
+.cat-item-container {
+  justify-content: center;
+  border: 1px solid white;
+  padding: 2rem;
+
+  .cat-item {
+    padding: 4px;
+    width: fit-content;
+
+    p {
+      background-color: black;
+      font-family: var(--space-mono);
+      font-size: 24px;
+      color: white;
+      padding: 4px;
+
+      margin: 1rem;
+    }
+  }
+}
+
+.cat-box {
+  font-family: var(--space-mono);
+  font-size: 60px;
+  color: white;
+  padding: 20px;
+
+  &:hover {
+    background-color: var(--yellow);
+  }
+}
+.cat-title.selected p {
+  background-color: var(--yellow);
+  color: black;
+}
+.cat-title.selected p::before {
+  content: "*"; /* • 문자를 추가하고 뒤에 공백 하나 */
+  margin-right: 0.25em; /* • 와 텍스트 사이 간격 조절 */
+  color: black; /* • 색상: 필요에 따라 변경 */
+  font-weight: bold;
+  font-size: 40px;
+  /* display: inline-block;  /* 기본적으로 inline 이므로 대부분 추가 불필요 */
+}
+.line {
+  width: 1000px;
+  height: 1px;
+  background-color: white;
+  position: absolute;
+  z-index: -10;
+  pointer-events: none;
+}
+.line-1 {
+  transform: rotate(11.2deg);
+  top: 580.5px;
+  left: -20px;
+}
+
+.line-2 {
+  transform: rotate(11.2deg);
+  top: 1144.5px;
+  left: -20px;
+}
+.line-3 {
+  transform: rotate(-20.4deg);
+  top: 666px;
+  left: 1757px;
+}
+.line-4 {
+  transform: rotate(-20.4deg);
+  top: 102px;
+  left: 1757px;
+}
+
+.line-5 {
+  transform: rotate(-20.4deg);
+  top: 1230px;
+  left: 1757px;
+}
+
+.cross-line {
+  position: absolute;
+  z-index: 1;
+  transform: skewY(12deg);
+  transform-origin: center;
+
+  .vertical {
+    position: absolute;
+    top: 32px;
+    width: 80px;
+    height: 16px;
+    background-color: white;
+  }
+  .horizontal {
+    position: absolute;
+    left: 32px;
+    width: 16px;
+    height: 80px;
+    background-color: white;
+  }
+  &.reverse {
+    transform: skewY(-20deg);
+  }
+}
+
+.cross-1 {
+  left: 471px;
+  top: 268px;
+
+  .vertical {
+    top: 0px;
+    width: 80px;
+    height: 8px;
+  }
+  .horizontal {
+    left: 32px;
+    width: 16px;
+    height: 40px;
+  }
+}
+
+.cross-2 {
+  left: 471px;
+  top: 827px;
+}
+
+.cross-3 {
+  left: 470px;
+  top: 1428px;
+}
+.cross-4 {
+  left: 1111px;
+  top: 268px;
+  .vertical {
+    top: 0px;
+    width: 80px;
+    height: 8px;
+  }
+  .horizontal {
+    left: 32px;
+    width: 16px;
+    height: 40px;
+  }
+}
+.cross-5 {
+  left: 1110px;
+  top: 828px;
+}
+
+.cross-6 {
+  left: 1110px;
+  top: 1427px;
+}
+
+.cross-7 {
+  left: 1749px;
+  top: 268px;
+  .vertical {
+    position: absolute;
+    top: 0;
+    width: 40px;
+    height: 8px;
+    background-color: white;
+  }
+  .horizontal {
+    position: absolute;
+    left: 32px;
+    width: 8px;
+    height: 40px;
+    background-color: white;
+  }
+}
+
+.cross-8 {
+  left: 1749px;
+  top: 828px;
+  .vertical {
+    position: absolute;
+    top: 32px;
+    width: 40px;
+    height: 16px;
+    background-color: white;
+  }
+  .horizontal {
+    position: absolute;
+    left: 32px;
+    width: 8px;
+    height: 80px;
+    background-color: white;
+  }
+}
+
+.cross-9 {
+  left: 1749px;
+  top: 1427px;
+
+  .vertical {
+    top: 32px;
+    width: 40px;
+    height: 16px;
+  }
+  .horizontal {
+    left: 32px;
+    width: 8px;
+    height: 80px;
+  }
+}
+
+.cross-10 {
+  left: -169px;
+  top: 828px;
+}
+
+.cross-11 {
+  left: -170px;
+  top: 1428px;
+}
+
+.cross-12 {
+  left: 2301px;
+  top: 611px;
+}
+
+.cross-13 {
+  left: 2301px;
+  top: 1174px;
+}
+
+.cross-14 {
+  left: 2301px;
+  top: 85px;
+  .vertical {
+    top: 0px;
+    width: 80px;
+    height: 8px;
+  }
+  .horizontal {
+    left: 32px;
+    width: 16px;
+    height: 40px;
+  }
+}
+
+.cross-15 {
+  left: 1789px;
+  top: 802px;
+  .vertical {
+    top: 32px;
+    width: 36px;
+    height: 14px;
+  }
+  .horizontal {
+    left: 0px;
+    width: 8px;
+    height: 76px;
+  }
+}
+
+.cross-16 {
+  left: 1789px;
+  top: 1366px;
+  .vertical {
+    top: 32px;
+    width: 36px;
+    height: 16px;
+  }
+  .horizontal {
+    left: 0px;
+    width: 8px;
+    height: 80px;
+  }
+}
+
+.cross-17 {
+  left: 1789px;
+  top: 276px;
+  .vertical {
+    top: 0px;
+    width: 32px;
+    height: 9px;
+  }
+  .horizontal {
+    left: 0px;
+    width: 8px;
+    height: 39px;
+  }
+}

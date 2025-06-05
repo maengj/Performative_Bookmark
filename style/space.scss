@@ -1,0 +1,927 @@
+/* SCSS (`space.scss`) */
+/* 박스 크기 정의 (변수로 관리) */
+
+$box-width: 600px; // 터널의 가로 폭
+$box-height: 400px; // 터널의 세로 높이
+$box-depth: 1000px; // 터널의 깊이 (길이)
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  color: black;
+  background-color: rgb(0, 0, 0);
+  cursor: none;
+
+  opacity: 1;
+  transition: opacity 0.5s ease; /* 0.5초 동안 부드럽게 변화 */
+  &.fade-out {
+    opacity: 0;
+  }
+  &.fade-in {
+    opacity: 1;
+  }
+  p {
+    font-family: var(--space-mono);
+    color: white;
+  }
+}
+
+body,
+html {
+  width: 2560px;
+  height: 1440px;
+  border: 1px solid white;
+  position: relative;
+  overflow: hidden;
+}
+.cursor,
+.cursor-follower {
+  position: fixed;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 1000;
+  transition: transform 0.1s ease;
+  transform: translate(-50%, -50%);
+}
+
+.cursor {
+  width: 24px;
+  height: 24px;
+  background-color: rgb(255, 255, 255);
+  mix-blend-mode: difference;
+}
+.cursor-follower {
+  width: 24px;
+  height: 24px;
+  border: 2px solid rgb(255, 255, 255);
+}
+
+/* 3D 공간: 카메라(원근감) 설정 */
+.scene {
+  width: 100vw; /* 장면 전체 너비 */
+  height: 100vh; /* 장면 전체 높이 */
+  perspective: 1000px; /* 카메라 시점의 원근감 */
+  perspective-origin: 50% 50%; /* 중앙 시점 */
+  position: relative;
+}
+
+/* 3D 객체를 담는 컨테이너 (.stage) */
+.stage {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform-style: preserve-3d;
+  /* 박스의 중심을 스테이지 중심으로 맞추고, 카메라가 터널 입구를 바라보게 함 */
+  /* 카메라가 z=0에 있다고 가정하고, 박스의 가장 가까운 면이 z=0에 오도록 조정 */
+  transform: translate(-50%, -50%) translateZ(-$box-depth / 2); /* 박스 전체를 뒤로 밀어넣어 카메라가 터널 입구를 바라보게 함 */
+  /* scale은 JS에서 동적으로 조절되므로 초기값은 1로 설정 */
+}
+
+.outer-stage {
+  position: fixed;
+  width: 2560px;
+  height: 1440px;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  color: white;
+  overflow: hidden;
+  z-index: 999;
+  pointer-events: none;
+
+  .header {
+    font-family: var(--space-mono);
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 150px;
+    color: white;
+    span {
+      font-size: 170px;
+      color: #4a77c6;
+    }
+  }
+  .pagelist {
+    gap: 16px;
+  }
+
+  .pagelist {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+  }
+}
+#move {
+  position: absolute;
+  bottom: 30px;
+  font-size: 28px;
+  text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.5);
+}
+
+/* 공통 면 스타일 */
+.face {
+  position: absolute;
+  box-sizing: border-box;
+  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* 각 면의 중앙을 기준으로 transform을 적용하기 위해 */
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); /* 초기 중앙 정렬 */
+  transform-style: preserve-3d;
+}
+
+.face-plane {
+  position: absolute;
+  width: $box-width; // 박스 너비와 동일하게 설정
+  height: auto; // 내용에 따라 높이 자동 조절
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); // 중앙 정렬
+  color: white;
+  font-family: var(--space-mono); // 폰트 적용
+  font-size: 32px; // 적절한 폰트 크기
+  text-align: center;
+  white-space: nowrap; // 텍스트 줄바꿈 방지 (한 줄로 표시)
+  overflow: hidden;
+  opacity: 0.7; // 투명도 조절
+
+  p {
+    margin: 0;
+    padding: 10px 20px; // 내용과 테두리 사이 여백
+    border: 1px solid rgba(255, 255, 255, 0.3); // 테두리 추가
+  }
+}
+
+// light
+.bulb_light {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background: #fff8d38a;
+  border-radius: 60%;
+  // transform: translate(0px, 30px);
+  filter: blur(30px);
+  animation: light 2000ms infinite cubic-bezier(1, -0.45, 0, 1.89);
+}
+
+.canvas {
+  font-family: var(--space-mono);
+  position: relative;
+}
+/* Front 면: 박스의 가장 안쪽 벽 (소실점이 될 곳) */
+.front {
+  width: $box-width;
+  height: $box-height;
+  /* 박스 중심에서 -depth/2 만큼 뒤로 이동 */
+  transform: translate(-50%, -50%) translateZ(-($box-depth / 2));
+  background-color: #141314;
+  .canvas {
+    font-family: var(--space-mono);
+    display: flex;
+    flex-direction: column;
+    pointer-events: auto;
+
+    .step-circle {
+      color: white;
+      width: 30px;
+      height: 30px;
+      border: 2px solid white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      position: absolute;
+      &:hover {
+        background-color: white;
+        color: black;
+      }
+      &.circle-1 {
+        left: 110px;
+        top: 110px;
+      }
+      &.circle-2 {
+        left: 460px;
+        top: 110px;
+      }
+
+      &.circle-3 {
+        left: 60px;
+        top: 260px;
+      }
+      &.circle-4 {
+        left: 410px;
+        top: 310px;
+      }
+    }
+    .step-title {
+      color: white;
+      font-size: 10px;
+      text-align: center;
+      position: absolute;
+      &.title-1 {
+        left: 80px;
+        top: 150px;
+      }
+      &.title-2 {
+        left: 360px;
+        top: 80px;
+      }
+
+      &.title-3 {
+        left: 20px;
+        top: 310px;
+      }
+      &.title-4 {
+        left: 410px;
+        top: 280px;
+      }
+    }
+    .step-img {
+      position: absolute;
+      pointer-events: none;
+      z-index: 10;
+      img {
+        display: none;
+        pointer-events: none;
+      }
+      .img-1 {
+        width: 300px;
+      }
+      .img-2 {
+        width: 300px;
+      }
+      .img-3 {
+        width: 300px;
+      }
+      .img-4 {
+        width: 300px;
+      }
+    }
+    .step-arrow {
+      display: inline-block;
+      position: absolute;
+      width: 60px; /* 선의 길이(원하는 대로 조절) */
+      height: 2px; /* 선의 두께 */
+      background-color: white; /* 선의 색상 */
+      transform-origin: left center;
+      line-height: 0;
+      &::after {
+        content: "";
+        position: absolute;
+
+        width: 0;
+        height: 0;
+        border-top: 7px solid transparent;
+        border-bottom: 7px solid transparent;
+        border-left: 15px solid white;
+
+        top: 50%;
+        left: 100%;
+
+        transform: translateY(-50%);
+      }
+      &.arrow-1 {
+        width: 270px;
+        transform: rotate(-1deg);
+        top: 130px;
+        left: 157px;
+      }
+      &.arrow-2 {
+        width: 370px;
+        transform: rotate(163deg);
+        top: 156px;
+        left: 467px;
+      }
+      &.arrow-3 {
+        width: 270px;
+        transform: rotate(366deg);
+        top: 289px;
+        left: 111px;
+      }
+    }
+  }
+}
+
+/* Top 면: 박스의 윗면 */
+.top {
+  width: $box-width;
+  height: $box-depth; /* 깊이만큼의 길이 */
+  /* 박스 중심에서 -height/2 만큼 위로 이동 후 X축 90도 회전 */
+  transform: translate(-50%, -50%) rotateX(90deg) translateZ($box-height / 2);
+  transform-origin: center center;
+
+  background-image: linear-gradient(
+    to bottom,
+    hsl(0, 0%, 20%),
+    hsl(0, 0%, 5%)
+  ); /* 외곽이 밝고 내부가 어두움 */
+
+  .canvas {
+    z-index: 9999;
+    align-items: start;
+    color: white;
+    background-color: red;
+  }
+}
+
+/* Bottom 면: 박스의 아랫면 */
+.bottom {
+  width: $box-width;
+  height: $box-depth; /* 깊이만큼의 길이 */
+  /* 박스 중심에서 +height/2 만큼 아래로 이동 후 X축 -90도 회전 */
+  transform: translate(-50%, -50%) rotateX(-90deg) translateZ($box-height / 2);
+  transform-origin: center center;
+  background-image: linear-gradient(
+    to top,
+    hsl(0, 0%, 20%),
+    hsl(0, 0%, 5%)
+  ); /* 외곽이 밝고 내부가 어두움 */
+
+  .description {
+    width: 100%;
+    padding: 2rem;
+    top: 280px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    letter-spacing: -0.1px;
+
+    pointer-events: none;
+  }
+  .indicator {
+    font-family: var(--space-mono);
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+  .arrow {
+    width: 200px;
+    height: auto;
+    margin-top: 40px;
+  }
+}
+
+/* Left 면: 박스의 왼쪽 면 */
+.left {
+  width: $box-depth; /* 깊이만큼의 길이 */
+  height: $box-height;
+  /* 박스 중심에서 -width/2 만큼 왼쪽으로 이동 후 Y축 90도 회전 */
+  transform: translate(-50%, -50%) rotateY(90deg) translateZ(-$box-width / 2);
+  transform-origin: center center;
+  background-image: linear-gradient(
+    to right,
+    hsl(0, 0%, 20%),
+    hsl(0, 0%, 5%)
+  ); /* 외곽이 밝고 내부가 어두움 */
+
+  .canvas {
+    position: inherit;
+  }
+}
+
+/* Right 면: 박스의 오른쪽 면 */
+.right {
+  width: $box-depth; /* 깊이만큼의 길이 */
+  height: $box-height;
+  /* 박스 중심에서 +width/2 만큼 오른쪽으로 이동 후 Y축 -90도 회전 */
+  transform: translate(-50%, -50%) rotateY(-90deg) translateZ(-$box-width / 2);
+  transform-origin: center center;
+  background-image: linear-gradient(
+    to left,
+    hsl(0, 0%, 20%),
+    hsl(0, 0%, 5%)
+  ); /* 외곽이 밝고 내부가 어두움 */
+}
+
+.reset {
+  width: 100%;
+  height: 100%;
+  color: black;
+  padding: 0; /* 그리드 컨테이너 패딩 없음 */
+}
+.reset.grid {
+  position: inherit;
+  display: grid;
+  /* grid-template-columns는 JS에서 동적으로 설정됩니다. */
+  gap: 0; /* 그리드 셀 사이의 간격 없음 */
+  box-sizing: border-box; /* 패딩, 테두리를 크기에 포함 */
+  rect-front {
+    position: relative;
+    overflow: visible;
+  }
+}
+.rect-front {
+  border: 1px dashed white;
+}
+.element.grid-cell {
+  border: 0.5px solid #606060;
+  padding: 0;
+
+  margin: 0;
+  box-sizing: border-box; /* 테두리를 셀 크기에 포함 */
+  // aspect-ratio: 1 / 1; /* 정사각형 유지 */
+  background-color: transparent; /* 기본 배경색 투명 */
+  transition: background-color 0.3s ease; /* 부드러운 색상 변경 효과 */
+
+  &:hover {
+    background-color: var(--blue);
+  }
+}
+
+/*_________________________화면 전환버튼 스타일 따로 적용하기 ____________________________*/
+.page_btn {
+  all: unset;
+  margin-right: 10px;
+  padding: 10px 20px;
+  background-color: #7a7a7a;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  pointer-events: auto;
+}
+
+.window {
+  display: none;
+  position: absolute;
+  padding: 10px;
+  border: 1px solid white;
+  color: white;
+  pointer-events: auto;
+  background-color: rgba(128, 128, 128, 0.588);
+
+  p,
+  h3 {
+    margin: 0;
+    padding: 2px;
+    font-size: 10px;
+  }
+}
+
+/*___________________________Today's Recommend____________________________*/
+
+.flatface-a {
+  width: $box-width;
+  height: $box-height;
+  transform: translateZ((-$box-depth / 2 + 570px));
+  top: 0;
+  left: 0;
+  color: white;
+  z-index: 9999;
+  pointer-events: none;
+}
+#recommend {
+  background-color: var(--blue);
+  font-family: var(--space-grotesk);
+  font-size: 18px;
+  text-transform: uppercase;
+
+  padding-left: 6px;
+  color: white;
+  grid-column: 6 / span 3;
+  grid-row: 4 / 5;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    background-color: var(--blue);
+    border: 4px solid white;
+  }
+}
+
+#recommend-window {
+  position: relative;
+  top: 10px;
+  left: 80px;
+  overflow: auto;
+
+  width: 100%;
+  max-width: 400px;
+  padding: 12px;
+  box-sizing: border-box; /* 패딩까지 포함한 너비 계산 */
+  background: rgba(128, 128, 128, 0.6);
+  border: 1px solid white;
+
+  /* 블록 레이아웃으로 세로 정렬 */
+  h3 {
+    margin: 0 0 8px;
+    font-family: var(--space-mono);
+    font-size: 16px;
+    line-height: 1.2;
+  }
+  .rec-link {
+    display: block;
+    width: 100%;
+    white-space: nowrap; /* 한 줄 고정 */
+    overflow: hidden;
+    text-overflow: ellipsis; /* 말줄임표 */
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+/* 2) 이미지 */
+#recommend-window .ogimage {
+  // display: block;
+  width: 100%;
+  height: 160px;
+  margin: 0 0 8px;
+  object-fit: cover; /* 비율 유지하며 꽉 채우기 */
+}
+
+/* 3) 캡션(description) */
+#recommend-window .desc {
+  margin: 0 0 8px;
+  font-size: 8px;
+  color: #fff;
+
+  display: block;
+  width: 100%;
+  height: 50px;
+  text-overflow: ellipsis;
+}
+
+/* 4) 날짜를 우측에 붙이기 */
+#recommend-window .date {
+  margin: 0;
+  font-size: 10px;
+  color: #ddd;
+  text-align: right; /* 우측 정렬 */
+}
+#recommend-window .rec-title {
+  display: block;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0 0 8px; /* 필요 간격 */
+  font-size: 14px;
+  color: #fff;
+}
+/*______________________________Unlabeled____________________________*/
+.flatface-b {
+  width: $box-width;
+  height: $box-height;
+  position: inherit;
+  transform: translateZ((-$box-depth / 2 + 200px));
+  /* 박스 중심에서 -depth/2 만큼 뒤로 이동 */
+
+  top: 0;
+  left: 0;
+  color: white;
+  z-index: 9999;
+  pointer-events: none;
+}
+
+#unlabeled {
+  background-color: var(--pink);
+  font-family: var(--space-mono);
+  font-size: 18px;
+  text-transform: uppercase;
+
+  color: white;
+  grid-column: 6 / span 3;
+  grid-row: 4 / 5;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    background-color: var(--blue);
+    border: 4px solid white;
+  }
+}
+
+/* 리스트 기본 초기화 */
+#unlabeled-window {
+  width: 300px;
+  max-width: 400px;
+}
+#unlabeled-window .unlabeled-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* 세로로 3개 쌓이도록 li 간격 추가 */
+#unlabeled-window .unlabeled-list li {
+  margin-bottom: 8px;
+}
+
+/* a 태그에 말줄임과 블록 스타일 적용 */
+#unlabeled-window .unlabeled-list a {
+  display: block;
+  width: 100%; /* 부모 너비에 맞추기 */
+  white-space: nowrap; /* 한 줄 고정 */
+  overflow: hidden; /* 넘치는 텍스트 숨기기 */
+  text-overflow: ellipsis; /* … 처리 */
+  color: #fff; /* 필요에 따라 색상 조정 */
+  text-decoration: none; /* 밑줄 제거 */
+  padding: 4px 0; /* 세로 패딩으로 클릭 영역 확보 */
+}
+
+.flatface-c {
+  width: $box-width;
+  height: $box-height;
+  position: inherit;
+  transform: translateZ((-$box-depth / 2 + 200px));
+  /* 박스 중심에서 -depth/2 만큼 뒤로 이동 */
+
+  top: 0;
+  left: 0;
+  color: white;
+  z-index: 9999;
+  pointer-events: none;
+}
+
+#favorite-window {
+  .shorcut-list {
+    display: flex;
+    width: 233px;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 8px;
+    img {
+      width: 40px;
+    }
+  }
+}
+
+/* 마지막 항목 아래 여백 없애려면 아래 주석 해제 */
+// #unlabeled-window .unlabeled-list li:last-child {
+//   margin-bottom: 0;
+// }
+// #about:hover {
+//   background-color: #ff09da; /* 진한 회색 예시 */
+//   border-radius: 10px; /* 좌상단 둥글게 */
+//   transition: ease-in-out 0.2s;
+// }
+
+#next-step:hover {
+  background-color: var(--blue);
+  border: 4px solid white;
+}
+
+#cards-btn,
+#index-btn,
+#drawer-btn {
+  pointer-events: auto;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+}
+.cards,
+.index,
+.drawer {
+  writing-mode: vertical-rl;
+  padding: 18px;
+  padding-top: 60px;
+  color: black;
+  height: 440px;
+  font-size: 24px;
+  // border-bottom-left-radius: 80px;
+  justify-content: flex-end;
+  p {
+    display: flex;
+    color: black;
+  }
+  small {
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.2;
+  }
+}
+
+.drawer {
+  position: relative;
+  background-color: var(--yellow);
+  transition: right 0.3s ease-in;
+  right: -80px;
+  width: 170px;
+
+  display: flex;
+  align-items: flex-end;
+
+  &:hover {
+    background-color: var(--yellow);
+    right: 0px;
+  }
+  z-index: 3;
+}
+.cards {
+  background-color: var(--pink);
+  position: relative;
+  height: 500px;
+  padding-top: 80px;
+  top: -80px;
+  right: -80px;
+  transition: right 0.3s ease-in;
+  width: 170px;
+
+  display: flex;
+  align-items: flex-end;
+
+  &:hover {
+    background-color: var(--pink);
+    right: 0px;
+  }
+  z-index: 2;
+}
+.index {
+  background-color: var(--green);
+  position: relative;
+  height: 500px;
+  padding-top: 80px;
+  top: -160px;
+  right: -80px;
+  transition: right 0.3s ease-in;
+  width: 170px;
+  display: flex;
+  align-items: flex-end;
+  &:hover {
+    background-color: var(--green);
+    right: 0px;
+  }
+  z-index: 1;
+}
+
+//_______________________________________camera-light
+// Motion Detection Light Effect Styles
+.light-source {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1.2s ease-in-out;
+  mix-blend-mode: screen; /* 💡 자연스러운 조도효과 */
+}
+#light-source-0 {
+  /* 상단 좌측 */
+  background: radial-gradient(
+    circle at 25% 25%,
+    rgba(220, 220, 255, 0.6) 0%,
+    transparent 30%
+  );
+}
+#light-source-1 {
+  /* 상단 우측 */
+  background: radial-gradient(
+    circle at 75% 25%,
+    rgba(255, 220, 220, 0.6) 0%,
+    transparent 30%
+  );
+}
+#light-source-2 {
+  /* 하단 좌측 */
+  background: radial-gradient(
+    circle at 25% 75%,
+    rgba(220, 255, 220, 0.6) 0%,
+    transparent 30%
+  );
+}
+#light-source-3 {
+  /* 하단 우측 */
+  background: radial-gradient(
+    circle at 75% 75%,
+    rgba(255, 255, 200, 0.6) 0%,
+    transparent 30%
+  );
+}
+#light-source-4 {
+  /* 하단 중앙 (R1C1) */
+  background: radial-gradient(
+    circle at 50% 75%,
+    rgba(255, 220, 255, 0.6) 0%,
+    transparent 30%
+  );
+}
+#light-source-5 {
+  /* 하단 우측 (R1C2) */
+  background: radial-gradient(
+    circle at 83.33% 75%,
+    rgba(220, 255, 255, 0.6) 0%,
+    transparent 30%
+  );
+}
+
+#videoFeed,
+#debugCanvas {
+  display: none;
+}
+
+.reset.grid.rect-front {
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  border: 1px dashed white;
+}
+.reset.grid.rect-top {
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(15, 1fr);
+  border: 1px dashed white;
+  .grid-cell {
+    border-color: #333333;
+  }
+}
+.reset.grid.rect-bottom {
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(15, 1fr);
+
+  .grid-cell {
+    border-color: #333333;
+  }
+}
+.reset.grid.rect-left {
+  grid-template-columns: repeat(15, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  border: 1px dashed white;
+}
+.reset.grid.rect-right {
+  grid-template-columns: repeat(15, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  border: 1px dashed white;
+}
+
+#favorite {
+  background-color: var(--green);
+  font-family: var(--space-mono);
+  font-size: 18px;
+  text-transform: uppercase;
+
+  color: white;
+  grid-column: 10 / span 2;
+  grid-row: 3 / 4;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &:hover {
+    background-color: var(--blue);
+    border: 4px solid white;
+  }
+}
+
+#next-step {
+  background-color: var(--yellow);
+  font-family: var(--space-mono);
+  font-size: 18px;
+  color: white;
+  grid-column: 11 / span 2;
+  grid-row: 2 / 3;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flatface-c {
+  &.step {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+  }
+  .face-img-1 {
+    width: 300px;
+    pointer-events: none;
+  }
+  .face-img-2 {
+    display: none;
+    width: 300px;
+    pointer-events: none;
+  }
+  .face-img-3 {
+    display: none;
+    width: 300px;
+    pointer-events: none;
+  }
+  .face-img-4 {
+    display: none;
+    width: 300px;
+    pointer-events: none;
+  }
+}

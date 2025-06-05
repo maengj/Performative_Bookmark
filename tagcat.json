@@ -1,0 +1,48 @@
+[
+  {
+    "name": "design",
+    "child1": "Figma",
+    "child2": "UX",
+    "child3": "UI"
+  },
+  {
+    "name": "AI",
+    "child1": "ChatGPT",
+    "child2": "Kling",
+    "child3": "Gemini"
+  },
+  {
+    "name": "Thesis",
+    "child1": "reference",
+    "child2": "abstract",
+    "child3": "SNU",
+    "child4": "DBpia"
+  },
+  {
+    "name": "interactive",
+    "child1": "codepen",
+    "child2": "css",
+    "child3": "library",
+    "child4": "coding"
+  },
+  {
+    "name": "code",
+    "child1": "HTML",
+    "child2": "JS",
+    "child3": "Python",
+    "child4": "Kotlin"
+  },
+  {
+    "name": "Art",
+    "child1": "exhibition",
+    "child2": "visual",
+    "child3": "magazine"
+  },
+  {
+    "name": "document",
+    "child1": "G-mail",
+    "child2": "Drive",
+    "child3": "Google Slide",
+    "child4": "doc"
+  }
+]

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>list_index.html</title>
+    <link rel="stylesheet" type="text/css" href="style/reset.css" />
+    <link rel="stylesheet" type="text/css" href="style/fade.css" />
+    <!-- 변경: list_index.css 대신 list_index.scss 로 분리 -->
+    <link rel="stylesheet" type="text/css" href="style/list_index.css" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.cdnfonts.com/css/abhaya-libre-2"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="fade-out">
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+    <div id="home">**</div>
+
+    <!-- preview -->
+    <div id="preview" class="preview-container"></div>
+
+    <h1 class="hero">INDEX</h1>
+    <!-- navs -->
+    <div class="nav-sticky" style="padding-right: 0">
+      <nav id="anchor-nav-eng" class="anchor-nav"></nav>
+      <nav id="anchor-nav-kor" class="anchor-nav"></nav>
+      <nav id="anchor-nav-spec" class="anchor-nav"></nav>
+      <div
+        class="eng-list-item"
+        style="
+          border-top: 1px solid white;
+          min-height: inherit;
+          margin-top: 16px;
+        "
+      >
+        <div class="label" style="padding: 0"></div>
+        <div class="value-container index-row">
+          <div class="value-row" style="padding: 16px 12px">
+            <div class="title">BOOKMARK TITLE</div>
+            <div class="type">TYPE</div>
+            <div class="saved">SAVED_DATE</div>
+            <div class="category">CATEGORY</div>
+            <div class="callno">CALL NO.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- list 인덱스 불러오는 구간 -->
+    <div id="list-all" class="list-container"></div>
+
+    <!-- 변경: inline script 분리 -->
+    <script src="js/list_index.js"></script>
+    <script src="js/fade.js"></script>
+  </body>
+</html>

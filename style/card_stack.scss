@@ -1,0 +1,365 @@
+// styles.scss
+
+// ==========================
+// Global & Reset Styles
+// ==========================
+body {
+  margin: 0;
+  background: #111;
+  color: white;
+  font-family: sans-serif;
+  overflow: hidden;
+  height: 100vh;
+  perspective: 1500px;
+  transition: opacity 0.5s ease;
+}
+.cursor,
+.cursor-follower {
+  position: fixed;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  transition: transform 0.01s ease;
+  transform: translate(-50%, -50%);
+}
+
+.cursor {
+  width: 24px;
+  height: 24px;
+  background-color: rgb(255, 255, 255);
+  mix-blend-mode: difference;
+}
+
+.cursor-follower {
+  width: 24px;
+  height: 24px;
+  border: 2px solid rgb(255, 255, 255);
+}
+button {
+  all: unset;
+}
+#home {
+  position: absolute;
+
+  top: 12px;
+  left: 12px;
+  font-family: var(--space-mono);
+  font-weight: bold;
+  font-size: 70px;
+
+  color: var(--pink);
+  pointer-events: auto;
+  cursor: grab;
+}
+.breadcomb {
+  width: fit-content;
+  position: relative;
+  top: 40px;
+  left: 150px;
+
+  font-family: var(--space-mono);
+  font-size: 20px;
+  background-color: white;
+  color: black;
+  padding: 2px;
+
+  a:hover {
+    background-color: var(--pink);
+  }
+}
+.change-mode {
+  position: absolute;
+  right: 40px;
+  top: 40px;
+
+  padding: 4px 10px;
+  color: black;
+  background-color: white;
+
+  text-transform: uppercase;
+
+  font-family: var(--space-mono);
+  font-size: 30px;
+  pointer-events: auto;
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--pink);
+    color: black;
+  }
+}
+
+// ==========================
+// Layout Utilities
+// ==========================
+.tab {
+  width: 150px;
+  height: 500px;
+}
+
+.stack {
+  position: relative;
+  transform-style: preserve-3d;
+  height: 800px;
+  width: 300px;
+  margin: auto;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+// ==========================
+// Book/Card Styles
+// ==========================
+.book {
+  perspective: 800px;
+  max-width: none;
+  min-width: 280px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 500px;
+  /* 고정 픽셀 비율 유지 (500 x 300) */
+  aspect-ratio: 5 / 3;
+  transform-style: preserve-3d;
+  transform-origin: center;
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+
+  cursor: pointer;
+  .book.flipped .card-content {
+    /* 뒤집기 회전(rotateY)과 함께 0.8배 축소(scale) */
+    transform: rotateY(180deg) scale(0.5);
+    /* transform-origin: center center 를 기본으로 사용하기 때문에, 
+     회전과 축소가 카드 중심에서 이루어집니다. */
+    transform-origin: center center;
+    transition: transform 0.3s ease;
+  }
+
+  .card-content {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transform-origin: center center;
+    transition: transform 0.3s ease;
+  }
+}
+
+.book .card-content .face {
+  position: absolute;
+  width: 100%;
+  backface-visibility: hidden;
+  top: 0;
+  left: 0;
+  .book.flipped {
+    transform: scale(0.5);
+  }
+}
+
+.book .card-content .back {
+  transform: rotateY(180deg);
+}
+body.grid-view .book.flipped .card-content {
+  /* 뒤집기 회전(rotateY)과 함께 0.8배 축소(scale) */
+  transform: rotateY(180deg) scale(0.8);
+  /* transform-origin: center center 를 기본으로 사용하기 때문에, 
+     회전과 축소가 카드 중심에서 이루어집니다. */
+  transform-origin: center center;
+  transition: transform 0.3s ease;
+}
+// 카드 뒷면 기본 스타일
+.book .back {
+  background: var(--pink);
+  color: black;
+  transform: rotateX(180deg);
+  box-sizing: border-box;
+
+  width: 500px;
+  height: 300px;
+  //나중에 좌우 100%
+  border: 1px solid rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  font-family: var(--space-mono);
+  font-weight: 200;
+}
+.card-header {
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  .card_title {
+    font-family: var(--space-mono);
+    font-size: 26px;
+    padding-left: 1rem;
+    // color: #fff; /* 채우기 색상 */
+    // -webkit-text-stroke-width: 2px; /* 외곽선 두께 */
+    // -webkit-text-stroke-color: #ff1010; /* 외곽선 색상 */
+  }
+}
+.card-table {
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  border-left: 1px dashed rgb(0, 0, 0);
+  border-right: 1px dashed rgb(0, 0, 0);
+  .row {
+    width: 100%;
+    border-bottom: 1px dashed rgb(0, 0, 0);
+    display: flex;
+    .mono-left {
+      flex: 180px 0 0;
+      font-family: var(--space-mono);
+      border-right: 1px dashed rgb(0, 0, 0);
+      padding: 1rem;
+    }
+    .mono-right {
+      font-family: var(--space-mono);
+      padding: 1rem;
+      text-transform: capitalize;
+    }
+    .center {
+      font-family: var(--space-mono);
+      text-transform: uppercase;
+      flex: 1;
+      padding: 1rem;
+      text-align: center;
+    }
+    .serif-right {
+      font-family: var(--caveat);
+      padding: 1rem;
+    }
+    .desc {
+      font-family: var(--space-mono);
+      text-transform: capitalize;
+      font-size: 12px;
+      padding: 1rem;
+    }
+  }
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  padding: 0.4rem;
+  border: 1px solid white;
+}
+.card-desc {
+  font-family: var(--caveat);
+  line-height: 1.3rem;
+  padding: 1rem;
+  max-height: 200px; // 최대 높이
+  overflow: hidden; // 넘친 부분 숨김
+
+  display: -webkit-box; // ① 플렉스와 비슷한 박스 모델로 전환
+  -webkit-box-orient: vertical; // ② 텍스트 방향을 수직으로
+}
+
+.memo {
+  padding: 1rem;
+}
+.divider {
+  border-top: 1px dashed rgb(0, 0, 0);
+}
+
+.book .face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+}
+
+.book .front {
+  background-size: cover;
+  background-position: center;
+}
+
+// Preview Layer
+.preview-layer {
+  position: absolute;
+  width: 800px;
+  height: 480px;
+  top: 500px;
+  left: 300px;
+  z-index: 9999;
+  transform-style: preserve-3d;
+  transition: transform 0.8s;
+}
+
+.preview-front,
+.preview-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.preview-front {
+  background-size: cover;
+  background-position: center;
+}
+
+.preview-back {
+  background: var(--pink);
+  color: black;
+  transform: rotateY(180deg);
+  box-sizing: border-box;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+// ==========================
+// Grid View Overrides (4 per row)
+// ==========================
+body.grid-view {
+  overflow-y: auto;
+  perspective: none;
+}
+
+body.grid-view .stack {
+  width: 100% !important;
+  max-width: none !important;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+  padding-top: 80px;
+  margin: 0 auto;
+  transform: none !important;
+  height: auto;
+  top: auto;
+  perspective: 1000px;
+}
+
+body.grid-view .book {
+  position: relative;
+  /* 4개 열: 총 gap 3*20px = 60px 고려 */
+  flex: 0 0 calc((100% - 60px) / 3);
+  min-width: 400px;
+  /* 픽셀 비율 유지 */
+  aspect-ratio: 5 / 3;
+  transform: none !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.box-t,
+.box-b {
+  width: 100%;
+  height: 20px;
+  background-color: var(--gray400);
+}

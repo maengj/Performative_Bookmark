@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scroll and pick the card</title>
+    <link rel="stylesheet" type="text/css" href="style/reset.css" />
+    <link rel="stylesheet" type="text/css" href="style/fade.css" />
+    <link rel="stylesheet" type="text/css" href="style/card_stack.css" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <link
+      href="https://fonts.cdnfonts.com/css/abhaya-libre-2"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="fade-out">
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+    <div id="home">**</div>
+    <button id="toggle-view" class="change-mode" style="z-index: 99">
+      Grid
+    </button>
+
+    <div class="breadcomb">
+      <a>SPACE</a> > <a>CATEGORY</a> > <a>SUBCATEGOY</a>
+    </div>
+
+    <div class="stack" id="stack"></div>
+  </body>
+  <script src="js/card.js"></script>
+  <script src="js/fade.js"></script>
+</html>

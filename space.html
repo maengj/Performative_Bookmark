@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>performative bookmark space</title>
+    <link rel="stylesheet" type="text/css" href="/style/reset.css" />
+    <link rel="stylesheet" type="text/css" href="style/fade.css" />
+    <link rel="stylesheet" type="text/css" href="style/space.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.cdnfonts.com/css/abhaya-libre-2"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="fade-out">
+    <div id="logo"></div>
+
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- 배경 카메라 라이트 -->
+    <div class="light-source" id="light-source-0"></div>
+    <div class="light-source" id="light-source-1"></div>
+    <div class="light-source" id="light-source-2"></div>
+    <div class="light-source" id="light-source-3"></div>
+    <div class="light-source" id="light-source-4"></div>
+    <div class="light-source" id="light-source-5"></div>
+    <video id="videoFeed" autoplay playsinline></video>
+    <canvas id="debugCanvas"></canvas>
+
+    <!-- 화면 시작 -->
+    <div class="outer-stage">
+      <div class="header">
+        PERFORMATIVE
+        <div>B<span>**</span>KMARK</div>
+      </div>
+      <div id="move">
+        <p>move your mouse to explore this space!</p>
+      </div>
+      <div class="pagelist">
+        <div id="drawer-btn" class="drawer">
+          <p>CATEGORY BOX >></p>
+          <small
+            >This screen visualizes folder, date, and tag-based classifications
+            as catalog drawers, enabling users to intuitively start exploring
+            their organized structures.</small
+          >
+        </div>
+        <div id="cards-btn" class="cards">
+          <p>BOOKMARK CARDS >></p>
+          <small
+            >Users can flip through stacked or grid-style cards to compare
+            visual information and reveal detailed data on each bookmark through
+            interactive card flipping.</small
+          >
+        </div>
+        <div id="index-btn" class="index">
+          <p>INDEX >></p>
+          <small
+            >This alphabetical and Korean-consonant index screen allows users to
+            quickly locate bookmarks with preview images and metadata, enabling
+            precise, direct access.</small
+          >
+        </div>
+      </div>
+    </div>
+    <div class="scene" style="z-index: 0">
+      <div class="stage">
+        <div class="flatface-a" style="transform: translateZ(-30px)">
+          <div
+            id="recommend-window"
+            class="window"
+            style="
+              position: absolute;
+              top: 10px;
+              left: 10px;
+              border: 1px solid white;
+            "
+          >
+            <h3>Today's Recommendation</h3>
+            <!-- ★ 여기 타이틀 요소 추가 -->
+            <h3 class="rec-title">
+              <a
+                class="rec-link"
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+              ></a>
+            </h3>
+
+            <!-- ② 이미지 요소 -->
+            <img
+              class="ogimage"
+              src=""
+              alt=""
+              style="
+                display: none;
+                width: 100%;
+                height: 160px;
+                object-fit: cover;
+                margin-bottom: 8px;
+              "
+            />
+            <h3>
+              <a
+                class="rec-link"
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <!-- JS에서 title 텍스트와 href를 채웁니다 -->
+              </a>
+            </h3>
+            <p class="desc">website description</p>
+            <p class="date">saved date</p>
+          </div>
+        </div>
+        <div class="flatface-b" style="transform: translateZ(40px)">
+          <div
+            id="unlabeled-window"
+            class="window"
+            style="
+              top: 150px;
+              right: 10px;
+              border: 1px solid white;
+              bottom: auto;
+              left: auto;
+            "
+          >
+            <h3>Unlabeld Bookmark</h3>
+            <p class="url list1">
+              Where should we use the switch toggle ? - medium
+            </p>
+            <p class="url list2">
+              Where should we use the switch toggle ? - medium
+            </p>
+            <p class="url list3">
+              Where should we use the switch toggle ? - medium
+            </p>
+          </div>
+        </div>
+        <div class="flatface-c" style="transform: translateZ(100px); top: 60px">
+          <div
+            id="favorite-window"
+            class="window"
+            style="top: 100px; right: 10px; border: 1px solid white"
+          >
+            <h3>Favorite</h3>
+            <div class="shorcut-list">
+              <img src="img/shortcut/pinterest.png" />
+              <img src="img/shortcut/insta.png" />
+              <img src="img/shortcut/youtube.png" />
+              <img src="img/shortcut/netflix.png" />
+              <img src="img/shortcut/figma.png" />
+              <img src="img/shortcut/google_calendar.png" />
+              <img src="img/shortcut/google_drive.png" />
+              <img src="img/shortcut/google_meet.png" />
+              <img src="img/shortcut/notion.png" />
+              <img src="img/shortcut/reddit.png" />
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="flatface-c step"
+          style="transform: translateZ(-150px); pointer-events: none"
+        >
+          <img src="img/space.png" class="face-img-1" />
+        </div>
+        <div
+          class="flatface-c step"
+          style="transform: translateZ(-300px); pointer-events: none"
+        >
+          <img src="img/drawer.png" class="face-img-2" />
+        </div>
+        <div
+          class="flatface-c step"
+          style="transform: translateZ(-400px); pointer-events: none"
+        >
+          <img src="img/cards.png" class="face-img-3" />
+        </div>
+        <div
+          class="flatface-c step"
+          style="transform: translateZ(-500px); pointer-events: none"
+        >
+          <img src="img/index.png" class="face-img-4" />
+        </div>
+        <div class="face front">
+          <div class="bulb_light"></div>
+
+          <div class="reset grid rect-front"></div>
+          <div class="face canvas" style="width: 100%; height: 100%">
+            <div class="step-circle circle-1" target="img-1">1</div>
+            <div class="step-circle circle-2" target="img-2">2</div>
+            <div class="step-circle circle-3" target="img-3">3</div>
+            <div class="step-circle circle-4" target="img-4">4</div>
+            <div class="step-title title-1">you are HERE</div>
+            <div class="step-title title-2">Pick the category</div>
+            <div class="step-title title-3">looking for bookmark cards</div>
+            <div class="step-title title-4">If you want to check index</div>
+            <div class="step-img">
+              <img src="img/space.png" class="img-1" />
+            </div>
+            <div class="step-img">
+              <img src="img/drawer.png" class="img-2" />
+            </div>
+            <div class="step-img">
+              <img src="img/cards.png" class="img-3" />
+            </div>
+            <div class="step-img">
+              <img src="img/index.png" class="img-4" />
+            </div>
+            <div class="step-arrow arrow-1"></div>
+            <div class="step-arrow arrow-2"></div>
+            <div class="step-arrow arrow-3"></div>
+          </div>
+        </div>
+        <div
+          class="face top"
+          style="
+            transform: translate(-50%, -50%) rotateX(270deg) translateZ(-200px);
+          "
+        >
+          <div class="face canvas"></div>
+          <div class="reset grid rect-top"></div>
+        </div>
+        <div class="face left">
+          <div class="face canvas"></div>
+          <div class="reset grid rect-left"></div>
+        </div>
+
+        <div class="face right">
+          <!-- <div>
+<div class="post-it" style="top: 20px; left: 20px">
+<div class="note">Note 1</div>
+</div>
+<div class="post-it" style="top: 20px; left: 20px">
+<div class="note">Note 1</div>
+</div>
+<div class="post-it" style="top: 20px; left: 20px">
+<div class="note">Note 1</div>
+</div>
+<div class="post-it" style="top: 20px; left: 20px">
+<div class="note">Note 1</div>
+</div>
+<div class="post-it" style="top: 20px; left: 20px">
+<div class="note">Note 1</div>
+</div>
+</div> -->
+          <div class="face right canvas"></div>
+          <div class="reset grid rect-right"></div>
+        </div>
+
+        <div
+          class="face bottom"
+          style="
+            transform: translate(-50%, -50%) rotateX(90deg) translateZ(-200px);
+          "
+        >
+          <div class="face canvas" style="width: 100%; height: 100%">
+            <div class="reset grid rect-bottom"></div>
+          </div>
+          <div class="description" style="position: absolute">
+            <p class="indicator">ABOUT THIS PAGE</p>
+            <p>
+              This website is an interactive playground that lets you explore
+              your bookmark data like hidden treasures in a vast space. Move
+              your mouse, click around, scroll freely, and roam the environment
+              as you please. Here, it’s more about savoring the joy of discovery
+              than hunting for something specific. So go ahead—give your fingers
+              a little nudge and embark on your bookmark exploration journey
+              through the Performative b**kmark web!
+            </p>
+
+            <img class="arrow" src="/img/arrow.svg" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery 라이브러리----- 로드 -->
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <script src="js/space.js"></script>
+
+    <script src="js/fade.js"></script>
+  </body>
+</html>
