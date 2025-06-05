@@ -2,280 +2,289 @@
 <html lang="ko">
   <head>
     <meta charset="UTF-8" />
-    <title>3D Stage - Mouse X Pan</title>
-    <link rel="stylesheet" type="text/css" href="css/reset.css" />
-    <script
-      src="https://code.jquery.com/jquery-3.7.1.js"
-      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
-      crossorigin="anonymous"
-    ></script>
-    <style>
-      /* 기본 화면 설정 */
-      html,
-      body {
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        overflow: hidden;
-        color: black;
-      }
-
-      /* 3D 공간: 카메라(원근감) 설정 */
-      .scene {
-        width: 100vw; /* 장면 전체 너비 */
-        height: 100vh; /* 장면 전체 높이 */
-        perspective: 1000px; /* 원근감 */
-        perspective-origin: 50% 50%; /* 중앙 시점 */
-        position: relative;
-      }
-
-      /* 3D 객체를 담는 컨테이너 (.stage) */
-      .stage {
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform-style: preserve-3d;
-        /* 기본 상태: 중앙 정렬 + 줌 인 효과 (scale 1.3) */
-        transform: translate(-50%, -50%) scale(1.3);
-      }
-
-      /* 공통 면 스타일 */
-      .face {
-        position: absolute;
-        background: #ffffff; /* 면 색상 */
-        border: 2px solid #c2c2c2; /* 면 테두리 */
-        box-sizing: border-box;
-        opacity: 0.8;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: #fff;
-        font-size: 1.2rem;
-        text-transform: uppercase;
-      }
-
-      /* Front 면: 600×400, 중앙 정렬 */
-      .front {
-        width: 600px;
-        height: 400px;
-        transform: translate(-300px, -200px) translateZ(0px);
-        background: rgb(231, 231, 231);
-      }
-
-      /* Bottom 면: 600×400, front 하단에 연결 */
-      .bottom {
-        width: 600px;
-        height: 1000px;
-        transform-origin: top center;
-        transform: translate(-300px, 200px) rotateX(90deg) translateZ(0px);
-        background: #ffffff;
-      }
-
-      /* Top 면: 600×400, front 상단에 연결 */
-      .top {
-        background: #cdcdcd;
-        width: 600px;
-        height: 1000px;
-        transform-origin: bottom center;
-        transform: translate(-300px, -600px) rotateX(-90deg) translateZ(-600px);
-      }
-
-      /* Right 면: 800×400, front 오른쪽에 연결 */
-      .right {
-        background: #b9b9b9;
-        width: 1000px;
-        height: 400px;
-        transform-origin: left center;
-        transform: translate(500px, -200px) rotateY(-90deg) translateZ(200px);
-      }
-
-      /* Left 면: 800×400, front 왼쪽에 연결 */
-      .left {
-        background: #b9b9b9;
-        width: 1000px;
-        height: 400px;
-        transform-origin: right center;
-        transform: translate(-1100px, -200px) rotateY(90deg) translateZ(-200px);
-      }
-
-      .reset {
-        width: 100%;
-        height: 100%;
-        color: black;
-
-        padding: 10px;
-      }
-      .reset.grid {
-        display: grid;
-        grid-template-columns: repeat(20, 1fr);
-        grid-template-rows: 3, 1fr;
-        grid-auto-rows: minmax(12px, auto);
-        /* border: 1px solid red; */
-      }
-      .element {
-        border: 1px solid rgb(0, 0, 0);
-      }
-
-      .header {
-        position: sticky; /* 또는 fixed를 사용해도 됨 */
-        top: 0;
-        width: 100%;
-        height: 80px;
-        background-color: black;
-        color: #fff;
-        display: flex;
-        align-items: center;
-        padding: 0 20px;
-        z-index: 1000; /* 다른 요소보다 앞에 표시 */
-        justify-content: space-between;
-      }
-
-      .btn {
-        margin-right: 10px;
-        padding: 10px 20px;
-        border-radius: 0.5rem;
-        background-color: #555;
-        border: none;
-        color: #fff;
-        cursor: pointer;
-        transition: background-color 0.3s;
-      }
-
-      .element {
-        padding: 4px;
-      }
-      .ui-overlay {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        pointer-events: none;
-      }
-      .floating-window {
-        position: absolute;
-        width: 50rem;
-        height: 20rem;
-        background: white;
-        top: 500%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        z-index: 2000;
-        border-radius: 1rem;
-        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-        padding: 1rem;
-        color: black;
-        text-align: center;
-        pointer-events: all;
-      }
-      .control-panel {
-        position: absolute;
-        top: 500px;
-        bottom: 20px;
-        left: 20px;
-        display: flex;
-        flex-direction: column;
-        gap: 0.5rem;
-        z-index: 2000;
-        pointer-events: all;
-      }
-      .zoom-btn,
-      .view-btn {
-        padding: 10px;
-        background-color: #333;
-        color: white;
-        border: none;
-        border-radius: 8px;
-        cursor: pointer;
-        font-size: 1rem;
-      }
-      .close-btn {
-        position: absolute;
-        top: 10px;
-        right: 10px;
-        background: transparent;
-        border: none;
-        font-size: 1.5rem;
-        cursor: pointer;
-      }
-    </style>
+    <title>performative bookmark space</title>
+    <link rel="stylesheet" type="text/css" href="/style/reset.css" />
+    <link rel="stylesheet" type="text/css" href="style/fade.css" />
+    <link rel="stylesheet" type="text/css" href="style/space.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.cdnfonts.com/css/abhaya-libre-2"
+      rel="stylesheet"
+    />
   </head>
-  <body>
-    <div class="scene">
+
+  <body class="fade-out">
+    <div id="logo"></div>
+
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- 배경 카메라 라이트 -->
+    <div class="light-source" id="light-source-0"></div>
+    <div class="light-source" id="light-source-1"></div>
+    <div class="light-source" id="light-source-2"></div>
+    <div class="light-source" id="light-source-3"></div>
+    <div class="light-source" id="light-source-4"></div>
+    <div class="light-source" id="light-source-5"></div>
+    <video id="videoFeed" autoplay playsinline></video>
+    <canvas id="debugCanvas"></canvas>
+
+    <!-- 화면 시작 -->
+    <div class="outer-stage">
       <div class="header">
-        <div>Hello welcome to bookmark space</div>
-        <div class="ui-overlay">
-          <div class="floating-window">
-            <button class="close-btn">&times;</button>
-            <h2>2D Floating Window</h2>
-            <p>This is a central overlay window</p>
-          </div>
-          <div class="control-panel">
-            <button class="zoom-btn" data-zoom="in">+</button>
-            <button class="zoom-btn" data-zoom="out">-</button>
-            <!-- <button class="view-btn" data-face="front">Front</button>
-            <button class="view-btn" data-face="left">Left</button>
-            <button class="view-btn" data-face="right">Right</button>
-            <button class="view-btn" data-face="top">Top</button>
-            <button class="view-btn" data-face="bottom">Bottom</button> -->
-          </div>
+        PERFORMATIVE
+        <div>B<span>**</span>KMARK</div>
+      </div>
+      <div id="move">
+        <p>move your mouse to explore this space!</p>
+      </div>
+      <div class="pagelist">
+        <div id="drawer-btn" class="drawer">
+          <p>CATEGORY BOX >></p>
+          <small
+            >This screen visualizes folder, date, and tag-based classifications
+            as catalog drawers, enabling users to intuitively start exploring
+            their organized structures.</small
+          >
         </div>
-        <div>
-          <button class="btn" id="pageToCard">move to card library</button>
-          <button class="btn" id="pageToBox">move to catalogue boxes</button>
-          <button class="btn" id="pageToTest">move to interaction Test</button>
+        <div id="cards-btn" class="cards">
+          <p>BOOKMARK CARDS >></p>
+          <small
+            >Users can flip through stacked or grid-style cards to compare
+            visual information and reveal detailed data on each bookmark through
+            interactive card flipping.</small
+          >
+        </div>
+        <div id="index-btn" class="index">
+          <p>INDEX >></p>
+          <small
+            >This alphabetical and Korean-consonant index screen allows users to
+            quickly locate bookmarks with preview images and metadata, enabling
+            precise, direct access.</small
+          >
         </div>
       </div>
+    </div>
+    <div class="scene" style="z-index: 0">
       <div class="stage">
+        <div class="flatface-a" style="transform: translateZ(-30px)">
+          <div
+            id="recommend-window"
+            class="window"
+            style="
+              position: absolute;
+              top: 10px;
+              left: 10px;
+              border: 1px solid white;
+            "
+          >
+            <h3>Today's Recommendation</h3>
+            <!-- ★ 여기 타이틀 요소 추가 -->
+            <h3 class="rec-title">
+              <a
+                class="rec-link"
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+              ></a>
+            </h3>
+
+            <!-- ② 이미지 요소 -->
+            <img
+              class="ogimage"
+              src=""
+              alt=""
+              style="
+                display: none;
+                width: 100%;
+                height: 160px;
+                object-fit: cover;
+                margin-bottom: 8px;
+              "
+            />
+            <h3>
+              <a
+                class="rec-link"
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <!-- JS에서 title 텍스트와 href를 채웁니다 -->
+              </a>
+            </h3>
+            <p class="desc">website description</p>
+            <p class="date">saved date</p>
+          </div>
+        </div>
+        <div class="flatface-b" style="transform: translateZ(40px)">
+          <div
+            id="unlabeled-window"
+            class="window"
+            style="
+              top: 150px;
+              right: 10px;
+              border: 1px solid white;
+              bottom: auto;
+              left: auto;
+            "
+          >
+            <h3>Unlabeld Bookmark</h3>
+            <p class="url list1">
+              Where should we use the switch toggle ? - medium
+            </p>
+            <p class="url list2">
+              Where should we use the switch toggle ? - medium
+            </p>
+            <p class="url list3">
+              Where should we use the switch toggle ? - medium
+            </p>
+          </div>
+        </div>
+        <div class="flatface-c" style="transform: translateZ(100px); top: 60px">
+          <div
+            id="favorite-window"
+            class="window"
+            style="top: 100px; right: 10px; border: 1px solid white"
+          >
+            <h3>Favorite</h3>
+            <div class="shorcut-list">
+              <img src="img/shortcut/pinterest.png" />
+              <img src="img/shortcut/insta.png" />
+              <img src="img/shortcut/youtube.png" />
+              <img src="img/shortcut/netflix.png" />
+              <img src="img/shortcut/figma.png" />
+              <img src="img/shortcut/google_calendar.png" />
+              <img src="img/shortcut/google_drive.png" />
+              <img src="img/shortcut/google_meet.png" />
+              <img src="img/shortcut/notion.png" />
+              <img src="img/shortcut/reddit.png" />
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="flatface-c step"
+          style="transform: translateZ(-150px); pointer-events: none"
+        >
+          <img src="img/space.png" class="face-img-1" />
+        </div>
+        <div
+          class="flatface-c step"
+          style="transform: translateZ(-300px); pointer-events: none"
+        >
+          <img src="img/drawer.png" class="face-img-2" />
+        </div>
+        <div
+          class="flatface-c step"
+          style="transform: translateZ(-400px); pointer-events: none"
+        >
+          <img src="img/cards.png" class="face-img-3" />
+        </div>
+        <div
+          class="flatface-c step"
+          style="transform: translateZ(-500px); pointer-events: none"
+        >
+          <img src="img/index.png" class="face-img-4" />
+        </div>
         <div class="face front">
+          <div class="bulb_light"></div>
+
           <div class="reset grid rect-front"></div>
+          <div class="face canvas" style="width: 100%; height: 100%">
+            <div class="step-circle circle-1" target="img-1">1</div>
+            <div class="step-circle circle-2" target="img-2">2</div>
+            <div class="step-circle circle-3" target="img-3">3</div>
+            <div class="step-circle circle-4" target="img-4">4</div>
+            <div class="step-title title-1">you are HERE</div>
+            <div class="step-title title-2">Pick the category</div>
+            <div class="step-title title-3">looking for bookmark cards</div>
+            <div class="step-title title-4">If you want to check index</div>
+            <div class="step-img">
+              <img src="img/space.png" class="img-1" />
+            </div>
+            <div class="step-img">
+              <img src="img/drawer.png" class="img-2" />
+            </div>
+            <div class="step-img">
+              <img src="img/cards.png" class="img-3" />
+            </div>
+            <div class="step-img">
+              <img src="img/index.png" class="img-4" />
+            </div>
+            <div class="step-arrow arrow-1"></div>
+            <div class="step-arrow arrow-2"></div>
+            <div class="step-arrow arrow-3"></div>
+          </div>
         </div>
-        <div class="face bottom">
-          <div class="reset grid rect-bottom">new box</div>
-        </div>
-        <div class="face top">
+        <div
+          class="face top"
+          style="
+            transform: translate(-50%, -50%) rotateX(270deg) translateZ(-200px);
+          "
+        >
+          <div class="face canvas"></div>
           <div class="reset grid rect-top"></div>
         </div>
         <div class="face left">
+          <div class="face canvas"></div>
           <div class="reset grid rect-left"></div>
         </div>
+
         <div class="face right">
+          <!-- <div>
+<div class="post-it" style="top: 20px; left: 20px">
+<div class="note">Note 1</div>
+</div>
+<div class="post-it" style="top: 20px; left: 20px">
+<div class="note">Note 1</div>
+</div>
+<div class="post-it" style="top: 20px; left: 20px">
+<div class="note">Note 1</div>
+</div>
+<div class="post-it" style="top: 20px; left: 20px">
+<div class="note">Note 1</div>
+</div>
+<div class="post-it" style="top: 20px; left: 20px">
+<div class="note">Note 1</div>
+</div>
+</div> -->
+          <div class="face right canvas"></div>
           <div class="reset grid rect-right"></div>
+        </div>
+
+        <div
+          class="face bottom"
+          style="
+            transform: translate(-50%, -50%) rotateX(90deg) translateZ(-200px);
+          "
+        >
+          <div class="face canvas" style="width: 100%; height: 100%">
+            <div class="reset grid rect-bottom"></div>
+          </div>
+          <div class="description" style="position: absolute">
+            <p class="indicator">ABOUT THIS PAGE</p>
+            <p>
+              This website is an interactive playground that lets you explore
+              your bookmark data like hidden treasures in a vast space. Move
+              your mouse, click around, scroll freely, and roam the environment
+              as you please. Here, it’s more about savoring the joy of discovery
+              than hunting for something specific. So go ahead—give your fingers
+              a little nudge and embark on your bookmark exploration journey
+              through the Performative b**kmark web!
+            </p>
+
+            <img class="arrow" src="/img/arrow.svg" />
+          </div>
         </div>
       </div>
     </div>
 
     <!-- jQuery 라이브러리----- 로드 -->
+
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script src="js/index_script.js"></script>
+
+    <script src="js/space.js"></script>
+
+    <script src="js/fade.js"></script>
   </body>
 </html>
-
-<!-- $(document).ready(function () {
-  // grid에 속한 클래스에 div를 반복해서 100개씩 삽입한다.
-  var arr = [
-    ".rect-front",
-    ".rect-bottom",
-    "rect-top",
-    "rect-left",
-    ".rect-right",
-  ];
-
-  for (i = 0; i < 5; i++) {
-    for (j = 0; j < 100; j++) {``
-      $(".grid").append(`<div class="element">${j + 1}</div>`);
-    }
-  }
-  // 클래스는 5개의 부모를 가지고 있다.
-}); -->
-
-<!--  var rectArray = ["front", "bottom", "top", "left", "right"];
-  for (var j = 0; j < 5; j = j + 1) {
-    for (var i = 0; i < 100; i = i + 1) {
-      $(`.rect-${rectArray[j]}`).append(`<div class="element">${i + 1}</div>`);
-    }
-  } -->
