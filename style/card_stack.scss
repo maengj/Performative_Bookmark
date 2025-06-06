@@ -12,6 +12,8 @@ body {
   height: 100vh;
   perspective: 1500px;
   transition: opacity 0.5s ease;
+
+  font-family: "Pretendard", "Space Mono", sans-serif;
 }
 .cursor,
 .cursor-follower {
@@ -246,8 +248,9 @@ body.grid-view .book.flipped .card-content {
 .icon {
   width: 24px;
   height: 24px;
-  padding: 0.4rem;
-  border: 1px solid white;
+  img {
+    width: 100%;
+  }
 }
 .card-desc {
   font-family: var(--caveat);
@@ -298,6 +301,7 @@ body.grid-view .book.flipped .card-content {
 
 .preview-front,
 .preview-back {
+  background-color: var(--pink);
   position: absolute;
   width: 100%;
   height: 100%;

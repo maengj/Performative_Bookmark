@@ -19,8 +19,9 @@ const books = [];
 let currentTopIndex = 0;
 let isGrid = false;
 
-// 1) 카드 생성 & 이벤트 등록
-for (let i = 0; i < 40; i++) {
+$.each(bookmark_flat["bookmarks"], function (i, d) {
+  // 1) 카드 생성 & 이벤트 등록
+
   const book = document.createElement("div");
   book.className = "book";
   book.style.transform = `rotateX(90deg) translateZ(${i * 100}px)`;
@@ -32,31 +33,36 @@ for (let i = 0; i < 40; i++) {
   // 앞면
   const front = document.createElement("div");
   front.className = "face front";
-  front.style.backgroundImage = `url('${imageBase}/${
-    imageList[i % imageList.length]
-  }')`;
+  front.style.backgroundImage = `url('${d["meta"]["og:image"]}')`;
 
   // 뒷면
+  var callNo = d["guid"].slice(-17);
   const back = document.createElement("div");
   back.className = "face back card";
   back.innerHTML = `
     <div class="card-table">
-  
       <div class="row card-header">
-        <div class="icon">fav</div>
-        <div class="card_title">${i}bookmark name</div>
+        <div class="icon"><img src="${d["icons"][0]}"></div>
+        
+        <a href="${d["url"]}" target="_blank" class="card_title"> ${
+    d["name"]
+  }</a>
       </div>
       <div class="row">
         <div class="mono-left">Call.No</div>
-        <div class="mono-right">design 1284-382738</div>
+        <div class="mono-right">${
+          d["category"] ? d["category"] : ""
+        } ${callNo}</div>
       </div>
       <div class="row">
         <div class="mono-left">SAVED DATE</div>
-        <div class="mono-right">2025-05-31</div>
+        <div class="mono-right">${convertTimestampToYYYYMMDD(
+          d["date_added"]
+        )}</div>
       </div>
       <div class="row">
         <div class="mono-left">DESCRIPTION</div>
-        <div class="desc">this is description about this bookmark, may be it can be a article for reading later, or inspiration webpage for you.</div>
+        <div class="desc">${d["meta"]["description"]}</div>
       </div>
       <div class="row">
           <div class="mono-left">LOCATION.</div>
@@ -79,6 +85,7 @@ for (let i = 0; i < 40; i++) {
   book.appendChild(content);
   stack.appendChild(book);
   books.push(book);
+  book.style.transition = "transform 2s ease-in";
 
   // ─── 클릭(뒤집기 또는 preview) ───
   book.addEventListener("click", () => {
@@ -125,12 +132,13 @@ for (let i = 0; i < 40; i++) {
   book.addEventListener("mousemove", (e) => {
     if (!document.body.classList.contains("grid-view")) return;
     const r = book.getBoundingClientRect();
+
     const px = (e.clientX - r.left - r.width / 2) / (r.width / 2);
     const py = (e.clientY - r.top - r.height / 2) / (r.height / 2);
-    const rotX = py * 20;
-    const rotY = -px * 20;
-    const shadowX = -px * 20;
-    const shadowY = py * 20;
+    const rotX = py * 2;
+    const rotY = -px * 2;
+    const shadowX = -px * 2;
+    const shadowY = py * 2;
     const base = book.classList.contains("flipped")
       ? "rotateY(180deg)"
       : "rotateY(0deg)";
@@ -147,7 +155,7 @@ for (let i = 0; i < 40; i++) {
     content.style.transform = `${base} rotateX(0deg) rotateY(0deg)`;
     content.style.boxShadow = "0 12px 24px rgba(0,0,0,0.1)";
   });
-}
+});
 
 // 2) Grid/Stack 토글
 toggleBtn.addEventListener("click", () => {
@@ -272,6 +280,14 @@ $(document).ready(function () {
   $("#home").on("click", function () {
     window.location.href = "index.html";
   });
+  currentTopIndex = 15;
+  updateBookTransforms();
+  setTimeout(() => {
+    books.forEach((book) => {
+      book.style.transition = "transform 0.2s ease";
+    });
+  }, 3000);
+  // 3000 - 3초
 });
 // 커서 요소 가져오기
 const cursor = document.querySelector(".cursor");
@@ -287,3 +303,24 @@ document.addEventListener("mousemove", (e) => {
   follower.style.left = `${x}px`;
   follower.style.top = `${y}px`;
 });
+
+function convertTimestampToYYYYMMDD(microTimestamp) {
+  // 1. 마이크로초를 밀리초로 변환
+  const milliTimestamp = Math.floor(microTimestamp / 1000);
+
+  // 2. 크롬 에포크(1601-01-01)와 유닉스 에포크(1970-01-01) 차이(밀리초)
+  const epochDiffMs = 11644473600000;
+
+  // 3. 유닉스 타임스탬프(밀리초)로 변환
+  const unixMilliTimestamp = milliTimestamp - epochDiffMs;
+
+  // 4. Date 객체 생성 (UTC 기준)
+  const date = new Date(unixMilliTimestamp);
+
+  // 5. yyyy-mm-dd 포맷팅
+  const yyyy = date.getUTCFullYear();
+  const mm = String(date.getUTCMonth() + 1).padStart(2, "0");
+  const dd = String(date.getUTCDate()).padStart(2, "0");
+
+  return `${yyyy}-${mm}-${dd}`;
+}
