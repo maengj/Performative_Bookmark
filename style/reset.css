@@ -1,0 +1,291 @@
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none
+(public domain) */
+@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&family=Caveat:wght@400..700&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Parisienne&family=Space+Grotesk:wght@300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@font-face {
+  font-family: "MonoplexKR-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_Monoplex-kr@1.0/MonoplexKR-Regular.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+.space-grotesk-regular {
+  font-family: "Space Grotesk", sans-serif;
+  /* font-optical-sizing은 자동으로 활자 크기를 조금 더 정밀하게 조절해주는 옵션입니다. 
+     Safari/Chrome 등 주요 브라우저가 지원하므로 넣어두면 미세한 렌더링 품질이 향상됩니다. */
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Space Grotesk Medium (500) */
+.space-grotesk-medium {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Space Grotesk Bold (700) */
+.space-grotesk-bold {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.space-mono-regular {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+.alex-brush-regular {
+  font-family: "Alex Brush", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.parisienne-regular {
+  font-family: "Parisienne", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.space-mono-bold {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.space-mono-regular-italic {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.space-mono-bold-italic {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.courier-prime-regular {
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.courier-prime-bold {
+  font-family: "Courier Prime", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.courier-prime-regular-italic {
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.courier-prime-bold-italic {
+  font-family: "Courier Prime", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
+.caveat-regular {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.caveat-bold {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+:root {
+  /* Font Family Variables */
+  --space-mono: "Space Mono", monospace;
+  --alex-brush: "Alex Brush", cursive;
+  --caveat: "Caveat", cursive;
+  --parisienne: "Parisienne", cursive;
+  --courier-prime: "Courier Prime", monospace;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+} /* HTML5
+display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+p {
+  line-height: 1.7em;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+:root {
+  /* Miami Collection (비비드 + 팝 감성) */
+  --miami-hot-pink: #ff0080; /* 핫 핑크 */
+  --miami-electric-cyan: #00ffe1; /* 일렉트릭 시안 */
+  --miami-sunny-yellow: #ffd300; /* 비비드 옐로우 */
+  --miami-bright-orange: #ff6f00; /* 팝 오렌지 */
+  --miami-bold-violet: #8a2be2; /* 강렬 바이올렛 */
+
+  /* Rio de Janeiro Collection (형광 느낌의 강렬한 톤) */
+  --rio-neon-green: #39ff14; /* 네온 그린 */
+  --rio-electric-red: #ff073a; /* 일렉트릭 레드 */
+  --rio-fluoro-magenta: #ff4ecf; /* 플루오로 매젠타 */
+  --rio-aqua-blast: #0affef; /* 아쿠아 블라스트 */
+  --rio-neon-yellow: #fcee21; /* 네온 옐로우 */
+
+  /* New York Collection (도시 느낌 + 선명한 대비) */
+  --ny-charcoal-black: #1a1a1a; /* 차콜 블랙 */
+  --ny-bright-gold: #ffd700; /* 브라이트 골드 */
+  --ny-steel-gray: #b0b0b0; /* 스틸 그레이 */
+  --ny-crisp-white: #ffffff; /* 크리스프 화이트 */
+  --ny-urban-blue: #0077b6; /* 어반 블루 */
+
+  --gray50: #f3f3f3;
+  --gray100: #e6e6e6;
+  --gray200: #c9c9c9;
+  --gray300: #999999;
+  --gray400: #727172;
+  --gray500: #393939;
+  --gray600: #151515;
+
+  --blue: #4a77c6;
+  --yellow: #fbb45c;
+  --pink: #fdb2cf;
+  --green: #57d57f;
+}

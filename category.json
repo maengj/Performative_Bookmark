@@ -1,0 +1,45 @@
+[
+  {
+    "name": "Design",
+    "child1": "Font",
+    "child2": "img Stock",
+    "child3": "CMF",
+    "child4": "UIUX",
+    "child5": "Zine",
+    "child6": "CMF"
+  },
+  {
+    "name": "Academic",
+    "child1": "let's get inside"
+  },
+  {
+    "name": "Development",
+    "child1": "Library",
+    "child2": "codepen"
+  },
+  {
+    "name": "AI Tools",
+    "child1": "Graphic tools",
+    "child2": "3D render tools"
+  },
+  {
+    "name": "Research",
+    "child1": "Fashion",
+    "child2": "Movie",
+    "child3": "History"
+  },
+  {
+    "name": "Class",
+    "child1": "Online",
+    "child2": "Univeristy",
+    "child3": "Resources"
+  },
+  {
+    "name": " ",
+    "child1": " "
+  },
+  {
+    "name": " ",
+    "child1": " "
+  }
+]

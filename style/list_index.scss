@@ -1,0 +1,255 @@
+body {
+  margin: 0;
+
+  padding-top: 12px;
+  padding-left: 150px;
+  padding-right: 150px;
+  color: #fff;
+  background: #111;
+  overflow-y: auto;
+  height: auto;
+  cursor: none;
+}
+body.show-default-cursor {
+  cursor: arrow; /* 클래스가 붙으면 기본 화살표로 변경 */
+}
+.hero {
+  height: 156px;
+  font-size: 100px;
+  padding: 8px;
+  font-family: var(--space-mono);
+  font-weight: 300;
+}
+.cursor,
+.cursor-follower {
+  position: fixed;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  transition: transform 0.01s ease;
+  transform: translate(-50%, -50%);
+}
+
+.cursor {
+  width: 24px;
+  height: 24px;
+  background-color: rgb(255, 255, 255);
+  mix-blend-mode: difference;
+}
+
+.cursor-follower {
+  width: 24px;
+  height: 24px;
+  border: 2px solid rgb(255, 255, 255);
+}
+
+/* 수정: 화면에 고정되도록 fixed로 변경 */
+#home {
+  position: fixed;
+  top: 12px;
+  left: 12px;
+  font-family: var(--space-mono);
+  font-weight: bold;
+  font-size: 70px;
+  color: var(--green);
+  pointer-events: auto;
+  cursor: grab;
+  /* anchor-nav 같은 다른 요소보다 위에 보이도록 z-index를 충분히 높게 설정 */
+  z-index: 1000;
+}
+.preview-container {
+  position: absolute;
+  pointer-events: none;
+  width: 500px;
+  height: auto;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  z-index: 1000;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.preview-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+//인덱스 네비게이션
+.nav-sticky {
+  padding-right: 5rem;
+  font-family: var(--space-mono);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(17, 17, 17, 0.95);
+}
+
+.anchor-nav {
+  display: flex;
+  font-size: 50px;
+  gap: 4px;
+  padding: 4px 8px;
+  a {
+    flex: 52px 0 0;
+    text-align: center;
+    text-decoration: none;
+    padding: 4px 8px;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+
+    &:hover {
+      background-color: var(--green);
+      color: black;
+    }
+  }
+}
+//인덱스 영문 묶음 박스
+.eng-list-item {
+  display: flex;
+  min-height: 50px;
+  border-bottom: 1px solid #ccc;
+
+  &:first-child {
+    border-top: 1px solid #ccc;
+  }
+
+  .label {
+    flex: 200px 0 0;
+    font-size: 60px;
+    padding: 3rem;
+    font-family: var(--space-mono);
+  }
+
+  .value-row {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    padding: 12px;
+    gap: 16px;
+    align-items: center;
+    &:last-child {
+      border: none;
+    }
+    .title {
+      flex: 1;
+      font-family: var(--space-grotesk);
+    }
+    .type {
+      flex: 120px 0 0;
+      text-align: center;
+      font-family: var(--space-mono);
+    }
+
+    .saved {
+      flex: 200px 0 0;
+      text-align: center;
+      font-family: var(--space-mono);
+    }
+    .category {
+      flex: 150px 0 0;
+      text-align: center;
+      font-family: var(--space-mono);
+    }
+    .callno {
+      flex: 200px 0 0;
+      text-align: center;
+      font-family: var(--space-mono);
+    }
+
+    // 1) 기본 배경 (검정)
+    background-color: #111;
+
+    // 2) 호버 애니메이션용 커버
+    position: relative;
+    overflow: hidden;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: -100%; // 시작: 위로 숨김
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #fff; // 흰 배경으로 덮개
+      transition: top 0.5s ease;
+      z-index: 1;
+      mix-blend-mode: exclusion;
+    }
+
+    // 3) 텍스트 (흰색 → 검정으로 전환)
+    .title,
+    .date {
+      position: relative;
+      z-index: 2; // ::before 위에 표시
+      color: #fff; // 기본 흰색
+      transition: color 0.1s ease;
+      font-size: 20px;
+    }
+
+    // 4) 호버 효과
+    &:hover {
+      .cursor,
+      .cursor-follower {
+        width: 30px;
+        height: 30px;
+      }
+      &::before {
+        top: 0; // 커버 내려오기
+      }
+      .title,
+      .date {
+        color: #000; // 텍스트를 검정으로
+      }
+    }
+  }
+
+  .value-container {
+    flex: 1;
+    &.index-row {
+      * {
+        // font-weight: bold !important;
+        font-size: 20px;
+      }
+    }
+  }
+  .value-1-title {
+    flex: 2 0 0;
+  }
+  .value-2-saveddate {
+    flex: 1 0 0;
+  }
+}
+
+//글자 그라디언트 애니메이션
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
