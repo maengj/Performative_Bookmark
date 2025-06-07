@@ -77,6 +77,7 @@ document.addEventListener("DOMContentLoaded", () => {
           });
 
         item.appendChild(listContainer);
+
         if (leftContainer) {
           // leftContainer.appendChild(item);
         }
@@ -107,6 +108,7 @@ document.addEventListener("mousemove", (e) => {
  * #left-container에 JSON 데이터를 로드하여 렌더링하는 함수
  * (기존 loadLeftContainer 로직을 그대로 사용합니다)
  */
+var bigcate = "folder";
 function loadLeftContainer(jsonUrl) {
   const leftContainer = document.getElementById("left-container");
   if (!leftContainer) return;
@@ -135,9 +137,11 @@ function loadLeftContainer(jsonUrl) {
         data[0].hasOwnProperty("title")
       ) {
         // [{ title, url }, ...] 포맷
+
         renderSimpleListFormat(data);
       } else {
         // category.json 포맷
+
         renderCategoryFormat(data);
       }
     })
@@ -195,6 +199,7 @@ function renderCategoryFormat(categoryArray) {
       .forEach((text) => {
         const listItem = document.createElement("div");
         listItem.classList.add("folder-list-item");
+
         const titleEl = document.createElement("div");
         titleEl.classList.add("title");
         titleEl.textContent = text;
@@ -297,8 +302,11 @@ function renderDatecatFormat(dataArray) {
     childKeys.forEach((key) => {
       const text = obj[key];
       if (text && text.trim().length > 0) {
-        const listItem = document.createElement("div");
+        const listItem = document.createElement("a");
         listItem.classList.add("folder-list-item");
+        listItem.dataset.category = obj.name;
+        listItem.href =
+          "card_stack.html?cate=" + obj.name + "&bigcate=" + bigcate;
         const titleEl = document.createElement("div");
         titleEl.classList.add("title");
         titleEl.textContent = text;
@@ -306,6 +314,10 @@ function renderDatecatFormat(dataArray) {
         listContainer.appendChild(listItem);
       }
     });
+
+    const listCoverContainer = document.createElement("div");
+    listCoverContainer.classList.add("folder-list-container-cover");
+    listContainer.appendChild(listCoverContainer);
 
     item.appendChild(listContainer);
     leftContainer.appendChild(item);
@@ -364,6 +376,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // 4) 버튼 클릭 이벤트
   if (btnFolder) {
     btnFolder.addEventListener("click", function () {
+      bigcate = "folder";
       loadLeftContainer("category.json");
       highlightClicked(btnFolder);
     });
@@ -371,6 +384,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   if (btnTags) {
     btnTags.addEventListener("click", function () {
+      bigcate = "tag";
       loadLeftContainer("tagcat.json");
       highlightClicked(btnTags);
     });
@@ -378,6 +392,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   if (btnDate) {
     btnDate.addEventListener("click", function () {
+      bigcate = "date";
       loadLeftContainer("datecat.json");
       highlightClicked(btnDate);
     });

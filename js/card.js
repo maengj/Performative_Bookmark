@@ -19,7 +19,66 @@ const books = [];
 let currentTopIndex = 0;
 let isGrid = false;
 
-$.each(bookmark_flat["bookmarks"], function (i, d) {
+const params = new URLSearchParams(window.location.search);
+const category = params.get("cate"); // "Development"
+const bigcategory = params.get("bigcate"); // "Development"
+if (bigcategory) {
+  $(".big-cate").html(" > " + bigcategory);
+} else {
+  $(".big-cate").html("");
+}
+if (category) {
+  $(".cates").html(" > " + category);
+} else {
+  $(".cates").html("> All");
+}
+
+var modelData = bookmark_flat["bookmarks"];
+var folderArr = [
+  "Design",
+  "Academic",
+  "Development",
+  "AI Tools",
+  "Research",
+  "Class",
+];
+var tagArr = [
+  "design",
+  "AI",
+  "Thesis",
+  "interactive",
+  "code",
+  "Art",
+  "document",
+];
+var dateArr = ["2025", "2024", "2023", "2022", "2021", "2020", "2019", "2018"];
+$.each(folderArr, function (i, d) {
+  if (bigcategory == "folder") {
+    if (category == d) {
+      const myCategory = category_sorted.find((cat) => cat.name === d);
+      modelData = myCategory["items"];
+    }
+  }
+});
+$.each(tagArr, function (i, d) {
+  if (bigcategory == "tag") {
+    if (category == d) {
+      const myCategory = tagcat_sorted.find((cat) => cat.name === d);
+      modelData = myCategory["items"];
+    }
+  }
+});
+$.each(dateArr, function (i, d) {
+  if (bigcategory == "tag") {
+    if (category == d) {
+      const myCategory = datecat_sorted.find((cat) => cat.name === d);
+      modelData = myCategory["items"];
+    }
+  }
+});
+console.log(modelData);
+
+$.each(modelData, function (i, d) {
   // 1) 카드 생성 & 이벤트 등록
 
   const book = document.createElement("div");
@@ -56,17 +115,21 @@ $.each(bookmark_flat["bookmarks"], function (i, d) {
       </div>
       <div class="row">
         <div class="mono-left">SAVED DATE</div>
-        <div class="mono-right">${convertTimestampToYYYYMMDD(
-          d["date_added"]
-        )}</div>
+        <div class="mono-right">${
+          convertTimestampToYYYYMMDD(d["date_added"]) == "1601-01-01"
+            ? "-"
+            : convertTimestampToYYYYMMDD(d["date_added"])
+        }</div>
       </div>
       <div class="row">
         <div class="mono-left">DESCRIPTION</div>
-        <div class="desc">${d["meta"]["description"]}</div>
+        <div class="desc">${
+          d["meta"]["description"] ? d["meta"]["description"] : "-"
+        }</div>
       </div>
       <div class="row">
           <div class="mono-left">LOCATION.</div>
-          <div class="mono-right">CATEGORY1/CARD 24</div>
+          <div class="mono-right" style="text-transform:uppercase">SPACE / ${bigcategory} / ${category} ${i}</div>
       </div>
       <div class="row">
         <div class="center">
@@ -92,7 +155,6 @@ $.each(bookmark_flat["bookmarks"], function (i, d) {
     if (document.body.classList.contains("grid-view")) {
       // 그리드 모드: .book 요소에 flipped 클래스 토글
       book.classList.toggle("flipped");
-
       // 그림자나 transform 인라인 스타일을 초기화하려면 아래 두 줄을 유지하거나 삭제하세요.
       const content = book.querySelector(".card-content");
       content.style.transform = ""; // 호버로 인한 transform 초기화
@@ -179,7 +241,7 @@ toggleBtn.addEventListener("click", () => {
 // 3) 휠 스크롤 (Stack 모드에서만)
 window.addEventListener("wheel", (e) => {
   if (document.body.classList.contains("grid-view")) return;
-  if (document.querySelector(".preview-layer")) return;
+  // if (document.querySelector(".preview-layer")) return;
   if (e.deltaY > 0 && currentTopIndex < books.length - 1) currentTopIndex++;
   else if (e.deltaY < 0 && currentTopIndex > 0) currentTopIndex--;
   updateBookTransforms();
@@ -288,6 +350,9 @@ $(document).ready(function () {
     });
   }, 3000);
   // 3000 - 3초
+  $("body").on("click", function () {
+    $("");
+  });
 });
 // 커서 요소 가져오기
 const cursor = document.querySelector(".cursor");

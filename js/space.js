@@ -9,6 +9,7 @@ const BOX_HEIGHT = 400; // SCSS의 $box-height와 일치
 const BOX_DEPTH = 1000; // SCSS의 $box-depth와 일치
 
 var currentX = 0; // 스테이지의 X축 현재 위치
+var currentY = 0; // ← Y축 위치 추가
 var currentZ = 800; // ⬅️ 시작 줌 레벨 (스크린샷에 맞춰 250으로 설정, 이 값으로 시작 깊이 조절)
 
 const cursorElement = document.querySelector(".cursor"); // 커스텀 커서 요소
@@ -24,11 +25,17 @@ function updateStageTransform() {
   const initialStageZ = -(BOX_DEPTH / 2.5); // 박스 중심을 기준으로 초기 Z위치 (터널 입구가 z=0에 오도록)
   $(".stage").css(
     "transform",
-    "translate(-50%, -50%) translateX(" +
+    "translate(-50%, -50%)" +
+      " translateX(" +
       currentX +
-      "px) translateZ(" +
-      (initialStageZ + currentZ) + // 초기 Z위치에 현재 Z위치(줌)를 더함
-      "px) scale(1)" // 기본 스케일은 1
+      "px)" +
+      " translateY(" +
+      currentY +
+      "px)" + // ← 여기
+      " translateZ(" +
+      (initialStageZ + currentZ) +
+      "px)" +
+      " scale(1)"
   );
 }
 
@@ -290,6 +297,11 @@ $(document).on("mousemove", function (e) {
   const maxTranslation = 150;
   currentX = (diffX / centerX) * maxTranslation * 0.5;
   updateStageTransform();
+  // Y축 추가
+  const windowHeight = $(window).height();
+  const centerY = windowHeight / 2;
+  const diffY = e.clientY - centerY;
+  currentY = (diffY / centerY) * maxTranslation * 0.2;
 
   // 2. bulb_light 위치 업데이트
   updateBulbPosition(e.pageX, e.pageY);
@@ -472,10 +484,9 @@ $(document).ready(function () {
 
   $(".step-circle").on("mouseover", function () {
     var t = $(this).attr("target");
-
     $("." + t).fadeIn();
   });
-  $(".step-circle").on("mouseover", function () {
+  $(".step-circle").on("mouseout", function () {
     $(".step-img img").fadeOut();
   });
 });

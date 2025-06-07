@@ -64,7 +64,9 @@ button {
   background-color: white;
   color: black;
   padding: 2px;
-
+  a {
+    text-transform: uppercase;
+  }
   a:hover {
     background-color: var(--pink);
   }
@@ -197,6 +199,7 @@ body.grid-view .book.flipped .card-content {
     // color: #fff; /* 채우기 색상 */
     // -webkit-text-stroke-width: 2px; /* 외곽선 두께 */
     // -webkit-text-stroke-color: #ff1010; /* 외곽선 색상 */
+    word-break: break-all;
   }
 }
 .card-table {
@@ -246,8 +249,11 @@ body.grid-view .book.flipped .card-content {
 }
 
 .icon {
-  width: 24px;
-  height: 24px;
+  width: 32px;
+  height: 32px;
+  background-color: white;
+  flex: 32px 0 0;
+  padding: 4px;
   img {
     width: 100%;
   }
@@ -285,6 +291,7 @@ body.grid-view .book.flipped .card-content {
 .book .front {
   background-size: cover;
   background-position: center;
+  background-color: white;
 }
 
 // Preview Layer

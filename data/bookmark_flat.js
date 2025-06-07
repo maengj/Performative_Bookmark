@@ -2,73 +2,6 @@ var bookmark_flat = {
   total: 626,
   bookmarks: [
     {
-      id: "20",
-      guid: "da6799cb-7513-4cc5-855b-454fe9c5769d",
-      name: "Google Calendar",
-      url: "https://calendar.google.com/calendar/u/0/r",
-      date_added: "13321265031055825",
-      date_last_used: "13392311004757664",
-      icons: [],
-      meta: {
-        referrer: "origin",
-        chrome: "nointentdetection",
-        viewport: "width=device-width, initial-scale=1",
-        description:
-          "Google 계정(개인용) 또는 Google Workspace 계정(업무용)을 사용해 Google Calendar에 액세스하세요.",
-        "og:type": "website",
-        "og:image": "./screenshots-flat/Google Calendar.png",
-      },
-    },
-    {
-      id: "572",
-      guid: "04ac60de-a7b8-4c0e-83ae-259956d2beb7",
-      name: "bookmark",
-      url: "https://maengj.github.io/bookmark-study/",
-      date_added: "13381148602128914",
-      date_last_used: "13392287103967128",
-      icons: [],
-      meta: {
-        "og:type": "website",
-        "og:image": "./screenshots-flat/bookmark.png",
-      },
-    },
-    {
-      id: "589",
-      guid: "1ccd0168-bc43-4d38-af92-1403818f3006",
-      name: "[2025-1 명지대학교] 앱 프로그래밍",
-      url: "https://www.notion.so/2025-1-17c14ae8a303800d96faf2d36ada1824?pvs=10",
-      date_added: "13382866756125356",
-      date_last_used: "13392437330399024",
-      icons: ["https://gray-wallet-f01.notion.site/images/favicon.ico"],
-      meta: {
-        viewport:
-          "width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover",
-        description:
-          "A new tool that blends your everyday work apps into one. It's the all-in-one workspace for you and your team",
-        "twitter:card": "summary_large_image",
-        "twitter:site": "@NotionHQ",
-        "twitter:title":
-          "Your connected workspace for wiki, docs & projects | Notion",
-        "twitter:description":
-          "A new tool that blends your everyday work apps into one. It's the all-in-one workspace for you and your team",
-        "twitter:url": "https://www.notion.so",
-        "twitter:image": "https://www.notion.so/images/meta/default.png",
-        "og:site_name": "Notion",
-        "og:type": "website",
-        "og:url": "https://www.notion.so",
-        "og:title":
-          "Your connected workspace for wiki, docs & projects | Notion",
-        "og:description":
-          "A new tool that blends your everyday work apps into one. It's the all-in-one workspace for you and your team",
-        "og:image": "https://www.notion.so/images/meta/default.png",
-        "og:locale": "en_US",
-        "mobile-web-app-capable": "yes",
-        "apple-itunes-app": "app-id=1232780281",
-        "format-detection": "telephone=no",
-        "msapplication-tap-highlight": "no",
-      },
-    },
-    {
       id: "465",
       guid: "626933fa-0e70-4702-9176-d5336e3ec8a3",
       name: ":: 서울대학교 포털시스템 ::",
@@ -416,16 +349,6 @@ var bookmark_flat = {
         "og:image":
           "./screenshots-flat/학회 & 기관 - 디자인학 학술정보 가이드 - LibGuides at SungkyunKwan University.png",
       },
-    },
-    {
-      id: "172",
-      guid: "fb9b6c1a-8312-4eac-a08c-212c45b0c7e1",
-      name: "Altos 투자검토, 이렇게 요청해주세요! :)",
-      url: "https://altos-ir.oopy.io/",
-      date_added: "13343722826464077",
-      date_last_used: "0",
-      icons: [],
-      meta: {},
     },
     {
       id: "173",
@@ -2704,40 +2627,7 @@ var bookmark_flat = {
           "BnVNMj2bduY3Ro2N46t_VpXG64vDZvPkE_vNjnWIcjk",
       },
     },
-    {
-      id: "247",
-      guid: "2c2912b9-a6ae-4f7a-ba80-df0d1381b591",
-      name: "Curve Creative Studio - Creative Agency",
-      url: "https://www.curvecreativestudio.com/en/",
-      date_added: "13360814032981473",
-      date_last_used: "0",
-      icons: [],
-      meta: {
-        viewport: "width=device-width, initial-scale=1, maximum-scale=1",
-        author: "hellobarrio",
-        robots:
-          "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-        description:
-          "Creative Studio has been a creative agency since 2012. We support companies and individuals through strategy and communication.",
-        "og:locale": "en_US",
-        "og:type": "website",
-        "og:title": "Curve Creative Studio - Creative Agency",
-        "og:description":
-          "Creative Studio has been a creative agency since 2012. We support companies and individuals through strategy and communication.",
-        "og:url": "https://www.curvecreativestudio.com/en/home/",
-        "og:site_name": "Curve Creative Studio",
-        "article:publisher": "https://www.facebook.com/curvecreativestudio",
-        "article:modified_time": "2024-04-02T08:04:15+00:00",
-        "og:image":
-          "https://www.curvecreativestudio.com/curve/wp-content/uploads/2023/07/marchetti-01-1.png",
-        "og:image:width": "1024",
-        "og:image:height": "576",
-        "og:image:type": "image/png",
-        "twitter:card": "summary_large_image",
-        "twitter:site": "@curvestudio",
-        generator: "Site Kit by Google 1.151.0",
-      },
-    },
+
     {
       id: "248",
       guid: "7d51d310-2c5d-4220-9446-04af4ccb0670",
@@ -6002,32 +5892,7 @@ var bookmark_flat = {
         "og:image": "./screenshots-flat/Text _ GSAP.png",
       },
     },
-    {
-      id: "624",
-      guid: "caf7c606-39d4-46fc-b34e-2f7da33fa8b7",
-      name: "anime.js • JavaScript animation engine",
-      url: "https://animejs.com/",
-      date_added: "13387819729392169",
-      date_last_used: "0",
-      icons: ["https://animejs.com/assets/images/favicon.png"],
-      meta: {
-        viewport: "width=device-width, initial-scale=1.0",
-        "darkreader-lock": "",
-        description: "A fast and versatile JavaScript animation library",
-        "og:title": "Anime.js | JavaScript Animation Engine",
-        "og:url": "/",
-        "og:description": "A fast and versatile JavaScript animation library",
-        "og:image":
-          "/media/site/5e9b48763d-1744100039/anime-js-sharing-image.png",
-        "twitter:title": "Anime.js | JavaScript Animation Engine",
-        "twitter:description":
-          "A fast and versatile JavaScript animation library",
-        "twitter:card": "summary_large_image",
-        "twitter:image":
-          "https://animejs.com/media/site/5e9b48763d-1744100039/anime-js-sharing-image.png",
-        "og:type": "website",
-      },
-    },
+
     {
       id: "625",
       guid: "88ceb889-6983-40a9-ad61-d58634f19457",
@@ -6949,21 +6814,7 @@ var bookmark_flat = {
           "./screenshots-flat/Kling AI_ Next-Generation AI Creative Studio.png",
       },
     },
-    {
-      id: "610",
-      guid: "2f153030-a414-49c3-8f49-3e58f765be63",
-      name: "ideogram.ai",
-      url: "https://ideogram.ai/__/auth/handler?state=AMbdmDmBMc1W39tGukFVPn1i36XM2Ad0RUI4y6wHyC30Hf-65j7gl4WJBOfFgcgG8PMWj_9WS_ThAiMt0bwJhZAAGO-JAMvDEojDJvf5pABKRVVezvPf3_OxvWGZicnWIeBGiukaHpRbx_vmvKb8p98YWC2-TcDAFRvYJFrxaq-8IlXy8K08Xg4NgNLEsk0t9-vYOBFWFIcDq-IgaRQBd18QM2-9P_DqwHJD3WXiGuLQ2yiMmaRkgZq5530-7CfVLUIzxG2PkoYMHaLs_L642VPxmcmH_rh7o2mKw8hVL6TKBdHvvKI&code=4%2F0AQSTgQGTh3J-cl0Ed6177v-UiV8qgehUjGruzA1_29zZcdoAcgOeq6nDsLMcaZ1fWjELAQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=none",
-      date_added: "13387729871314296",
-      date_last_used: "0",
-      icons: [],
-      meta: {
-        robots: "noindex,nofollow",
-        viewport: "width=device-width,initial-scale=1",
-        "og:type": "website",
-        "og:image": null,
-      },
-    },
+
     {
       id: "611",
       guid: "99e2c412-9a46-47a9-9378-b5e0516cee07",
@@ -11994,7 +11845,7 @@ var bookmark_flat = {
     {
       id: "511",
       guid: "bd2c9ca1-631c-4e64-83f7-a23b2103306f",
-      name: "내가 필요해서 정리한 디자인 시스템에 관한 모든 것. 어떤 툴을 사용해야하는지, 라이브러리를 써도 되는지, 추후에 수정 및… | by Jiyu Han | SaaS Design Archive | Medium",
+      name: "내가 필요해서 정리한 디자인 시스템에 관한 모든 것. | by Jiyu Han | SaaS Design Archive | Medium",
       url: "https://medium.com/saas-design-archive/%EB%82%B4%EA%B0%80-%ED%95%84%EC%9A%94%ED%95%B4%EC%84%9C-%EC%A0%95%EB%A6%AC%ED%95%9C-%EB%94%94%EC%9E%90%EC%9D%B8-%EC%8B%9C%EC%8A%A4%ED%85%9C%EC%97%90-%EA%B4%80%ED%95%9C-%EB%AA%A8%EB%93%A0-%EA%B2%83-7145b7c1db2c",
       date_added: "13374807473936822",
       date_last_used: "0",
@@ -12363,22 +12214,7 @@ var bookmark_flat = {
           "./screenshots-flat/designboom magazine _ your first source for architecture, design & art news.png",
       },
     },
-    {
-      id: "343",
-      guid: "b128d235-148f-429f-a09e-70a1ba658b3e",
-      name: "Dezeen | architecture and design magazine",
-      url: "https://www.dezeen.com/",
-      date_added: "0",
-      date_last_used: "13348217218667355",
-      icons: [],
-      meta: {
-        robots: "noindex,nofollow",
-        viewport: "width=device-width,initial-scale=1",
-        "og:type": "website",
-        "og:image":
-          "./screenshots-flat/Dezeen _ architecture and design magazine.png",
-      },
-    },
+
     {
       id: "344",
       guid: "e6749fa5-9019-44c4-b939-9bd7842c2286",
@@ -13501,7 +13337,7 @@ var bookmark_flat = {
         "og:url": "https://sonayong.com",
         "og:site_name": "Son Ayong",
         "og:type": "website",
-        "og:image": "./sourcebox/ogimage.png",
+        "og:image": "https://sonayong.com/favicon.ico",
         "og:image:width": "1200",
         "og:image:height": "630",
         "naver-site-verification": "1dc1e0ef4eb9ff8c32ae6ab91aeccca795e59f24",
@@ -14588,19 +14424,7 @@ var bookmark_flat = {
         "og:image": "./screenshots-flat/Mankun Guo.png",
       },
     },
-    {
-      id: "413",
-      guid: "9d942c25-6294-4fa7-899b-199418e9fa4c",
-      name: "Dunne & Raby",
-      url: "https://dunneandraby.co.uk/content/projects/476/0",
-      date_added: "13356683611145125",
-      date_last_used: "0",
-      icons: [],
-      meta: {
-        "og:type": "website",
-        "og:image": "./screenshots-flat/Dunne & Raby.png",
-      },
-    },
+
     {
       id: "414",
       guid: "1b1003a4-67e0-4dac-b37a-b1bd706c04e5",
@@ -14828,7 +14652,7 @@ var bookmark_flat = {
     {
       id: "422",
       guid: "07463474-37ed-4a8c-8573-d7dcca25daf9",
-      name: "Home",
+      name: "aamurakami",
       url: "https://www.aamurakami.com/",
       date_added: "13357018285924330",
       date_last_used: "0",
@@ -16246,47 +16070,7 @@ var bookmark_flat = {
         "theme-color": "#000000",
       },
     },
-    {
-      id: "675",
-      guid: "fd995a0a-ac33-49c0-8484-09b4c7b9ab13",
-      name: "Base_test",
-      url: "https://test.basedesign.com/experiment/nnheismbe7",
-      date_added: "13389712398340658",
-      date_last_used: "0",
-      icons: [
-        "https://test.basedesign.com/favicon/favicon-32x32.png",
-        "https://test.basedesign.com/favicon/favicon-16x16.png",
-        "https://test.basedesign.com/favicon/favicon.ico",
-      ],
-      meta: {
-        viewport:
-          "width=device-width, initial-scale=1, user-scalable=yes, maximum-scale=5, minimum-scale=1",
-        keywords: "",
-        description:
-          "Base_test is a test by Base. It is an undefined space that is always in progress. ",
-        url: "https://www.base-test.com",
-        "twitter:card": "summary_large_image",
-        "twitter:title": "Base_test",
-        "twitter:description":
-          "Base_test is a test by Base. It is an undefined space that is always in progress. ",
-        "twitter:image":
-          "https://base-test.imgix.net/uploads/FIX_01_c1d31442e9.png",
-        "twitter:image:src":
-          "https://base-test.imgix.net/uploads/FIX_01_c1d31442e9.png",
-        "og:title": "Base_test",
-        "og:image": "https://base-test.imgix.net/uploads/FIX_01_c1d31442e9.png",
-        "og:type": "website",
-        "og:url": "https://www.base-test.com",
-        "og:description":
-          "Base_test is a test by Base. It is an undefined space that is always in progress. ",
-        "og:site_name": "Base_test",
-        "og:locale": "en",
-        "twitter:image:alt": "null",
-        "og:image:alt": "null",
-        "next-head-count": "24",
-        "theme-color": "#000000",
-      },
-    },
+
     {
       id: "678",
       guid: "e5136728-2ce6-48fa-b212-e1eb144bd616",
@@ -16929,19 +16713,7 @@ var bookmark_flat = {
         "og:title": "Google Colab",
       },
     },
-    {
-      id: "434",
-      guid: "0a80589e-d04f-4dc4-8283-d011660f6cf9",
-      name: "ARE DOODLES NO GOOD?",
-      url: "https://e16e91a8d88e74cdea.gradio.live/",
-      date_added: "13359458191716925",
-      date_last_used: "0",
-      icons: [],
-      meta: {
-        "og:type": "website",
-        "og:image": "./screenshots-flat/ARE DOODLES NO GOOD_.png",
-      },
-    },
+
     {
       id: "435",
       guid: "2c0e2e04-5527-41d4-9220-35844a75ce3c",
@@ -16981,21 +16753,7 @@ var bookmark_flat = {
         "og:image": "./screenshots-flat/chimeric-worlding.netlify.app.png",
       },
     },
-    {
-      id: "437",
-      guid: "35e3b03f-1104-4778-ba32-19fa3fbc9ca0",
-      name: "ARE DOODLES NO GOOD? [2]",
-      url: "https://chgnhyk.com/are_doodles_no_good/v2/",
-      date_added: "13359445851845105",
-      date_last_used: "0",
-      icons: ["https://chgnhyk.com/are_doodles_no_good/v2/favicon.svg"],
-      meta: {
-        viewport:
-          "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no",
-        "og:type": "website",
-        "og:image": "./screenshots-flat/ARE DOODLES NO GOOD_ [2].png",
-      },
-    },
+
     {
       id: "438",
       guid: "f664c06b-8b43-4433-940c-d3909a81d101",
@@ -18363,20 +18121,7 @@ var bookmark_flat = {
           "./screenshots-flat/교환학생 귀국 후 국외수학학점 인정 관련 안내(세부) _ SNU ART _ College of Fine Arts, Seoul National University.png",
       },
     },
-    {
-      id: "18",
-      guid: "3b4133d6-907d-44cb-887a-dbfbffda9140",
-      name: "북마크",
-      url: "chrome://bookmarks/",
-      date_added: "13354016923712913",
-      date_last_used: "0",
-      icons: [],
-      meta: {
-        "color-scheme": "light dark",
-        "og:type": "website",
-        "og:image": "./screenshots-flat/북마크.png",
-      },
-    },
+
     {
       id: "19",
       guid: "c5203dac-9536-4bd8-be71-071e9bf35a7e",
