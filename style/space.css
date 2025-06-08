@@ -35,7 +35,6 @@ body,
 html {
   width: 2560px;
   height: 1440px;
-  border: 1px solid white;
   position: relative;
   overflow: hidden;
 }

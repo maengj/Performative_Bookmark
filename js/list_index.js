@@ -87,7 +87,7 @@ $(document).ready(function () {
           {
             scrollTop: target.offset().top - navOffset - 8,
           },
-          800,
+          2000,
           "easeInOutCubic"
         );
     }
@@ -98,7 +98,7 @@ $(document).ready(function () {
     .then((res) => res.json())
     .then((categories) => {
       const allBms = [];
-      var data = categories.bookmarks;
+      var data = bookmark_flat["bookmarks"];
       console.log(data);
 
       $.each(data, function (i, d) {
@@ -191,8 +191,8 @@ $(document).ready(function () {
 
       // hover시 preview
       $(document)
-        .on("mouseenter", ".title a", function (e) {
-          const $title = $(this).closest(".title");
+        .on("mouseenter", ".value-row", function (e) {
+          const $title = $(this).children(".title");
           const src =
             $title.data("image") ||
             $title.data("extra_image") ||

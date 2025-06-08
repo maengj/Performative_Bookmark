@@ -157,21 +157,24 @@ $(document).ready(function () {
       if (!all.length) return;
 
       // 3) 랜덤 선택
-      const choice = all[Math.floor(Math.random() * all.length)];
+      const choice =
+        bookmark_flat["bookmarks"][
+          Math.floor(Math.random() * bookmark_flat["bookmarks"].length)
+        ];
 
+      var dat = choice["meta"];
+      console.log(choice, dat, dat.description);
       // 4) 이미지 URL 결정
-      const imgUrl =
-        choice.image || choice.extra_image || choice.thumbnail || "";
+      const imgUrl = choice["meta"]["og:image"];
 
       // 5) 설명 결정
-      const desc =
-        choice.description.og_description ||
-        choice.description.meta_description ||
-        choice.description.extra_text ||
-        "";
+      var desc = dat.description;
 
       // 6) 저장일
-      let saved = choice.saveddate || "";
+      let saved =
+        convertTimestampToYYYYMMDD(choice.date_added) == "1601-01-01"
+          ? "-"
+          : convertTimestampToYYYYMMDD(choice.date_added);
 
       // 7) DOM 반영
       const $win = $("#recommend-window");
@@ -179,7 +182,7 @@ $(document).ready(function () {
       $win
         .find(".rec-title .rec-link")
         .attr("href", choice.url || "#")
-        .text(choice.title || "제목 없음");
+        .text(choice.name || "제목 없음");
 
       if (imgUrl) {
         $win
@@ -202,10 +205,11 @@ $(document).ready(function () {
     fetch("results3.json")
       .then((res) => res.json())
       .then((data) => {
-        const bar = data.find((c) => c.category === "북마크바");
+        const bar = bookmark_flat;
+        console.log(bar);
         if (!bar || !Array.isArray(bar.bookmarks)) return;
         const arr = bar.bookmarks.slice();
-
+        console.log(arr);
         for (let i = arr.length - 1; i > 0; i--) {
           const j = Math.floor(Math.random() * (i + 1));
           [arr[i], arr[j]] = [arr[j], arr[i]];
@@ -213,6 +217,7 @@ $(document).ready(function () {
 
         [".list1", ".list2", ".list3"].forEach((sel, idx) => {
           const bm = arr[idx];
+          console.log(bm, idx);
           const $p = $("#unlabeled-window").find(`p.url${sel}`);
           $p.empty();
           if (bm) {
@@ -222,7 +227,7 @@ $(document).ready(function () {
                 target: "_blank",
                 rel: "noopener",
               })
-              .text(bm.title || "제목 없음");
+              .text(bm.name || "제목 없음");
             $p.append($a);
           }
         });
@@ -490,3 +495,23 @@ $(document).ready(function () {
     $(".step-img img").fadeOut();
   });
 });
+function convertTimestampToYYYYMMDD(microTimestamp) {
+  // 1. 마이크로초를 밀리초로 변환
+  const milliTimestamp = Math.floor(microTimestamp / 1000);
+
+  // 2. 크롬 에포크(1601-01-01)와 유닉스 에포크(1970-01-01) 차이(밀리초)
+  const epochDiffMs = 11644473600000;
+
+  // 3. 유닉스 타임스탬프(밀리초)로 변환
+  const unixMilliTimestamp = milliTimestamp - epochDiffMs;
+
+  // 4. Date 객체 생성 (UTC 기준)
+  const date = new Date(unixMilliTimestamp);
+
+  // 5. yyyy-mm-dd 포맷팅
+  const yyyy = date.getUTCFullYear();
+  const mm = String(date.getUTCMonth() + 1).padStart(2, "0");
+  const dd = String(date.getUTCDate()).padStart(2, "0");
+
+  return `${yyyy}-${mm}-${dd}`;
+}
