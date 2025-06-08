@@ -5181,45 +5181,7 @@ var category_sorted = [
             "./screenshots-flat/Fabric.com_ Online Shopping for Home Decor, Apparel, Quilting & Designer Fabric.png",
         },
       },
-      {
-        id: "448",
-        guid: "ddb663ce-7ee0-43c0-b531-0feda482658a",
-        name: "LIBRIUM - Free Procreate brushes",
-        url: "https://librium.digital/",
-        date_added: "0",
-        date_last_used: "13327565922316161",
-        icons: [
-          "https://librium.digital/wp-content/uploads/2024/04/cropped-librium_logo2-32x32.png",
-          "https://librium.digital/wp-content/uploads/2024/04/cropped-librium_logo2-192x192.png",
-        ],
-        meta: {
-          viewport: "width=device-width, initial-scale=1",
-          robots:
-            "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-          description:
-            "Librium is the place to share your free Procreate brushes and other Procreate-related resources. Our site makes it easy to explore thousands of resources created by artists from all over the globe. All the resources are free to download and, depending on the license, free to use in your projects.",
-          "og:locale": "en_US",
-          "og:type": "website",
-          "og:title": "LIBRIUM - Free Procreate brushes",
-          "og:description":
-            "Librium is the place to share your free Procreate brushes and other Procreate-related resources. Our site makes it easy to explore thousands of resources created by artists from all over the globe. All the resources are free to download and, depending on the license, free to use in your projects.",
-          "og:url": "https://librium.digital/",
-          "og:site_name": "LIBRIUM",
-          "article:modified_time": "2025-05-19T15:38:58+00:00",
-          "og:image":
-            "https://librium.digital/wp-content/uploads/2021/03/D07F10E6-6938-44A9-B817-024FA6BC325B.png",
-          "og:image:width": "512",
-          "og:image:height": "512",
-          "og:image:type": "image/png",
-          "twitter:card": "summary_large_image",
-          "twitter:site": "@BrushesFree",
-          generator: "Site Kit by Google 1.144.0",
-          "google-adsense-platform-account": "ca-host-pub-2644536267352236",
-          "google-adsense-platform-domain": "sitekit.withgoogle.com",
-          "msapplication-TileImage":
-            "https://librium.digital/wp-content/uploads/2024/04/cropped-librium_logo2-270x270.png",
-        },
-      },
+
       {
         id: "102",
         guid: "64e1c35a-fc56-4286-9483-ef3337f814a0",
