@@ -99,7 +99,7 @@ $(document).ready(function () {
       for (let i = 0; i < totalCells; i++) {
         var html = `<div class="element grid-cell cell-${i}"></div>`;
         if (i == 46 && selector == ".rect-left") {
-          html = `<div id="recommend" class="element grid-cell cell-${i}">Today's Recommendation</div>`;
+          html = `<div id="recommend" class="element grid-cell cell-${i}">Forgotten Bookmark</div>`;
         }
         if (i == 87 && selector == ".rect-right") {
           html = `<div id="unlabeled" class="element grid-cell cell-${i}">Unlabeled Items</div>`;

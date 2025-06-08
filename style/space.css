@@ -465,7 +465,7 @@ html {
   color: white;
   grid-column: 6/span 3;
   grid-row: 4/5;
-  text-align: left;
+  text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;

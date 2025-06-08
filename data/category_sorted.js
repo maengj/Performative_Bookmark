@@ -3,6 +3,216 @@ var category_sorted = [
     name: "Design",
     items: [
       {
+        id: "56",
+        guid: "c21e1c88-4ce2-4873-b91c-73ec7878815d",
+        name: "[디자인 프로세스] 디자인 방법론은 어떻게 사용하나요? | 요즘IT",
+        url: "https://yozm.wishket.com/magazine/detail/2693/",
+        date_added: "13370589053641693",
+        date_last_used: "0",
+        icons: [],
+        meta: {
+          viewport: "width=device-width, initial-scale=1",
+          "fb:app_id": "593258114025512",
+          "naver-site-verification": "dc8f6187646a72a65dd61bd285076617240199aa",
+          "slack-app-id": "A02085A8T32",
+          description:
+            "디자이너는 디자인 전략을 수립하고, 사용자 경험을 설계하며 비즈니스 기반의 문제 해결을 한다. 멋진 일이지만 책상 위의 실무는 그렇게 매끄럽지 않다. 좋은 프로덕트를 만들기 위해서는 순서와 절차가 필요하다. 멋진 계획이 없어도 결과를 만들 수 있지만, 계획이 있다면 더 많은 결과를 만들 수 있다. 계획을 세워서 얻을 수 있는 절차는 초기 아이디어를 구현하고, 사용자 경험을 성장시키기 위한 UI를 테스트하고, 사용자의 피드백과 목소리를 듣는 모든 과정을 포함한다. 이번 글에서는 디자인 방법론을 어떻게 사용해야 하는지 살펴보고자 한다.",
+          author: "Yozm IT",
+          keywords:
+            "디자인,방법론,디자이너,프로세스,전략,사용자경험,UI,ux,프로덕트,트렌드,피드백,프로젝트,커뮤니케이션,협업,린,애자일,피그마,비즈니스,테스트",
+          "og:keyword":
+            "디자인,방법론,디자이너,프로세스,전략,사용자경험,UI,ux,프로덕트,트렌드,피드백,프로젝트,커뮤니케이션,협업,린,애자일,피그마,비즈니스,테스트",
+          date: "2024-07-29",
+          "format-detection": "telephone=no",
+          "og:title":
+            "[디자인 프로세스] 디자인 방법론은 어떻게 사용하나요? | 요즘IT",
+          "og:description":
+            "디자이너는 디자인 전략을 수립하고, 사용자 경험을 설계하며 비즈니스 기반의 문제 해결을 한다. 멋진 일이지만 책상 위의 실무는 그렇게 매끄럽지 않다. 좋은 프로덕트를 만들기 위해서는 순서와 절차가 필요하다. 멋진 계획이 없어도 결과를 만들 수 있지만, 계획이 있다면 더 많은 결과를 만들 수 있다. 계획을 세워서 얻을 수 있는 절차는 초기 아이디어를 구현하고, 사용자 경험을 성장시키기 위한 UI를 테스트하고, 사용자의 피드백과 목소리를 듣는 모든 과정을 포함한다. 이번 글에서는 디자인 방법론을 어떻게 사용해야 하는지 살펴보고자 한다.",
+          "og:url": "https://yozm.wishket.com/magazine/detail/2693/",
+          "og:site_name": "요즘IT",
+          "og:image": "https://yozm.wishket.com/media/news/2693/3.jfif",
+          "og:image:alt":
+            "[디자인 프로세스] 디자인 방법론은 어떻게 사용하나요? | 요즘IT",
+          "og:type": "website",
+          "twitter:card": "summary_large_image",
+          "twitter:site": "@wishket",
+          "twitter:title":
+            "[디자인 프로세스] 디자인 방법론은 어떻게 사용하나요? | 요즘IT",
+          "twitter:description":
+            "디자이너는 디자인 전략을 수립하고, 사용자 경험을 설계하며 비즈니스 기반의 문제 해결을 한다. 멋진 일이지만 책상 위의 실무는 그렇게 매끄럽지 않다. 좋은 프로덕트를 만들기 위해서는 순서와 절차가 필요하다. 멋진 계획이 없어도 결과를 만들 수 있지만, 계획이 있다면 더 많은 결과를 만들 수 있다. 계획을 세워서 얻을 수 있는 절차는 초기 아이디어를 구현하고, 사용자 경험을 성장시키기 위한 UI를 테스트하고, 사용자의 피드백과 목소리를 듣는 모든 과정을 포함한다. 이번 글에서는 디자인 방법론을 어떻게 사용해야 하는지 살펴보고자 한다.",
+          "twitter:image": "https://yozm.wishket.com/media/news/2693/3.jfif",
+        },
+      },
+      {
+        id: "57",
+        guid: "b9073aad-f297-4cef-aa02-48cabf5465b7",
+        name: "[디자인 프로세스] 성장하는 디자이너란? 디자이너와 프로세스 | 요즘IT",
+        url: "https://yozm.wishket.com/magazine/detail/2654/",
+        date_added: "13370589057250437",
+        date_last_used: "0",
+        icons: [],
+        meta: {
+          viewport: "width=device-width, initial-scale=1",
+          "fb:app_id": "593258114025512",
+          "naver-site-verification": "dc8f6187646a72a65dd61bd285076617240199aa",
+          "slack-app-id": "A02085A8T32",
+          description:
+            "디자이너의 ‘성장’에 대해 자주 듣는다. 그렇다면 ‘성장하는 디자이너’는 어떻게 될 수 있는지에 대해 생각해 보았다. 어느 곳이든 회사는 항상 성장을 요구한다. 동기부여는 회사의 목적 중 하나이고 원하는 것을 빠르게, 효과적으로 얻기 위해 노력하기 때문이다. 그러나 적어도 IT 분야는 열심히 일하는 것만으로는 충분하지 않을 때가 많다. 특히 디자인은 더 그렇다. ",
+          author: "Yozm IT",
+          keywords:
+            "디자인,디자이너,프로세스,성장,제품,전략,비관적,프로젝트,보상,아젠다,경험,측정,브랜드,브랜딩,피드백,목표,사수,유튜브,지표,AB테스트,방법론",
+          "og:keyword":
+            "디자인,디자이너,프로세스,성장,제품,전략,비관적,프로젝트,보상,아젠다,경험,측정,브랜드,브랜딩,피드백,목표,사수,유튜브,지표,AB테스트,방법론",
+          date: "2024-07-02",
+          "format-detection": "telephone=no",
+          "og:title":
+            "[디자인 프로세스] 성장하는 디자이너란? 디자이너와 프로세스 | 요즘IT",
+          "og:description":
+            "디자이너의 ‘성장’에 대해 자주 듣는다. 그렇다면 ‘성장하는 디자이너’는 어떻게 될 수 있는지에 대해 생각해 보았다. 어느 곳이든 회사는 항상 성장을 요구한다. 동기부여는 회사의 목적 중 하나이고 원하는 것을 빠르게, 효과적으로 얻기 위해 노력하기 때문이다. 그러나 적어도 IT 분야는 열심히 일하는 것만으로는 충분하지 않을 때가 많다. 특히 디자인은 더 그렇다. ",
+          "og:url": "https://yozm.wishket.com/magazine/detail/2654/",
+          "og:site_name": "요즘IT",
+          "og:image": "https://yozm.wishket.com/media/news/2654/6.jfif",
+          "og:image:alt":
+            "[디자인 프로세스] 성장하는 디자이너란? 디자이너와 프로세스 | 요즘IT",
+          "og:type": "website",
+          "twitter:card": "summary_large_image",
+          "twitter:site": "@wishket",
+          "twitter:title":
+            "[디자인 프로세스] 성장하는 디자이너란? 디자이너와 프로세스 | 요즘IT",
+          "twitter:description":
+            "디자이너의 ‘성장’에 대해 자주 듣는다. 그렇다면 ‘성장하는 디자이너’는 어떻게 될 수 있는지에 대해 생각해 보았다. 어느 곳이든 회사는 항상 성장을 요구한다. 동기부여는 회사의 목적 중 하나이고 원하는 것을 빠르게, 효과적으로 얻기 위해 노력하기 때문이다. 그러나 적어도 IT 분야는 열심히 일하는 것만으로는 충분하지 않을 때가 많다. 특히 디자인은 더 그렇다. ",
+          "twitter:image": "https://yozm.wishket.com/media/news/2654/6.jfif",
+        },
+      },
+      {
+        id: "58",
+        guid: "fac2f8bf-a5a7-490c-9632-be548874c122",
+        name: "UX를 위한 글쓰기 가이드 | 요즘IT",
+        url: "https://yozm.wishket.com/magazine/detail/1321/",
+        date_added: "13370589060188768",
+        date_last_used: "0",
+        icons: [],
+        meta: {
+          viewport: "width=device-width, initial-scale=1",
+          "fb:app_id": "593258114025512",
+          "naver-site-verification": "dc8f6187646a72a65dd61bd285076617240199aa",
+          "slack-app-id": "A02085A8T32",
+          description:
+            "UX 글쓰기(UX Writing)는 구구절절 설명하는 것이 아닙니다. 사용자가 원하는 대답을 짧고 빠르게 알려주는 것이죠. 지하철 역까지 가는 길을 물었을 때, 험난한 여정과 실수로 다른 길로 빠지면 얼마나 큰 곤경에 빠질지 너무 자세하게 알려주는 것을 원하지는 않을 것입니다. 그저 어느 방향으로 가면 되는지 알려주길 바라겠죠. 서비스를 만들다 보면 사용자와 직접 대화를 하는 것이 아니기 때문에 내가 보여주고 싶은 것을 담거나, 일어날 수 있는 모든 나쁜 상황을 방지하고 싶은 마음에 글이 길어지는 경우가 많습니다.",
+          author: "Yozm IT",
+          keywords: "ux,마이크로카피,디자이너,UX라이팅,PM",
+          "og:keyword": "ux,마이크로카피,디자이너,UX라이팅,PM",
+          date: "2022-02-11",
+          "format-detection": "telephone=no",
+          "og:title": "UX를 위한 글쓰기 가이드 | 요즘IT",
+          "og:description":
+            "UX 글쓰기(UX Writing)는 구구절절 설명하는 것이 아닙니다. 사용자가 원하는 대답을 짧고 빠르게 알려주는 것이죠. 지하철 역까지 가는 길을 물었을 때, 험난한 여정과 실수로 다른 길로 빠지면 얼마나 큰 곤경에 빠질지 너무 자세하게 알려주는 것을 원하지는 않을 것입니다. 그저 어느 방향으로 가면 되는지 알려주길 바라겠죠. 서비스를 만들다 보면 사용자와 직접 대화를 하는 것이 아니기 때문에 내가 보여주고 싶은 것을 담거나, 일어날 수 있는 모든 나쁜 상황을 방지하고 싶은 마음에 글이 길어지는 경우가 많습니다.",
+          "og:url": "https://yozm.wishket.com/magazine/detail/1321/",
+          "og:site_name": "요즘IT",
+          "og:image": "https://yozm.wishket.com/media/news/1321/image009.png",
+          "og:image:alt": "UX를 위한 글쓰기 가이드 | 요즘IT",
+          "og:type": "website",
+          "twitter:card": "summary_large_image",
+          "twitter:site": "@wishket",
+          "twitter:title": "UX를 위한 글쓰기 가이드 | 요즘IT",
+          "twitter:description":
+            "UX 글쓰기(UX Writing)는 구구절절 설명하는 것이 아닙니다. 사용자가 원하는 대답을 짧고 빠르게 알려주는 것이죠. 지하철 역까지 가는 길을 물었을 때, 험난한 여정과 실수로 다른 길로 빠지면 얼마나 큰 곤경에 빠질지 너무 자세하게 알려주는 것을 원하지는 않을 것입니다. 그저 어느 방향으로 가면 되는지 알려주길 바라겠죠. 서비스를 만들다 보면 사용자와 직접 대화를 하는 것이 아니기 때문에 내가 보여주고 싶은 것을 담거나, 일어날 수 있는 모든 나쁜 상황을 방지하고 싶은 마음에 글이 길어지는 경우가 많습니다.",
+          "twitter:image":
+            "https://yozm.wishket.com/media/news/1321/image009.png",
+        },
+      },
+      {
+        id: "260",
+        guid: "e94afe3e-1665-43ea-abe3-50a5d9c4cade",
+        name: "Data Archive – Visual Communication ZHdK",
+        url: "https://visualcommunication.zhdk.ch/projekte/data-archive/",
+        date_added: "13362152453369759",
+        date_last_used: "13363065456804736",
+        icons: [],
+        meta: {
+          viewport: "width=device-width, initial-scale=1",
+          "og:site_name": "Visual Communication",
+          "og:title": "Data Archive",
+          "og:type": "article",
+          "og:url":
+            "https://visualcommunication.zhdk.ch/projekte/data-archive/",
+          "og:description": "",
+          "og:image":
+            "https://visualcommunication.zhdk.ch/site/assets/files/5238/zhdk-vvk-nsaprgxo.800x0.jpg",
+          "og:image:type": "image/jpeg",
+          "og:image:width": "800",
+          "og:image:height": "600",
+          "article:author": "https://visualcommunication.zhdk.ch/",
+          "article:publisher": "https://visualcommunication.zhdk.ch/",
+          "fb:app_id": "966242223397117",
+        },
+      },
+      {
+        id: "245",
+        guid: "d50cacf4-cc2c-4005-a717-5bdc24923abc",
+        name: "UNVEIL®",
+        url: "https://unveil.fr/",
+        date_added: "13360813999218464",
+        date_last_used: "0",
+        icons: [
+          "https://unveil.fr/icons/favicon.png",
+          "https://www.datocms-assets.com/127841/1714642321-unveil_favicon_512x512.png?auto=format&h=16&w=16",
+          "https://www.datocms-assets.com/127841/1714642321-unveil_favicon_512x512.png?auto=format&h=32&w=32",
+          "https://www.datocms-assets.com/127841/1714642321-unveil_favicon_512x512.png?auto=format&h=96&w=96",
+          "https://www.datocms-assets.com/127841/1714642321-unveil_favicon_512x512.png?auto=format&h=192&w=192",
+        ],
+        meta: {
+          viewport: "width=device-width, initial-scale=1",
+          "og:title": "Home",
+          "twitter:title": "Home",
+          description:
+            "UNVEIL is a creative studio using technology to expand human creativity.",
+          "og:description":
+            "UNVEIL is a creative studio using technology to expand human creativity.",
+          "twitter:description":
+            "UNVEIL is a creative studio using technology to expand human creativity.",
+          "og:image":
+            "https://www.datocms-assets.com/127841/1715790294-unveil_seo_2.jpg?auto=format&fit=max&w=1200",
+          "og:image:width": "1200",
+          "og:image:height": "630",
+          "twitter:image":
+            "https://www.datocms-assets.com/127841/1715790294-unveil_seo_2.jpg?auto=format&fit=max&w=1200",
+          "og:locale": "en",
+          "og:type": "website",
+          "og:site_name": "UNVEIL®",
+          "article:modified_time": "2025-03-22T19:29:52Z",
+          "article:publisher": "",
+          "twitter:card": "summary_large_image",
+          "twitter:site": "@https://twitter.com/uvlstudios",
+          "google-site-verification":
+            "BnVNMj2bduY3Ro2N46t_VpXG64vDZvPkE_vNjnWIcjk",
+        },
+      },
+      {
+        id: "165",
+        guid: "9bbba24f-ab14-46a1-abeb-f38bb2165e7d",
+        name: "세상의 디자인을 만나다, 디자인DB",
+        url: "https://www.designdb.com/?menuno=668#gsc.tab=0",
+        date_added: "0",
+        date_last_used: "0",
+        icons: [
+          "https://www.designdb.com/images/designdb.ico",
+          "https://www.designdb.com/images/designdb.ico",
+        ],
+        meta: {
+          "og:type": "article",
+          "og:title": "디자인DB_실시간_삭제금지 > 디자인DB",
+          "og:image":
+            "http://www.designdb.com/images/new_db/contents/designdb_new_logo.jpg",
+          "og:description": "세상의 디자인을 만나다, 디자인DB",
+          "google-site-verification":
+            "hwUnWG3g30pTkzq6TVMsge8KTIxeULKdymZ0_irjbBg",
+          "naver-site-verification": "78a9287dacecf4a4a8de8f91843ab799b218e389",
+          description:
+            "연간 100만 명 이상  방문,  총 콘텐츠 수 36만 건의 국내 최대 디자인정보 포털사이트.  실시간 업데이트 되는 디자인 및 산업 전반 트렌드와 이슈, 글로벌 시장변화, 소비자동향 등 디자이너를 위한  모든 정보를 제공합니다.",
+        },
+      },
+      {
         id: "240",
         guid: "497b9b48-2ed5-444a-a3dc-16db08f31ed6",
         name: "The Evolving Catalog | American Libraries Magazine",
@@ -359,40 +569,7 @@ var category_sorted = [
           "og:image": "./screenshots-flat/Variable Fonts.png",
         },
       },
-      {
-        id: "453",
-        guid: "45f608fa-a837-4737-a824-a4c079af60c9",
-        name: "Dinamo Font Gauntlet",
-        url: "https://fontgauntlet.com/",
-        date_added: "13327651899593679",
-        date_last_used: "0",
-        icons: [
-          "https://fontgauntlet.com/img/icons/favicon.svg",
-          "https://fontgauntlet.com/img/icons/favicon-32x32.png",
-          "https://fontgauntlet.com/img/icons/favicon-16x16.png",
-        ],
-        meta: {
-          viewport:
-            "width=device-width,user-scalable=no,initial-scale=1,minimum-scale=1,maximum-scale=1",
-          HandheldFriendly: "True",
-          "apple-mobile-web-app-capable": "no",
-          "format-detection": "telephone=no",
-          description:
-            "The Dinamo Font Gauntlet is a tool for proofing, generating and animating fonts.",
-          "og:title": "Dinamo Font Gauntlet",
-          "og:description":
-            "The Dinamo Font Gauntlet is a tool for proofing, generating and animating fonts.",
-          "og:image": "/static/images/icon.ico",
-          "og:site_name": "Dinamo Font Gauntlet",
-          "theme-color": "#dbdbdb",
-          "apple-mobile-web-app-status-bar-style": "default",
-          "apple-mobile-web-app-title": "Dinamo Font Gauntlet",
-          "msapplication-TileImage":
-            "/img/icons/msapplication-icon-144x144.png",
-          "msapplication-TileColor": "#000000",
-          "og:type": "website",
-        },
-      },
+
       {
         id: "454",
         guid: "a8550f98-c301-46f9-a38c-2c6370dacb91",
@@ -408,34 +585,7 @@ var category_sorted = [
           "og:image": "./screenshots-flat/Free Font Library.png",
         },
       },
-      {
-        id: "456",
-        guid: "e1591462-0a60-4356-8a3e-8863674761d1",
-        name: "Open Foundry / Fonts / Bagnard Sans Regular",
-        url: "https://open-foundry.com/fonts/bagnard_sans_regular",
-        date_added: "13327652351799533",
-        date_last_used: "0",
-        icons: [],
-        meta: {
-          description:
-            "Bagnard Sans Regular was originally created by Sebastien Sanfilippo called 'Bagnard' and is a modification without serifs.",
-          viewport: "width=device-width, initial-scale=1",
-          "og:url": "http://open-foundry.com/fonts/bagnard_sans_regular",
-          "og:title": "Bagnard Sans Regular",
-          "og:image":
-            "http://open-foundry.com/data/specimens/specimen-bagnard_sans_regular-preview.jpg",
-          "og:description":
-            "Bagnard Sans Regular was originally created by Sebastien Sanfilippo called 'Bagnard' and is a modification without serifs.",
-          "og:type": "article",
-          "twitter:card": "Bagnard Sans Regular",
-          "twitter:title": "Bagnard Sans Regular",
-          "twitter:site": "http://open-foundry.com/fonts/bagnard_sans_regular",
-          "twitter:description":
-            "Bagnard Sans Regular was originally created by Sebastien Sanfilippo called 'Bagnard' and is a modification without serifs.",
-          "twitter:image":
-            "http://open-foundry.com/data/specimens/specimen-bagnard_sans_regular-preview.jpg",
-        },
-      },
+
       {
         id: "457",
         guid: "e7f82034-ebbe-48fb-ae73-1cc152e396e1",
@@ -612,78 +762,7 @@ var category_sorted = [
             "https://assets.elements.envato.com/apps/storefront/og-default-724bad6c9010550aa8e3.jpg",
         },
       },
-      {
-        id: "83",
-        guid: "dd8f835f-0b5a-4ff5-ac1e-6f00c1ec7128",
-        name: "국내 CMF 전문기업들을 소개합니다 (Part.. : 네이버블로그",
-        url: "https://blog.naver.com/global_kidp/221361439360",
-        date_added: "13372231497780182",
-        date_last_used: "0",
-        icons: [],
-        meta: {},
-      },
-      {
-        id: "84",
-        guid: "ea605e0a-f05c-444d-9645-531454d4a76d",
-        name: "Dkworks CMF 아카이브",
-        url: "https://dkworks.designdb.com/web/board/moodList.do",
-        date_added: "13372237102664493",
-        date_last_used: "0",
-        icons: ["https://dkworks.designdb.com/_img/web/resp/favicon.png"],
-        meta: {
-          viewport: "width=device-width,initial-scale=1,maximum-scale=1",
-          description:
-            "CMF HOW'S는 디자인주도 제조혁신을 위한 CMF(Color, Material, Finishing) 아카이브 입니다. 소재에서부터 성형, 가공, 표면처리까지 다양한 전문기업의 정보, 샘플등을 만나보실 수 있습니다.",
-          keywords:
-            "CMF디자인,친환경소재,디자인소재,디자인재질,키샷,한국디자인진흥원,제조혁신,표면처리,material design,finishing,CMF적용사례,CMF기업,한국디자인진흥원,KIDP,Dkworks,CMF HOW'S, CMF쇼룸",
-          "og:url": "https://cmf.designdb.com/",
-          "og:title": "CMF HOW'S",
-          "og:type": "website",
-          "og:image": "/_img/web/resp/ogimage.jpg",
-          "og:description":
-            "CMF HOW'S는 디자인주도 제조혁신을 위한 CMF(Color, Material, Finishing) 아카이브 입니다. 소재에서부터 성형, 가공, 표면처리까지 다양한 전문기업의 정보, 샘플등을 만나보실 수 있습니다.",
-          "format-detection": "telephone=no",
-        },
-      },
-      {
-        id: "571",
-        guid: "e9575dea-278b-4cb0-bb5f-a3ac062cff3b",
-        name: "CMF HOW'S",
-        url: "https://dkworks.designdb.com/web/company/companyList.do",
-        date_added: "13380969158394714",
-        date_last_used: "0",
-        icons: ["https://dkworks.designdb.com/_img/web/resp/favicon.png"],
-        meta: {
-          viewport: "width=device-width,initial-scale=1,maximum-scale=1",
-          description:
-            "CMF HOW'S는 디자인주도 제조혁신을 위한 CMF(Color, Material, Finishing) 아카이브 입니다. 소재에서부터 성형, 가공, 표면처리까지 다양한 전문기업의 정보, 샘플등을 만나보실 수 있습니다.",
-          keywords:
-            "CMF디자인,친환경소재,디자인소재,디자인재질,키샷,한국디자인진흥원,제조혁신,표면처리,material design,finishing,CMF적용사례,CMF기업,한국디자인진흥원,KIDP,Dkworks,CMF HOW'S, CMF쇼룸",
-          "og:url": "https://cmf.designdb.com/",
-          "og:title": "CMF HOW'S",
-          "og:type": "website",
-          "og:image": "/_img/web/resp/ogimage.jpg",
-          "og:description":
-            "CMF HOW'S는 디자인주도 제조혁신을 위한 CMF(Color, Material, Finishing) 아카이브 입니다. 소재에서부터 성형, 가공, 표면처리까지 다양한 전문기업의 정보, 샘플등을 만나보실 수 있습니다.",
-          "format-detection": "telephone=no",
-        },
-      },
-      {
-        id: "343",
-        guid: "b128d235-148f-429f-a09e-70a1ba658b3e",
-        name: "Dezeen | architecture and design magazine",
-        url: "https://www.dezeen.com/",
-        date_added: "0",
-        date_last_used: "13348217218667355",
-        icons: [],
-        meta: {
-          robots: "noindex,nofollow",
-          viewport: "width=device-width,initial-scale=1",
-          "og:type": "website",
-          "og:image":
-            "./screenshots-flat/Dezeen _ architecture and design magazine.png",
-        },
-      },
+
       {
         id: "351",
         guid: "cfb1e22a-746c-479f-81b0-348076ce60a9",
@@ -713,22 +792,7 @@ var category_sorted = [
             "./screenshots-flat/Constant Dullaart Archives - FAD Magazine.png",
         },
       },
-      {
-        id: "358",
-        guid: "d85b310d-f947-48e2-9fec-b150ab47d52e",
-        name: "Dezeen | architecture and design magazine",
-        url: "https://www.dezeen.com/",
-        date_added: "0",
-        date_last_used: "13333041502959300",
-        icons: [],
-        meta: {
-          robots: "noindex,nofollow",
-          viewport: "width=device-width,initial-scale=1",
-          "og:type": "website",
-          "og:image":
-            "./screenshots-flat/Dezeen _ architecture and design magazine.png",
-        },
-      },
+
       {
         id: "361",
         guid: "df045dbf-3796-41d6-949f-1abea3259888",
@@ -767,29 +831,7 @@ var category_sorted = [
             "./screenshots-flat/Interni Magazine_ dal 1954 la voce del design italiano nel mondo.png",
         },
       },
-      {
-        id: "570",
-        guid: "bf455c11-71b0-4e86-9391-b6659b40e784",
-        name: "CMF HOW'S",
-        url: "https://dkworks.designdb.com/",
-        date_added: "13380966453179021",
-        date_last_used: "0",
-        icons: ["https://dkworks.designdb.com/_img/web/resp/favicon.png"],
-        meta: {
-          viewport: "width=device-width,initial-scale=1,maximum-scale=1",
-          description:
-            "CMF HOW'S는 디자인주도 제조혁신을 위한 CMF(Color, Material, Finishing) 아카이브 입니다. 소재에서부터 성형, 가공, 표면처리까지 다양한 전문기업의 정보, 샘플등을 만나보실 수 있습니다.",
-          keywords:
-            "CMF디자인,친환경소재,디자인소재,디자인재질,키샷,한국디자인진흥원,제조혁신,표면처리,material design,finishing,CMF적용사례,CMF기업,한국디자인진흥원,KIDP,Dkworks,CMF HOW'S, CMF쇼룸",
-          "og:url": "https://cmf.designdb.com/",
-          "og:title": "CMF HOW'S",
-          "og:type": "website",
-          "og:image": "/_img/web/resp/ogimage.jpg",
-          "og:description":
-            "CMF HOW'S는 디자인주도 제조혁신을 위한 CMF(Color, Material, Finishing) 아카이브 입니다. 소재에서부터 성형, 가공, 표면처리까지 다양한 전문기업의 정보, 샘플등을 만나보실 수 있습니다.",
-          "format-detection": "telephone=no",
-        },
-      },
+
       {
         id: "396",
         guid: "832fdb26-efd8-4f47-b4c4-9f3eba638a93",
@@ -839,6 +881,59 @@ var category_sorted = [
   {
     name: "Academic",
     items: [
+      {
+        id: "483",
+        guid: "63bbfcf6-ec6d-4d44-8aa3-1f1ca771587f",
+        name: "[대학원] 학위논문 IRB (생명윤리위원회) 심의안내 (석사.박사 필독) - SNU ArchitectureSNU Architecture",
+        url: "https://architecture.snu.ac.kr/activities/irb_graduation/",
+        date_added: "13373473196850350",
+        date_last_used: "0",
+        icons: [],
+        meta: {
+          viewport: "width=device-width, initial-scale=1.0",
+          "og:type": "website",
+          "og:image":
+            "./screenshots-flat/[대학원] 학위논문 IRB (생명윤리위원회) 심의안내 (석사.박사 필독) - SNU ArchitectureSNU Architecture.png",
+        },
+      },
+      {
+        id: "200",
+        guid: "291760e4-9f66-402b-bf56-3443e9afda28",
+        name: "한국디자인학회",
+        url: "https://design-science.or.kr/",
+        date_added: "13358943702895603",
+        date_last_used: "0",
+        icons: [
+          "https://design-science.or.kr/media?key=designScience/homepage/favicon/436703d0-3538-46a6-9026-86d2e5863729.ico",
+          "https://design-science.or.kr/media?key=designScience/homepage/favicon/436703d0-3538-46a6-9026-86d2e5863729.ico",
+          "https://design-science.or.kr/media?key=designScience/homepage/favicon/436703d0-3538-46a6-9026-86d2e5863729.ico",
+          "https://design-science.or.kr/media?key=designScience/homepage/favicon/436703d0-3538-46a6-9026-86d2e5863729.ico",
+        ],
+        meta: {
+          _csrf_parameter: "_csrf",
+          _csrf_header: "X-CSRF-TOKEN",
+          _csrf: "9ab5b86f-385e-4ae0-a571-713abe2ded32",
+          "format-detection": "telephone=no",
+          viewport:
+            "width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no",
+          "google-site-verification":
+            "Tsd5qfPWh_7yYr7tNLz52BxAwBqQebhJPN2bEJKV1Eg",
+          robots: "index,follow",
+          title: "한국디자인학회",
+          keywords: "한국디자인학회",
+          description: "한국디자인학회",
+          publisher: "한국디자인학회",
+          copyright: "한국디자인학회",
+          "og:title": "한국디자인학회",
+          "og:url": "",
+          "og:description": "한국디자인학회",
+          "msapplication-TileColor": "#ffffff",
+          "msapplication-TileImage":
+            "https://design-science.or.kr/media?key=designScience/homepage/favicon/436703d0-3538-46a6-9026-86d2e5863729.ico",
+          "og:type": "website",
+          "og:image": "./screenshots-flat/한국디자인학회.png",
+        },
+      },
       {
         id: "589",
         guid: "1ccd0168-bc43-4d38-af92-1403818f3006",
@@ -1046,20 +1141,7 @@ var category_sorted = [
             "./screenshots-flat/종류별 글쓰기 - 논문 쓰기 - 서울대학교 온라인 글쓰기교실.png",
         },
       },
-      {
-        id: "171",
-        guid: "a0223f9e-969b-4600-86c5-c5e21a4d5665",
-        name: "학회 & 기관 - 디자인학 학술정보 가이드 - LibGuides at SungkyunKwan University",
-        url: "https://skku.libguides.com/c.php?g=845692&p=6045978",
-        date_added: "13343722391401661",
-        date_last_used: "13343722646556133",
-        icons: [],
-        meta: {
-          "og:type": "website",
-          "og:image":
-            "./screenshots-flat/학회 & 기관 - 디자인학 학술정보 가이드 - LibGuides at SungkyunKwan University.png",
-        },
-      },
+
       {
         id: "174",
         guid: "cc4cf882-54ae-4187-930e-3d52b2090a3e",
@@ -1219,16 +1301,7 @@ var category_sorted = [
             "gdid=90000003_0000000000000033645219A7,service=blog,collection=blog",
         },
       },
-      {
-        id: "199",
-        guid: "1d4fc4dc-9d98-4586-a1f0-6991f208c808",
-        name: "SNU Open Repository and Archive: Journal Papers (저널논문_디자인학부)",
-        url: "https://s-space.snu.ac.kr/handle/10371/234",
-        date_added: "13358854197865999",
-        date_last_used: "0",
-        icons: [],
-        meta: {},
-      },
+
       {
         id: "200",
         guid: "291760e4-9f66-402b-bf56-3443e9afda28",
@@ -1267,67 +1340,7 @@ var category_sorted = [
           "og:image": "./screenshots-flat/한국디자인학회.png",
         },
       },
-      {
-        id: "212",
-        guid: "8fc7afb2-1363-4bab-8bc0-0be27e7d9f1c",
-        name: "도서분류법(圖書分類法) - 한국민족문화대백과사전",
-        url: "https://encykorea.aks.ac.kr/Article/E0015702",
-        date_added: "13359046602840492",
-        date_last_used: "0",
-        icons: [
-          "https://encykorea.aks.ac.kr/favicon.ico",
-          "https://encykorea.aks.ac.kr/favicon.ico",
-        ],
-        meta: {
-          viewport: "width=device-width,initial-scale=1,shrink-to-fit=no",
-          "format-detection": "telephone=no",
-          "theme-color": "#2a77d6",
-          description: "책의 효율적 이용을 돕기 위한 분류법.",
-          "og:type": "website",
-          "og:title": "도서분류법(圖書分類法)",
-          "og:description": "한국민족문화대백과사전",
-          "og:image":
-            "https://encykorea.aks.ac.kr/Assets/images/common/main_logo_og.png",
-          "twitter:card": "summary_large_image",
-          "twitter:creator": "한국학중앙연구원",
-          "twitter:title": "도서분류법(圖書分類法)",
-          "twitter:description": "한국민족문화대백과사전",
-          "twitter:image":
-            "https://encykorea.aks.ac.kr/Assets/images/common/sub_main_logo.png",
-        },
-      },
-      {
-        id: "227",
-        guid: "a4e1c375-ef03-4cb3-8f49-65781a70a165",
-        name: "레포트 출처 표기 / 참고문헌 표기 방법 (단행본, 학위논문, 학술지, 정기간행물, 신문기사등) : 네이버 블로그",
-        url: "https://m.blog.naver.com/nahye24/221922335155",
-        date_added: "13359802368806147",
-        date_last_used: "0",
-        icons: ["https://m.blog.naver.com/blog_192x192.png"],
-        meta: {
-          viewport:
-            "width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover",
-          robots: "index,follow",
-          "og:title":
-            "레포트 출처 표기 / 참고문헌 표기 방법 (단행본, 학위논문, 학술지, 정기간행물, 신문기사등)",
-          "og:image":
-            "https://blogthumb.pstatic.net/MjAyMDA0MjJfMTYw/MDAxNTg3NDgxNTMwODIw.V2RPR7UXYtvlobObYvrslWQ8TX8l_418QbrhkNZwKm0g.B_Bipz9O4yY_6y0wGGY8cOOeA_fXwl-_tjVM5NpJ5kkg.JPEG.nahye24/IMG_1808.JPG?type=w2",
-          "og:description":
-            "레포트를 작성하다보면 다양한 자료를 참고하게 되는데 전문성을 갖춘 참고문헌이 많고 다양할수록 신뢰와 ...",
-          "og:url": "https://blog.naver.com/nahye24/221922335155",
-          "me:feed:serviceId": "blog",
-          referrer: "always",
-          "og:type": "article",
-          "og:article:author": "나애리 세.. | 블로그",
-          "og:site_name": "네이버 블로그 | 나애리 세상",
-          "naverblog:nickname": "나애리",
-          "naverblog:profile_image":
-            "https://blogpfthumb-phinf.pstatic.net/MjAyMDAzMTZfNTIg/MDAxNTg0MzI2NTIzNjAz.Xh-1VoQZdqyjnRLHgUWfFF6waWShSQTjtbatAezTJdIg.k9L5I2d_hw5gwaTfYD2aGKsMWOz7_v8Fxht9wV1SjnUg.PNG.nahye24/profileImage.png?type=s1",
-          "format-detection": "telephone=no",
-          "napp-site-analysis":
-            "gdid=90000003_0000000000000033AB9A19B3,service=blog,collection=blog",
-        },
-      },
+
       {
         id: "268",
         guid: "374cfff1-cbd3-4a6a-aa4c-1fcb5b4f7bbd",
@@ -1389,49 +1402,7 @@ var category_sorted = [
             "./screenshots-flat/[대학원] 학위논문 IRB (생명윤리위원회) 심의안내 (석사.박사 필독) - SNU ArchitectureSNU Architecture.png",
         },
       },
-      {
-        id: "500",
-        guid: "ac41a9fb-1df5-4c57-972a-bf9c067f2d00",
-        name: "춤웹진",
-        url: "http://koreadance.kr/board/board_view.php?view_id=52&board_name=research",
-        date_added: "13374070474995828",
-        date_last_used: "0",
-        icons: [],
-        meta: {},
-      },
-      {
-        id: "121",
-        guid: "0e4f61ea-76eb-4b5a-a10d-ac1f0a2e1d9d",
-        name: "Just Enough Research, A Book Apart",
-        url: "https://abookapart.com/products/just-enough-research",
-        date_added: "13326973714828404",
-        date_last_used: "0",
-        icons: [
-          "https://abookapart.com/cdn/shop/t/4/assets/favicon%EF%B9%96v=90145869007515973581537450570.ico",
-          "https://abookapart.com/cdn/shop/t/4/assets/android-chrome-192x192%EF%B9%96v=119341456129549094591537450560.png",
-        ],
-        meta: {
-          viewport: "width=device-width, initial-scale=1",
-          "google-site-verification":
-            "9ex0_Z0xQO5TbWWWG_YdS_AOVUveCyat58PnkSv7E3o",
-          description:
-            "Start doing good research faster than you can plan your next pitch.",
-          "twitter:card": "summary_large_image",
-          "twitter:site": "@abookapart",
-          "twitter:title": "Just Enough Research by Erika Hall",
-          "twitter:description":
-            "Start doing good research faster than you can plan your next pitch.",
-          "twitter:image":
-            "http://abookapart.com/cdn/shop/products/aba-000009-2-pp-stackmd_f82732f7-d661-4a30-b78d-11606ca3c496_large.jpg",
-          "og:title": "Just Enough Research by Erika Hall",
-          "og:description":
-            "Start doing good research faster than you can plan your next pitch.",
-          "og:site_name": "A Book Apart",
-          "og:image":
-            "http://abookapart.com/cdn/shop/products/aba-000009-2-pp-stackmd_f82732f7-d661-4a30-b78d-11606ca3c496_large.jpg",
-          "og:type": "website",
-        },
-      },
+
       {
         id: "122",
         guid: "39f46a1d-6094-4618-bc87-8f569598f443",
@@ -1604,22 +1575,7 @@ var category_sorted = [
             "./screenshots-flat/Fashion History Timeline _ A hub for fashion research.png",
         },
       },
-      {
-        id: "451",
-        guid: "ce1768f1-b773-47d0-a37a-7ddf4e9b43e0",
-        name: "⚧ LIBRE FONTS BY WOMXN",
-        url: "https://www.design-research.be/by-womxn/",
-        date_added: "13327651868554308",
-        date_last_used: "0",
-        icons: ["https://www.design-research.be/by-womxn/"],
-        meta: {
-          viewport: "width=device-width, initial-scale=1",
-          "og:image": "by-women-screenshot.png",
-          "og:description":
-            "This collection aims at giving visibility to libre fonts drawn by womxn designers, who are often underrepresented in the traditionally conservative field of typography.  These fonts are shared under Free, Libre and Open Source licenses, which allow anyone to use them, modify their design, contribute more glyphs or styles to their non-nuclear families, build upon them and redistribute them further.",
-          "og:type": "website",
-        },
-      },
+
       {
         id: "90",
         guid: "595ab7b6-409b-4659-9339-afeeb78ff36f",
@@ -1719,36 +1675,7 @@ var category_sorted = [
           "format-detection": "telephone=no",
         },
       },
-      {
-        id: "600",
-        guid: "b3b33807-3973-484e-ab7d-1bf240448668",
-        name: "명지대학교",
-        url: "https://ucheck.mju.ac.kr/",
-        date_added: "13385567969361258",
-        date_last_used: "13392390615360312",
-        icons: [],
-        meta: {
-          viewport:
-            "width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0",
-          "og:type": "website",
-          "og:image": "./screenshots-flat/명지대학교.png",
-        },
-      },
-      {
-        id: "597",
-        guid: "ec71ae23-1c75-4e34-881f-f4e22d7b0ae0",
-        name: "명지대학교 통합로그인",
-        url: "https://sso1.mju.ac.kr/login.do?redirect_uri=https://myiweb.mju.ac.kr/index_Myiweb.jsp",
-        date_added: "13384956815064036",
-        date_last_used: "13389354747446842",
-        icons: [],
-        meta: {
-          viewport:
-            "width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0",
-          "og:type": "website",
-          "og:image": "./screenshots-flat/명지대학교 통합로그인.png",
-        },
-      },
+
       {
         id: "696",
         guid: "ed9ae4d9-a989-4b34-8830-29b2546b2778",
@@ -1830,62 +1757,242 @@ var category_sorted = [
     name: "Development",
     items: [
       {
-        id: "173",
-        guid: "cdcb38f7-c26b-47d7-b049-0229cce00804",
-        name: "ACM Digital Library",
-        url: "https://dl.acm.org/",
-        date_added: "13346145770101421",
+        id: "138",
+        guid: "65ec4972-8cf9-467c-a7f4-4ba4daadbc69",
+        name: "Using CSS transitions - CSS: Cascading Style Sheets | MDN",
+        url: "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions",
+        date_added: "13327074074733142",
         date_last_used: "0",
-        icons: [],
+        icons: [
+          "https://developer.mozilla.org/favicon.ico",
+          "https://developer.mozilla.org/favicon.svg",
+        ],
         meta: {
-          robots: "noindex,nofollow",
           viewport: "width=device-width,initial-scale=1",
+          "theme-color": "rgba(0, 0, 0, 0)",
+          description:
+            "CSS transitions provide a way to control animation speed when changing CSS properties. Instead of having property changes take effect immediately, you can cause the changes in a property to take place over a period of time. For example, if you change the color of an element from white to black, usually the change is instantaneous. With CSS transitions enabled, changes occur at time intervals that follow an acceleration curve, all of which can be customized.",
+          "og:url":
+            "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_transitions/Using_CSS_transitions",
+          "og:title":
+            "Using CSS transitions - CSS: Cascading Style Sheets | MDN",
           "og:type": "website",
-          "og:image": "./screenshots-flat/ACM Digital Library.png",
+          "og:locale": "en_US",
+          "og:description":
+            "CSS transitions provide a way to control animation speed when changing CSS properties. Instead of having property changes take effect immediately, you can cause the changes in a property to take place over a period of time. For example, if you change the color of an element from white to black, usually the change is instantaneous. With CSS transitions enabled, changes occur at time intervals that follow an acceleration curve, all of which can be customized.",
+          "og:image":
+            "https://developer.mozilla.org/mdn-social-share.d893525a4fb5fb1f67a2.png",
+          "og:image:type": "image/png",
+          "og:image:height": "1080",
+          "og:image:width": "1920",
+          "og:image:alt":
+            "The MDN Web Docs logo, featuring a blue accent color, displayed on a solid black background.",
+          "og:site_name": "MDN Web Docs",
+          "twitter:card": "summary_large_image",
+          "twitter:creator": "MozDevNet",
+          position: "4",
         },
       },
       {
-        id: "187",
-        guid: "7d0d5294-f04b-459e-bfc7-da4db7571fdd",
-        name: "British Library website updates | The British Library",
-        url: "https://www.bl.uk/",
-        date_added: "13356529462455157",
+        id: "139",
+        guid: "8178a528-18b4-4615-9534-c610e99d9a8e",
+        name: "Keyframe Animation Syntax | CSS-Tricks - CSS-Tricks",
+        url: "https://css-tricks.com/snippets/css/keyframe-animation-syntax/",
+        date_added: "13327074078816266",
+        date_last_used: "0",
+        icons: [
+          "https://css-tricks.com/favicon.ico",
+          "https://css-tricks.com/favicon.svg",
+          "https://i0.wp.com/css-tricks.com/wp-content/uploads/2021/07/star.png?fit=32%2C32&ssl=1",
+          "https://i0.wp.com/css-tricks.com/wp-content/uploads/2021/07/star.png?fit=180%2C180&ssl=1",
+        ],
+        meta: {
+          viewport: "width=device-width",
+          "theme-color": "#ff7a18",
+          description:
+            'You can use any number of "stops" in the @keyframe animation, and it\'s one of the main strengths of keyframe animations. While CSS transition is only from one',
+          robots:
+            "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+          "og:locale": "en_US",
+          "og:type": "article",
+          "og:title": "Keyframe Animation Syntax | CSS-Tricks",
+          "og:description":
+            'You can use any number of "stops" in the @keyframe animation, and it\'s one of the main strengths of keyframe animations. While CSS transition is only from one',
+          "og:url":
+            "https://css-tricks.com/snippets/css/keyframe-animation-syntax/",
+          "og:site_name": "CSS-Tricks",
+          "article:publisher": "https://www.facebook.com/CSSTricks",
+          "og:updated_time": "2021-11-10T16:01:30-07:00",
+          "og:image":
+            "https://i0.wp.com/css-tricks.com/wp-content/uploads/2021/12/default-social-css-tricks.png",
+          "og:image:secure_url":
+            "https://i0.wp.com/css-tricks.com/wp-content/uploads/2021/12/default-social-css-tricks.png",
+          "og:image:width": "1200",
+          "og:image:height": "628",
+          "og:image:alt": "Keyframe Animation Syntax",
+          "og:image:type": "image/png",
+          "article:published_time": "2011-10-03T15:43:28-06:00",
+          "article:modified_time": "2021-11-10T16:01:30-07:00",
+          "twitter:card": "summary_large_image",
+          "twitter:title": "Keyframe Animation Syntax | CSS-Tricks",
+          "twitter:description":
+            'You can use any number of "stops" in the @keyframe animation, and it\'s one of the main strengths of keyframe animations. While CSS transition is only from one',
+          "twitter:site": "@CSS",
+          "twitter:creator": "@chriscoyier",
+          "twitter:image":
+            "https://i0.wp.com/css-tricks.com/wp-content/uploads/2021/12/default-social-css-tricks.png",
+          "msapplication-TileImage":
+            "https://i0.wp.com/css-tricks.com/wp-content/uploads/2021/07/star.png?fit=180%2C180&ssl=1",
+          position: "3",
+          url: "https://css-tricks.com/snippets/css/keyframe-animation-syntax/",
+        },
+      },
+      {
+        id: "126",
+        guid: "abceae68-f078-452d-bddc-1c68904716b5",
+        name: "Chrome DevTools - Chrome Developers",
+        url: "https://developer.chrome.com/docs/devtools/",
+        date_added: "13327051784736626",
+        date_last_used: "0",
+        icons: [
+          "https://www.gstatic.com/devrel-devsite/prod/v6dc4611c4232bd02b2b914c4948f523846f90835f230654af18f87f75fe9f73c/chrome/images/favicon.png",
+        ],
+        meta: {
+          "google-signin-client-id":
+            "157101835696-ooapojlodmuabs2do2vuhhnf90bccmoi.apps.googleusercontent.com",
+          "google-signin-scope":
+            "profile email https://www.googleapis.com/auth/developerprofiles https://www.googleapis.com/auth/developerprofiles.award",
+          "og:site_name": "Chrome for Developers",
+          "og:type": "website",
+          "theme-color": "#1a73e8",
+          viewport: "width=device-width, initial-scale=1",
+          "og:title": "Chrome DevTools  |  Chrome for Developers",
+          description:
+            "Chrome DevTools로 웹 애플리케이션을 디버그하고 최적화하세요.",
+          "og:description":
+            "Chrome DevTools로 웹 애플리케이션을 디버그하고 최적화하세요.",
+          "og:url": "https://developer.chrome.com/docs/devtools?hl=ko",
+          "og:locale": "ko",
+          "og:image":
+            "./screenshots-flat/Chrome DevTools - Chrome Developers.png",
+        },
+      },
+      {
+        id: "114",
+        guid: "f871be34-9b30-4b1a-8041-b5292627df5c",
+        name: "Hugging Face – Pricing",
+        url: "https://huggingface.co/pricing",
+        date_added: "13325585619455914",
         date_last_used: "0",
         icons: [],
         meta: {
-          robots: "index,follow",
-          description: "We are the national library of the UK",
-          "og:title": "The British Library:  The National Library of the UK",
-          "og:description":
-            "Visit the national library of the UK. Explore our buildings, study, meet friends, attend an event and get FREE access to over 170 million items. Join us.",
+          viewport: "width=device-width, initial-scale=1.0, user-scalable=no",
+          description: "The simplest way to access compute for AI",
+          "fb:app_id": "1321688464574422",
+          "twitter:card": "summary_large_image",
+          "twitter:site": "@huggingface",
+          "twitter:image":
+            "https://huggingface.co/front/thumbnails/pricing.png",
+          "og:title": "Hugging Face – Pricing",
           "og:type": "website",
-          "og:image": "/more/more-meta-min.jpg",
-          "og:image:alt":
-            "The British Library:  The National Library of the UK",
-          "og:image:width": "1200",
-          "og:image:height": "630",
-          "og:site_name": "The British Library",
-          viewport: "width=device-width, initial-scale=1",
-          "twitter:title":
-            "The British Library:  The National Library of the UK",
-          "twitter:description":
-            "Visit the national library of the UK. Explore our buildings, study, meet friends, attend an event and get FREE access to over 170 million items. Join us.",
-          "twitter:image": "/home/home-meta-min.jpg",
-          "og:url": "https://www.bl.uk/",
-          keywords: "null",
-          "next-head-count": "25",
-          "application-name": "British Library",
-          "apple-mobile-web-app-capable": "yes",
-          "apple-mobile-web-app-status-bar-style": "default",
-          "apple-mobile-web-app-title": "British Library",
-          "format-detection": "telephone=no",
-          "mobile-web-app-capable": "yes",
-          "msapplication-config": "/icons/browserconfig.xml",
-          "msapplication-TileColor": "#d62724",
-          "msapplication-tap-highlight": "no",
-          "theme-color": "#d62724",
+          "og:url": "https://huggingface.co/pricing",
+          "og:image": "https://huggingface.co/front/thumbnails/pricing.png",
         },
       },
+      {
+        id: "113",
+        guid: "0e2453ef-5a9a-42b5-bb9e-6d38688dcd7a",
+        name: "Learn HTML | Codecademy",
+        url: "https://www.codecademy.com/learn/learn-html",
+        date_added: "13322806949352261",
+        date_last_used: "0",
+        icons: ["https://www.codecademy.com/favicon.ico"],
+        meta: {
+          viewport: "width=device-width",
+          "apple-itunes-app": "app-id=1376029326",
+          "theme-color": "#10162F",
+          description:
+            "Start at the beginning by learning HTML basics — an important foundation for building and editing web pages.",
+          "fb:app_id": "307818116683104",
+          "fb:profile_id": "codecademy",
+          "og:site_name": "Codecademy",
+          "og:type": "website",
+          "og:title": "Learn HTML Code | Codecademy",
+          "og:description":
+            "Start at the beginning by learning HTML basics — an important foundation for building and editing web pages.",
+          "og:rich_attachment": "true",
+          "og:image":
+            "https://static-assets.codecademy.com/assets/course-landing-page/meta/16x9/learn-html.jpg",
+          "og:url": "https://www.codecademy.com/learn/learn-html",
+          "twitter:card": "summary_large_image",
+          "twitter:site": "@codecademy",
+          "twitter:title": "Learn HTML Code | Codecademy",
+          "twitter:description":
+            "Start at the beginning by learning HTML basics — an important foundation for building and editing web pages.",
+          "twitter:image":
+            "https://static-assets.codecademy.com/assets/course-landing-page/meta/16x9/learn-html.jpg",
+          "next-head-count": "34",
+        },
+      },
+      {
+        id: "109",
+        guid: "fde1bdff-d15a-41af-8efa-1127c720eab8",
+        name: "[SCSS] SCSS로 반응형 작업하기 / Responsive with SCSS in Web",
+        url: "https://anerim.tistory.com/193",
+        date_added: "13321172415463910",
+        date_last_used: "0",
+        icons: [],
+        meta: {
+          "google-site-verification":
+            "fFbOLx2mn8jvrzbJv0f9X24vm2TGjY7KWpD2DkWsflI",
+          "format-detection": "telephone=no",
+          referrer: "always",
+          "google-adsense-platform-account": "ca-host-pub-9691043933427338",
+          "google-adsense-platform-domain": "tistory.com",
+          "google-adsense-account": "ca-pub-9569551021435763",
+          description:
+            "안녕하세요. 디자인도 하고, 개발도 하는 '디발자 뚝딱'입니다. 이번 포스팅에서는 SCSS로 반응형 하는 방법에 대해 공유하려고 합니다. 웹 개발을 하거나 퍼블리싱을 할 때 반응형은 언제나 번거로운 작업이죠. SCSS로 반응형 프레임을 미리 잡아두면, 프로젝트마다 쉽게 미디어쿼리를 짤 수 있답니다. 먼저, SCSS가 CSS에 컴파일 되도록 설정이 되어 있어야 합니다. 만약 SCSS 설치가 안 되어 있다면, 아래 링크를 눌러주세요. 해당 포스팅을 따라하면, SCSS를 설치 및 연동할 수 있습니다 :) [SCSS] HTML에 SCSS 적용하는 법 / how to apply css to html 안녕하세요. 디자인도 하고, 개발도 하는 '디발자 뚝딱'입니다. 이번 포스팅에서는 HTML에 SCSS 적용하는 방법..",
+          "og:type": "article",
+          "og:url": "https://anerim.tistory.com/193",
+          "og.article.author": "TOOKTAK 뚝딱",
+          "og:site_name": "디발자 뚝딱",
+          "og:title":
+            "[SCSS] SCSS로 반응형 작업하기 / Responsive with SCSS in Web",
+          by: "TOOKTAK 뚝딱",
+          "og:description":
+            "안녕하세요. 디자인도 하고, 개발도 하는 '디발자 뚝딱'입니다. 이번 포스팅에서는 SCSS로 반응형 하는 방법에 대해 공유하려고 합니다. 웹 개발을 하거나 퍼블리싱을 할 때 반응형은 언제나 번거로운 작업이죠. SCSS로 반응형 프레임을 미리 잡아두면, 프로젝트마다 쉽게 미디어쿼리를 짤 수 있답니다. 먼저, SCSS가 CSS에 컴파일 되도록 설정이 되어 있어야 합니다. 만약 SCSS 설치가 안 되어 있다면, 아래 링크를 눌러주세요. 해당 포스팅을 따라하면, SCSS를 설치 및 연동할 수 있습니다 :) [SCSS] HTML에 SCSS 적용하는 법 / how to apply css to html 안녕하세요. 디자인도 하고, 개발도 하는 '디발자 뚝딱'입니다. 이번 포스팅에서는 HTML에 SCSS 적용하는 방법..",
+          "og:image":
+            "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fv6RGW%2FbtrqCTaU1s8%2FBkNRs0cBbF6F7AMxLXxwzk%2Fimg.png",
+          "article:section": "'IT 인터넷'",
+          "twitter:card": "summary_large_image",
+          "twitter:site": "@TISTORY",
+          "twitter:title":
+            "[SCSS] SCSS로 반응형 작업하기 / Responsive with SCSS in Web",
+          "twitter:description":
+            "안녕하세요. 디자인도 하고, 개발도 하는 '디발자 뚝딱'입니다. 이번 포스팅에서는 SCSS로 반응형 하는 방법에 대해 공유하려고 합니다. 웹 개발을 하거나 퍼블리싱을 할 때 반응형은 언제나 번거로운 작업이죠. SCSS로 반응형 프레임을 미리 잡아두면, 프로젝트마다 쉽게 미디어쿼리를 짤 수 있답니다. 먼저, SCSS가 CSS에 컴파일 되도록 설정이 되어 있어야 합니다. 만약 SCSS 설치가 안 되어 있다면, 아래 링크를 눌러주세요. 해당 포스팅을 따라하면, SCSS를 설치 및 연동할 수 있습니다 :) [SCSS] HTML에 SCSS 적용하는 법 / how to apply css to html 안녕하세요. 디자인도 하고, 개발도 하는 '디발자 뚝딱'입니다. 이번 포스팅에서는 HTML에 SCSS 적용하는 방법..",
+          "twitter:image":
+            "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fv6RGW%2FbtrqCTaU1s8%2FBkNRs0cBbF6F7AMxLXxwzk%2Fimg.png",
+          "dg:plink": "https://anerim.tistory.com/193",
+          plink: "",
+          title: "[SCSS] SCSS로 반응형 작업하기 / Responsive with SCSS in Web",
+          "article:media_name": "디발자 뚝딱",
+          "article:mobile_url": "https://anerim.tistory.com/m/193",
+          "article:pc_url": "https://anerim.tistory.com/193",
+          "article:mobile_view_url": "https://anerim.tistory.com/m/193",
+          "article:pc_view_url": "https://anerim.tistory.com/193",
+          "article:talk_channel_view_url": "https://anerim.tistory.com/m/193",
+          "article:pc_service_home": "https://www.tistory.com",
+          "article:mobile_service_home": "https://www.tistory.com/m",
+          "article:txid": "4639019_193",
+          "article:published_time": "2022-01-13T21:25:23+09:00",
+          "og:regDate": "20220113062530",
+          "article:modified_time": "2022-01-13T21:26:01+09:00",
+          viewport:
+            "user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width",
+          "naver-site-verification": "f9a043b7eb1910307a528615262eaf014082d15e",
+        },
+      },
+
       {
         id: "207",
         guid: "9c0ed96c-1a89-4694-afda-ada7d2a12fde",
@@ -1910,139 +2017,7 @@ var category_sorted = [
           "mw:PageProp/toc": "",
         },
       },
-      {
-        id: "209",
-        guid: "81be0dc6-3c4e-4a5c-ae14-2ec9c8607c4d",
-        name: "Cataloging (library science) - Wikipedia",
-        url: "https://en.wikipedia.org/wiki/Cataloging_(library_science)",
-        date_added: "13359036933693598",
-        date_last_used: "0",
-        icons: ["https://en.wikipedia.org/static/favicon/wikipedia.ico"],
-        meta: {
-          ResourceLoaderDynamicStyles: "",
-          generator: "MediaWiki 1.45.0-wmf.2",
-          referrer: "origin-when-cross-origin",
-          robots: "max-image-preview:standard",
-          "format-detection": "telephone=no",
-          "og:image":
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Handwritten_subject_card..JPG/640px-Handwritten_subject_card..JPG",
-          "og:image:width": "640",
-          "og:image:height": "438",
-          viewport: "width=1120,initial-scale=0.975",
-          "og:title": "Cataloging (library science) - Wikipedia",
-          "og:type": "website",
-          "mw:PageProp/toc": "",
-        },
-      },
-      {
-        id: "239",
-        guid: "28a9c81c-9aba-4682-b121-6bfa77392826",
-        name: "The Evolution of the Card Catalog System",
-        url: "https://www.raymondgeddes.com/blogs/news/evolution-of-the-card-catalog-system",
-        date_added: "13360664515429093",
-        date_last_used: "0",
-        icons: [
-          "https://www.raymondgeddes.com/cdn/shop/files/favicon_1.png?v=1678477955&width=32",
-        ],
-        meta: {
-          viewport: "width=device-width,initial-scale=1",
-          "theme-color": "",
-          description:
-            'Merriam-Webster defines a card catalog as "a set of cards in a library that have information about books, journals, etc., written on them and are arranged in alphabetical order." Card catalogs have changed in the years since they were first developed in the late 1780s. Many young readers today wouldn\'t recognize a libr',
-          "og:site_name": "Raymond Geddes",
-          "og:url":
-            "https://www.raymondgeddes.com/blogs/news/evolution-of-the-card-catalog-system",
-          "og:title": "The Evolution of the Card Catalog System",
-          "og:type": "article",
-          "og:description":
-            'Merriam-Webster defines a card catalog as "a set of cards in a library that have information about books, journals, etc., written on them and are arranged in alphabetical order." Card catalogs have changed in the years since they were first developed in the late 1780s. Many young readers today wouldn\'t recognize a libr',
-          "og:image":
-            "http://www.raymondgeddes.com/cdn/shop/articles/evolution-of-card-catalog-system.jpg?v=1682075797",
-          "og:image:secure_url":
-            "https://www.raymondgeddes.com/cdn/shop/articles/evolution-of-card-catalog-system.jpg?v=1682075797",
-          "og:image:width": "424",
-          "og:image:height": "283",
-          "twitter:site": "@raymondgeddes",
-          "twitter:card": "summary_large_image",
-          "twitter:title": "The Evolution of the Card Catalog System",
-          "twitter:description":
-            'Merriam-Webster defines a card catalog as "a set of cards in a library that have information about books, journals, etc., written on them and are arranged in alphabetical order." Card catalogs have changed in the years since they were first developed in the late 1780s. Many young readers today wouldn\'t recognize a libr',
-          "facebook-domain-verification": "p7sz2y1iawh9ka8hxjonad5gwq0hqz",
-          "shopify-digital-wallet": "/59848851508/digital_wallets/dialog",
-          "shopify-checkout-api-token": "f4dfb0eae71442f43af240c242a12d2a",
-        },
-      },
-      {
-        id: "624",
-        guid: "caf7c606-39d4-46fc-b34e-2f7da33fa8b7",
-        name: "anime.js • JavaScript animation engine",
-        url: "https://animejs.com/",
-        date_added: "13387819729392169",
-        date_last_used: "0",
-        icons: ["https://animejs.com/assets/images/favicon.png"],
-        meta: {
-          viewport: "width=device-width, initial-scale=1.0",
-          "darkreader-lock": "",
-          description: "A fast and versatile JavaScript animation library",
-          "og:title": "Anime.js | JavaScript Animation Engine",
-          "og:url": "/",
-          "og:description": "A fast and versatile JavaScript animation library",
-          "og:image":
-            "/media/site/5e9b48763d-1744100039/anime-js-sharing-image.png",
-          "twitter:title": "Anime.js | JavaScript Animation Engine",
-          "twitter:description":
-            "A fast and versatile JavaScript animation library",
-          "twitter:card": "summary_large_image",
-          "twitter:image":
-            "https://animejs.com/media/site/5e9b48763d-1744100039/anime-js-sharing-image.png",
-          "og:type": "website",
-        },
-      },
-      {
-        id: "698",
-        guid: "39d9ed82-46b1-40ed-889d-2e0509c85fe5",
-        name: "CSS Light Source",
-        url: "https://codepen.io/pixeldevs/pen/dBWozj",
-        date_added: "13391539659719455",
-        date_last_used: "0",
-        icons: [],
-        meta: {
-          robots: "noindex,nofollow",
-          viewport: "width=device-width,initial-scale=1",
-          "og:type": "website",
-          "og:image": "./screenshots-flat/CSS Light Source.png",
-        },
-      },
-      {
-        id: "700",
-        guid: "08bec0d3-8c11-4ece-95ac-b59ca476edf6",
-        name: "CSS light beam animation",
-        url: "https://codepen.io/markcarrrr/pen/zmQLyK",
-        date_added: "13391539738172780",
-        date_last_used: "0",
-        icons: [],
-        meta: {
-          robots: "noindex,nofollow",
-          viewport: "width=device-width,initial-scale=1",
-          "og:type": "website",
-          "og:image": "./screenshots-flat/CSS light beam animation.png",
-        },
-      },
-      {
-        id: "701",
-        guid: "7e4707e1-cf12-4f78-9a92-e21e12d1adf0",
-        name: "light on off",
-        url: "https://codepen.io/genzuby/pen/EBwZzL?anon=true&view=pen",
-        date_added: "13391540465615298",
-        date_last_used: "0",
-        icons: [],
-        meta: {
-          robots: "noindex,nofollow",
-          viewport: "width=device-width,initial-scale=1",
-          "og:type": "website",
-          "og:image": "./screenshots-flat/light on off.png",
-        },
-      },
+
       {
         id: "702",
         guid: "bc321549-035d-47ae-9a1e-dd5f63370151",
@@ -2099,37 +2074,7 @@ var category_sorted = [
             "NMV8X02IaTu6017HVMAWOOzLUNf8nQrMLxPu8VsFwL2wYBmWndc-KUsRxFQvDocgyTYjOJzTJqAOg6cw_BgZrg",
         },
       },
-      {
-        id: "705",
-        guid: "1307b7b3-c1fc-4705-84ee-e992574ab5e4",
-        name: "3D spacial scroll zoom with CSS Scroll Animation",
-        url: "https://codepen.io/argyleink/pen/ZEdrzJZ",
-        date_added: "13391609043008425",
-        date_last_used: "0",
-        icons: [],
-        meta: {
-          robots: "noindex,nofollow",
-          viewport: "width=device-width,initial-scale=1",
-          "og:type": "website",
-          "og:image":
-            "./screenshots-flat/3D spacial scroll zoom with CSS Scroll Animation.png",
-        },
-      },
-      {
-        id: "706",
-        guid: "e7f69398-7c4d-4d86-8b4e-dd9cf2437b45",
-        name: "Scroll text",
-        url: "https://codepen.io/shridhar-dev/pen/jOGGrKa",
-        date_added: "13391629759637929",
-        date_last_used: "0",
-        icons: [],
-        meta: {
-          robots: "noindex,nofollow",
-          viewport: "width=device-width,initial-scale=1",
-          "og:type": "website",
-          "og:image": "./screenshots-flat/Scroll text.png",
-        },
-      },
+
       {
         id: "313",
         guid: "dc189668-9683-45e8-8117-35590eacb329",
@@ -2238,51 +2183,7 @@ var category_sorted = [
           generator: "Webflow",
         },
       },
-      {
-        id: "594",
-        guid: "2f601a9c-026e-4ea4-be4c-96631361de9b",
-        name: "Simple Door Animation",
-        url: "https://codepen.io/am_eu/pen/EgedaQ",
-        date_added: "13384441999795291",
-        date_last_used: "13388147617423246",
-        icons: [],
-        meta: {
-          robots: "noindex,nofollow",
-          viewport: "width=device-width,initial-scale=1",
-          "og:type": "website",
-          "og:image": "./screenshots-flat/Simple Door Animation.png",
-        },
-      },
-      {
-        id: "626",
-        guid: "9cf4cb7d-9541-47d2-a64b-0a4ff5659a05",
-        name: "Umschlag | Don't make me think! - Web & Mobile Usability: Das intuitive Web",
-        url: "https://learning.oreilly.com/library/view/dont-make-me/9783826697050/xhtml/ch01.xhtml",
-        date_added: "13387821028899266",
-        date_last_used: "0",
-        icons: ["https://www.oreilly.com/favicon.ico"],
-        meta: {
-          viewport: "width=device-width, initial-scale=1",
-          "og:title":
-            "Don't make me think! - Web & Mobile Usability: Das intuitive Web",
-          "og:url":
-            "https://www.oreilly.com/library/view/dont-make-me/9783826697050/xhtml/ch01.xhtml",
-          "og:site_name": "O’Reilly Online Learning",
-          "og:description":
-            "  - Selection from Don't make me think! - Web & Mobile Usability: Das intuitive Web [Book]",
-          "og:type": "article",
-          "og:book:isbn": "9783826697050",
-          "og:book:author": "Steve Krug",
-          "og:image":
-            "https://www.oreilly.com/library/cover/9783826697050/1200w630h/",
-          "og:image:secure_url":
-            "https://www.oreilly.com/library/cover/9783826697050/1200w630h/",
-          "og:image:width": "1200",
-          "og:image:height": "630",
-          "twitter:card": "summary_large_image",
-          "twitter:site": "@OReillyMedia",
-        },
-      },
+
       {
         id: "630",
         guid: "b2986e3d-2122-4508-83ef-5d3431667275",
@@ -2313,22 +2214,7 @@ var category_sorted = [
           "twitter:site": "@OReillyMedia",
         },
       },
-      {
-        id: "693",
-        guid: "c495f94f-2cee-45f4-b0a6-234f2e773e83",
-        name: "Animated Gradient Text with CSS KeyframesUntitled",
-        url: "https://codepen.io/1870-Trupti-Pokal/pen/ExBJaGE",
-        date_added: "13391454636818519",
-        date_last_used: "0",
-        icons: [],
-        meta: {
-          robots: "noindex,nofollow",
-          viewport: "width=device-width,initial-scale=1",
-          "og:type": "website",
-          "og:image":
-            "./screenshots-flat/Animated Gradient Text with CSS KeyframesUntitled.png",
-        },
-      },
+
       {
         id: "694",
         guid: "d13280a4-8da0-4e68-b6d0-660a8264753c",
@@ -2366,37 +2252,6 @@ var category_sorted = [
   {
     name: "AI Tools",
     items: [
-      {
-        id: "168",
-        guid: "1bdf682b-14e8-496c-acee-fdb130c7f5bd",
-        name: "Paraphrasing Tool - QuillBot AI",
-        url: "https://quillbot.com/",
-        date_added: "13336495812840844",
-        date_last_used: "0",
-        icons: [],
-        meta: {
-          robots: "noindex,nofollow",
-          viewport: "width=device-width,initial-scale=1",
-          "og:type": "website",
-          "og:image": "./screenshots-flat/Paraphrasing Tool - QuillBot AI.png",
-        },
-      },
-      {
-        id: "188",
-        guid: "a710d95e-73c3-4537-80ed-df313353e038",
-        name: "Free Grammar Checker - QuillBot AI",
-        url: "https://quillbot.com/grammar-check?utm_medium=cpc&utm_source=google&utm_campaign=FA+-+HY+|+PERF+-+Search+|+Product+-+Ext+-+Chrome+-+Brand+|+PREM+|+CPA&utm_term=quillbot%20paraphrase&utm_content=663908772954&campaign_type=search-19199908990&click_id=Cj0KCQjw2a6wBhCVARIsABPeH1vgmFy3EogteoBvoCCqxXYY2PRsxItOGEmJP18hFxMcjZUtP_5IwQIaAlzmEALw_wcB&campaign_id=19199908990&adgroup_id=145923410122&ad_id=663908772954&keyword=quillbot%20paraphrase&placement=&target=&network=g&gad_source=1&gclid=Cj0KCQjw2a6wBhCVARIsABPeH1vgmFy3EogteoBvoCCqxXYY2PRsxItOGEmJP18hFxMcjZUtP_5IwQIaAlzmEALw_wcB",
-        date_added: "13356542806072281",
-        date_last_used: "0",
-        icons: [],
-        meta: {
-          robots: "noindex,nofollow",
-          viewport: "width=device-width,initial-scale=1",
-          "og:type": "website",
-          "og:image":
-            "./screenshots-flat/Free Grammar Checker - QuillBot AI.png",
-        },
-      },
       {
         id: "191",
         guid: "621f7eec-de80-4d5b-8a90-d4a2333bc173",
@@ -2525,197 +2380,7 @@ var category_sorted = [
             "https://yozm.wishket.com/media/news/816/image005.png",
         },
       },
-      {
-        id: "204",
-        guid: "9a436d9c-1f15-426e-aa44-8c0c46d858cb",
-        name: "동양고전종합DB",
-        url: "http://db.cyberseodang.or.kr/front/main/main.do",
-        date_added: "13359032649853351",
-        date_last_used: "0",
-        icons: [],
-        meta: {
-          "og:type": "website",
-          "og:image": "./screenshots-flat/동양고전종합DB.png",
-        },
-      },
-      {
-        id: "215",
-        guid: "2e7b6199-f693-4da6-9383-b3a67a63f304",
-        name: "카테고리 분류 모델(Classification) | DS2.ai Docs(KR)",
-        url: "https://krdocs.ds2.ai/user-guide/learning/learning-start/model-supported/classification",
-        date_added: "13359113760208649",
-        date_last_used: "0",
-        icons: [],
-        meta: {},
-      },
-      {
-        id: "229",
-        guid: "681e9e30-235d-4ad1-aeb0-25d4d021a448",
-        name: "1993: Mosaic Launches and the Web is Set Free - Web Development History",
-        url: "https://webdevelopmenthistory.com/1993-mosaic-launches-and-the-web-is-set-free/",
-        date_added: "13360238446445932",
-        date_last_used: "0",
-        icons: [
-          "https://cybercultural.com/favicon.ico",
-          "https://cybercultural.com/favicon-32x32.png",
-          "https://cybercultural.com/favicon-16x16.png",
-        ],
-        meta: {
-          viewport: "width=device-width, initial-scale=1.0",
-          description:
-            "On 14 January 1993, Marc Andreessen put a call out on the WWW-Talk mailing list for people to test a new WWW browser in development: X Mosaic.",
-          "theme-color": "#B80103",
-          robots: "index, follow, max-image-preview:large",
-          generator: "Eleventy v3.0.0",
-          "format-detection": "telephone=no",
-          "og:url":
-            "https://cybercultural.com/p/1993-mosaic-launches-and-the-web-is-set-free/",
-          "og:type": "website",
-          "og:title": "1993: Mosaic Launches and the Web is Set Free",
-          "og:image":
-            "https://cybercultural.com/assets/images/wdh/mosaic_feature.jpg",
-          "og:image:alt": "1993: Mosaic Launches and the Web is Set Free image",
-          "og:description":
-            "On 14 January 1993, Marc Andreessen put a call out on the WWW-Talk mailing list for people to test a new WWW browser in development: X Mosaic.",
-          "og:site_name": "Cybercultural",
-          "og:locale": "en_US",
-          "article:author": "Richard MacManus",
-          "fediverse:creator": "@ricmac@mastodon.social",
-          "twitter:card": "summary_large_image",
-          "twitter:dnt": "on",
-        },
-      },
-      {
-        id: "232",
-        guid: "6e737d44-d5ee-412b-9c3b-e846aff57b9d",
-        name: "Web Browsers - Web Design Museum",
-        url: "https://www.webdesignmuseum.org/web-browsers",
-        date_added: "13360239520426204",
-        date_last_used: "0",
-        icons: [
-          "https://www.webdesignmuseum.org/wp-content/themes/webdesignmuseum/favicons/favicon-32x32.png",
-          "https://www.webdesignmuseum.org/wp-content/themes/webdesignmuseum/favicons/favicon-16x16.png",
-          "https://www.webdesignmuseum.org/wp-content/themes/webdesignmuseum/favicons/favicon.ico",
-        ],
-        meta: {
-          viewport: "width=device-width, initial-scale=1.0",
-          robots: "max-snippet:-1,max-image-preview:large,max-video-preview:-1",
-          description:
-            "The 90s saw the outbreak of the first browser wars on the Internet. Can you remember who the winner was? Was it Mosaic, Netscape Navigator or Internet Explorer?",
-          "og:type": "website",
-          "og:locale": "en_US",
-          "og:site_name": "Web Design Museum",
-          "og:title": "Web Browsers",
-          "og:description":
-            "The 90s saw the outbreak of the first browser wars on the Internet. Can you remember who the winner was? Was it Mosaic, Netscape Navigator or Internet Explorer?",
-          "og:url": "https://www.webdesignmuseum.org/web-browsers",
-          "og:image":
-            "https://www.webdesignmuseum.org/uploaded/old-software/web-browsers/netscape-navigator/netscape-navigator-2-01-01.png",
-          "twitter:card": "summary_large_image",
-          "twitter:title": "Web Browsers",
-          "twitter:description":
-            "The 90s saw the outbreak of the first browser wars on the Internet. Can you remember who the winner was? Was it Mosaic, Netscape Navigator or Internet Explorer?",
-          "twitter:image":
-            "https://www.webdesignmuseum.org/uploaded/old-software/web-browsers/netscape-navigator/netscape-navigator-2-01-01.png",
-          "msapplication-TileColor": "#4d5259",
-          "msapplication-config":
-            "https://www.webdesignmuseum.org/wp-content/themes/webdesignmuseum/favicons/browserconfig.xml",
-          "theme-color": "#4d5259",
-        },
-      },
-      {
-        id: "233",
-        guid: "e2574d09-18ed-4ae7-a509-113fb4613b10",
-        name: "A Short History of the Index Card",
-        url: "https://www.popularmechanics.com/culture/a19379/a-short-history-of-the-index-card/",
-        date_added: "13360294553978355",
-        date_last_used: "0",
-        icons: [
-          "https://www.popularmechanics.com/_assets/design-tokens/popularmechanics/static/images/favicon.ee0d102.ico",
-        ],
-        meta: {
-          viewport: "width=device-width, initial-scale=1.0",
-          "X-UA-Compatible": "IE=edge",
-          "msapplication-tap-highlight": "no",
-          title: "A Short History of the Index Card",
-          description:
-            "Before they were mainly used for flash cards, index cards helped catalog all of human knowledge in a way anybody could use. ",
-          keywords: "Technology",
-          "theme-color": "#000000",
-          "og:site_name": "Popular Mechanics",
-          "fb:app_id": "218456798186610",
-          "article:publisher": "https://www.facebook.com/popularmechanics",
-          "google-site-verification":
-            "98saqo61zkfl_yfZaXKLgLkazlZwpUcMCkqCFEO-O18",
-          "og:title": "How the Humble Index Card Foresaw the Internet",
-          "og:description":
-            "A 3 x 5 history of the cards that helped catalog all of human knowledge in a way anybody could use.",
-          "parsely-metadata":
-            '{"socialHeadline":"How the Humble Index Card Foresaw the Internet"}',
-          robots:
-            "noarchive,noai,noimageai,max-image-preview:large,max-snippet:-1,max-video-preview:30",
-          "og:image":
-            "https://hips.hearstapps.com/pop.h-cdn.co/assets/16/06/1280x640/landscape-1455195720-lead.jpg?resize=1200:*",
-          "og:image:width": "1200",
-          "og:image:height": "600",
-          thumbnail:
-            "https://hips.hearstapps.com/pop.h-cdn.co/assets/16/06/980x980/square-1455195720-lead.jpg?resize=320:*",
-          "sailthru.image.full":
-            "https://hips.hearstapps.com/pop.h-cdn.co/assets/16/06/1280x640/landscape-1455195720-lead.jpg?resize=320:*",
-          "sailthru.image.thumb":
-            "https://hips.hearstapps.com/pop.h-cdn.co/assets/16/06/980x980/square-1455195720-lead.jpg",
-          "twitter:image":
-            "https://hips.hearstapps.com/pop.h-cdn.co/assets/16/06/1280x640/landscape-1455195720-lead.jpg?resize=640:*",
-          "og:url":
-            "https://www.popularmechanics.com/culture/a19379/a-short-history-of-the-index-card/",
-          "auto-publish": "evergreen",
-          "og:type": "article",
-          "twitter:card": "summary_large_image",
-          "article:opinion": "false",
-          "article:section": "Culture",
-          "article:modified_time": "2016-02-11T16:17:00Z",
-          "article:published_time": "2016-02-11T16:17:00Z",
-          "sailthru.tags":
-            "culture,Culture,entire-histories,Entire Histories,features,Features,Popular Mechanics-US",
-          "sailthru.date": "2016-02-11 16:17:00",
-          "sailthru.socialtitle":
-            "How the Humble Index Card Foresaw the Internet",
-          "sailthru.contenttype": "standard-article",
-          m1: ".content-hed",
-          m2: ".content-dek p",
-          "sailthru.excerpt": "",
-        },
-      },
-      {
-        id: "234",
-        guid: "62676d66-19e7-4eb5-b8be-c3fd2e5d466a",
-        name: "Five tools for browser productivity | BrainTool - Beyond Bookmarks",
-        url: "https://braintool.org/2022/03/10/Five-tools-for-browser-productivity.html",
-        date_added: "13360336108399001",
-        date_last_used: "0",
-        icons: ["https://braintool.org/favicon.ico?"],
-        meta: {
-          generator: "Jekyll v3.10.0",
-          "og:title": "BrainTool",
-          author: "Tony",
-          "og:locale": "en_US",
-          description:
-            "How to use Tab managers, session managers, bookmark managers, task managers and personal knowledge managers to be more productive",
-          "og:description": "The Topic Manager for your online life",
-          "og:url": "https://braintool.org",
-          "og:site_name": "BrainTool - Beyond Bookmarks",
-          "og:image": "../../../site/postAssets/Five Tools/5-tool-table.png",
-          "og:type": "article",
-          "article:published_time": "2022-03-10T00:00:00+00:00",
-          "twitter:card": "summary_large_image",
-          "twitter:image":
-            "https://braintool.org/site/postAssets/Five%20Tools/5-tool-table.png",
-          "twitter:title": "Five tools for browser productivity",
-          viewport: "width=device-width, initial-scale=1",
-          "theme-color": "#157878",
-          "apple-mobile-web-app-status-bar-style": "black-translucent",
-        },
-      },
+
       {
         id: "241",
         guid: "00c4e8d7-a076-4eb5-bcaa-7b48297bd275",
@@ -2924,62 +2589,42 @@ var category_sorted = [
         },
       },
       {
-        id: "534",
-        guid: "019ccc7d-6405-4944-9440-c79e48fe1de5",
-        name: "Cabinet Fever - The Metropolitan Museum of Art",
-        url: "https://www.metmuseum.org/perspectives/card-catalogues",
-        date_added: "13375876282282081",
+        id: "714",
+        guid: "1f40ef00-b367-4b10-8e57-e5b47c69a7cd",
+        name: "AI Product Photo Generator & Editor | Create E-Commerce Images | Flair.ai",
+        url: "https://flair.ai/",
+        date_added: "13392625592427402",
         date_last_used: "0",
-        icons: ["https://www.metmuseum.org/icon?444dbfbfa010ce64"],
+        icons: ["https://flair.ai/favicon.ico"],
         meta: {
-          viewport: "width=device-width, initial-scale=1",
-          "next-size-adjust": "",
           description:
-            "Library Manager Dana Hart looks at some of the few remaining card catalogues in the Met.",
-          "pinterest-rich-pin": "true",
-          "og:title": "Cabinet Fever - The Metropolitan Museum of Art",
+            "Create studio-quality e-commerce photoshoots in seconds with our drag-and-drop AI editor. Try it free today.",
+          "og:type": "website",
+          "og:site_name": "Flair.ai",
+          "og:url": "https://flair.ai/",
+          "og:title":
+            "AI Product Photo Generator & Editor | Create E-Commerce Images | Flair.ai",
           "og:description":
-            "Library Manager Dana Hart looks at some of the few remaining card catalogues in the Met.",
+            "Create studio-quality e-commerce photoshoots in seconds with our drag-and-drop AI editor. Try it free today.",
           "og:image":
-            "https://cdn.sanity.io/images/cctd4ker/production/c175266c21e565e61000c5699ef71803d79dff77-1200x630.jpg?w=600&q=75&auto=format",
-          "og:image:alt": "The Met Fifth facade",
+            "https://flair.ai/cdn-cgi/imagedelivery/i1XPW6iC_chU01_6tBPo8Q/27e80a51-e8fc-4197-4a9a-9d422bf1a200/public",
+          "og:image:width": "1200",
+          "og:image:height": "630",
+          "og:locale": "en_US",
           "twitter:card": "summary_large_image",
-          "twitter:title": "Cabinet Fever - The Metropolitan Museum of Art",
+          "twitter:site": "@flairAI_",
+          "twitter:creator": "@flairAI_",
+          "twitter:title":
+            "AI Product Photo Generator & Editor | Create E-Commerce Images",
           "twitter:description":
-            "Library Manager Dana Hart looks at some of the few remaining card catalogues in the Met.",
+            "Create studio-quality e-commerce photoshoots in seconds with our drag-and-drop AI editor. Try it free today.",
           "twitter:image":
-            "https://cdn.sanity.io/images/cctd4ker/production/c175266c21e565e61000c5699ef71803d79dff77-1200x630.jpg?w=600&q=75&auto=format",
-          "twitter:image:alt": "The Met Fifth facade",
-          "sentry-trace": "d177b3cf38c661ee1dc289e80cf27653-23bb0390048b4d3c-1",
-          baggage:
-            "sentry-environment=vercel-production,sentry-release=9a14fb2a9ddf2e5a1559b415dfcd38bab5fbaa73,sentry-public_key=fc26ffe1f7754e9aaa45cbb8fb82b860,sentry-trace_id=d177b3cf38c661ee1dc289e80cf27653,sentry-transaction=GET%20%2F%5Blocale%5D%2Fperspectives%2F%5Bslug%5D,sentry-sampled=true,sentry-sample_rand=0.04000200100816942,sentry-sample_rate=1",
-          "og:type": "website",
-        },
-      },
-      {
-        id: "536",
-        guid: "83097889-767c-4025-a4a7-89159cc85406",
-        name: "Random Soft Line Graph - Napkin AI",
-        url: "https://app.napkin.ai/page/CgoiCHByb2Qtb25lEiwKBFBhZ2UaJDhlM2RiZTVlLTc2NjEtNDdkOS05YTY0LTQ4NGIzMjJlMTFjYw",
-        date_added: "13375876359557441",
-        date_last_used: "0",
-        icons: [
-          "https://app.napkin.ai/favicon-32x32.png?v=2",
-          "https://app.napkin.ai/favicon-16x16.png?v=2",
-        ],
-        meta: {
-          viewport: "width=device-width,initial-scale=1,user-scalable=no",
-          description:
-            "Join Napkin.ai and start creating visuals for your ideas today. Napkin turns text content into engaging visuals for presentations, social media, docs and more.",
-          "apple-mobile-web-app-title": "napkin",
-          "application-name": "napkin",
-          "msapplication-TileColor": "#ffe70a",
-          "theme-color": "#ffffff",
-          "google-site-verification":
-            "Yfi-pvsrLPkUf66PgeF3gAUVm8nSpy8WAdYbUtdoFOA",
-          "og:type": "website",
-          "og:image":
-            "./screenshots-flat/Random Soft Line Graph - Napkin AI.png",
+            "https://flair.ai/cdn-cgi/imagedelivery/i1XPW6iC_chU01_6tBPo8Q/27e80a51-e8fc-4197-4a9a-9d422bf1a200/public",
+          "twitter:url": "https://flair.ai/",
+          robots: "index,follow",
+          "theme-color": "#84CC16",
+          viewport: "width=device-width, initial-scale=1",
+          "next-head-count": "27",
         },
       },
       {
@@ -3004,60 +2649,7 @@ var category_sorted = [
           "og:image": "https://huggingface.co/front/thumbnails/pricing.png",
         },
       },
-      {
-        id: "139",
-        guid: "8178a528-18b4-4615-9534-c610e99d9a8e",
-        name: "Keyframe Animation Syntax | CSS-Tricks - CSS-Tricks",
-        url: "https://css-tricks.com/snippets/css/keyframe-animation-syntax/",
-        date_added: "13327074078816266",
-        date_last_used: "0",
-        icons: [
-          "https://css-tricks.com/favicon.ico",
-          "https://css-tricks.com/favicon.svg",
-          "https://i0.wp.com/css-tricks.com/wp-content/uploads/2021/07/star.png?fit=32%2C32&ssl=1",
-          "https://i0.wp.com/css-tricks.com/wp-content/uploads/2021/07/star.png?fit=180%2C180&ssl=1",
-        ],
-        meta: {
-          viewport: "width=device-width",
-          "theme-color": "#ff7a18",
-          description:
-            'You can use any number of "stops" in the @keyframe animation, and it\'s one of the main strengths of keyframe animations. While CSS transition is only from one',
-          robots:
-            "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
-          "og:locale": "en_US",
-          "og:type": "article",
-          "og:title": "Keyframe Animation Syntax | CSS-Tricks",
-          "og:description":
-            'You can use any number of "stops" in the @keyframe animation, and it\'s one of the main strengths of keyframe animations. While CSS transition is only from one',
-          "og:url":
-            "https://css-tricks.com/snippets/css/keyframe-animation-syntax/",
-          "og:site_name": "CSS-Tricks",
-          "article:publisher": "https://www.facebook.com/CSSTricks",
-          "og:updated_time": "2021-11-10T16:01:30-07:00",
-          "og:image":
-            "https://i0.wp.com/css-tricks.com/wp-content/uploads/2021/12/default-social-css-tricks.png",
-          "og:image:secure_url":
-            "https://i0.wp.com/css-tricks.com/wp-content/uploads/2021/12/default-social-css-tricks.png",
-          "og:image:width": "1200",
-          "og:image:height": "628",
-          "og:image:alt": "Keyframe Animation Syntax",
-          "og:image:type": "image/png",
-          "article:published_time": "2011-10-03T15:43:28-06:00",
-          "article:modified_time": "2021-11-10T16:01:30-07:00",
-          "twitter:card": "summary_large_image",
-          "twitter:title": "Keyframe Animation Syntax | CSS-Tricks",
-          "twitter:description":
-            'You can use any number of "stops" in the @keyframe animation, and it\'s one of the main strengths of keyframe animations. While CSS transition is only from one',
-          "twitter:site": "@CSS",
-          "twitter:creator": "@chriscoyier",
-          "twitter:image":
-            "https://i0.wp.com/css-tricks.com/wp-content/uploads/2021/12/default-social-css-tricks.png",
-          "msapplication-TileImage":
-            "https://i0.wp.com/css-tricks.com/wp-content/uploads/2021/07/star.png?fit=180%2C180&ssl=1",
-          position: "3",
-          url: "https://css-tricks.com/snippets/css/keyframe-animation-syntax/",
-        },
-      },
+
       {
         id: "147",
         guid: "c1e4f892-0530-4802-8a19-bfd007c24ded",
@@ -3313,16 +2905,7 @@ var category_sorted = [
           "og:type": "website",
         },
       },
-      {
-        id: "703",
-        guid: "799633f6-a7aa-49cc-8e62-e27df003f8d2",
-        name: "Scenographic Re Turn.pdf",
-        url: "chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://opus.lib.uts.edu.au/bitstream/10453/36039/5/Scenographic%20Re%20Turn.pdf",
-        date_added: "13391542457269352",
-        date_last_used: "0",
-        icons: [],
-        meta: {},
-      },
+
       {
         id: "720",
         guid: "d9dd91c8-8696-4cca-90ed-d107da00b611",
@@ -3410,21 +2993,7 @@ var category_sorted = [
             "./screenshots-flat/Picking the Right CRM for Your Sales Team - Napkin AI.png",
         },
       },
-      {
-        id: "607",
-        guid: "79477be1-ea7e-4aab-a7aa-e3a7842013da",
-        name: "Genspark - 비디오 생성",
-        url: "https://www.genspark.ai/agents?type=moa_generate_video",
-        date_added: "13387726385699584",
-        date_last_used: "0",
-        icons: [],
-        meta: {
-          robots: "noindex,nofollow",
-          viewport: "width=device-width,initial-scale=1",
-          "og:type": "website",
-          "og:image": "./screenshots-flat/Genspark - 비디오 생성.png",
-        },
-      },
+
       {
         id: "609",
         guid: "ba099641-3b8f-4b22-8150-b00f5db6f845",
@@ -3452,792 +3021,7 @@ var category_sorted = [
             "./screenshots-flat/Kling AI_ Next-Generation AI Creative Studio.png",
         },
       },
-      {
-        id: "610",
-        guid: "2f153030-a414-49c3-8f49-3e58f765be63",
-        name: "ideogram.ai",
-        url: "https://ideogram.ai/__/auth/handler?state=AMbdmDmBMc1W39tGukFVPn1i36XM2Ad0RUI4y6wHyC30Hf-65j7gl4WJBOfFgcgG8PMWj_9WS_ThAiMt0bwJhZAAGO-JAMvDEojDJvf5pABKRVVezvPf3_OxvWGZicnWIeBGiukaHpRbx_vmvKb8p98YWC2-TcDAFRvYJFrxaq-8IlXy8K08Xg4NgNLEsk0t9-vYOBFWFIcDq-IgaRQBd18QM2-9P_DqwHJD3WXiGuLQ2yiMmaRkgZq5530-7CfVLUIzxG2PkoYMHaLs_L642VPxmcmH_rh7o2mKw8hVL6TKBdHvvKI&code=4%2F0AQSTgQGTh3J-cl0Ed6177v-UiV8qgehUjGruzA1_29zZcdoAcgOeq6nDsLMcaZ1fWjELAQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=none",
-        date_added: "13387729871314296",
-        date_last_used: "0",
-        icons: [],
-        meta: {
-          robots: "noindex,nofollow",
-          viewport: "width=device-width,initial-scale=1",
-          "og:type": "website",
-          "og:image": null,
-        },
-      },
-      {
-        id: "611",
-        guid: "99e2c412-9a46-47a9-9378-b5e0516cee07",
-        name: "Ideogram",
-        url: "https://ideogram.ai/t/explore",
-        date_added: "13387729875024582",
-        date_last_used: "0",
-        icons: [],
-        meta: {
-          robots: "noindex,nofollow",
-          viewport: "width=device-width,initial-scale=1",
-          "og:type": "website",
-          "og:image": "./screenshots-flat/Ideogram.png",
-        },
-      },
-      {
-        id: "614",
-        guid: "78233d06-ee46-4c95-85a9-664b949ddb85",
-        name: "CHOI님(@choi.openai) • Threads, 자유로운 소통 공간",
-        url: "https://www.threads.net/@choi.openai",
-        date_added: "13387734305772753",
-        date_last_used: "0",
-        icons: [
-          "https://static.cdninstagram.com/rsrc.php/ye/r/lEu8iVizmNW.ico",
-        ],
-        meta: {
-          bingbot: "noarchive",
-          viewport:
-            "width=device-width, viewport-fit=cover, initial-scale=1, maximum-scale=2, shrink-to-fit=no",
-          "al:android:app_name": "Threads",
-          "al:android:package": "com.instagram.barcelona",
-          "al:android:url": "https://www.threads.com/@choi.openai",
-          "al:ios:app_name": "Threads",
-          "al:ios:app_store_id": "6446901002",
-          "al:ios:url": "barcelona://user?username=choi.openai",
-          "apple-itunes-app":
-            "app-id=6446901002, app-clip-bundle-id=com.burbn.barcelona.appclip, app-clip-display=card",
-          "og:site_name": "Threads",
-          "og:type": "article",
-          description:
-            "팔로워 13.9만명 • 스레드 0개 • AI 기반 산업, 교육, 이슈, 자동화, 로봇, 에너지까지 세상이 바뀌는 흐름을 가장 빠르게 전해드립니다.\n✉️ genexis.ai@gmail.com. @choi.openai님과의 최근 대화를 확인해보세요.",
-          "og:title": "CHOI님(@choi.openai) • Threads, 자유로운 소통 공간",
-          "og:description":
-            "팔로워 13.9만명 • 스레드 0개 • AI 기반 산업, 교육, 이슈, 자동화, 로봇, 에너지까지 세상이 바뀌는 흐름을 가장 빠르게 전해드립니다.\n✉️ genexis.ai@gmail.com. @choi.openai님과의 최근 대화를 확인해보세요.",
-          "og:url": "https://www.threads.com/@choi.openai",
-          "og:image":
-            "https://scontent-gmp1-1.cdninstagram.com/v/t51.75761-19/498297237_17908488888112832_5077585182656342192_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=1&ccb=1-7&_nc_sid=b3fa00&_nc_ohc=VIQd8KcKFGgQ7kNvwFjJA6d&_nc_oc=AdmeOwxRsGNZ0P9BpzvTWIn1voLy-xYClM5WSK0Yxa3l20PcElUlC4FfR_KtPsVkPC0&_nc_zt=24&_nc_ht=scontent-gmp1-1.cdninstagram.com&_nc_gid=jhqraOos-oA12j9b__2OUw&oh=00_AfJAzG-JFUYVqw_oqcO2G0-XHA_O38kttp9WWkwvvxddYQ&oe=68390BD9",
-          referrer: "origin-when-crossorigin",
-          "twitter:card": "summary",
-          "twitter:title": "CHOI님(@choi.openai) • Threads, 자유로운 소통 공간",
-          "twitter:description":
-            "팔로워 13.9만명 • 스레드 0개 • AI 기반 산업, 교육, 이슈, 자동화, 로봇, 에너지까지 세상이 바뀌는 흐름을 가장 빠르게 전해드립니다.\n✉️ genexis.ai@gmail.com. @choi.openai님과의 최근 대화를 확인해보세요.",
-          "twitter:image":
-            "https://scontent-gmp1-1.cdninstagram.com/v/t51.75761-19/498297237_17908488888112832_5077585182656342192_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=1&ccb=1-7&_nc_sid=b3fa00&_nc_ohc=VIQd8KcKFGgQ7kNvwFjJA6d&_nc_oc=AdmeOwxRsGNZ0P9BpzvTWIn1voLy-xYClM5WSK0Yxa3l20PcElUlC4FfR_KtPsVkPC0&_nc_zt=24&_nc_ht=scontent-gmp1-1.cdninstagram.com&_nc_gid=jhqraOos-oA12j9b__2OUw&oh=00_AfJAzG-JFUYVqw_oqcO2G0-XHA_O38kttp9WWkwvvxddYQ&oe=68390BD9",
-          "application-title": "Threads",
-          "color-scheme": "light",
-          "theme-color": "#FFFFFF",
-        },
-      },
-      {
-        id: "714",
-        guid: "1f40ef00-b367-4b10-8e57-e5b47c69a7cd",
-        name: "AI Product Photo Generator & Editor | Create E-Commerce Images | Flair.ai",
-        url: "https://flair.ai/",
-        date_added: "13392625592427402",
-        date_last_used: "0",
-        icons: ["https://flair.ai/favicon.ico"],
-        meta: {
-          description:
-            "Create studio-quality e-commerce photoshoots in seconds with our drag-and-drop AI editor. Try it free today.",
-          "og:type": "website",
-          "og:site_name": "Flair.ai",
-          "og:url": "https://flair.ai/",
-          "og:title":
-            "AI Product Photo Generator & Editor | Create E-Commerce Images | Flair.ai",
-          "og:description":
-            "Create studio-quality e-commerce photoshoots in seconds with our drag-and-drop AI editor. Try it free today.",
-          "og:image":
-            "https://flair.ai/cdn-cgi/imagedelivery/i1XPW6iC_chU01_6tBPo8Q/27e80a51-e8fc-4197-4a9a-9d422bf1a200/public",
-          "og:image:width": "1200",
-          "og:image:height": "630",
-          "og:locale": "en_US",
-          "twitter:card": "summary_large_image",
-          "twitter:site": "@flairAI_",
-          "twitter:creator": "@flairAI_",
-          "twitter:title":
-            "AI Product Photo Generator & Editor | Create E-Commerce Images",
-          "twitter:description":
-            "Create studio-quality e-commerce photoshoots in seconds with our drag-and-drop AI editor. Try it free today.",
-          "twitter:image":
-            "https://flair.ai/cdn-cgi/imagedelivery/i1XPW6iC_chU01_6tBPo8Q/27e80a51-e8fc-4197-4a9a-9d422bf1a200/public",
-          "twitter:url": "https://flair.ai/",
-          robots: "index,follow",
-          "theme-color": "#84CC16",
-          viewport: "width=device-width, initial-scale=1",
-          "next-head-count": "27",
-        },
-      },
-      {
-        id: "329",
-        guid: "e7a49600-9a4b-462e-aa2f-282e9be7d2bc",
-        name: "대통령기록관",
-        url: "https://www.pa.go.kr/portal/com/viewMainPage.do",
-        date_added: "0",
-        date_last_used: "13323452852938451",
-        icons: [
-          "https://www.pa.go.kr/assets/images/favicon.ico",
-          "https://www.pa.go.kr/assets/images/72icon2.png",
-        ],
-        meta: {
-          viewport: "width=device-width, intial-scale=1.0",
-          "apple-mobile-web-app-capable": "yes",
-          "format-detection": "telephone=no",
-          "og:url": "https://www.pa.go.kr",
-          "og:type": "website",
-          "og:title": "행정안전부 대통령기록관",
-          "og:description":
-            "대통령기록물의 수집∙생산기관 지원,관리∙기술 체계 구축, 보존∙복원 인프라 구축,국민 친화적 서비스 체계 확립",
-          "og:image": "/assets/images/logo_img.jpg",
-          "twitter:card": "summary",
-          "twitter:title": "행정안전부 대통령기록관",
-          "twitter:url": "https://www.pa.go.kr",
-          "twitter:image": "/assets/images/logo_img.jpg",
-          "twitter:description":
-            "대통령기록물의 수집∙생산기관 지원,관리∙기술 체계 구축, 보존∙복원 인프라 구축,국민 친화적 서비스 체계 확립",
-          robots: "index,follow",
-          keywords: "행정안전부 대통령기록관",
-          description:
-            "대통령기록물의 수집∙생산기관 지원,관리∙기술 체계 구축, 보존∙복원 인프라 구축,국민 친화적 서비스 체계 확립",
-          copyright:
-            "COPYRIGHT 2021 ⓒ PRESIDENTIAL ARCHIVES. ALL RIGHTS RESERVED.",
-        },
-      },
-      {
-        id: "330",
-        guid: "36ecc749-0026-4a71-88b8-468fc5e994bf",
-        name: "역사 허브",
-        url: "http://archive.much.go.kr/hub/open/main.do",
-        date_added: "0",
-        date_last_used: "0",
-        icons: [],
-        meta: {
-          "og:type": "website",
-          "og:image": "./screenshots-flat/역사 허브.png",
-        },
-      },
-      {
-        id: "331",
-        guid: "555e4dd6-3c25-4bb1-b349-11ee4c458653",
-        name: "국가기록원 - 기록정보서비스",
-        url: "https://www.archives.go.kr/next/viewMain.do",
-        date_added: "0",
-        date_last_used: "13322632816984212",
-        icons: ["https://www.archives.go.kr/next/images/favicon.ico"],
-        meta: {
-          viewport: "width=device-width, initial-scale=1.0",
-          "naver-site-verification": "b4681257c690175bf1fa5ea4d9e5f5e3a5a3d3b7",
-          "og:type": "website",
-          "og:image": "./screenshots-flat/국가기록원 - 기록정보서비스.png",
-        },
-      },
-      {
-        id: "332",
-        guid: "f2dcf7de-8e76-4f61-a4e7-56d9fde6fb86",
-        name: "오늘의 기록 > 02월 24일 각급 학교 소풍 및 수학여행 자율화 발표",
-        url: "https://theme.archives.go.kr/next/daily/viewMain.do",
-        date_added: "0",
-        date_last_used: "0",
-        icons: [],
-        meta: {
-          "naver-site-verification": "20db6048db3d43380e60e8f269b6afb38d06df2a",
-          "og:type": "website",
-          "og:image":
-            "./screenshots-flat/오늘의 기록 _ 02월 24일 각급 학교 소풍 및 수학여행 자율화 발표.png",
-        },
-      },
-      {
-        id: "337",
-        guid: "242d39b2-2912-410d-9861-17fcc7f6bf90",
-        name: "새로운 삶 인생 사랑 (새삶나눔터) - Daum 카페",
-        url: "https://cafe.daum.net/lifeagain",
-        date_added: "0",
-        date_last_used: "0",
-        icons: [],
-        meta: {
-          "google-site-verification":
-            "emVCMF0mxjNszOhGaUfJ8FkMTxlVO4g0U4gG5cO71pg",
-          "og:url": "https://cafe.daum.net/_c21_/home?grpid=Dtti",
-          "og:type": "website",
-          "og:image":
-            "./screenshots-flat/새로운 삶 인생 사랑 (새삶나눔터) - Daum 카페.png",
-        },
-      },
-      {
-        id: "340",
-        guid: "d4be3e22-851e-4223-a8fb-e2c22c2df5d5",
-        name: "Shorpy Historic Picture Archive | Old Photos & Fine Art Prints",
-        url: "http://www.shorpy.com/",
-        date_added: "0",
-        date_last_used: "0",
-        icons: [
-          "https://www.shorpy.com/favicon.ico",
-          "https://www.shorpy.com/favicon-32x32.png",
-          "https://www.shorpy.com/favicon-16x16.png",
-          "https://www.shorpy.com/favicon.ico",
-          "https://www.shorpy.com/favicon.ico",
-        ],
-        meta: {
-          viewport: "width=device-width, initial-scale=1.0",
-          "og:title": "Shorpy.com",
-          "og:type": "website",
-          "og:url": "https://www.shorpy.com/",
-          "og:image": "https://www.shorpy.com/",
-          "og:image:width": "",
-          "og:image:height": "",
-          "og:site_name": "Shorpy.com",
-          "og:description": "Shorpy Vintage HD Photo Archive",
-          "fb:admins": "1405467359",
-          "fb:app_id": "966242223397117",
-          description:
-            "Vintage Photo Archive -- Thousands of high-resolution scans made from large-format negatives, available as prints or stock images, or just for browsing",
-          keywords:
-            "vintage stock photos, old pictures, poster art, office artwork, Kodachrome, photography, historic photos, American history, glass negatives, Dorothea Lange",
-          "verify-v1": "VV2yMbDiKlx0oEFrPH9JAq36JzbJ+KgHHYHx82dKH+w=",
-          "google-site-verification":
-            "miv96sg0OtqQgFP08k7-k8M4I2zggA1-HUlfJ-d-lAs",
-          "google-site-verification=miv96sg0OtqQgFP08k7-k8M4I2zggA1-HUlfJ-d-lAs />\n<meta name=":
-            "8357ca82cd44f706",
-        },
-      },
-      {
-        id: "273",
-        guid: "e2ca2701-3250-4d06-92c0-e3eef2064569",
-        name: "노블레스닷컴",
-        url: "https://www.noblesse.com/home/main.php",
-        date_added: "0",
-        date_last_used: "0",
-        icons: [
-          "https://www.noblesse.com/home/common/favicons/favicon-32x32.png",
-          "https://www.noblesse.com/home/common/favicons/favicon-194x194.png",
-          "https://www.noblesse.com/home/common/favicons/android-chrome-192x192.png",
-          "https://www.noblesse.com/home/common/favicons/favicon-16x16.png",
-        ],
-        meta: {
-          viewport:
-            "initial-scale=1.0, maximum-scale=4.0, minimum-scale=0.5, width=device-width, height=device-height, user-scalable=yes, target-densitydpi=device-dpi",
-          "format-detection": "telephone=no, address=no, email=no",
-          "google-site-verification":
-            "rBH614Vd1JT5W0RlpH_pVxVOnpMAQitcEq3yqipuUQw",
-          keywords:
-            "노블레스,noblesse,노블레스닷컴,노블레스매거진,노블레스맨,아트나우",
-          description:
-            "노블레스,noblesse,노블레스닷컴,노블레스매거진,노블레스맨,아트나우",
-          "msapplication-TileColor": "#000000",
-          "msapplication-TileImage": "/home/common/favicons/mstile-144x144.png",
-          "theme-color": "#ffffff",
-          "og:type": "website",
-          "og:image": "./screenshots-flat/노블레스닷컴.png",
-        },
-      },
-      {
-        id: "276",
-        guid: "21d38dc6-a6be-44ec-8e23-03eac8cd278b",
-        name: "Flipboard - 나만의 모든 관심사",
-        url: "https://flipboard.com/?utm_source=email_fromapp&utm_medium=mail_footer_now&utm_campaign=flipitnow",
-        date_added: "0",
-        date_last_used: "0",
-        icons: [
-          "https://s.flipboard.com/webapp/images/favicon/favicon-32x32.png",
-          "https://s.flipboard.com/webapp/images/favicon/favicon-16x16.png",
-        ],
-        meta: {
-          version: "f3a879a641a37becc0078d0bdf24235d37d30cde",
-          appversion: "",
-          viewport: "width=device-width, minimum-scale=1, initial-scale=1",
-          description:
-            "관심 있는 기사를 한 곳에서 모두 보실 수 있습니다. Flipboard 커뮤니티에 가입하여 나에게 영감을 주는 기사를 발견하고 공유하세요.",
-          robots: "max-image-preview:large",
-          "csrf-token": "iArlDX3s-V09sqUn2gebYwsZTiW1YaLrzsto",
-          "fb:app_id": "105130332854716",
-          "og:type": "flipboard:magazine",
-          "og:url": "https://flipboard.com/",
-          "og:site_name": "Flipboard",
-          "og:title": "Flipboard: 내 소셜 매거진",
-          "og:image": "https://cdn.flipboard.com/itemshare/Logo-250X250.png",
-          "og:description":
-            "관심 있는 기사를 한 곳에서 모두 보실 수 있습니다. Flipboard 커뮤니티에 가입하여 나에게 영감을 주는 기사를 발견하고 공유하세요.",
-          "al:android:app_name": "Flipboard",
-          "al:android:package": "flipboard.app",
-          "al:web:url": "https://flipboard.com/",
-          "al:android:url": "flipboard://showHomeFeed",
-          "al:ios:url": "flipboard://showHomeFeed",
-          "al:ios:app_store_id": "358801284",
-          "al:ios:app_name": "Flipboard",
-          "twitter:card": "app",
-          "twitter:image":
-            "https://cdn.flipboard.com/itemshare/Logo-250X250.png",
-          "twitter:site": "@flipboard",
-          "twitter:url": "https://flipboard.com/",
-          "twitter:title": "Flipboard: 내 소셜 매거진",
-          "twitter:description":
-            "관심 있는 기사를 한 곳에서 모두 보실 수 있습니다. Flipboard 커뮤니티에 가입하여 나에게 영감을 주는 기사를 발견하고 공유하세요.",
-          "twitter:app:name:iphone": "Flipboard",
-          "twitter:app:id:iphone": "358801284",
-          "twitter:app:url:iphone": "flipboard://showHomeFeed",
-          "twitter:app:url:ipad": "flipboard://showHomeFeed",
-          "twitter:app:url:googleplay": "flipboard://showHomeFeed",
-          "twitter:app:name:ipad": "Flipboard",
-          "twitter:app:id:ipad": "358801284",
-          "twitter:app:name:googleplay": "Flipboard",
-          "twitter:app:id:googleplay": "flipboard.app",
-          "theme-color": "#ffffff",
-          "facebook-domain-verification": "ywhozjo5reunzsreuq3vpr6j6u46u1",
-          "msapplication-TileColor": "#da532c",
-        },
-      },
-      {
-        id: "277",
-        guid: "5e4a2bb2-07f2-4609-a7a9-782e74c04ca4",
-        name: "Insider",
-        url: "https://www.insider.com/",
-        date_added: "0",
-        date_last_used: "0",
-        icons: [
-          "https://www.businessinsider.com/public/assets/BI/US/favicons/apple-touch-icon-192x192.png?v=2023-11",
-          "https://www.businessinsider.com/public/assets/BI/US/favicons/favicon-32x32.png?v=2023-11",
-          "https://www.businessinsider.com/public/assets/BI/US/favicons/favicon-16x16.png?v=2023-11",
-          "https://www.businessinsider.com/public/assets/BI/US/favicons/favicon.ico?v=2023-11",
-          "https://www.businessinsider.com/public/assets/BI/US/favicons/favicon.svg?v=2023-11",
-        ],
-        meta: {
-          viewport: "width=device-width, initial-scale=1",
-          description:
-            "Business Insider tells the global tech, finance, stock market, media, economy, lifestyle, real estate, AI and innovative stories you want to know.",
-          "og:title":
-            "Business Insider - Latest News in Tech, Markets, Economy & Innovation",
-          "og:description":
-            "Business Insider tells the global tech, finance, stock market, media, economy, lifestyle, real estate, AI and innovative stories you want to know.",
-          "og:url": "https://www.businessinsider.com",
-          "og:type": "website",
-          "og:image":
-            "https://www.businessinsider.com/public/assets/logos/og-image-logo-social.png?v=2023-11",
-          "og:admins": "61404924,14700889,122084,773948648",
-          "og:site_name": "Business Insider",
-          "fb:pages": "20446254070",
-          "apple-itunes-app": "app-id=554260576",
-          "linkedin:owner": "mid:1d5f7b",
-          "ii-ab-test:ga1": "",
-          "ii-ab-test:zpd-job": "",
-          "ii-ab-test:vvhp": "",
-          "user-status": "",
-          env: "",
-          "mrf:tags": "Page Type:homepage",
-          "msapplication-config":
-            "/public/assets/BI/US/favicons/browserconfig.xml?v=2023-11",
-          "theme-color": "#fff",
-          "apple-mobile-web-app-title": "Business Insider",
-        },
-      },
-      {
-        id: "279",
-        guid: "98416e82-e3a0-4604-9d28-021d15ded7a9",
-        name: "WWD – Women's Wear Daily brings you breaking news about the fashion industry, designers, celebrity trend setters, and extensive coverage of fashion week.",
-        url: "https://wwd.com/",
-        date_added: "0",
-        date_last_used: "13323269104402927",
-        icons: [
-          "https://wwd.com/wp-content/themes/vip/pmc-wwd-2021/assets/app/icons/favicon.png",
-          "https://wwd.com/wp-content/themes/vip/pmc-wwd-2021/assets/app/icons/favicon.ico",
-          "https://wwd.com/wp-content/uploads/2018/06/a9597fffaf6885dd6f870d1269ef3b72.png?w=32",
-          "https://wwd.com/wp-content/uploads/2018/06/a9597fffaf6885dd6f870d1269ef3b72.png?w=128",
-        ],
-        meta: {
-          "theme-color": "#ffffff",
-          viewport: "width=device-width, initial-scale=1.0",
-          "apple-mobile-web-app-status-bar-style": "black-translucent",
-          "msapplication-config":
-            "https://wwd.com/wp-content/themes/vip/pmc-wwd-2021/assets/app/browserconfig.xml",
-          "msapplication-TileImage":
-            "https://wwd.com/wp-content/uploads/2018/06/a9597fffaf6885dd6f870d1269ef3b72.png?w=128",
-          "msapplication-TileColor": "#eff4ff",
-          description:
-            "Women's Wear Daily brings you breaking news about the fashion industry, designers, celebrity trend setters, and extensive coverage of fashion week.",
-          "fb:pages": "19457049254",
-          robots: "index, follow",
-          generator: "WordPress 6.7.2",
-          "og:type": "website",
-          "og:title": "WWD",
-          "og:description":
-            "Women's Wear Daily brings you breaking news about the fashion industry, designers, celebrity trend setters, and extensive coverage of fashion week.",
-          "og:url": "https://wwd.com/",
-          "og:site_name": "WWD",
-          "og:image":
-            "https://wwd.com/wp-content/themes/vip/pmc-wwd-2021/assets/app/icons/icon-512x512.png",
-          "og:image:alt": "",
-          "og:locale": "en_US",
-          "twitter:site": "@wwd",
-          "twitter:card": "summary",
-          "twitter:description":
-            "Women's Wear Daily brings you breaking news about the fashion industry, designers, celebrity trend setters, and extensive coverage of fashion week.",
-        },
-      },
-      {
-        id: "288",
-        guid: "31f3e6e0-ab0e-47c5-92aa-1c570c5e8b79",
-        name: "University of Fashion",
-        url: "https://www.universityoffashion.com/login-welcome-page/",
-        date_added: "0",
-        date_last_used: "0",
-        icons: [
-          "https://www.universityoffashion.com/wp-content/uploads/2023/03/uf-icon-32.png",
-        ],
-        meta: {
-          robots:
-            "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-          description:
-            "Free and paid membership options. Get access to all of our how to video lessons.",
-          "og:locale": "en_US",
-          "og:type": "article",
-          "og:title": "Sign up - University of Fashion",
-          "og:description":
-            "Free and paid membership options. Get access to all of our how to video lessons.",
-          "og:url": "https://www.universityoffashion.com/sign-up/",
-          "og:site_name": "University of Fashion",
-          "article:publisher": "https://www.facebook.com/UniversityofFashion",
-          "article:modified_time": "2024-01-16T19:45:34+00:00",
-          "og:image":
-            "https://www.universityoffashion.com/wp-content/uploads/2018/08/2017-UofF-Logo-Crystal-Clear-825x263-300-Alpha-Circle-R.png",
-          "twitter:card": "summary_large_image",
-          "twitter:site": "@u_of_fashion",
-          "twitter:label1": "Est. reading time",
-          "twitter:data1": "1 minute",
-          generator: "WooFramework 6.2.9",
-          viewport: "initial-scale=1.0; width=device-width",
-        },
-      },
-      {
-        id: "296",
-        guid: "34951df4-366a-45ea-8eb8-ba59feddd13a",
-        name: "CHARLIE LE MINDU - LE MAG",
-        url: "http://www.charlielemindu.com/mag/",
-        date_added: "0",
-        date_last_used: "0",
-        icons: [
-          "https://www.charlielemindu.com/mag/wp-content/themes/charlielemag/favicon.ico",
-        ],
-        meta: {
-          generator: "WordPress 4.7.9",
-          description:
-            "Magazine Officiel de Charlie Le Mindu : Haute Coiffure : Collections / Hair / Gossip / Videos / Hot news + more!",
-          robots: "noodp",
-          "og:locale": "en_US",
-          "og:type": "website",
-          "og:title": "CHARLIE LE MINDU - LE MAG",
-          "og:description":
-            "Magazine Officiel de Charlie Le Mindu : Haute Coiffure : Collections / Hair / Gossip / Videos / Hot news + more!",
-          "og:url": "https://www.charlielemindu.com/mag/",
-          "og:site_name": "CHARLIE LE MINDU",
-          "google-site-verification":
-            "npJ-vR1fPV21EayETGkKj-1uZ-xeGABEw8JnOLPbWTU",
-          "fb:app_id": "179327278361",
-          "fb:admins": "",
-          "og:image": "./screenshots-flat/CHARLIE LE MINDU - LE MAG.png",
-        },
-      },
-      {
-        id: "302",
-        guid: "69d6df30-1c83-4fb6-b988-a3eae9cf7cf8",
-        name: "Traditional costume – Hindeloopen | Atelier Nostalgia",
-        url: "https://ateliernostalgia.wordpress.com/2013/11/12/traditional-costume-hindeloopen/",
-        date_added: "0",
-        date_last_used: "0",
-        icons: [
-          "https://secure.gravatar.com/blavatar/bcd8e1ac4566400bd5d7a2494dea8c8c9291f01f857331f3c157db6642ae4090?s=32",
-          "https://secure.gravatar.com/blavatar/bcd8e1ac4566400bd5d7a2494dea8c8c9291f01f857331f3c157db6642ae4090?s=32",
-        ],
-        meta: {
-          viewport: "width=device-width",
-          robots: "max-image-preview:large",
-          generator: "WordPress.com",
-          "og:type": "article",
-          "og:title": "Traditional costume – Hindeloopen",
-          "og:url":
-            "https://ateliernostalgia.wordpress.com/2013/11/12/traditional-costume-hindeloopen/",
-          "og:description":
-            "I love traditional costumes, they’re fascinating. There is usually a very long tradition and history of how the clothing became a certain way. Also, a lot of the time, every piece of the cost…",
-          "article:published_time": "2013-11-12T08:00:45+00:00",
-          "article:modified_time": "2017-06-15T13:28:03+00:00",
-          "og:site_name": "Atelier Nostalgia",
-          "og:image":
-            "http://resolver.kb.nl/resolve?urn=urn:gvn:NOMA01:PR10667&size=large",
-          "og:image:width": "384",
-          "og:image:height": "480",
-          "og:image:alt": "",
-          "og:locale": "en_US",
-          "fb:app_id": "249643311490",
-          "article:publisher": "https://www.facebook.com/WordPresscom",
-          "twitter:text:title": "Traditional costume – Hindeloopen",
-          "twitter:image":
-            "http://resolver.kb.nl/resolve?urn=urn%3Agvn%3ANOMA01%3APR10667&size=large&w=640",
-          "twitter:card": "summary_large_image",
-          "theme-color": "#e9e4de",
-          description:
-            "I love traditional costumes, they're fascinating. There is usually a very long tradition and history of how the clothing became a certain way. Also, a lot of the time, every piece of the costume tells a story. You can often tell from someones clothes their age, their faith, their martial status, their wealth and about…",
-        },
-      },
-      {
-        id: "304",
-        guid: "66381bbf-a187-4ba8-8084-6f824032a1bc",
-        name: "Britain in the 1950s and 1960s - Historic UK",
-        url: "https://www.historic-uk.com/CultureUK/Britaininthe1950s1960s/",
-        date_added: "0",
-        date_last_used: "0",
-        icons: [
-          "https://www.historic-uk.com/wp-content/uploads/2019/01/cropped-ms-icon-310x310-32x32.png",
-          "https://www.historic-uk.com/wp-content/uploads/2019/01/cropped-ms-icon-310x310-192x192.png",
-        ],
-        meta: {
-          "facebook-domain-verification": "ikv5y5iijv8ce11wnwdrcnfqpfo4rk",
-          HandheldFriendly: "True",
-          MobileOptimized: "320",
-          viewport:
-            "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0",
-          robots:
-            "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-          description:
-            "Life in Post War Britain was very different from that of the 1920s and 1930s. The 1950s and 1960s saw many scientific advances, the rise of the teenager and teen culture, rock music, foreign food...",
-          "og:locale": "en_GB",
-          "og:type": "article",
-          "og:title": "Britain in the 1950s and 1960s - Historic UK",
-          "og:description":
-            "Life in Post War Britain was very different from that of the 1920s and 1930s. The 1950s and 1960s saw many scientific advances, the rise of the teenager and teen culture, rock music, foreign food...",
-          "og:url":
-            "https://www.historic-uk.com/CultureUK/Britaininthe1950s1960s/",
-          "og:site_name": "Historic UK",
-          "article:modified_time": "2025-03-06T16:52:27+00:00",
-          "og:image":
-            "https://www.historic-uk.com/wp-content/uploads/2017/05/1950s-1960s.jpg",
-          "og:image:width": "2048",
-          "og:image:height": "1053",
-          "og:image:type": "image/jpeg",
-          "twitter:card": "summary_large_image",
-          "twitter:label1": "Estimated reading time",
-          "twitter:data1": "7 minutes",
-          "msapplication-TileImage":
-            "https://www.historic-uk.com/wp-content/uploads/2019/01/cropped-ms-icon-310x310-270x270.png",
-          "fb:app_id": "188109141314159",
-        },
-      },
-      {
-        id: "317",
-        guid: "d76d6d25-979f-4c2d-af56-78b0d30194ed",
-        name: "데일리트렌드 – 비즈니스트렌드 & 패션트렌드",
-        url: "https://www.dailytrend.co.kr/",
-        date_added: "0",
-        date_last_used: "0",
-        icons: [
-          "https://static.dailytrend.co.kr/wp-content/uploads/2019/04/31080203/cropped-11-1-32x32.jpg",
-          "https://static.dailytrend.co.kr/wp-content/uploads/2019/04/31080203/cropped-11-1-192x192.jpg",
-        ],
-        meta: {
-          viewport: "width=device-width, initial-scale=1.0",
-          robots:
-            "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-          description: "리테일 트렌드 / 이커머스 트렌드 / 패션 뷰티 트렌드",
-          "og:locale": "ko_KR",
-          "og:type": "website",
-          "og:title": "데일리트렌드",
-          "og:description":
-            "리테일 트렌드 / 이커머스 트렌드 / 패션 뷰티 트렌드",
-          "og:url": "https://www.dailytrend.co.kr/",
-          "og:site_name": "데일리트렌드",
-          "twitter:card": "summary_large_image",
-          generator: "WooCommerce 9.8.5",
-          "msapplication-TileImage":
-            "https://static.dailytrend.co.kr/wp-content/uploads/2019/04/31080203/cropped-11-1-270x270.jpg",
-          "og:image":
-            "./screenshots-flat/데일리트렌드 – 비즈니스트렌드 & 패션트렌드.png",
-        },
-      },
-      {
-        id: "447",
-        guid: "8e3f9851-1817-4a1f-a0ba-b2f697700ede",
-        name: "Free textures, Photoshop brushes | plaintextures.com",
-        url: "http://www.plaintextures.com/",
-        date_added: "0",
-        date_last_used: "0",
-        icons: ["https://www.plaintextures.com/favicon.ico?r"],
-        meta: {
-          viewport: "width=device-width, initial-scale=1",
-          "csrf-param": "_csrf",
-          "csrf-token":
-            "nYxU95FR1IPPKu7rIXdQndnquWmZOoqYCA_q7hiRAcnW1T-dxwW7xKkSitJiIGjpiInuK8YO_rVNO6K9UftM8A==",
-          "og:type": "website",
-          "og:image":
-            "./screenshots-flat/Free textures, Photoshop brushes _ plaintextures.com.png",
-        },
-      },
-      {
-        id: "452",
-        guid: "f3c2b3cd-1e0a-4ac1-b25b-4d6eca620aea",
-        name: "Tutorial #1: Using Variable Fonts on the Web — Dinamo Typefaces",
-        url: "https://abcdinamo.com/news/using-variable-fonts-on-the-web",
-        date_added: "13327651896342472",
-        date_last_used: "0",
-        icons: [
-          "https://abcdinamo.com/assets/favicon/favicon.svg",
-          "https://abcdinamo.com/assets/favicon/favicon-32x32.png",
-          "https://abcdinamo.com/assets/favicon/favicon-16x16.png",
-          "https://abcdinamo.com/favicon.ico",
-        ],
-        meta: {
-          viewport: "width=device-width, initial-scale=1.0",
-          "csrf-token":
-            "a6xByS10b9UpVxYVBHp_3joXPHdszkcHMJwCL6cAIpm-U2M7xccllA6BDboUIySAXXpsQVEgJ5FVf3ACOP4Ic1zOZlbwLUjR9gIRUfSRbqE=",
-          "msapplication-TileColor": "#ffffff",
-          "msapplication-config": "/browserconfig.xml",
-          "theme-color": "#ffffff",
-          description:
-            "Dinamo is a Berlin-based type design studio offering retail and bespoke typefaces, design software, research, and consultancy. We operate via a network of…",
-          referrer: "no-referrer-when-downgrade",
-          robots: "all",
-          "fb:profile_id": "547686315271859",
-          "og:locale": "en_US",
-          "og:site_name": "Dinamo Typefaces",
-          "og:type": "website",
-          "og:url":
-            "https://abcdinamo.com/news/using-variable-fonts-on-the-web",
-          "og:title": "Using Variable Fonts on the Web",
-          "og:description":
-            "Dinamo is a Berlin-based type design studio offering retail and bespoke typefaces, design software, research, and consultancy. We operate via a network of…",
-          "og:image":
-            "https://cdn.abcdinamo.com/media/Dinamo_Logo_2022_Logo-Box-Black-RGB.jpg",
-          "og:image:width": "3980",
-          "og:image:height": "1025",
-          "og:see_also": "https://www.twitter.com/abcdinamo",
-          "twitter:card": "summary_large_image",
-          "twitter:site": "@abcdinamo",
-          "twitter:creator": "@abcdinamo",
-          "twitter:title": "Using Variable Fonts on the Web",
-          "twitter:description":
-            "Dinamo is a Berlin-based type design studio offering retail and bespoke typefaces, design software, research, and consultancy. We operate via a network of…",
-          "twitter:image":
-            "https://cdn.abcdinamo.com/media/Dinamo_Logo_2022_Logo-Box-Black-RGB.jpg",
-          "twitter:image:width": "3980",
-          "twitter:image:height": "1025",
-        },
-      },
-      {
-        id: "464",
-        guid: "d48b9d2d-6ecb-4ded-b710-7592b3cfeb90",
-        name: "1001 Free Fonts | Download Fonts",
-        url: "https://www.1001freefonts.com/",
-        date_added: "13372152319395119",
-        date_last_used: "0",
-        icons: ["https://www.1001freefonts.com/themes/blue/images/favicon.ico"],
-        meta: {
-          description:
-            "Download free fonts for Windows and Mac. Browse categories such as calligraphy, handwriting, script and more. New fonts added daily.",
-          viewport: "width=device-width, initial-scale=1.0",
-          "google-site-verification":
-            "XrSKKdOsDi3FNT2bKC3X8c6_gLF0OPnyotXMHNSppps",
-          robots: "index, follow",
-          "og:title": "1001 Free Fonts | Download Fonts",
-          "og:type": "website",
-          "og:url": "https://www.1001freefonts.com/",
-          "og:image": "https://www.1001freefonts.com/logo.png",
-          "og:image:type": "image/png",
-          "og:image:width": "512",
-          "og:image:height": "512",
-          "og:image:alt": "1001 Free Fonts",
-          "og:description":
-            "Download free fonts for Windows and Mac. Browse categories such as calligraphy, handwriting, script and more. New fonts added daily.",
-          "og:site_name": "1001 Free Fonts",
-        },
-      },
-      {
-        id: "94",
-        guid: "27747c2a-d969-4f62-8560-a65142e014ed",
-        name: "X-State | Xup | Stately",
-        url: "https://stately.ai/registry/editor/16cc5045-88cb-48c0-b2ed-3262e70ff794?machineId=ade62f17-02cd-45f2-90ae-6d4799e5771d&mode=Design",
-        date_added: "13372217190291635",
-        date_last_used: "0",
-        icons: [
-          "https://stately.ai/registry/favicon.png",
-          "https://stately.ai/registry/favicon.svg",
-        ],
-        meta: {
-          viewport: "width=device-width",
-          description:
-            "View your personal and team Stately machines. Stately is a visual platform for collaborating on application logic.",
-          "next-head-count": "6",
-          "og:type": "website",
-          "og:image": "./screenshots-flat/X-State _ Xup _ Stately.png",
-        },
-      },
-      {
-        id: "98",
-        guid: "ec55e6ab-be22-472a-8f92-26cfd4dcd3ca",
-        name: "Untitled | Xup | Stately",
-        url: "https://stately.ai/registry/editor/16cc5045-88cb-48c0-b2ed-3262e70ff794?machineId=ade62f17-02cd-45f2-90ae-6d4799e5771d&mode=Simulate",
-        date_added: "13372217053496891",
-        date_last_used: "0",
-        icons: [
-          "https://stately.ai/registry/favicon.png",
-          "https://stately.ai/registry/favicon.svg",
-        ],
-        meta: {
-          viewport: "width=device-width",
-          description:
-            "View your personal and team Stately machines. Stately is a visual platform for collaborating on application logic.",
-          "next-head-count": "6",
-          "og:type": "website",
-          "og:image": "./screenshots-flat/Untitled _ Xup _ Stately.png",
-        },
-      },
-      {
-        id: "717",
-        guid: "16fe126e-d436-438a-a28c-ea3b1b541126",
-        name: "Artvee_expired painting",
-        url: "https://artvee.com/",
-        date_added: "13392625855656954",
-        date_last_used: "0",
-        icons: [
-          "https://artvee.com/saconud/icon-350x350.png",
-          "https://artvee.com/saconud/icon-350x350.png",
-        ],
-        meta: {
-          viewport:
-            "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no",
-          description:
-            "Browse and download high-resolution, public domain Paintings, Drawings, Illustrations and Posters.",
-          robots: "index, follow",
-          googlebot:
-            "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
-          bingbot:
-            "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
-          "og:type": "website",
-          "og:title": "Artvee",
-          "og:description":
-            "Browse and download high-resolution, public domain Paintings, Drawings, Illustrations and Posters.",
-          "og:url": "https://artvee.com/",
-          "og:site_name": "Artvee",
-          "og:image": "https://mdl.artvee.com/assets/artvee.jpg",
-          "twitter:card": "summary_large_image",
-          "twitter:creator": "artvee",
-          "ump-token": "352e8236ca",
-        },
-      },
-      {
-        id: "37",
-        guid: "896f321c-1d5f-4291-b740-4204bd91714b",
-        name: "세상의 모든 UX 패턴 | UPA",
-        url: "https://main.userspoon.com/upa",
-        date_added: "13368437276590632",
-        date_last_used: "13391946368721949",
-        icons: ["https://upa.userspoon.com/favicon.png"],
-        meta: {
-          viewport: "width=device-width, initial-scale=1, user-scalable=no",
-          "og:title": "세상의 모든 UX 패턴 | UPA",
-          description: "좋은 UX 리서치 문화를 위한 첫술, 유저스푼",
-          "og:description": "세상 모든 UX 패턴을 찾기 쉽게, 알기 쉽게",
-          "og:url": "https://upa.userspoon.com/",
-          "og:image": "/og_image.png",
-          keywords:
-            "유저스푼, 유저리서치, uxresearch, ux리서치, UX패턴아카이브, UPA, UXpattern, ux레퍼런스, ux레퍼런스추천, uxui레퍼런스",
-          "next-head-count": "10",
-          "naver-site-verification": "4ea053c7ec9ee281faf9926fd4bf6f37a4125b46",
-          "og:type": "website",
-        },
-      },
+
       {
         id: "40",
         guid: "853177b4-a0de-42f1-9674-117b2450aea3",
@@ -4388,209 +3172,72 @@ var category_sorted = [
             "https://tailwindcss.com/api/og?path=/docs/adding-custom-styles",
         },
       },
+
       {
-        id: "56",
-        guid: "c21e1c88-4ce2-4873-b91c-73ec7878815d",
-        name: "[디자인 프로세스] 디자인 방법론은 어떻게 사용하나요? | 요즘IT",
-        url: "https://yozm.wishket.com/magazine/detail/2693/",
-        date_added: "13370589053641693",
-        date_last_used: "0",
-        icons: [],
-        meta: {
-          viewport: "width=device-width, initial-scale=1",
-          "fb:app_id": "593258114025512",
-          "naver-site-verification": "dc8f6187646a72a65dd61bd285076617240199aa",
-          "slack-app-id": "A02085A8T32",
-          description:
-            "디자이너는 디자인 전략을 수립하고, 사용자 경험을 설계하며 비즈니스 기반의 문제 해결을 한다. 멋진 일이지만 책상 위의 실무는 그렇게 매끄럽지 않다. 좋은 프로덕트를 만들기 위해서는 순서와 절차가 필요하다. 멋진 계획이 없어도 결과를 만들 수 있지만, 계획이 있다면 더 많은 결과를 만들 수 있다. 계획을 세워서 얻을 수 있는 절차는 초기 아이디어를 구현하고, 사용자 경험을 성장시키기 위한 UI를 테스트하고, 사용자의 피드백과 목소리를 듣는 모든 과정을 포함한다. 이번 글에서는 디자인 방법론을 어떻게 사용해야 하는지 살펴보고자 한다.",
-          author: "Yozm IT",
-          keywords:
-            "디자인,방법론,디자이너,프로세스,전략,사용자경험,UI,ux,프로덕트,트렌드,피드백,프로젝트,커뮤니케이션,협업,린,애자일,피그마,비즈니스,테스트",
-          "og:keyword":
-            "디자인,방법론,디자이너,프로세스,전략,사용자경험,UI,ux,프로덕트,트렌드,피드백,프로젝트,커뮤니케이션,협업,린,애자일,피그마,비즈니스,테스트",
-          date: "2024-07-29",
-          "format-detection": "telephone=no",
-          "og:title":
-            "[디자인 프로세스] 디자인 방법론은 어떻게 사용하나요? | 요즘IT",
-          "og:description":
-            "디자이너는 디자인 전략을 수립하고, 사용자 경험을 설계하며 비즈니스 기반의 문제 해결을 한다. 멋진 일이지만 책상 위의 실무는 그렇게 매끄럽지 않다. 좋은 프로덕트를 만들기 위해서는 순서와 절차가 필요하다. 멋진 계획이 없어도 결과를 만들 수 있지만, 계획이 있다면 더 많은 결과를 만들 수 있다. 계획을 세워서 얻을 수 있는 절차는 초기 아이디어를 구현하고, 사용자 경험을 성장시키기 위한 UI를 테스트하고, 사용자의 피드백과 목소리를 듣는 모든 과정을 포함한다. 이번 글에서는 디자인 방법론을 어떻게 사용해야 하는지 살펴보고자 한다.",
-          "og:url": "https://yozm.wishket.com/magazine/detail/2693/",
-          "og:site_name": "요즘IT",
-          "og:image": "https://yozm.wishket.com/media/news/2693/3.jfif",
-          "og:image:alt":
-            "[디자인 프로세스] 디자인 방법론은 어떻게 사용하나요? | 요즘IT",
-          "og:type": "website",
-          "twitter:card": "summary_large_image",
-          "twitter:site": "@wishket",
-          "twitter:title":
-            "[디자인 프로세스] 디자인 방법론은 어떻게 사용하나요? | 요즘IT",
-          "twitter:description":
-            "디자이너는 디자인 전략을 수립하고, 사용자 경험을 설계하며 비즈니스 기반의 문제 해결을 한다. 멋진 일이지만 책상 위의 실무는 그렇게 매끄럽지 않다. 좋은 프로덕트를 만들기 위해서는 순서와 절차가 필요하다. 멋진 계획이 없어도 결과를 만들 수 있지만, 계획이 있다면 더 많은 결과를 만들 수 있다. 계획을 세워서 얻을 수 있는 절차는 초기 아이디어를 구현하고, 사용자 경험을 성장시키기 위한 UI를 테스트하고, 사용자의 피드백과 목소리를 듣는 모든 과정을 포함한다. 이번 글에서는 디자인 방법론을 어떻게 사용해야 하는지 살펴보고자 한다.",
-          "twitter:image": "https://yozm.wishket.com/media/news/2693/3.jfif",
-        },
-      },
-      {
-        id: "57",
-        guid: "b9073aad-f297-4cef-aa02-48cabf5465b7",
-        name: "[디자인 프로세스] 성장하는 디자이너란? 디자이너와 프로세스 | 요즘IT",
-        url: "https://yozm.wishket.com/magazine/detail/2654/",
-        date_added: "13370589057250437",
-        date_last_used: "0",
-        icons: [],
-        meta: {
-          viewport: "width=device-width, initial-scale=1",
-          "fb:app_id": "593258114025512",
-          "naver-site-verification": "dc8f6187646a72a65dd61bd285076617240199aa",
-          "slack-app-id": "A02085A8T32",
-          description:
-            "디자이너의 ‘성장’에 대해 자주 듣는다. 그렇다면 ‘성장하는 디자이너’는 어떻게 될 수 있는지에 대해 생각해 보았다. 어느 곳이든 회사는 항상 성장을 요구한다. 동기부여는 회사의 목적 중 하나이고 원하는 것을 빠르게, 효과적으로 얻기 위해 노력하기 때문이다. 그러나 적어도 IT 분야는 열심히 일하는 것만으로는 충분하지 않을 때가 많다. 특히 디자인은 더 그렇다. ",
-          author: "Yozm IT",
-          keywords:
-            "디자인,디자이너,프로세스,성장,제품,전략,비관적,프로젝트,보상,아젠다,경험,측정,브랜드,브랜딩,피드백,목표,사수,유튜브,지표,AB테스트,방법론",
-          "og:keyword":
-            "디자인,디자이너,프로세스,성장,제품,전략,비관적,프로젝트,보상,아젠다,경험,측정,브랜드,브랜딩,피드백,목표,사수,유튜브,지표,AB테스트,방법론",
-          date: "2024-07-02",
-          "format-detection": "telephone=no",
-          "og:title":
-            "[디자인 프로세스] 성장하는 디자이너란? 디자이너와 프로세스 | 요즘IT",
-          "og:description":
-            "디자이너의 ‘성장’에 대해 자주 듣는다. 그렇다면 ‘성장하는 디자이너’는 어떻게 될 수 있는지에 대해 생각해 보았다. 어느 곳이든 회사는 항상 성장을 요구한다. 동기부여는 회사의 목적 중 하나이고 원하는 것을 빠르게, 효과적으로 얻기 위해 노력하기 때문이다. 그러나 적어도 IT 분야는 열심히 일하는 것만으로는 충분하지 않을 때가 많다. 특히 디자인은 더 그렇다. ",
-          "og:url": "https://yozm.wishket.com/magazine/detail/2654/",
-          "og:site_name": "요즘IT",
-          "og:image": "https://yozm.wishket.com/media/news/2654/6.jfif",
-          "og:image:alt":
-            "[디자인 프로세스] 성장하는 디자이너란? 디자이너와 프로세스 | 요즘IT",
-          "og:type": "website",
-          "twitter:card": "summary_large_image",
-          "twitter:site": "@wishket",
-          "twitter:title":
-            "[디자인 프로세스] 성장하는 디자이너란? 디자이너와 프로세스 | 요즘IT",
-          "twitter:description":
-            "디자이너의 ‘성장’에 대해 자주 듣는다. 그렇다면 ‘성장하는 디자이너’는 어떻게 될 수 있는지에 대해 생각해 보았다. 어느 곳이든 회사는 항상 성장을 요구한다. 동기부여는 회사의 목적 중 하나이고 원하는 것을 빠르게, 효과적으로 얻기 위해 노력하기 때문이다. 그러나 적어도 IT 분야는 열심히 일하는 것만으로는 충분하지 않을 때가 많다. 특히 디자인은 더 그렇다. ",
-          "twitter:image": "https://yozm.wishket.com/media/news/2654/6.jfif",
-        },
-      },
-      {
-        id: "58",
-        guid: "fac2f8bf-a5a7-490c-9632-be548874c122",
-        name: "UX를 위한 글쓰기 가이드 | 요즘IT",
-        url: "https://yozm.wishket.com/magazine/detail/1321/",
-        date_added: "13370589060188768",
-        date_last_used: "0",
-        icons: [],
-        meta: {
-          viewport: "width=device-width, initial-scale=1",
-          "fb:app_id": "593258114025512",
-          "naver-site-verification": "dc8f6187646a72a65dd61bd285076617240199aa",
-          "slack-app-id": "A02085A8T32",
-          description:
-            "UX 글쓰기(UX Writing)는 구구절절 설명하는 것이 아닙니다. 사용자가 원하는 대답을 짧고 빠르게 알려주는 것이죠. 지하철 역까지 가는 길을 물었을 때, 험난한 여정과 실수로 다른 길로 빠지면 얼마나 큰 곤경에 빠질지 너무 자세하게 알려주는 것을 원하지는 않을 것입니다. 그저 어느 방향으로 가면 되는지 알려주길 바라겠죠. 서비스를 만들다 보면 사용자와 직접 대화를 하는 것이 아니기 때문에 내가 보여주고 싶은 것을 담거나, 일어날 수 있는 모든 나쁜 상황을 방지하고 싶은 마음에 글이 길어지는 경우가 많습니다.",
-          author: "Yozm IT",
-          keywords: "ux,마이크로카피,디자이너,UX라이팅,PM",
-          "og:keyword": "ux,마이크로카피,디자이너,UX라이팅,PM",
-          date: "2022-02-11",
-          "format-detection": "telephone=no",
-          "og:title": "UX를 위한 글쓰기 가이드 | 요즘IT",
-          "og:description":
-            "UX 글쓰기(UX Writing)는 구구절절 설명하는 것이 아닙니다. 사용자가 원하는 대답을 짧고 빠르게 알려주는 것이죠. 지하철 역까지 가는 길을 물었을 때, 험난한 여정과 실수로 다른 길로 빠지면 얼마나 큰 곤경에 빠질지 너무 자세하게 알려주는 것을 원하지는 않을 것입니다. 그저 어느 방향으로 가면 되는지 알려주길 바라겠죠. 서비스를 만들다 보면 사용자와 직접 대화를 하는 것이 아니기 때문에 내가 보여주고 싶은 것을 담거나, 일어날 수 있는 모든 나쁜 상황을 방지하고 싶은 마음에 글이 길어지는 경우가 많습니다.",
-          "og:url": "https://yozm.wishket.com/magazine/detail/1321/",
-          "og:site_name": "요즘IT",
-          "og:image": "https://yozm.wishket.com/media/news/1321/image009.png",
-          "og:image:alt": "UX를 위한 글쓰기 가이드 | 요즘IT",
-          "og:type": "website",
-          "twitter:card": "summary_large_image",
-          "twitter:site": "@wishket",
-          "twitter:title": "UX를 위한 글쓰기 가이드 | 요즘IT",
-          "twitter:description":
-            "UX 글쓰기(UX Writing)는 구구절절 설명하는 것이 아닙니다. 사용자가 원하는 대답을 짧고 빠르게 알려주는 것이죠. 지하철 역까지 가는 길을 물었을 때, 험난한 여정과 실수로 다른 길로 빠지면 얼마나 큰 곤경에 빠질지 너무 자세하게 알려주는 것을 원하지는 않을 것입니다. 그저 어느 방향으로 가면 되는지 알려주길 바라겠죠. 서비스를 만들다 보면 사용자와 직접 대화를 하는 것이 아니기 때문에 내가 보여주고 싶은 것을 담거나, 일어날 수 있는 모든 나쁜 상황을 방지하고 싶은 마음에 글이 길어지는 경우가 많습니다.",
-          "twitter:image":
-            "https://yozm.wishket.com/media/news/1321/image009.png",
-        },
-      },
-      {
-        id: "59",
-        guid: "0b44cb30-f799-4b0e-8396-b1f5309e9da3",
-        name: "전체 | UPA",
-        url: "https://main.userspoon.com/upa?uxPatternIds=1",
-        date_added: "13370589061920619",
-        date_last_used: "0",
-        icons: ["https://upa.userspoon.com/favicon.png"],
-        meta: {
-          viewport: "width=device-width, initial-scale=1, user-scalable=no",
-          "og:image": "/og_image.png",
-          keywords:
-            "유저스푼, 유저리서치, uxresearch, ux리서치, UX패턴아카이브, UPA, UXpattern, ux레퍼런스, ux레퍼런스추천, uxui레퍼런스",
-          "og:url": "https://upa.userspoon.com/?uxPatternIds=1",
-          "og:title": "스플래시 스크린 | UPA",
-          description: "좋은 UX 리서치 문화를 위한 첫술, 유저스푼",
-          "og:description": "스플래시 스크린 UX 레퍼런스를 제공해요",
-          "next-head-count": "10",
-          "naver-site-verification": "4ea053c7ec9ee281faf9926fd4bf6f37a4125b46",
-          "og:type": "website",
-        },
-      },
-      {
-        id: "75",
-        guid: "836d882c-b3e6-46f1-907f-184864176886",
-        name: "The Future Perfect chair exhibition gets a standing ovation | Wallpaper",
-        url: "https://www.wallpaper.com/design/the-future-perfect-chair-exhibition-new-york#pic_2",
-        date_added: "13364715943775453",
+        id: "691",
+        guid: "13915af6-d18e-4ba2-a5df-0e888b95e221",
+        name: "Android Kotlin JSON 수정",
+        url: "https://chatgpt.com/share/681b5155-d6f0-800b-9bd6-25ef713f30e7",
+        date_added: "13391189011610842",
         date_last_used: "0",
         icons: [
-          "https://cdn.mos.cms.futurecdn.net/flexiimages/iiwmrp3wre1656622788.png",
-          "https://cdn.mos.cms.futurecdn.net/flexiimages/fpqjm7sfgp1656622778.png",
-          "https://cdn.mos.cms.futurecdn.net/flexiimages/iiwmrp3wre1656622788.png",
-          "https://cdn.mos.cms.futurecdn.net/flexiimages/slmsmdauvh1656622783.png",
-          "https://cdn.mos.cms.futurecdn.net/flexiimages/fpqjm7sfgp1656622778.png",
+          "https://cdn.oaistatic.com/assets/favicon-miwirzcw.ico",
+          "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='180'%20height='180'%20fill='none'%3e%3cstyle%3e%20:root%20{%20--primary-fill:%20%23000;%20--secondary-fill:%20%23fff;%20}%20@media%20(prefers-color-scheme:%20dark)%20{%20:root%20{%20--primary-fill:%20%23fff;%20--secondary-fill:%20%23000;%20}%20}%20%3c/style%3e%3cg%20clip-path='url(%23a)'%3e%3crect%20width='180'%20height='180'%20fill='var(--primary-fill)'%20rx='90'%20/%3e%3cg%20clip-path='url(%23b)'%3e%3cpath%20fill='var(--secondary-fill)'%20d='M75.91%2073.628V62.232c0-.96.36-1.68%201.199-2.16l22.912-13.194c3.119-1.8%206.838-2.639%2010.676-2.639%2014.394%200%2023.511%2011.157%2023.511%2023.032%200%20.839%200%201.799-.12%202.758l-23.752-13.914c-1.439-.84-2.879-.84-4.318%200L75.91%2073.627Zm53.499%2044.383v-27.23c0-1.68-.72-2.88-2.159-3.719L97.142%2069.55l9.836-5.638c.839-.48%201.559-.48%202.399%200l22.912%2013.195c6.598%203.839%2011.035%2011.995%2011.035%2019.912%200%209.116-5.397%2017.513-13.915%2020.992v.001Zm-60.577-23.99-9.836-5.758c-.84-.48-1.2-1.2-1.2-2.16v-26.39c0-12.834%209.837-22.55%2023.152-22.55%205.039%200%209.716%201.679%2013.676%204.678L70.993%2055.516c-1.44.84-2.16%202.039-2.16%203.719v34.787-.002Zm21.173%2012.234L75.91%2098.339V81.546l14.095-7.917%2014.094%207.917v16.793l-14.094%207.916Zm9.056%2036.467c-5.038%200-9.716-1.68-13.675-4.678l23.631-13.676c1.439-.839%202.159-2.038%202.159-3.718V85.863l9.956%205.757c.84.48%201.2%201.2%201.2%202.16v26.389c0%2012.835-9.957%2022.552-23.27%2022.552v.001Zm-28.43-26.75L47.72%20102.778c-6.599-3.84-11.036-11.996-11.036-19.913%200-9.236%205.518-17.513%2014.034-20.992v27.35c0%201.68.72%202.879%202.16%203.718l29.989%2017.393-9.837%205.638c-.84.48-1.56.48-2.399%200Zm-1.318%2019.673c-13.555%200-23.512-10.196-23.512-22.792%200-.959.12-1.919.24-2.879l23.63%2013.675c1.44.84%202.88.84%204.32%200l30.108-17.392v11.395c0%20.96-.361%201.68-1.2%202.16l-22.912%2013.194c-3.119%201.8-6.837%202.639-10.675%202.639Zm29.748%2014.274c14.515%200%2026.63-10.316%2029.39-23.991%2013.434-3.479%2022.071-16.074%2022.071-28.91%200-8.396-3.598-16.553-10.076-22.43.6-2.52.96-5.039.96-7.557%200-17.153-13.915-29.99-29.989-29.99-3.239%200-6.358.48-9.477%201.56-5.398-5.278-12.835-8.637-20.992-8.637-14.515%200-26.63%2010.316-29.39%2023.991-13.434%203.48-22.07%2016.074-22.07%2028.91%200%208.396%203.598%2016.553%2010.075%2022.431-.6%202.519-.96%205.038-.96%207.556%200%2017.154%2013.915%2029.989%2029.99%2029.989%203.238%200%206.357-.479%209.476-1.559%205.397%205.278%2012.835%208.637%2020.992%208.637Z'%20/%3e%3c/g%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='a'%3e%3cpath%20d='M0%200h180v180H0z'%20/%3e%3c/clipPath%3e%3cclipPath%20id='b'%3e%3cpath%20d='M29.487%2029.964h121.035v119.954H29.487z'%20/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e",
         ],
         meta: {
-          viewport: "width=device-width,minimum-scale=1,initial-scale=1",
-          pub_date: "2019-05-03T20:08:15+00:00",
-          description:
-            "New York design gallery The Future Perfect opens new exhibition ‘The Chair’, featuring one-of-a-kind chairs by Ben Barber, Karl Zahn, Piet Hein Eek and more",
-          robots: "max-image-preview:large",
-          "msapplication-TileColor": "#000000",
-          "msapplication-TileImage":
-            "https://cdn.mos.cms.futurecdn.net/flexiimages/fpqjm7sfgp1656622778.png",
-          "og:site_name": "Wallpaper*",
+          viewport: "width=device-width, initial-scale=1",
+          "og:site_name": "ChatGPT",
+          robots: "noindex,nofollow",
+          "og:title": "ChatGPT - Android Kotlin JSON 수정",
+          "og:description": "Shared via ChatGPT",
           "og:image":
-            "https://cdn.mos.cms.futurecdn.net/HHLoBrNGLS3AGYrucKJpf6.jpg",
-          "og:image:width": "1540",
-          "og:image:height": "944",
-          "og:type": "article",
-          "article:publisher": "https://www.facebook.com/wallpaper",
-          "og:title":
-            "The Future Perfect chair exhibition gets a standing ovation",
+            "https://cdn.oaistatic.com/assets/chatgpt-share-og-u7j5uyao.webp",
           "og:url":
-            "https://www.wallpaper.com/design/the-future-perfect-chair-exhibition-new-york",
-          "article:published_time": "2019-05-03T20:08:15Z",
-          "article:modified_time": "2022-10-12T06:01:32Z",
-          "parsely-type": "post",
-          "parsely-post-id": "KnqRWcfBbMx3PjDDS3raA9",
-          "parsely-pub-date": "2019-05-03T20:08:15Z",
-          "parsely-title":
-            "The Future Perfect chair exhibition gets a standing ovation",
-          "parsely-link":
-            "https://www.wallpaper.com/design/the-future-perfect-chair-exhibition-new-york",
-          "parsely-image-url":
-            "https://cdn.mos.cms.futurecdn.net/HHLoBrNGLS3AGYrucKJpf6.jpg",
-          "parsely-section": "Design Events",
-          "parsely-tags":
-            "Category: Design Events,Category: Feature,New York,USA,The Future Perfect,serversidehawk",
-          "parsely-author": "Kelsey Mulvey",
+            "https://chatgpt.com/share/681b5155-d6f0-800b-9bd6-25ef713f30e7",
+          "apple-itunes-app": "app-id=6448311069",
+          "dd-trace-id": "10663459451213060571",
+          "dd-trace-time": "1748181880280",
+          "og:type": "website",
+        },
+      },
+      {
+        id: "724",
+        guid: "6984ee0c-d4e4-4aef-b592-42b24999a1c4",
+        name: "Stitch - Design with AI",
+        url: "https://stitch.withgoogle.com/",
+        date_added: "13392626144732935",
+        date_last_used: "0",
+        icons: [
+          "https://www.gstatic.com/labs-code/favicon-16x16.png",
+          "https://www.gstatic.com/labs-code/favicon-32x32.png",
+          "https://www.gstatic.com/labs-code/favicon-48x48.png",
+        ],
+        meta: {
+          referrer: "origin",
+          "og:title": "Stitch - Design with AI",
+          "twitter:title": "Stitch - Design with AI",
+          description:
+            "Stitch generates UIs for mobile and web applications, making design ideation fast and easy.",
+          "og:description":
+            "Stitch generates UIs for mobile and web applications, making design ideation fast and easy.",
+          "twitter:description":
+            "Stitch generates UIs for mobile and web applications, making design ideation fast and easy.",
+          keywords: "stitch, AI, design, generate, mobile, web",
+          "og:type": "website",
+          "og:url": "https://stitch.withgoogle.com",
+          "og:site_name": "Stitch",
+          "og:image": "https://app-companion-430619.appspot.com/static/og.png",
+          "og:image:alt":
+            "Stitch wordmark, Stitch (Beta), on black background with particle wave",
           "twitter:card": "summary_large_image",
-          "twitter:site": "@wallpapermag",
-          "twitter:title":
-            "The Future Perfect chair exhibition gets a standing ovation",
-          "twitter:creator": "@wallpapermag",
+          "twitter:site": "@stitchbygoogle",
+          "twitter:creator": "@stitchbygoogle",
+          "twitter:url": "https://stitch.withgoogle.com",
           "twitter:image":
-            "https://cdn.mos.cms.futurecdn.net/HHLoBrNGLS3AGYrucKJpf6-1200-80.jpg",
-          "twitter:account_id": "9696142",
-          "google-site-verification":
-            "B7s-JjL20Ra7v44rZG_FcT_S_TJeY4pqdSjm2IefaJw",
-          "taboola:url":
-            "https://www.wallpaper.com/design/the-future-perfect-chair-exhibition-new-york",
-          "msvalidate.01": "B7s-JjL20Ra7v44rZG_FcT_S_TJeY4pqdSjm2IefaJw",
+            "https://app-companion-430619.appspot.com/static/og.png",
+          "twitter:image:alt":
+            "Stitch wordmark, Stitch (Beta), on black background with particle wave",
+          viewport: "width=device-width, initial-scale=1.0",
         },
       },
       {
@@ -4836,49 +3483,7 @@ var category_sorted = [
           "og:type": "website",
         },
       },
-      {
-        id: "562",
-        guid: "3f078f71-36ad-4c73-ace7-af2713221c65",
-        name: "Design sites with no code | Universe Website Builder",
-        url: "https://univer.se/",
-        date_added: "13380184346603772",
-        date_last_used: "0",
-        icons: [
-          "https://univer.se/_assets/5a954a5f-8eae-4ff3-a19d-0ca4b506e8cf.png?fm=png&w=32&h=32&crop=top&fit=crop",
-          "https://univer.se/_assets/5a954a5f-8eae-4ff3-a19d-0ca4b506e8cf.png?fm=png&w=16&h=16&crop=top&fit=crop",
-          "https://univer.se/_assets/5a954a5f-8eae-4ff3-a19d-0ca4b506e8cf.ico",
-        ],
-        meta: {
-          viewport: "width=device-width, initial-scale=1",
-          "og:type": "website",
-          "og:url": "https://univer.se",
-          "og:title": "Design sites with no code | Universe Website Builder",
-          "og:site_name":
-            "Design sites with no code | Universe Website Builder",
-          "og:description":
-            "Universe is a website builder that lets you choose a domain and set up shop in minutes. Build stores, link in bio sites, and more from your mobile phone, iPad, or Mac.",
-          "og:image":
-            "/_assets/9081508d-60a7-4b26-a8e6-8bcb93b06d12.jpg?w=1200&h=630&crop=top&fit=crop",
-          "og:image:width": "375",
-          "og:image:height": "667",
-          "twitter:card": "summary_large_image",
-          "twitter:title":
-            "Design sites with no code | Universe Website Builder",
-          "twitter:description":
-            "Universe is a website builder that lets you choose a domain and set up shop in minutes. Build stores, link in bio sites, and more from your mobile phone, iPad, or Mac.",
-          "twitter:image":
-            "/_assets/9081508d-60a7-4b26-a8e6-8bcb93b06d12.jpg?w=600&h=300&q=40&dpr=2&crop=top&fit=crop",
-          description:
-            "Universe is a website builder that lets you choose a domain and set up shop in minutes. Build stores, link in bio sites, and more from your mobile phone, iPad, or Mac.",
-          "msapplication-TileColor": "#000000",
-          "msapplication-config":
-            "/static/favicons/universelogo/browserconfig.xml",
-          "theme-color": "rgba(255,255,255,1)",
-          "apple-itunes-app":
-            "app-id=1211437633, app-argument=https://app.univer.se",
-          "next-head-count": "28",
-        },
-      },
+
       {
         id: "564",
         guid: "17fd516e-c4f1-4844-ab6a-eea09eb5388b",
@@ -5097,16 +3702,7 @@ var category_sorted = [
           "og:image": "./screenshots-flat/Roger Pfund.png",
         },
       },
-      {
-        id: "397",
-        guid: "1c731a80-ca45-4612-a1a2-b5c183f6f0ad",
-        name: "[ 4 ] 3. 단청 문양.pdf",
-        url: "chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.cultureline.kr/webgear/board_pds/11398/[%204%20]%203.%20%EB%8B%A8%EC%B2%AD%20%EB%AC%B8%EC%96%91.pdf",
-        date_added: "13330269567845078",
-        date_last_used: "0",
-        icons: [],
-        meta: {},
-      },
+
       {
         id: "401",
         guid: "29719561-68f0-4eea-83dc-ba6a93f7044a",
@@ -5271,29 +3867,7 @@ var category_sorted = [
           "twitter:url": "https://choochooworld.com/",
         },
       },
-      {
-        id: "636",
-        guid: "f6bb18ec-5d7e-4632-ae0c-e1f11550aa6b",
-        name: "Pinecraft by Sennep",
-        url: "https://pinecraft.sennep.com/create/",
-        date_added: "13388683546603113",
-        date_last_used: "13391765004915685",
-        icons: [
-          "https://pinecraft.sennep.com/site/favicon-32x32.png",
-          "https://pinecraft.sennep.com/site/favicon-16x16.png",
-          "https://pinecraft.sennep.com/site/favicon.ico",
-        ],
-        meta: {
-          viewport:
-            "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no",
-          description:
-            "Carve and paint your own tree to add to our virtual forest, and we’ll plant a real one on your behalf.",
-          "og:title": "Pinecraft by Sennep",
-          "og:type": "website",
-          "og:image": "/static/images/share_img.png",
-          "next-head-count": "9",
-        },
-      },
+
       {
         id: "644",
         guid: "d294255b-e0ee-44b9-bc6b-725155dd84cc",
@@ -5635,125 +4209,7 @@ var category_sorted = [
             '{"site_info":{"name":"브런치","image":"https://t1.daumcdn.net/brunch/static/img/help/mw/ico_brunch_kakaostory_richscrap70x70.png","url":"https://brunch.co.kr"},"header":{"category_title":"쓰면서 정리하는 UX 디자인","subtitle":"노인세대를 위한 모바일 앱 디자인을 할 때 주의해야 할 점","title":"시니어 세대를 위한 모바일 UX 디자인 Tips","date":"2020.07.01"},"author":{"name":"헤일리","image":"http://t1.daumcdn.net/brunch/service/user/1Yms/image/vE7XpN0zu3KiLuhvcySoFTk0QR8.jpg","url":"https://brunch.co.kr/@hailey-hyunjee"},"cards":[{"type":"image","body":{"content":"","image":"https://img1.daumcdn.net/thumb/R1280x0/?fname\\u003dhttp://t1.daumcdn.net/brunch/service/user/1Yms/image/aMlHwAMbJ82hcskeR7MfaJYUxw4.jpg"}},{"type":"text","body":{"content":"20대, 30대 UX/UI 디자이너들이 모바일 앱을 디자인할 때 간과하기 쉬운 부분 중의 하나가 시니어 세대를 위한 UX 디자인이다. 대부분의 모바일 시장이 10-30대에 맞춰져 있고 그 시장이 가장 크기 때문에 노인 세대를 위한 디자인을 생각하는 것은 쉽지 않다. 혹은 내가 거쳐온 유년시절, 청소년 시절에 대한 기억을 기반으로 유아, 어린이, 10대를 위한 기발한 앱 디자인은 생각할 수 있으나 그들이 살아보지 못한 중년 이상, 노인 세대의 삶에 대해선 심각하게 생각해보지 않았을 수도 있다. ","image":""}},{"type":"text","body":{"content":" ","image":""}},{"type":"text","body":{"content":"통계청의 발표에 따르면 만 65세 이상 노인인구가 전체 인구에서 차지하는 비중은 2017년은 13.8%에서 2025년은 20.3%로 늘어날 것으로 전망했다. 또한 2030년에는 25.0%, 2035년은 29.5%, 2040년은 33.9%로 비중이 커질 것으로 예상했다. 5년 후에는 성인 인구 5명 중 1명이 65세 이상이고 10년 후에는 4명 중 1명이 노인 세대라고 생각하면 상황은 조금 심각해진다. ","image":""}},{"type":"text","body":{"content":" ","image":""}},{"type":"text","body":{"content":"10년 후 고령화 이슈는 각 산업군에서 더 심각한 문제로 인식을 해야 하며 작은 모바일 화면을 디자인하는 UX/UI 디자이너라면 노인 세대에 대한 기본 적인 이해를 바탕으로 모바일 디자인을 진행할 필요가 있다.","image":""}},{"type":"text","body":{"content":" ","image":""}},{"type":"text","body":{"content":" ","image":""}},{"type":"image","body":{"content":"","image":"https://img1.daumcdn.net/thumb/R1280x0/?fname\\u003dhttp://t1.daumcdn.net/brunch/service/user/1Yms/image/GdAD73hcDZKHgA1D95tmJxlA9IY.jpg"}},{"type":"text","body":{"content":" ","image":""}}]}',
         },
       },
-      {
-        id: "585",
-        guid: "0bbefd4c-93e9-47fe-9f35-33ecf660b896",
-        name: "[기획#3]스토리보드(화면설계서) 작성법-템플릿제공 : 네이버 블로그",
-        url: "https://m.blog.naver.com/PostView.nhn?blogId=dailytopic&logNo=220954218520&proxyReferer=https:%2F%2Fwww.google.com%2F",
-        date_added: "13381388473027804",
-        date_last_used: "0",
-        icons: ["https://m.blog.naver.com/blog_192x192.png"],
-        meta: {
-          viewport:
-            "width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover",
-          robots: "index,follow",
-          "og:title": "[기획#3]스토리보드(화면설계서) 작성법-템플릿제공",
-          "og:image":
-            "https://blogthumb.pstatic.net/MjAxNzAzMjhfMjE5/MDAxNDkwNjY1NDM1NTEw.N6T9Kq3ADBoSdYJAjZ30hqh7n7RUdOrQBEby0hqBnFkg.oQQHiWSyo1Uolh7t9oEdWNhM-UdbkPGaSReqZQ7TSKAg.PNG.dailytopic/%B1%E2%C8%B9%C0%CC%BE%DF%B1%E23.png?type=w2",
-          "og:description":
-            "스토리보드(Wireframe) 작성법! 기획자에게는 가장 기본 중의 기본 스킬이면서도 프로젝트의 중심이 되는 ...",
-          "og:url": "https://blog.naver.com/dailytopic/220954218520",
-          "me:feed:serviceId": "blog",
-          referrer: "always",
-          "og:type": "article",
-          "og:article:author": "날리지네스.. | 블로그",
-          "og:site_name": "네이버 블로그 | 날리지네스트",
-          "naverblog:nickname": "쀼어",
-          "naverblog:profile_image":
-            "https://blogpfthumb-phinf.pstatic.net/MjAxNzAzMTRfMTIg/MDAxNDg5NDgzODA3NjM4.iUr1ko1btlRoiZJdseTkKKabmtoaCDmrSzzxNUFdFKcg.QOZL5VJkoSN-blyYAQ_1g-BuZPE7UukfCoRYs0yB_DEg.PNG.dailytopic/%25B7%25CE%25B0%25ED.png?type=s1",
-          "format-detection": "telephone=no",
-          "napp-site-analysis":
-            "gdid=90000003_000000000000003371E5D018,service=blog,collection=blog",
-        },
-      },
-      {
-        id: "627",
-        guid: "7d34a36c-bc5d-463f-bc2e-02efcb34b2e6",
-        name: "Praise for Designing with Data | Designing with Data",
-        url: "https://learning.oreilly.com/library/view/designing-with-data/9781449334925/preface01.html",
-        date_added: "13387821037776925",
-        date_last_used: "0",
-        icons: ["https://www.oreilly.com/favicon.ico"],
-        meta: {
-          viewport: "width=device-width, initial-scale=1",
-          "og:title": "Designing with Data",
-          "og:url":
-            "https://www.oreilly.com/library/view/designing-with-data/9781449334925/preface01.html",
-          "og:site_name": "O’Reilly Online Learning",
-          "og:description":
-            "Praise for Designing with Data “A clear, approachable and common sense guide to mastering data-driven design—a skill set that is becoming mandatory for the 21st century designer. This book is …  - Selection from Designing with Data [Book]",
-          "og:type": "article",
-          "og:book:isbn": "9781449334956",
-          "og:book:author": "Caitlin Tan",
-          "og:image":
-            "https://www.oreilly.com/library/cover/9781449334925/1200w630h/",
-          "og:image:secure_url":
-            "https://www.oreilly.com/library/cover/9781449334925/1200w630h/",
-          "og:image:width": "1200",
-          "og:image:height": "630",
-          "twitter:card": "summary_large_image",
-          "twitter:site": "@OReillyMedia",
-        },
-      },
-      {
-        id: "628",
-        guid: "198c6714-d30c-46e0-8f26-997a0e27c2fa",
-        name: "[안드로이드/기초] 인텐트(Intent) - 액티비티 간 데이터 전달 — 정주는 개발 중 :]",
-        url: "https://jeong9216.tistory.com/6",
-        date_added: "13387899117991559",
-        date_last_used: "13388147621521705",
-        icons: [
-          "https://t1.daumcdn.net/tistory_admin/favicon/tistory_favicon_32x32.ico",
-          "https://t1.daumcdn.net/tistory_admin/top_v2/bi-tistory-favicon.svg",
-        ],
-        meta: {
-          "naver-site-verification": "e2fd983f627176aaed529116dc5274fd632fffc3",
-          "google-site-verification":
-            "gigLngaRaj4XkXBpOrsPqOKMzL7HkMUyKlz0fJqpcm8",
-          "format-detection": "telephone=no",
-          referrer: "always",
-          "google-adsense-platform-account": "ca-host-pub-9691043933427338",
-          "google-adsense-platform-domain": "tistory.com",
-          "google-adsense-account": "ca-pub-1032958823703674",
-          description:
-            "인텐트(Intent) - 액티비티 간 데이터 전달 안녕하세요. 오늘은 안드로이드 기초 Intent를 이용한 액티비티 간 데이터 전달에 대해 알아보겠습니다. MainActivity에서 텍스트를 입력하고 버튼을 눌러 SubActivity로 텍스트를 전달, 표시해주는 예제입니다. 이전 예제 파일에서 이어서 진행됩니다. [안드로이드/기초] 인텐트(Intent) - 액티비티(화면) 이동하기 (https://jeong9216.tistory.com/5) [안드로이드/기초] 인텐트(Intent) - 액티비티(화면) 이동하기 인텐트(Intent) - 액티비티(화면) 이동하기 안녕하세요. 개발새발 블로그입니다. 오늘은 안드로이드 기초 Intent를 이용한 액티비티 이동에 대해 알아보겠습니다. MainActivity에서 버..",
-          "og:type": "article",
-          "og:url": "https://jeong9216.tistory.com/6",
-          "og.article.author": "유정주",
-          "og:site_name": "정주는 개발 중 :]",
-          "og:title":
-            "[안드로이드/기초] 인텐트(Intent) - 액티비티 간 데이터 전달",
-          by: "유정주",
-          "og:description":
-            "인텐트(Intent) - 액티비티 간 데이터 전달 안녕하세요. 오늘은 안드로이드 기초 Intent를 이용한 액티비티 간 데이터 전달에 대해 알아보겠습니다. MainActivity에서 텍스트를 입력하고 버튼을 눌러 SubActivity로 텍스트를 전달, 표시해주는 예제입니다. 이전 예제 파일에서 이어서 진행됩니다. [안드로이드/기초] 인텐트(Intent) - 액티비티(화면) 이동하기 (https://jeong9216.tistory.com/5) [안드로이드/기초] 인텐트(Intent) - 액티비티(화면) 이동하기 인텐트(Intent) - 액티비티(화면) 이동하기 안녕하세요. 개발새발 블로그입니다. 오늘은 안드로이드 기초 Intent를 이용한 액티비티 이동에 대해 알아보겠습니다. MainActivity에서 버..",
-          "og:image":
-            "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FyRpc9%2Fbtranzz2S8Y%2F9XbFm5KfxdJjPr70pmxqbK%2Fimg.png",
-          "twitter:card": "summary_large_image",
-          "twitter:site": "@TISTORY",
-          "twitter:title":
-            "[안드로이드/기초] 인텐트(Intent) - 액티비티 간 데이터 전달",
-          "twitter:description":
-            "인텐트(Intent) - 액티비티 간 데이터 전달 안녕하세요. 오늘은 안드로이드 기초 Intent를 이용한 액티비티 간 데이터 전달에 대해 알아보겠습니다. MainActivity에서 텍스트를 입력하고 버튼을 눌러 SubActivity로 텍스트를 전달, 표시해주는 예제입니다. 이전 예제 파일에서 이어서 진행됩니다. [안드로이드/기초] 인텐트(Intent) - 액티비티(화면) 이동하기 (https://jeong9216.tistory.com/5) [안드로이드/기초] 인텐트(Intent) - 액티비티(화면) 이동하기 인텐트(Intent) - 액티비티(화면) 이동하기 안녕하세요. 개발새발 블로그입니다. 오늘은 안드로이드 기초 Intent를 이용한 액티비티 이동에 대해 알아보겠습니다. MainActivity에서 버..",
-          "twitter:image":
-            "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FyRpc9%2Fbtranzz2S8Y%2F9XbFm5KfxdJjPr70pmxqbK%2Fimg.png",
-          "dg:plink": "https://jeong9216.tistory.com/6",
-          plink: "",
-          title: "[안드로이드/기초] 인텐트(Intent) - 액티비티 간 데이터 전달",
-          "article:media_name": "정주는 개발 중 :]",
-          "article:mobile_url": "https://jeong9216.tistory.com/m/6",
-          "article:pc_url": "https://jeong9216.tistory.com/6",
-          "article:mobile_view_url": "https://jeong9216.tistory.com/m/6",
-          "article:pc_view_url": "https://jeong9216.tistory.com/6",
-          "article:talk_channel_view_url": "https://jeong9216.tistory.com/m/6",
-          "article:pc_service_home": "https://www.tistory.com",
-          "article:mobile_service_home": "https://www.tistory.com/m",
-          "article:txid": "4855503_6",
-          "article:published_time": "2021-07-25T17:07:37+09:00",
-          "og:regDate": "20210725050737",
-          "article:modified_time": "2022-03-02T12:31:48+09:00",
-          viewport: "width=device-width",
-        },
-      },
+
       {
         id: "629",
         guid: "8d8029c8-9aab-4842-97b6-d5c9f59ba025",
@@ -5783,140 +4239,52 @@ var category_sorted = [
           "twitter:site": "@OReillyMedia",
         },
       },
-      {
-        id: "691",
-        guid: "13915af6-d18e-4ba2-a5df-0e888b95e221",
-        name: "Android Kotlin JSON 수정",
-        url: "https://chatgpt.com/share/681b5155-d6f0-800b-9bd6-25ef713f30e7",
-        date_added: "13391189011610842",
-        date_last_used: "0",
-        icons: [
-          "https://cdn.oaistatic.com/assets/favicon-miwirzcw.ico",
-          "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='180'%20height='180'%20fill='none'%3e%3cstyle%3e%20:root%20{%20--primary-fill:%20%23000;%20--secondary-fill:%20%23fff;%20}%20@media%20(prefers-color-scheme:%20dark)%20{%20:root%20{%20--primary-fill:%20%23fff;%20--secondary-fill:%20%23000;%20}%20}%20%3c/style%3e%3cg%20clip-path='url(%23a)'%3e%3crect%20width='180'%20height='180'%20fill='var(--primary-fill)'%20rx='90'%20/%3e%3cg%20clip-path='url(%23b)'%3e%3cpath%20fill='var(--secondary-fill)'%20d='M75.91%2073.628V62.232c0-.96.36-1.68%201.199-2.16l22.912-13.194c3.119-1.8%206.838-2.639%2010.676-2.639%2014.394%200%2023.511%2011.157%2023.511%2023.032%200%20.839%200%201.799-.12%202.758l-23.752-13.914c-1.439-.84-2.879-.84-4.318%200L75.91%2073.627Zm53.499%2044.383v-27.23c0-1.68-.72-2.88-2.159-3.719L97.142%2069.55l9.836-5.638c.839-.48%201.559-.48%202.399%200l22.912%2013.195c6.598%203.839%2011.035%2011.995%2011.035%2019.912%200%209.116-5.397%2017.513-13.915%2020.992v.001Zm-60.577-23.99-9.836-5.758c-.84-.48-1.2-1.2-1.2-2.16v-26.39c0-12.834%209.837-22.55%2023.152-22.55%205.039%200%209.716%201.679%2013.676%204.678L70.993%2055.516c-1.44.84-2.16%202.039-2.16%203.719v34.787-.002Zm21.173%2012.234L75.91%2098.339V81.546l14.095-7.917%2014.094%207.917v16.793l-14.094%207.916Zm9.056%2036.467c-5.038%200-9.716-1.68-13.675-4.678l23.631-13.676c1.439-.839%202.159-2.038%202.159-3.718V85.863l9.956%205.757c.84.48%201.2%201.2%201.2%202.16v26.389c0%2012.835-9.957%2022.552-23.27%2022.552v.001Zm-28.43-26.75L47.72%20102.778c-6.599-3.84-11.036-11.996-11.036-19.913%200-9.236%205.518-17.513%2014.034-20.992v27.35c0%201.68.72%202.879%202.16%203.718l29.989%2017.393-9.837%205.638c-.84.48-1.56.48-2.399%200Zm-1.318%2019.673c-13.555%200-23.512-10.196-23.512-22.792%200-.959.12-1.919.24-2.879l23.63%2013.675c1.44.84%202.88.84%204.32%200l30.108-17.392v11.395c0%20.96-.361%201.68-1.2%202.16l-22.912%2013.194c-3.119%201.8-6.837%202.639-10.675%202.639Zm29.748%2014.274c14.515%200%2026.63-10.316%2029.39-23.991%2013.434-3.479%2022.071-16.074%2022.071-28.91%200-8.396-3.598-16.553-10.076-22.43.6-2.52.96-5.039.96-7.557%200-17.153-13.915-29.99-29.989-29.99-3.239%200-6.358.48-9.477%201.56-5.398-5.278-12.835-8.637-20.992-8.637-14.515%200-26.63%2010.316-29.39%2023.991-13.434%203.48-22.07%2016.074-22.07%2028.91%200%208.396%203.598%2016.553%2010.075%2022.431-.6%202.519-.96%205.038-.96%207.556%200%2017.154%2013.915%2029.989%2029.99%2029.989%203.238%200%206.357-.479%209.476-1.559%205.397%205.278%2012.835%208.637%2020.992%208.637Z'%20/%3e%3c/g%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='a'%3e%3cpath%20d='M0%200h180v180H0z'%20/%3e%3c/clipPath%3e%3cclipPath%20id='b'%3e%3cpath%20d='M29.487%2029.964h121.035v119.954H29.487z'%20/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e",
-        ],
-        meta: {
-          viewport: "width=device-width, initial-scale=1",
-          "og:site_name": "ChatGPT",
-          robots: "noindex,nofollow",
-          "og:title": "ChatGPT - Android Kotlin JSON 수정",
-          "og:description": "Shared via ChatGPT",
-          "og:image":
-            "https://cdn.oaistatic.com/assets/chatgpt-share-og-u7j5uyao.webp",
-          "og:url":
-            "https://chatgpt.com/share/681b5155-d6f0-800b-9bd6-25ef713f30e7",
-          "apple-itunes-app": "app-id=6448311069",
-          "dd-trace-id": "10663459451213060571",
-          "dd-trace-time": "1748181880280",
-          "og:type": "website",
-        },
-      },
-      {
-        id: "724",
-        guid: "6984ee0c-d4e4-4aef-b592-42b24999a1c4",
-        name: "Stitch - Design with AI",
-        url: "https://stitch.withgoogle.com/",
-        date_added: "13392626144732935",
-        date_last_used: "0",
-        icons: [
-          "https://www.gstatic.com/labs-code/favicon-16x16.png",
-          "https://www.gstatic.com/labs-code/favicon-32x32.png",
-          "https://www.gstatic.com/labs-code/favicon-48x48.png",
-        ],
-        meta: {
-          referrer: "origin",
-          "og:title": "Stitch - Design with AI",
-          "twitter:title": "Stitch - Design with AI",
-          description:
-            "Stitch generates UIs for mobile and web applications, making design ideation fast and easy.",
-          "og:description":
-            "Stitch generates UIs for mobile and web applications, making design ideation fast and easy.",
-          "twitter:description":
-            "Stitch generates UIs for mobile and web applications, making design ideation fast and easy.",
-          keywords: "stitch, AI, design, generate, mobile, web",
-          "og:type": "website",
-          "og:url": "https://stitch.withgoogle.com",
-          "og:site_name": "Stitch",
-          "og:image": "https://app-companion-430619.appspot.com/static/og.png",
-          "og:image:alt":
-            "Stitch wordmark, Stitch (Beta), on black background with particle wave",
-          "twitter:card": "summary_large_image",
-          "twitter:site": "@stitchbygoogle",
-          "twitter:creator": "@stitchbygoogle",
-          "twitter:url": "https://stitch.withgoogle.com",
-          "twitter:image":
-            "https://app-companion-430619.appspot.com/static/og.png",
-          "twitter:image:alt":
-            "Stitch wordmark, Stitch (Beta), on black background with particle wave",
-          viewport: "width=device-width, initial-scale=1.0",
-        },
-      },
-      {
-        id: "10",
-        guid: "13bc91e6-5e96-4dc0-b791-e553b6be4e1f",
-        name: "[기획특집] 르네상스와 종교개혁기의 기독교미술 - 가스펠투데이",
-        url: "http://www.gospeltoday.co.kr/news/articleView.html?idxno=9195",
-        date_added: "13333905188568822",
-        date_last_used: "0",
-        icons: [
-          "https://www.gospeltoday.co.kr/image/logo/favicon_20180130094519.ico",
-        ],
-        meta: {
-          viewport: "width=1680",
-          "apple-mobile-web-app-title": "가스펠투데이",
-          title: "[기획특집] 르네상스와 종교개혁기의 기독교미술",
-          description:
-            "1. 14세기 후반 이탈리아 피렌체에서 시작하여 16세기 중반까지 서유럽 전역에서 전개된 학문·문화·예술의 새로운 경향을 르네상스(Renaissance) 라고 한다.르네상스기의 성격을 규정할 때 빈번히 사용하는 표현은 신중심의 중세가 인간중심의 근대로 진입한 시기라는 것이다. 하지만 이 시기는 여전히 신중심의 시대라고 말 할 수 있다. 교황청의 아비뇽유수(1309-77), 서방교회의 대분열(Schisma, 1378-1417)로 교회의 권위가 약화되고 성 프란체스코(San Francesco d’Assisi, 1181-1226) 이후의",
-          keywords:
-            "르네상스,종교개혁기,기독교미술,인문주의,인본주의,신본주의,헬레니즘,헤브라이즘,종교개혁사",
-          news_keywords:
-            "르네상스,종교개혁기,기독교미술,인문주의,인본주의,신본주의,헬레니즘,헤브라이즘,종교개혁사",
-          Classification: "오피니언",
-          Copyright: "가스펠투데이",
-          "og:site_name": "가스펠투데이",
-          "og:image":
-            "http://www.gospeltoday.co.kr/news/thumbnail/202111/9195_16795_5550_v150.jpg",
-          "og:type": "article",
-          "og:url":
-            "http://www.gospeltoday.co.kr/news/articleView.html?idxno=9195",
-          "og:title": "[기획특집] 르네상스와 종교개혁기의 기독교미술",
-          "og:description":
-            "1. 14세기 후반 이탈리아 피렌체에서 시작하여 16세기 중반까지 서유럽 전역에서 전개된 학문·문화·예술의 새로운 경향을 르네상스(Renaissance) 라고 한다.르네상스기의 성격을 규정할 때 빈번히 사용하는 표현은 신중심의 중세가 인간중심의 근대로 진입한 시기라는 것이다. 하지만 이 시기는 여전히 신중심의 시대라고 말 할 수 있다. 교황청의 아비뇽유수(1309-77), 서방교회의 대분열(Schisma, 1378-1417)로 교회의 권위가 약화되고 성 프란체스코(San Francesco d’Assisi, 1181-1226) 이후의",
-          "og:article:author": "가스펠투데이",
-          "twitter:card": "summary",
-          "twitter:title": "[기획특집] 르네상스와 종교개혁기의 기독교미술",
-          "twitter:description":
-            "1. 14세기 후반 이탈리아 피렌체에서 시작하여 16세기 중반까지 서유럽 전역에서 전개된 학문·문화·예술의 새로운 경향을 르네상스(Renaissance) 라고 한다.르네상스기의 성격을 규정할 때 빈번히 사용하는 표현은 신중심의 중세가 인간중심의 근대로 진입한 시기라는 것이다. 하지만 이 시기는 여전히 신중심의 시대라고 말 할 수 있다. 교황청의 아비뇽유수(1309-77), 서방교회의 대분열(Schisma, 1378-1417)로 교회의 권위가 약화되고 성 프란체스코(San Francesco d’Assisi, 1181-1226) 이후의",
-          "twitter:image":
-            "http://www.gospeltoday.co.kr/news/thumbnail/202111/9195_16795_5550_v150.jpg",
-          "twitter:site":
-            "http://www.gospeltoday.co.kr/news/articleView.html?idxno=9195",
-          "twitter:creator": "가스펠투데이",
-          "dable:item_id": "9195",
-          "dable:author": "가스펠투데이",
-          "article:section": "오피니언",
-          "article:published_time": "2021-11-11T07:00:00+09:00",
-          "naver-site-verification": "b763d65b42fa27adcd69e0a5c16a9c1a88ee9cb1",
-        },
-      },
     ],
   },
   {
     name: "Research",
     items: [
       {
-        id: "219",
-        guid: "8dda06a5-b9c1-4249-8c2e-6c1d88e5fcef",
-        name: "The History of Bookmarks: From WorldWideWeb to Modern Web Browsers | by Dotshare | Medium",
-        url: "https://dotshare.medium.com/the-history-of-bookmarks-from-worldwideweb-to-modern-web-browsers-6c1a5ff75bde",
-        date_added: "13359467675683157",
+        id: "204",
+        guid: "9a436d9c-1f15-426e-aa44-8c0c46d858cb",
+        name: "동양고전종합DB",
+        url: "http://db.cyberseodang.or.kr/front/main/main.do",
+        date_added: "13359032649853351",
         date_last_used: "0",
         icons: [],
         meta: {
-          robots: "noindex,nofollow",
-          viewport: "width=device-width,initial-scale=1",
           "og:type": "website",
+          "og:image": "./screenshots-flat/동양고전종합DB.png",
+        },
+      },
+      {
+        id: "660",
+        guid: "0c7b894f-350e-4ca8-a8c4-abb914763c04",
+        name: "CHRISTOPHER MELGRAM",
+        url: "https://christophermelgram.com/",
+        date_added: "13389373070835183",
+        date_last_used: "13391754886658953",
+        icons: [
+          "https://christophermelgram.com/media/site/27e7bb604b-1582023047/favicon16.png",
+          "https://christophermelgram.com/media/site/d217f0e4b6-1582023052/favicon32.png",
+          "https://christophermelgram.com/media/site/0931bb2e04-1582023057/favicon96.png",
+        ],
+        meta: {
+          viewport: "width=device-width,initial-scale=1.0",
+          "og:title": "CHRISTOPHER MELGRAM",
+          "twitter:title": "CHRISTOPHER MELGRAM",
+          description:
+            "Christopher Melgram is a London based Production Designer and Art Director. After working in television and the British film industry, his practice is now based across fashion, music moving image and experiential design.",
+          "og:description":
+            "Christopher Melgram is a London based Production Designer and Art Director. After working in television and the British film industry, his practice is now based across fashion, music moving image and experiential design.",
+          "twitter:description":
+            "Christopher Melgram is a London based Production Designer and Art Director. After working in television and the British film industry, his practice is now based across fashion, music moving image and experiential design.",
           "og:image":
-            "./screenshots-flat/The History of Bookmarks_ From WorldWideWeb to Modern Web Browsers _ by Dotshare _ Medium.png",
+            "https://christophermelgram.com/media/site/3fdf51505b-1582027467/meta-data-image.png",
+          "twitter:image":
+            "https://christophermelgram.com/media/site/3fdf51505b-1582027467/meta-data-image.png",
+          "twitter:card": "summary_large_image",
+          "og:type": "website",
         },
       },
       {
@@ -6174,20 +4542,7 @@ var category_sorted = [
             "./screenshots-flat/Celebrity Style and Fashion Trend Coverage _ Who What Wear.png",
         },
       },
-      {
-        id: "275",
-        guid: "01df4cd0-cc97-4014-9dde-cbedeb5c6794",
-        name: "Fashion: Latest fashion news, style tips & people - The Telegraph",
-        url: "https://www.telegraph.co.uk/fashion/",
-        date_added: "0",
-        date_last_used: "0",
-        icons: [],
-        meta: {
-          "og:type": "website",
-          "og:image":
-            "./screenshots-flat/Fashion_ Latest fashion news, style tips & people - The Telegraph.png",
-        },
-      },
+
       {
         id: "278",
         guid: "3b89270e-11a0-4ce3-b116-69298b77b8a0",
@@ -6206,34 +4561,7 @@ var category_sorted = [
           "og:image": "./screenshots-flat/패션엔.png",
         },
       },
-      {
-        id: "280",
-        guid: "14357c79-a1bb-46a9-a107-d6e0d0f22d27",
-        name: "BoF - The Business of Fashion",
-        url: "https://www.businessoffashion.com/",
-        date_added: "0",
-        date_last_used: "0",
-        icons: ["https://static.businessoffashion.com/favicon.ico"],
-        meta: {
-          viewport: "width=device-width, initial-scale=1",
-          robots: "max-image-preview:large",
-          "fb:app_id": "156828357800187",
-          "og:type": "website",
-          "og:title": "The Business of Fashion",
-          "twitter:title": "The Business of Fashion",
-          "og:image":
-            "https://img.businessoffashion.com/resizer/v2/https%3A%2F%2Fimg.businessoffashion.com%2Fresizer%2Fv2%2F6JFV6FW6WNBMZHDDWF5T35U3EM.jpg%3Fauth%3Dfb10702bef0282087c58d7cecf47dd6ee9979871e45247a8bcc93f0758431ef6?auth=b63959b5f734da628ed0134de8c71ac463df8d971c16afdf3b47db86e3bd90be&width=1200",
-          "og:image:alt": "The Business of Fashion",
-          "twitter:image":
-            "https://img.businessoffashion.com/resizer/v2/https%3A%2F%2Fimg.businessoffashion.com%2Fresizer%2Fv2%2F6JFV6FW6WNBMZHDDWF5T35U3EM.jpg%3Fauth%3Dfb10702bef0282087c58d7cecf47dd6ee9979871e45247a8bcc93f0758431ef6?auth=b63959b5f734da628ed0134de8c71ac463df8d971c16afdf3b47db86e3bd90be&width=1200",
-          "twitter:image:alt": "The Business of Fashion",
-          "ad-path": "pages/homepage",
-          description:
-            "Fashion news, analysis and advice from the leading digital authority on the global fashion industry.",
-          "og:site_name": "The Business of Fashion",
-          "twitter:card": "summary_large_image",
-        },
-      },
+
       {
         id: "281",
         guid: "8fb64b4c-7fdf-454f-b914-50f46ffeba44",
@@ -6439,44 +4767,7 @@ var category_sorted = [
           "og:image": "./screenshots-flat/WGSN.png",
         },
       },
-      {
-        id: "287",
-        guid: "f307f090-ca52-4963-8836-2bb8338d034c",
-        name: "Kendam: where fashion meets art and business",
-        url: "https://kendam.com/",
-        date_added: "0",
-        date_last_used: "0",
-        icons: [
-          "https://static.kendam.com/commons/favicon-circle.png",
-          "https://static.kendam.com/commons/favicon.ico",
-        ],
-        meta: {
-          description:
-            "Kendam is a fashion news site and content distribution platform for the fashion industry.",
-          keywords: "kendam fashion,fashion news,new fashion collections",
-          robots: "index,follow",
-          HandheldFriendly: "True",
-          viewport: "width=device-width, initial-scale=1",
-          "google-site-verification":
-            "jGpIMywrSXyc8CNgn8f0O7J_l2ZwI1PZ7UEaUrrXXlY",
-          alexaVerifyID: "RfSRoLBQ_MxyS1uqNrmsaGEbjX0",
-          "og:type": "website.homepage",
-          "og:title": "Kendam: where fashion meets art and business",
-          "og:site_name": "Kendam",
-          "og:url": "https://kendam.com/",
-          "og:image": "https://static.kendam.com/commons/kendam-og-image.png",
-          "og:image:width": "880",
-          "og:image:height": "660",
-          "twitter:card": "summary_large_image",
-          "twitter:title": "Kendam: where fashion meets art and business",
-          "twitter:description":
-            "Kendam is a fashion news site and content distribution platform for the fashion industry.",
-          "twitter:site": "@kendam_com",
-          "twitter:creator": "@kendam_com",
-          "twitter:image":
-            "https://static.kendam.com/commons/kendam-og-image.png",
-        },
-      },
+
       {
         id: "291",
         guid: "5c01ec33-b4b0-4b48-b56b-7687d28d6141",
@@ -6521,32 +4812,7 @@ var category_sorted = [
           "og:image": "./screenshots-flat/Oldppl fashion.png",
         },
       },
-      {
-        id: "295",
-        guid: "c0e93fcd-3961-410e-8a4e-cf3ddbb72edc",
-        name: "Fashion Vocabulary – enérie",
-        url: "https://enerie.wordpress.com/category/fashion-vocabulary/",
-        date_added: "0",
-        date_last_used: "0",
-        icons: [
-          "https://s0.wp.com/i/favicon.ico",
-          "https://s0.wp.com/i/favicon.ico",
-        ],
-        meta: {
-          viewport: "width=device-width, initial-scale=1",
-          robots: "max-image-preview:large",
-          generator: "WordPress.com",
-          "og:type": "website",
-          "og:title": "Fashion Vocabulary – enérie",
-          "og:url": "https://enerie.wordpress.com/category/fashion-vocabulary/",
-          "og:site_name": "enérie",
-          "og:image": "https://s0.wp.com/i/blank.jpg",
-          "og:image:alt": "",
-          "og:locale": "it_IT",
-          "fb:app_id": "249643311490",
-          description: "Post su Fashion Vocabulary scritto da enerie",
-        },
-      },
+
       {
         id: "298",
         guid: "906ed215-3fa3-4e7f-8dfa-63ff3d1869e8",
@@ -6704,36 +4970,7 @@ var category_sorted = [
             "./screenshots-flat/1950s Fabrics & Colors in Fashion.png",
         },
       },
-      {
-        id: "320",
-        guid: "752eedc9-52db-4793-a6ba-c616b329ef25",
-        name: "IMDb: Ratings, Reviews, and Where to Watch the Best Movies & TV Shows",
-        url: "https://www.imdb.com/?ref_=nv_home",
-        date_added: "0",
-        date_last_used: "0",
-        icons: [],
-        meta: {
-          "og:type": "website",
-          "og:image":
-            "./screenshots-flat/IMDb_ Ratings, Reviews, and Where to Watch the Best Movies & TV Shows.png",
-        },
-      },
-      {
-        id: "321",
-        guid: "27cb5293-ec74-423e-abd8-3f1a8dbe9438",
-        name: "HanCinema :: The Korean Movie and Drama Database",
-        url: "https://www.hancinema.net/#&panel1-1",
-        date_added: "0",
-        date_last_used: "0",
-        icons: [],
-        meta: {
-          robots: "noindex, nofollow",
-          viewport: "width=device-width,initial-scale=1",
-          "og:type": "website",
-          "og:image":
-            "./screenshots-flat/HanCinema _ The Korean Movie and Drama Database.png",
-        },
-      },
+
       {
         id: "350",
         guid: "d1998613-b619-4e9d-8160-e87107f4a794",
@@ -6771,88 +5008,115 @@ var category_sorted = [
             "./screenshots-flat/Wallpaper_ design, interiors, architecture, fashion, art.png",
         },
       },
-      {
-        id: "660",
-        guid: "0c7b894f-350e-4ca8-a8c4-abb914763c04",
-        name: "CHRISTOPHER MELGRAM",
-        url: "https://christophermelgram.com/",
-        date_added: "13389373070835183",
-        date_last_used: "13391754886658953",
-        icons: [
-          "https://christophermelgram.com/media/site/27e7bb604b-1582023047/favicon16.png",
-          "https://christophermelgram.com/media/site/d217f0e4b6-1582023052/favicon32.png",
-          "https://christophermelgram.com/media/site/0931bb2e04-1582023057/favicon96.png",
-        ],
-        meta: {
-          viewport: "width=device-width,initial-scale=1.0",
-          "og:title": "CHRISTOPHER MELGRAM",
-          "twitter:title": "CHRISTOPHER MELGRAM",
-          description:
-            "Christopher Melgram is a London based Production Designer and Art Director. After working in television and the British film industry, his practice is now based across fashion, music moving image and experiential design.",
-          "og:description":
-            "Christopher Melgram is a London based Production Designer and Art Director. After working in television and the British film industry, his practice is now based across fashion, music moving image and experiential design.",
-          "twitter:description":
-            "Christopher Melgram is a London based Production Designer and Art Director. After working in television and the British film industry, his practice is now based across fashion, music moving image and experiential design.",
-          "og:image":
-            "https://christophermelgram.com/media/site/3fdf51505b-1582027467/meta-data-image.png",
-          "twitter:image":
-            "https://christophermelgram.com/media/site/3fdf51505b-1582027467/meta-data-image.png",
-          "twitter:card": "summary_large_image",
-          "og:type": "website",
-        },
-      },
     ],
   },
   {
     name: "Class",
     items: [
       {
-        id: "193",
-        guid: "c96526bf-d5ef-455d-87d6-3fb771801d06",
-        name: "10 UX Best Design Resources You Should Bookmark | by UI HUT | Medium",
-        url: "https://uihut.medium.com/10-ux-best-design-resources-you-should-bookmark-14764041c6c3",
-        date_added: "13356712666647212",
+        id: "425",
+        guid: "65e3f73a-1235-4dbc-9d90-8dae3961efbe",
+        name: "Personal publication Jayoon Maeng",
+        url: "https://jayoonmaeng.github.io/mythandmess/",
+        date_added: "13324627722418042",
         date_last_used: "0",
         icons: [],
         meta: {
-          robots: "noindex,nofollow",
-          viewport: "width=device-width,initial-scale=1",
+          viewport: "width=device-width, initial-scale=1.0",
           "og:type": "website",
           "og:image":
-            "./screenshots-flat/10 UX Best Design Resources You Should Bookmark _ by UI HUT _ Medium.png",
+            "./screenshots-flat/Personal publication Jayoon Maeng.png",
         },
       },
       {
-        id: "223",
-        guid: "2c24db4d-2918-483d-b7ef-fa3d1bec5cb5",
-        name: "Taylor & Francis Online: Peer-reviewed Journals",
-        url: "https://www.tandfonline.com/",
-        date_added: "13359629218445365",
-        date_last_used: "0",
+        id: "426",
+        guid: "e0327158-544f-4441-974f-b3a774e005c9",
+        name: "UIDesign1",
+        url: "https://jayoonmaeng.github.io/UIDesign1/",
+        date_added: "13323269910806425",
+        date_last_used: "13323417644213225",
         icons: [],
         meta: {
-          robots: "noindex,nofollow",
-          viewport: "width=device-width,initial-scale=1",
           "og:type": "website",
-          "og:image":
-            "./screenshots-flat/Taylor & Francis Online_ Peer-reviewed Journals.png",
+          "og:image": "./screenshots-flat/UIDesign1.png",
         },
       },
       {
-        id: "525",
-        guid: "be01e10c-2c28-43ae-8fcb-99fd6dc402ff",
-        name: "Using mouse cursor tracking to investigate online cognition: Preserving methodological ingenuity while moving toward reproducible science - PubMed",
-        url: "https://pubmed.ncbi.nlm.nih.gov/33319317/",
-        date_added: "13375412242500640",
-        date_last_used: "0",
-        icons: [],
+        id: "427",
+        guid: "bbd30f0c-63e5-47cc-90c5-ff254ecbc981",
+        name: "start [Des 22: World Building]",
+        url: "https://duplicate.city/doku.php?id=start",
+        date_added: "13338451041193325",
+        date_last_used: "13391700721179470",
+        icons: ["https://duplicate.city/lib/tpl/nostalgia/images/favicon.ico"],
         meta: {
+          generator: "DokuWiki",
+          "theme-color": "#eee",
+          robots: "index,follow",
+          keywords: "start",
+          viewport: "width=device-width,initial-scale=1",
+          "og:type": "website",
+          "og:image": "./screenshots-flat/start [Des 22_ World Building].png",
+        },
+      },
+      {
+        id: "430",
+        guid: "181816d7-9146-4b35-8ee7-8626ada386ea",
+        name: "응용공학설계 (업데이트되는 수업계획서)",
+        url: "https://speculativeai2023.notion.site/speculativeai2023/5aaad715830647c695a39be6f4e84136",
+        date_added: "13343721249724757",
+        date_last_used: "13354466762146023",
+        icons: ["https://speculativeai2023.notion.site/images/favicon.ico"],
+        meta: {
+          viewport:
+            "width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover",
+          description:
+            "A new tool that blends your everyday work apps into one. It's the all-in-one workspace for you and your team",
+          "twitter:card": "summary_large_image",
+          "twitter:site": "@NotionHQ",
+          "twitter:title":
+            "Your connected workspace for wiki, docs & projects | Notion",
+          "twitter:description":
+            "A new tool that blends your everyday work apps into one. It's the all-in-one workspace for you and your team",
+          "twitter:url": "https://www.notion.so",
+          "twitter:image": "https://www.notion.so/images/meta/default.png",
+          "og:site_name": "Notion",
+          "og:type": "website",
+          "og:url": "https://www.notion.so",
+          "og:title":
+            "Your connected workspace for wiki, docs & projects | Notion",
+          "og:description":
+            "A new tool that blends your everyday work apps into one. It's the all-in-one workspace for you and your team",
+          "og:image": "https://www.notion.so/images/meta/default.png",
+          "og:locale": "en_US",
+          "mobile-web-app-capable": "yes",
+          "apple-itunes-app": "app-id=1232780281",
+          "format-detection": "telephone=no",
+          "msapplication-tap-highlight": "no",
+        },
+      },
+      {
+        id: "433",
+        guid: "66cde861-c3b3-4c25-8908-f63d4e1ec8d1",
+        name: "ARE_DOODLES_NO_GOOD_2_v1.ipynb - Colab",
+        url: "https://colab.research.google.com/drive/1QKHhoSTyG2GJE2SX9vmLoGRbUtVAyEHZ?usp=sharing#scrollTo=3-QzveeD5Xsu",
+        date_added: "13359456247772359",
+        date_last_used: "0",
+        icons: [
+          "https://ssl.gstatic.com/colaboratory-static/common/a9ced4aed8e2fce0c836e00ae7f77be7/img/favicon.ico",
+        ],
+        meta: {
+          referrer: "origin",
           viewport: "width=device-width, initial-scale=1",
-          "og:type": "website",
+          "google-site-verification":
+            "v2MQvJk6wTiBarKTbe1mdivqYCVtw-5m6w0HDzV5X_4",
+          "og:type": "article",
           "og:image":
-            "./screenshots-flat/Using mouse cursor tracking to investigate online cognition_ Preserving methodological ingenuity while moving toward reproducible science - PubMed.png",
+            "https://colab.research.google.com/img/colab_favicon_256px.png",
+          "og:title": "Google Colab",
         },
       },
+
       {
         id: "625",
         guid: "88ceb889-6983-40a9-ad61-d58634f19457",
