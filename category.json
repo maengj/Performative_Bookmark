@@ -2,10 +2,9 @@
   {
     "name": "Design",
     "child1": "Font",
-    "child2": "img Stock",
-    "child3": "CMF",
-    "child4": "UIUX",
-    "child5": "Zine"
+    "child2": "CMF",
+    "child3": "UIUX",
+    "child4": "Zine"
   },
   {
     "name": "Academic",
