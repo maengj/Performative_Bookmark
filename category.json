@@ -5,22 +5,23 @@
     "child2": "img Stock",
     "child3": "CMF",
     "child4": "UIUX",
-    "child5": "Zine",
-    "child6": "CMF"
+    "child5": "Zine"
   },
   {
     "name": "Academic",
-    "child1": "let's get inside"
+    "child1": "Research",
+    "child2": "School"
   },
   {
     "name": "Development",
     "child1": "Library",
-    "child2": "codepen"
+    "child2": "Sample code"
   },
   {
     "name": "AI Tools",
-    "child1": "Graphic tools",
-    "child2": "3D render tools"
+    "child1": "conversation",
+    "child2": "Images",
+    "child3": "Videos"
   },
   {
     "name": "Research",

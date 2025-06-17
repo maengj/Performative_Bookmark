@@ -219,6 +219,7 @@ $(document).ready(function () {
           const bm = arr[idx];
           console.log(bm, idx);
           const $p = $("#unlabeled-window").find(`p.url${sel}`);
+
           $p.empty();
           if (bm) {
             const $a = $("<a>")
@@ -227,7 +228,11 @@ $(document).ready(function () {
                 target: "_blank",
                 rel: "noopener",
               })
-              .text(bm.name || "제목 없음");
+              .html(
+                `<div class="favi" style="background-image:url(${
+                  bm.icons[0]
+                })"></div> ${bm.name || "제목 없음"}`
+              );
             $p.append($a);
           }
         });

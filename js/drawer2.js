@@ -12,6 +12,42 @@ document.addEventListener("DOMContentLoaded", () => {
 
       window.location.href = "index.html";
     });
+    const params = new URLSearchParams(window.location.search);
+    const bigcategory = params.get("bigcate"); // "Development"
+    console.log(bigcategory);
+    const btnFolder = document.getElementById("sortedfoldr"); // FOLDER_YOU_SORTED
+    const btnTags = document.getElementById("tags"); // AUTO_TAGS
+    const btnDate = document.getElementById("sorteddate"); // DATE_YOU_ADDED
+    function highlightClicked(clickedElem) {
+      [btnFolder, btnTags, btnDate].forEach((el) => {
+        if (!el) return;
+        if (el === clickedElem) {
+          el.classList.add("selected");
+        } else {
+          el.classList.remove("selected");
+        }
+      });
+    }
+    if (bigcategory) {
+      // 4) 버튼 클릭 이벤트
+      if (bigcategory == "folder") {
+        bigcate = "folder";
+        loadLeftContainer("category.json");
+        highlightClicked(btnFolder);
+      }
+
+      if (bigcategory == "tag") {
+        bigcate = "tag";
+        loadLeftContainer("tagcat.json");
+        highlightClicked(btnTags);
+      }
+
+      if (bigcategory == "date") {
+        bigcate = "date";
+        loadLeftContainer("datecat.json");
+        highlightClicked(btnDate);
+      }
+    }
   });
 
   fetch("category.json")

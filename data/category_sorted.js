@@ -3,6 +3,46 @@ var category_sorted = [
     name: "Design",
     items: [
       {
+        id: "191",
+        guid: "621f7eec-de80-4d5b-8a90-d4a2333bc173",
+        name: "UX측면에서 잘 만들어진 B2C사례 9부, 텍스트 콘텐츠 플랫폼의 UX는? | 요즘IT",
+        url: "https://yozm.wishket.com/magazine/detail/1162/",
+        date_added: "13356710746917522",
+        date_last_used: "0",
+        icons: [],
+        meta: {
+          viewport: "width=device-width, initial-scale=1",
+          "fb:app_id": "593258114025512",
+          "naver-site-verification": "dc8f6187646a72a65dd61bd285076617240199aa",
+          "slack-app-id": "A02085A8T32",
+          description:
+            "오픈서베이의 콘텐츠 트렌드 리포트 2021에 따르면, 작년 대비 이용률이 증가한 것은 e북과 웹툰이었습니다. e북의 텍스트 콘텐츠는 건별 구매 또는 월정액 구독 서비스가 전년 대비 증가했으며, 소비자들의 지출 금액도 함께 증가했습니다. 이처럼 코로나19로 집에 있는 시간이 많아지면서 텍스트 콘텐츠를 이용하는 독자들이 이전에 비해 많아졌습니다. 이번 시간에는 텍스트 기반의 서비스를 제공하는 B2C 사례를 UX 관점에서 분석해 보겠습니다.",
+          author: "Yozm IT",
+          keywords: "UI/UX,텍스트콘텐츠,사용자경험,디지털콘텐츠,밀리의서재",
+          "og:keyword": "UI/UX,텍스트콘텐츠,사용자경험,디지털콘텐츠,밀리의서재",
+          date: "2021-11-17",
+          "format-detection": "telephone=no",
+          "og:title":
+            "UX측면에서 잘 만들어진 B2C사례 9부, 텍스트 콘텐츠 플랫폼의 UX는?  | 요즘IT",
+          "og:description":
+            "오픈서베이의 콘텐츠 트렌드 리포트 2021에 따르면, 작년 대비 이용률이 증가한 것은 e북과 웹툰이었습니다. e북의 텍스트 콘텐츠는 건별 구매 또는 월정액 구독 서비스가 전년 대비 증가했으며, 소비자들의 지출 금액도 함께 증가했습니다. 이처럼 코로나19로 집에 있는 시간이 많아지면서 텍스트 콘텐츠를 이용하는 독자들이 이전에 비해 많아졌습니다. 이번 시간에는 텍스트 기반의 서비스를 제공하는 B2C 사례를 UX 관점에서 분석해 보겠습니다.",
+          "og:url": "https://yozm.wishket.com/magazine/detail/1162/",
+          "og:site_name": "요즘IT",
+          "og:image": "https://yozm.wishket.com/media/news/1162/image001.jpg",
+          "og:image:alt":
+            "UX측면에서 잘 만들어진 B2C사례 9부, 텍스트 콘텐츠 플랫폼의 UX는?  | 요즘IT",
+          "og:type": "website",
+          "twitter:card": "summary_large_image",
+          "twitter:site": "@wishket",
+          "twitter:title":
+            "UX측면에서 잘 만들어진 B2C사례 9부, 텍스트 콘텐츠 플랫폼의 UX는?  | 요즘IT",
+          "twitter:description":
+            "오픈서베이의 콘텐츠 트렌드 리포트 2021에 따르면, 작년 대비 이용률이 증가한 것은 e북과 웹툰이었습니다. e북의 텍스트 콘텐츠는 건별 구매 또는 월정액 구독 서비스가 전년 대비 증가했으며, 소비자들의 지출 금액도 함께 증가했습니다. 이처럼 코로나19로 집에 있는 시간이 많아지면서 텍스트 콘텐츠를 이용하는 독자들이 이전에 비해 많아졌습니다. 이번 시간에는 텍스트 기반의 서비스를 제공하는 B2C 사례를 UX 관점에서 분석해 보겠습니다.",
+          "twitter:image":
+            "https://yozm.wishket.com/media/news/1162/image001.jpg",
+        },
+      },
+      {
         id: "56",
         guid: "c21e1c88-4ce2-4873-b91c-73ec7878815d",
         name: "[디자인 프로세스] 디자인 방법론은 어떻게 사용하나요? | 요즘IT",
@@ -212,49 +252,152 @@ var category_sorted = [
             "연간 100만 명 이상  방문,  총 콘텐츠 수 36만 건의 국내 최대 디자인정보 포털사이트.  실시간 업데이트 되는 디자인 및 산업 전반 트렌드와 이슈, 글로벌 시장변화, 소비자동향 등 디자이너를 위한  모든 정보를 제공합니다.",
         },
       },
+
       {
-        id: "240",
-        guid: "497b9b48-2ed5-444a-a3dc-16db08f31ed6",
-        name: "The Evolving Catalog | American Libraries Magazine",
-        url: "https://americanlibrariesmagazine.org/2016/01/04/cataloging-evolves/",
-        date_added: "13360683837010468",
+        id: "122",
+        guid: "39f46a1d-6094-4618-bc87-8f569598f443",
+        name: "What is UX Research? | Google UX Design Certificate - YouTube",
+        url: "https://www.youtube.com/watch?v=kQ_6faxhyIw",
+        date_added: "13326973723961607",
         date_last_used: "0",
         icons: [
-          "https://americanlibrariesmagazine.org/wp-content/themes/alm/images/alm-favicon.png",
+          "https://www.youtube.com/s/desktop/e6b89e3b/img/logos/favicon.ico",
+          "https://www.youtube.com/s/desktop/e6b89e3b/img/logos/favicon_32x32.png",
+          "https://www.youtube.com/s/desktop/e6b89e3b/img/logos/favicon_48x48.png",
+          "https://www.youtube.com/s/desktop/e6b89e3b/img/logos/favicon_96x96.png",
+          "https://www.youtube.com/s/desktop/e6b89e3b/img/logos/favicon_144x144.png",
         ],
         meta: {
-          thumbnail:
-            "https://americanlibrariesmagazine.org/wp-content/uploads/2015/11/0116editions1-150x150.jpg",
-          pubdate: "<2018-05-22",
-          viewport: "width=device-width",
-          robots:
-            "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+          "theme-color": "rgba(255, 255, 255, 0.98)",
+          title: "What is UX Research? | Google UX Design Certificate",
           description:
-            "As technology changes library cataloging, we look back at its history and forward into its future.",
-          "og:locale": "en_US",
-          "og:type": "article",
-          "og:title": "The Evolving Catalog | American Libraries Magazine",
+            "The goal of UX research is to prioritize the user and help bridge the gap between what a business thinks the user needs and what the user actually needs, bef...",
+          keywords:
+            "Grow with Google, Career Change, Tech jobs, Google Career Certificate, Google Career Certificates, Job skills, Coursera, Certification, Google, professional certificates, professional certificate program, UX design, Ux designer, User experience design, Ux design career, Ux design course, User experience, ux research, ux research methods, human centered design, design thinking, behavioral psychology, user experience research, research method, bias in ux research",
+          "og:site_name": "YouTube",
+          "og:url": "https://www.youtube.com/watch?v=kQ_6faxhyIw",
+          "og:title": "What is UX Research? | Google UX Design Certificate",
+          "og:image": "https://i.ytimg.com/vi/kQ_6faxhyIw/maxresdefault.jpg",
+          "og:image:width": "1280",
+          "og:image:height": "720",
           "og:description":
-            "As technology changes library cataloging, we look back at its history and forward into its future.",
-          "og:url":
-            "https://americanlibrariesmagazine.org/2016/01/04/cataloging-evolves/",
-          "og:site_name": "American Libraries Magazine",
-          "article:publisher": "https://www.facebook.com/amlibraries",
-          "article:published_time": "2016-01-04T14:07:40+00:00",
-          "article:modified_time": "2018-05-22T17:56:50+00:00",
-          "og:image":
-            "https://americanlibrariesmagazine.org/wp-content/uploads/2015/11/0116editions1.jpg",
-          "og:image:width": "970",
-          "og:image:height": "647",
-          "og:image:type": "image/jpeg",
-          author: "Phil Morehart",
-          "twitter:card": "summary_large_image",
-          "twitter:creator": "@amlibraries",
-          "twitter:site": "@amlibraries",
-          "twitter:label1": "Written by",
-          "twitter:data1": "Phil Morehart",
-          "twitter:label2": "Est. reading time",
-          "twitter:data2": "13 minutes",
+            "The goal of UX research is to prioritize the user and help bridge the gap between what a business thinks the user needs and what the user actually needs, bef...",
+          "al:ios:app_store_id": "544007664",
+          "al:ios:app_name": "YouTube",
+          "al:ios:url":
+            "vnd.youtube://www.youtube.com/watch?v=kQ_6faxhyIw&feature=applinks",
+          "al:android:url":
+            "vnd.youtube://www.youtube.com/watch?v=kQ_6faxhyIw&feature=applinks",
+          "al:web:url":
+            "http://www.youtube.com/watch?v=kQ_6faxhyIw&feature=applinks",
+          "og:type": "video.other",
+          "og:video:url": "https://www.youtube.com/embed/kQ_6faxhyIw",
+          "og:video:secure_url": "https://www.youtube.com/embed/kQ_6faxhyIw",
+          "og:video:type": "text/html",
+          "og:video:width": "1280",
+          "og:video:height": "720",
+          "al:android:app_name": "YouTube",
+          "al:android:package": "com.google.android.youtube",
+          "og:video:tag": "bias in ux research",
+          "fb:app_id": "87741124305",
+          "twitter:card": "player",
+          "twitter:site": "@youtube",
+          "twitter:url": "https://www.youtube.com/watch?v=kQ_6faxhyIw",
+          "twitter:title":
+            "What is UX Research? | Google UX Design Certificate",
+          "twitter:description":
+            "The goal of UX research is to prioritize the user and help bridge the gap between what a business thinks the user needs and what the user actually needs, bef...",
+          "twitter:image":
+            "https://i.ytimg.com/vi/kQ_6faxhyIw/maxresdefault.jpg",
+          "twitter:app:name:iphone": "YouTube",
+          "twitter:app:id:iphone": "544007664",
+          "twitter:app:name:ipad": "YouTube",
+          "twitter:app:id:ipad": "544007664",
+          "twitter:app:url:iphone":
+            "vnd.youtube://www.youtube.com/watch?v=kQ_6faxhyIw&feature=applinks",
+          "twitter:app:url:ipad":
+            "vnd.youtube://www.youtube.com/watch?v=kQ_6faxhyIw&feature=applinks",
+          "twitter:app:name:googleplay": "YouTube",
+          "twitter:app:id:googleplay": "com.google.android.youtube",
+          "twitter:app:url:googleplay":
+            "https://www.youtube.com/watch?v=kQ_6faxhyIw",
+          "twitter:player": "https://www.youtube.com/embed/kQ_6faxhyIw",
+          "twitter:player:width": "1280",
+          "twitter:player:height": "720",
+          viewport: "width=device-width, initial-scale=1.0, viewport-fit=cover",
+        },
+      },
+      {
+        id: "123",
+        guid: "c7542685-c7e0-4935-a0ad-44f59c32d6b3",
+        name: "How to choose the right UX research method? - YouTube",
+        url: "https://www.youtube.com/watch?v=vM-G3sS3uF0",
+        date_added: "13326973729946460",
+        date_last_used: "0",
+        icons: [
+          "https://www.youtube.com/s/desktop/e6b89e3b/img/logos/favicon.ico",
+          "https://www.youtube.com/s/desktop/e6b89e3b/img/logos/favicon_32x32.png",
+          "https://www.youtube.com/s/desktop/e6b89e3b/img/logos/favicon_48x48.png",
+          "https://www.youtube.com/s/desktop/e6b89e3b/img/logos/favicon_96x96.png",
+          "https://www.youtube.com/s/desktop/e6b89e3b/img/logos/favicon_144x144.png",
+        ],
+        meta: {
+          "theme-color": "rgba(255, 255, 255, 0.98)",
+          title: "How to choose the right UX research method?",
+          description:
+            'Tap "Show More" for Timestamps and more helpful UXR Resources ⬇️ ☺ Timestamps and Resources ☺ 00:00 Intro01:20 What does it mean to clarify context02:15 Why ...',
+          keywords:
+            "UX Research, UXR, User Experience, UX DESIGN, UX INTERVIEWS, INTERVIEW TIPS, UXD, user experience research, silicon valley, Google, Airbnb, Tech, womenintech, Chinese american, asian lifestyle, tech jobs, ux research, user experience design, uxd, ux design, interaction design, tech company, ux career, ux, ixd, ux researchers, career coaching, interviews, ux interview, product research, product design, career goals, time management, product designer, UX interview",
+          "og:site_name": "YouTube",
+          "og:url": "https://www.youtube.com/watch?v=vM-G3sS3uF0",
+          "og:title": "How to choose the right UX research method?",
+          "og:image": "https://i.ytimg.com/vi/vM-G3sS3uF0/maxresdefault.jpg",
+          "og:image:width": "1280",
+          "og:image:height": "720",
+          "og:description":
+            'Tap "Show More" for Timestamps and more helpful UXR Resources ⬇️ ☺ Timestamps and Resources ☺ 00:00 Intro01:20 What does it mean to clarify context02:15 Why ...',
+          "al:ios:app_store_id": "544007664",
+          "al:ios:app_name": "YouTube",
+          "al:ios:url":
+            "vnd.youtube://www.youtube.com/watch?v=vM-G3sS3uF0&feature=applinks",
+          "al:android:url":
+            "vnd.youtube://www.youtube.com/watch?v=vM-G3sS3uF0&feature=applinks",
+          "al:web:url":
+            "http://www.youtube.com/watch?v=vM-G3sS3uF0&feature=applinks",
+          "og:type": "video.other",
+          "og:video:url": "https://www.youtube.com/embed/vM-G3sS3uF0",
+          "og:video:secure_url": "https://www.youtube.com/embed/vM-G3sS3uF0",
+          "og:video:type": "text/html",
+          "og:video:width": "1280",
+          "og:video:height": "720",
+          "al:android:app_name": "YouTube",
+          "al:android:package": "com.google.android.youtube",
+          "og:video:tag": "UX interview",
+          "fb:app_id": "87741124305",
+          "twitter:card": "player",
+          "twitter:site": "@youtube",
+          "twitter:url": "https://www.youtube.com/watch?v=vM-G3sS3uF0",
+          "twitter:title": "How to choose the right UX research method?",
+          "twitter:description":
+            'Tap "Show More" for Timestamps and more helpful UXR Resources ⬇️ ☺ Timestamps and Resources ☺ 00:00 Intro01:20 What does it mean to clarify context02:15 Why ...',
+          "twitter:image":
+            "https://i.ytimg.com/vi/vM-G3sS3uF0/maxresdefault.jpg",
+          "twitter:app:name:iphone": "YouTube",
+          "twitter:app:id:iphone": "544007664",
+          "twitter:app:name:ipad": "YouTube",
+          "twitter:app:id:ipad": "544007664",
+          "twitter:app:url:iphone":
+            "vnd.youtube://www.youtube.com/watch?v=vM-G3sS3uF0&feature=applinks",
+          "twitter:app:url:ipad":
+            "vnd.youtube://www.youtube.com/watch?v=vM-G3sS3uF0&feature=applinks",
+          "twitter:app:name:googleplay": "YouTube",
+          "twitter:app:id:googleplay": "com.google.android.youtube",
+          "twitter:app:url:googleplay":
+            "https://www.youtube.com/watch?v=vM-G3sS3uF0",
+          "twitter:player": "https://www.youtube.com/embed/vM-G3sS3uF0",
+          "twitter:player:width": "1280",
+          "twitter:player:height": "720",
+          viewport: "width=device-width, initial-scale=1.0, viewport-fit=cover",
         },
       },
       {
@@ -1056,23 +1199,7 @@ var category_sorted = [
             "xJy7aDrcx7Yd1eu1aZ1NqvJRnP9U5DsSrIp7Jmj-EVI",
         },
       },
-      {
-        id: "166",
-        guid: "563e1e80-c116-4be2-93df-cb576d6ef81d",
-        name: "인문/사회/예체능계열 석사 학위 논문 주제 잡을 때 팁 - 2 : 네이버 카페",
-        url: "https://cafe.naver.com/daehakwon",
-        date_added: "13319970660341539",
-        date_last_used: "13355154260105033",
-        icons: ["https://cafe.naver.com/favicon.ico?2"],
-        meta: {
-          robots: "noindex, nofollow",
-          referrer: "always",
-          decorator: "mycafe_main_for_wide",
-          "og:type": "website",
-          "og:image":
-            "./screenshots-flat/인문_사회_예체능계열 석사 학위 논문 주제 잡을 때 팁 - 2 _ 네이버 카페.png",
-        },
-      },
+
       {
         id: "169",
         guid: "b99607bf-b507-42ca-9ef1-842e008a7401",
@@ -1403,153 +1530,6 @@ var category_sorted = [
         },
       },
 
-      {
-        id: "122",
-        guid: "39f46a1d-6094-4618-bc87-8f569598f443",
-        name: "What is UX Research? | Google UX Design Certificate - YouTube",
-        url: "https://www.youtube.com/watch?v=kQ_6faxhyIw",
-        date_added: "13326973723961607",
-        date_last_used: "0",
-        icons: [
-          "https://www.youtube.com/s/desktop/e6b89e3b/img/logos/favicon.ico",
-          "https://www.youtube.com/s/desktop/e6b89e3b/img/logos/favicon_32x32.png",
-          "https://www.youtube.com/s/desktop/e6b89e3b/img/logos/favicon_48x48.png",
-          "https://www.youtube.com/s/desktop/e6b89e3b/img/logos/favicon_96x96.png",
-          "https://www.youtube.com/s/desktop/e6b89e3b/img/logos/favicon_144x144.png",
-        ],
-        meta: {
-          "theme-color": "rgba(255, 255, 255, 0.98)",
-          title: "What is UX Research? | Google UX Design Certificate",
-          description:
-            "The goal of UX research is to prioritize the user and help bridge the gap between what a business thinks the user needs and what the user actually needs, bef...",
-          keywords:
-            "Grow with Google, Career Change, Tech jobs, Google Career Certificate, Google Career Certificates, Job skills, Coursera, Certification, Google, professional certificates, professional certificate program, UX design, Ux designer, User experience design, Ux design career, Ux design course, User experience, ux research, ux research methods, human centered design, design thinking, behavioral psychology, user experience research, research method, bias in ux research",
-          "og:site_name": "YouTube",
-          "og:url": "https://www.youtube.com/watch?v=kQ_6faxhyIw",
-          "og:title": "What is UX Research? | Google UX Design Certificate",
-          "og:image": "https://i.ytimg.com/vi/kQ_6faxhyIw/maxresdefault.jpg",
-          "og:image:width": "1280",
-          "og:image:height": "720",
-          "og:description":
-            "The goal of UX research is to prioritize the user and help bridge the gap between what a business thinks the user needs and what the user actually needs, bef...",
-          "al:ios:app_store_id": "544007664",
-          "al:ios:app_name": "YouTube",
-          "al:ios:url":
-            "vnd.youtube://www.youtube.com/watch?v=kQ_6faxhyIw&feature=applinks",
-          "al:android:url":
-            "vnd.youtube://www.youtube.com/watch?v=kQ_6faxhyIw&feature=applinks",
-          "al:web:url":
-            "http://www.youtube.com/watch?v=kQ_6faxhyIw&feature=applinks",
-          "og:type": "video.other",
-          "og:video:url": "https://www.youtube.com/embed/kQ_6faxhyIw",
-          "og:video:secure_url": "https://www.youtube.com/embed/kQ_6faxhyIw",
-          "og:video:type": "text/html",
-          "og:video:width": "1280",
-          "og:video:height": "720",
-          "al:android:app_name": "YouTube",
-          "al:android:package": "com.google.android.youtube",
-          "og:video:tag": "bias in ux research",
-          "fb:app_id": "87741124305",
-          "twitter:card": "player",
-          "twitter:site": "@youtube",
-          "twitter:url": "https://www.youtube.com/watch?v=kQ_6faxhyIw",
-          "twitter:title":
-            "What is UX Research? | Google UX Design Certificate",
-          "twitter:description":
-            "The goal of UX research is to prioritize the user and help bridge the gap between what a business thinks the user needs and what the user actually needs, bef...",
-          "twitter:image":
-            "https://i.ytimg.com/vi/kQ_6faxhyIw/maxresdefault.jpg",
-          "twitter:app:name:iphone": "YouTube",
-          "twitter:app:id:iphone": "544007664",
-          "twitter:app:name:ipad": "YouTube",
-          "twitter:app:id:ipad": "544007664",
-          "twitter:app:url:iphone":
-            "vnd.youtube://www.youtube.com/watch?v=kQ_6faxhyIw&feature=applinks",
-          "twitter:app:url:ipad":
-            "vnd.youtube://www.youtube.com/watch?v=kQ_6faxhyIw&feature=applinks",
-          "twitter:app:name:googleplay": "YouTube",
-          "twitter:app:id:googleplay": "com.google.android.youtube",
-          "twitter:app:url:googleplay":
-            "https://www.youtube.com/watch?v=kQ_6faxhyIw",
-          "twitter:player": "https://www.youtube.com/embed/kQ_6faxhyIw",
-          "twitter:player:width": "1280",
-          "twitter:player:height": "720",
-          viewport: "width=device-width, initial-scale=1.0, viewport-fit=cover",
-        },
-      },
-      {
-        id: "123",
-        guid: "c7542685-c7e0-4935-a0ad-44f59c32d6b3",
-        name: "How to choose the right UX research method? - YouTube",
-        url: "https://www.youtube.com/watch?v=vM-G3sS3uF0",
-        date_added: "13326973729946460",
-        date_last_used: "0",
-        icons: [
-          "https://www.youtube.com/s/desktop/e6b89e3b/img/logos/favicon.ico",
-          "https://www.youtube.com/s/desktop/e6b89e3b/img/logos/favicon_32x32.png",
-          "https://www.youtube.com/s/desktop/e6b89e3b/img/logos/favicon_48x48.png",
-          "https://www.youtube.com/s/desktop/e6b89e3b/img/logos/favicon_96x96.png",
-          "https://www.youtube.com/s/desktop/e6b89e3b/img/logos/favicon_144x144.png",
-        ],
-        meta: {
-          "theme-color": "rgba(255, 255, 255, 0.98)",
-          title: "How to choose the right UX research method?",
-          description:
-            'Tap "Show More" for Timestamps and more helpful UXR Resources ⬇️ ☺ Timestamps and Resources ☺ 00:00 Intro01:20 What does it mean to clarify context02:15 Why ...',
-          keywords:
-            "UX Research, UXR, User Experience, UX DESIGN, UX INTERVIEWS, INTERVIEW TIPS, UXD, user experience research, silicon valley, Google, Airbnb, Tech, womenintech, Chinese american, asian lifestyle, tech jobs, ux research, user experience design, uxd, ux design, interaction design, tech company, ux career, ux, ixd, ux researchers, career coaching, interviews, ux interview, product research, product design, career goals, time management, product designer, UX interview",
-          "og:site_name": "YouTube",
-          "og:url": "https://www.youtube.com/watch?v=vM-G3sS3uF0",
-          "og:title": "How to choose the right UX research method?",
-          "og:image": "https://i.ytimg.com/vi/vM-G3sS3uF0/maxresdefault.jpg",
-          "og:image:width": "1280",
-          "og:image:height": "720",
-          "og:description":
-            'Tap "Show More" for Timestamps and more helpful UXR Resources ⬇️ ☺ Timestamps and Resources ☺ 00:00 Intro01:20 What does it mean to clarify context02:15 Why ...',
-          "al:ios:app_store_id": "544007664",
-          "al:ios:app_name": "YouTube",
-          "al:ios:url":
-            "vnd.youtube://www.youtube.com/watch?v=vM-G3sS3uF0&feature=applinks",
-          "al:android:url":
-            "vnd.youtube://www.youtube.com/watch?v=vM-G3sS3uF0&feature=applinks",
-          "al:web:url":
-            "http://www.youtube.com/watch?v=vM-G3sS3uF0&feature=applinks",
-          "og:type": "video.other",
-          "og:video:url": "https://www.youtube.com/embed/vM-G3sS3uF0",
-          "og:video:secure_url": "https://www.youtube.com/embed/vM-G3sS3uF0",
-          "og:video:type": "text/html",
-          "og:video:width": "1280",
-          "og:video:height": "720",
-          "al:android:app_name": "YouTube",
-          "al:android:package": "com.google.android.youtube",
-          "og:video:tag": "UX interview",
-          "fb:app_id": "87741124305",
-          "twitter:card": "player",
-          "twitter:site": "@youtube",
-          "twitter:url": "https://www.youtube.com/watch?v=vM-G3sS3uF0",
-          "twitter:title": "How to choose the right UX research method?",
-          "twitter:description":
-            'Tap "Show More" for Timestamps and more helpful UXR Resources ⬇️ ☺ Timestamps and Resources ☺ 00:00 Intro01:20 What does it mean to clarify context02:15 Why ...',
-          "twitter:image":
-            "https://i.ytimg.com/vi/vM-G3sS3uF0/maxresdefault.jpg",
-          "twitter:app:name:iphone": "YouTube",
-          "twitter:app:id:iphone": "544007664",
-          "twitter:app:name:ipad": "YouTube",
-          "twitter:app:id:ipad": "544007664",
-          "twitter:app:url:iphone":
-            "vnd.youtube://www.youtube.com/watch?v=vM-G3sS3uF0&feature=applinks",
-          "twitter:app:url:ipad":
-            "vnd.youtube://www.youtube.com/watch?v=vM-G3sS3uF0&feature=applinks",
-          "twitter:app:name:googleplay": "YouTube",
-          "twitter:app:id:googleplay": "com.google.android.youtube",
-          "twitter:app:url:googleplay":
-            "https://www.youtube.com/watch?v=vM-G3sS3uF0",
-          "twitter:player": "https://www.youtube.com/embed/vM-G3sS3uF0",
-          "twitter:player:width": "1280",
-          "twitter:player:height": "720",
-          viewport: "width=device-width, initial-scale=1.0, viewport-fit=cover",
-        },
-      },
       {
         id: "299",
         guid: "261441e5-5979-46f2-84b8-3c04dc56da04",
@@ -1994,31 +1974,6 @@ var category_sorted = [
       },
 
       {
-        id: "207",
-        guid: "9c0ed96c-1a89-4694-afda-ada7d2a12fde",
-        name: "Library catalog - Wikipedia",
-        url: "https://en.wikipedia.org/wiki/Library_catalog",
-        date_added: "13359033193798802",
-        date_last_used: "0",
-        icons: ["https://en.wikipedia.org/static/favicon/wikipedia.ico"],
-        meta: {
-          ResourceLoaderDynamicStyles: "",
-          generator: "MediaWiki 1.45.0-wmf.1",
-          referrer: "origin-when-cross-origin",
-          robots: "max-image-preview:standard",
-          "format-detection": "telephone=no",
-          "og:image":
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Yale_card_catalog.jpg/960px-Yale_card_catalog.jpg",
-          "og:image:width": "640",
-          "og:image:height": "640",
-          viewport: "width=1120,initial-scale=0.975",
-          "og:title": "Library catalog - Wikipedia",
-          "og:type": "website",
-          "mw:PageProp/toc": "",
-        },
-      },
-
-      {
         id: "702",
         guid: "bc321549-035d-47ae-9a1e-dd5f63370151",
         name: "10 Cool CodePen Demos (March 23) - DEV Community",
@@ -2253,161 +2208,71 @@ var category_sorted = [
     name: "AI Tools",
     items: [
       {
-        id: "191",
-        guid: "621f7eec-de80-4d5b-8a90-d4a2333bc173",
-        name: "UX측면에서 잘 만들어진 B2C사례 9부, 텍스트 콘텐츠 플랫폼의 UX는? | 요즘IT",
-        url: "https://yozm.wishket.com/magazine/detail/1162/",
-        date_added: "13356710746917522",
-        date_last_used: "0",
-        icons: [],
-        meta: {
-          viewport: "width=device-width, initial-scale=1",
-          "fb:app_id": "593258114025512",
-          "naver-site-verification": "dc8f6187646a72a65dd61bd285076617240199aa",
-          "slack-app-id": "A02085A8T32",
-          description:
-            "오픈서베이의 콘텐츠 트렌드 리포트 2021에 따르면, 작년 대비 이용률이 증가한 것은 e북과 웹툰이었습니다. e북의 텍스트 콘텐츠는 건별 구매 또는 월정액 구독 서비스가 전년 대비 증가했으며, 소비자들의 지출 금액도 함께 증가했습니다. 이처럼 코로나19로 집에 있는 시간이 많아지면서 텍스트 콘텐츠를 이용하는 독자들이 이전에 비해 많아졌습니다. 이번 시간에는 텍스트 기반의 서비스를 제공하는 B2C 사례를 UX 관점에서 분석해 보겠습니다.",
-          author: "Yozm IT",
-          keywords: "UI/UX,텍스트콘텐츠,사용자경험,디지털콘텐츠,밀리의서재",
-          "og:keyword": "UI/UX,텍스트콘텐츠,사용자경험,디지털콘텐츠,밀리의서재",
-          date: "2021-11-17",
-          "format-detection": "telephone=no",
-          "og:title":
-            "UX측면에서 잘 만들어진 B2C사례 9부, 텍스트 콘텐츠 플랫폼의 UX는?  | 요즘IT",
-          "og:description":
-            "오픈서베이의 콘텐츠 트렌드 리포트 2021에 따르면, 작년 대비 이용률이 증가한 것은 e북과 웹툰이었습니다. e북의 텍스트 콘텐츠는 건별 구매 또는 월정액 구독 서비스가 전년 대비 증가했으며, 소비자들의 지출 금액도 함께 증가했습니다. 이처럼 코로나19로 집에 있는 시간이 많아지면서 텍스트 콘텐츠를 이용하는 독자들이 이전에 비해 많아졌습니다. 이번 시간에는 텍스트 기반의 서비스를 제공하는 B2C 사례를 UX 관점에서 분석해 보겠습니다.",
-          "og:url": "https://yozm.wishket.com/magazine/detail/1162/",
-          "og:site_name": "요즘IT",
-          "og:image": "https://yozm.wishket.com/media/news/1162/image001.jpg",
-          "og:image:alt":
-            "UX측면에서 잘 만들어진 B2C사례 9부, 텍스트 콘텐츠 플랫폼의 UX는?  | 요즘IT",
-          "og:type": "website",
-          "twitter:card": "summary_large_image",
-          "twitter:site": "@wishket",
-          "twitter:title":
-            "UX측면에서 잘 만들어진 B2C사례 9부, 텍스트 콘텐츠 플랫폼의 UX는?  | 요즘IT",
-          "twitter:description":
-            "오픈서베이의 콘텐츠 트렌드 리포트 2021에 따르면, 작년 대비 이용률이 증가한 것은 e북과 웹툰이었습니다. e북의 텍스트 콘텐츠는 건별 구매 또는 월정액 구독 서비스가 전년 대비 증가했으며, 소비자들의 지출 금액도 함께 증가했습니다. 이처럼 코로나19로 집에 있는 시간이 많아지면서 텍스트 콘텐츠를 이용하는 독자들이 이전에 비해 많아졌습니다. 이번 시간에는 텍스트 기반의 서비스를 제공하는 B2C 사례를 UX 관점에서 분석해 보겠습니다.",
-          "twitter:image":
-            "https://yozm.wishket.com/media/news/1162/image001.jpg",
-        },
-      },
-      {
-        id: "196",
-        guid: "59e4dbaa-cd92-44f0-8769-8d9452d9b81e",
-        name: "<br /> All The Knives, Any printed story on request <br /> — Åbäke | Dent-De-Leone",
-        url: "https://www.dentdeleone.com/product/all-the-knives-any-printed-story-on-request-by-abake",
-        date_added: "13357030129726730",
+        id: "609",
+        guid: "ba099641-3b8f-4b22-8150-b00f5db6f845",
+        name: "Kling AI: Next-Generation AI Creative Studio",
+        url: "https://klingai.com/global/?gad_source=1&gclid=Cj0KCQjwtJ6_BhDWARIsAGanmKcX9ywxVqTxciCwzTGeEqMVAcqV-vaCQvEFrydYa9HB3XJnA46YNYMaAnipEALw_wcB",
+        date_added: "13387729862393775",
         date_last_used: "0",
         icons: [
-          "https://www.dentdeleone.com/favicon.svg",
-          "https://www.dentdeleone.com/favicon.ico",
+          "https://p1-kling.kechuangai.com/kcdn/cdn-kcdn112452/kling-homepage-aio-prod_aio/favicon.ico",
         ],
         meta: {
+          buildId: "61594961",
           viewport:
-            "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0",
-          generator: "Big Cartel",
-          author: "Dent-De-Leone",
+            "width=device-width, initial-scale=1.00000000000001, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no",
+          keywords:
+            "Kling,Kling AI,Generative AI,AIGC,可灵,视频生成,图像生成,图片生成,生成式,人工智能,视频制作",
+          robots: "all",
           description:
-            "Monsieur, aimez-vous l’art? asked the man with the hat. On a positive response Robert Filiou would show an exhibition contained in a hat to a...",
-          referrer: "strict-origin-when-cross-origin",
-          product_id: "44152496",
-          product_name: "All The Knives, Any printed story on request — Åbäke",
-          product_permalink:
-            "all-the-knives-any-printed-story-on-request-by-abake",
-          theme_name: "Trace",
-          theme_version: "1.0.11",
-          "og:type": "product",
-          "og:site_name": "Dent-De-Leone",
-          "og:title": "All The Knives, Any printed story on request — Åbäke",
-          "og:url":
-            "https://www.dentdeleone.com/product/all-the-knives-any-printed-story-on-request-by-abake",
-          "og:description":
-            "Monsieur, aimez-vous l’art? asked the man with the hat. On a positive response Robert Filiou would show an exhibition contained in a hat to a...",
-          "og:image":
-            "https://assets.bigcartel.com/product_images/206397431/346_85A2580-1440px.jpg?auto=format&fit=max&h=1200&w=1200",
-          "og:image:secure_url":
-            "https://assets.bigcartel.com/product_images/206397431/346_85A2580-1440px.jpg?auto=format&fit=max&h=1200&w=1200",
-          "og:price:amount": "20.00",
-          "og:price:currency": "GBP",
-          "og:availability": "oos",
-          "twitter:card": "summary_large_image",
-          "twitter:title":
-            "All The Knives, Any printed story on request — Åbäke",
-          "twitter:description":
-            "Monsieur, aimez-vous l’art? asked the man with the hat. On a positive response Robert Filiou would show an exhibition contained in a hat to a...",
-          "twitter:image":
-            "https://assets.bigcartel.com/product_images/206397431/346_85A2580-1440px.jpg?auto=format&fit=max&h=1200&w=1200",
-        },
-      },
-      {
-        id: "202",
-        guid: "8cad6264-6d1f-4530-8e0e-37ca4bd09b4c",
-        name: "검색 잘 되는 사이트의 필수조건, 메타(meta) 태그란? | 요즘IT",
-        url: "https://yozm.wishket.com/magazine/detail/816/",
-        date_added: "13358967324981947",
-        date_last_used: "0",
-        icons: [],
-        meta: {
-          viewport: "width=device-width, initial-scale=1",
-          "fb:app_id": "593258114025512",
-          "naver-site-verification": "dc8f6187646a72a65dd61bd285076617240199aa",
-          "slack-app-id": "A02085A8T32",
-          description:
-            "인터넷의 발달로 우리는 (요즘IT와 같은) 수많은 좋은 웹사이트와 콘텐츠를 접할 수 있게 되었습니다. 그런데 아무리 좋은 사이트나 콘텐츠를 구축해도, 구글이나 네이버와 같은 검색 엔진에서 검색되지 않는다면 사람들의 방문을 기대하기는 어려울 것입니다. 그렇다면 어떻게 검색이 잘 되는 사이트를 만들 수 있을까요? 많은 사용자에게 노출되는 사이트를 만들기 위해서는 여러 조건이 필요한데요, 오늘은 그중에서 가장 핵심적인 역할을 하는 ‘메타 태그’에 대해서 알아보겠습니다.",
-          author: "Yozm IT",
-          keywords: "메타태그,태그,웹페이지,HTML",
-          "og:keyword": "메타태그,태그,웹페이지,HTML",
-          date: "2021-06-29",
-          "format-detection": "telephone=no",
-          "og:title":
-            "검색 잘 되는 사이트의 필수조건, 메타(meta) 태그란? | 요즘IT",
-          "og:description":
-            "인터넷의 발달로 우리는 (요즘IT와 같은) 수많은 좋은 웹사이트와 콘텐츠를 접할 수 있게 되었습니다. 그런데 아무리 좋은 사이트나 콘텐츠를 구축해도, 구글이나 네이버와 같은 검색 엔진에서 검색되지 않는다면 사람들의 방문을 기대하기는 어려울 것입니다. 그렇다면 어떻게 검색이 잘 되는 사이트를 만들 수 있을까요? 많은 사용자에게 노출되는 사이트를 만들기 위해서는 여러 조건이 필요한데요, 오늘은 그중에서 가장 핵심적인 역할을 하는 ‘메타 태그’에 대해서 알아보겠습니다.",
-          "og:url": "https://yozm.wishket.com/magazine/detail/816/",
-          "og:site_name": "요즘IT",
-          "og:image": "https://yozm.wishket.com/media/news/816/image005.png",
-          "og:image:alt":
-            "검색 잘 되는 사이트의 필수조건, 메타(meta) 태그란? | 요즘IT",
+            "Kling AI, tools for creating imaginative images and videos, based on state-of-art generative AI methods.",
+          "mobile-web-app-capable": "yes",
+          "apple-mobile-web-app-title": "Kling AI",
+          "apple-mobile-web-app-status-bar-style": "default",
           "og:type": "website",
-          "twitter:card": "summary_large_image",
-          "twitter:site": "@wishket",
-          "twitter:title":
-            "검색 잘 되는 사이트의 필수조건, 메타(meta) 태그란? | 요즘IT",
-          "twitter:description":
-            "인터넷의 발달로 우리는 (요즘IT와 같은) 수많은 좋은 웹사이트와 콘텐츠를 접할 수 있게 되었습니다. 그런데 아무리 좋은 사이트나 콘텐츠를 구축해도, 구글이나 네이버와 같은 검색 엔진에서 검색되지 않는다면 사람들의 방문을 기대하기는 어려울 것입니다. 그렇다면 어떻게 검색이 잘 되는 사이트를 만들 수 있을까요? 많은 사용자에게 노출되는 사이트를 만들기 위해서는 여러 조건이 필요한데요, 오늘은 그중에서 가장 핵심적인 역할을 하는 ‘메타 태그’에 대해서 알아보겠습니다.",
-          "twitter:image":
-            "https://yozm.wishket.com/media/news/816/image005.png",
+          "og:image":
+            "./screenshots-flat/Kling AI_ Next-Generation AI Creative Studio.png",
         },
       },
 
       {
-        id: "241",
-        guid: "00c4e8d7-a076-4eb5-bcaa-7b48297bd275",
-        name: "Best Experimental Websites | Web Design Inspiration",
-        url: "https://www.awwwards.com/websites/experimental/",
-        date_added: "13360735677220414",
+        id: "724",
+        guid: "6984ee0c-d4e4-4aef-b592-42b24999a1c4",
+        name: "Stitch - Design with AI",
+        url: "https://stitch.withgoogle.com/",
+        date_added: "13392626144732935",
         date_last_used: "0",
-        icons: ["https://assets.awwwards.com/assets/images/favicon.svg"],
+        icons: [
+          "https://www.gstatic.com/labs-code/favicon-16x16.png",
+          "https://www.gstatic.com/labs-code/favicon-32x32.png",
+          "https://www.gstatic.com/labs-code/favicon-48x48.png",
+        ],
         meta: {
-          referrer: "origin-when-cross-origin",
-          viewport: "width=device-width, initial-scale=1.0",
-          "theme-color": "#3ea094",
-          "og:image":
-            "https://assets.awwwards.com/assets/images/share/awwwards.jpg",
-          "twitter:image":
-            "https://assets.awwwards.com/assets/images/share/awwwards.jpg",
-          "twitter:card": "summary",
-          "twitter:site": "@awwwards",
-          "twitter:creator": "@awwwards",
-          "twitter:url": "https://www.awwwards.com/websites/experimental/",
-          "twitter:title":
-            "Best Experimental Websites | Web Design Inspiration",
-          "twitter:description":
-            "Websites that explore new UX patterns or experiment with voice and gestural interfaces, data visualization, predictive UX, VR, AR, MR, AI, etc.",
+          referrer: "origin",
+          "og:title": "Stitch - Design with AI",
+          "twitter:title": "Stitch - Design with AI",
           description:
-            "            Websites that explore new UX patterns or experiment with voice and gestural interfaces, data visualization, predictive UX, VR, AR, MR, AI, etc.\n    ",
+            "Stitch generates UIs for mobile and web applications, making design ideation fast and easy.",
+          "og:description":
+            "Stitch generates UIs for mobile and web applications, making design ideation fast and easy.",
+          "twitter:description":
+            "Stitch generates UIs for mobile and web applications, making design ideation fast and easy.",
+          keywords: "stitch, AI, design, generate, mobile, web",
           "og:type": "website",
+          "og:url": "https://stitch.withgoogle.com",
+          "og:site_name": "Stitch",
+          "og:image": "https://app-companion-430619.appspot.com/static/og.png",
+          "og:image:alt":
+            "Stitch wordmark, Stitch (Beta), on black background with particle wave",
+          "twitter:card": "summary_large_image",
+          "twitter:site": "@stitchbygoogle",
+          "twitter:creator": "@stitchbygoogle",
+          "twitter:url": "https://stitch.withgoogle.com",
+          "twitter:image":
+            "https://app-companion-430619.appspot.com/static/og.png",
+          "twitter:image:alt":
+            "Stitch wordmark, Stitch (Beta), on black background with particle wave",
+          viewport: "width=device-width, initial-scale=1.0",
         },
       },
       {
@@ -2491,44 +2356,6 @@ var category_sorted = [
             "https://image.inblog.dev/?url=https%3A%2F%2Fsource.inblog.dev%2Fog_image%2F2023-10-18T07%3A43%3A18.254Z-e06f6172-df43-4b15-a966-cd1feced5e2b&w=1920&q=75",
           "twitter:image:secure-url":
             "https://image.inblog.dev?url=https%3A%2F%2Fsource.inblog.dev%2Fog_image%2F2023-10-18T07%3A43%3A18.254Z-e06f6172-df43-4b15-a966-cd1feced5e2b&w=1920&q=75",
-        },
-      },
-      {
-        id: "267",
-        guid: "840a3568-0576-45bf-bed1-4eea573dfb6b",
-        name: "태그 기반 북마크 관리 서비스 ‘Bookmarkify’ | 요즘IT",
-        url: "https://yozm.wishket.com/magazine/detail/2013/",
-        date_added: "13369743719588402",
-        date_last_used: "0",
-        icons: [],
-        meta: {
-          viewport: "width=device-width, initial-scale=1",
-          "fb:app_id": "593258114025512",
-          "naver-site-verification": "dc8f6187646a72a65dd61bd285076617240199aa",
-          "slack-app-id": "A02085A8T32",
-          description:
-            "처음 크롬 브라우저를 경험했을 때의 놀라움을 아직 기억하고 있습니다.  빠른 속도와 다양한 부가 기능을 제공한 크롬은 지금도 유용하게 사용하고 있는 브라우저입니다. 하지만 크롬의 다양한 기능 중 아쉬운 부분도 있는데 바로 ‘북마크’입니다. 추가, 삭제라는 심플한 기능으로 사용에 어려움은 없지만 웹페이지를 단순 리스트 형태로만 제공해, 종류에 따라 확인하는 과정이 번거로울 때가 많습니다. 오늘 소개할 ‘Bookmarkify’는 디자인 에이전시 ‘Mirano Designs’에서 개발한 북마크 툴로 크롬 확장 프로그램으로 설치 후 사용할 수 있습니다. 무엇보다 기존 크롬 북마크의 단점을 잘 보완한 서비스로 이번 글을 통해 살펴보겠습니다.",
-          author: "Yozm IT",
-          keywords: "Bookmarkify,북마크,크롬,태그,레퍼런스",
-          "og:keyword": "Bookmarkify,북마크,크롬,태그,레퍼런스",
-          date: "2023-05-11",
-          "format-detection": "telephone=no",
-          "og:title": "태그 기반 북마크 관리 서비스 ‘Bookmarkify’ | 요즘IT",
-          "og:description":
-            "처음 크롬 브라우저를 경험했을 때의 놀라움을 아직 기억하고 있습니다.  빠른 속도와 다양한 부가 기능을 제공한 크롬은 지금도 유용하게 사용하고 있는 브라우저입니다. 하지만 크롬의 다양한 기능 중 아쉬운 부분도 있는데 바로 ‘북마크’입니다. 추가, 삭제라는 심플한 기능으로 사용에 어려움은 없지만 웹페이지를 단순 리스트 형태로만 제공해, 종류에 따라 확인하는 과정이 번거로울 때가 많습니다. 오늘 소개할 ‘Bookmarkify’는 디자인 에이전시 ‘Mirano Designs’에서 개발한 북마크 툴로 크롬 확장 프로그램으로 설치 후 사용할 수 있습니다. 무엇보다 기존 크롬 북마크의 단점을 잘 보완한 서비스로 이번 글을 통해 살펴보겠습니다.",
-          "og:url": "https://yozm.wishket.com/magazine/detail/2013/",
-          "og:site_name": "요즘IT",
-          "og:image": "https://yozm.wishket.com/media/news/2013/image4.png",
-          "og:image:alt": "태그 기반 북마크 관리 서비스 ‘Bookmarkify’ | 요즘IT",
-          "og:type": "website",
-          "twitter:card": "summary_large_image",
-          "twitter:site": "@wishket",
-          "twitter:title":
-            "태그 기반 북마크 관리 서비스 ‘Bookmarkify’ | 요즘IT",
-          "twitter:description":
-            "처음 크롬 브라우저를 경험했을 때의 놀라움을 아직 기억하고 있습니다.  빠른 속도와 다양한 부가 기능을 제공한 크롬은 지금도 유용하게 사용하고 있는 브라우저입니다. 하지만 크롬의 다양한 기능 중 아쉬운 부분도 있는데 바로 ‘북마크’입니다. 추가, 삭제라는 심플한 기능으로 사용에 어려움은 없지만 웹페이지를 단순 리스트 형태로만 제공해, 종류에 따라 확인하는 과정이 번거로울 때가 많습니다. 오늘 소개할 ‘Bookmarkify’는 디자인 에이전시 ‘Mirano Designs’에서 개발한 북마크 툴로 크롬 확장 프로그램으로 설치 후 사용할 수 있습니다. 무엇보다 기존 크롬 북마크의 단점을 잘 보완한 서비스로 이번 글을 통해 살펴보겠습니다.",
-          "twitter:image":
-            "https://yozm.wishket.com/media/news/2013/image4.png",
         },
       },
       {
@@ -2627,28 +2454,6 @@ var category_sorted = [
           "next-head-count": "27",
         },
       },
-      {
-        id: "114",
-        guid: "f871be34-9b30-4b1a-8041-b5292627df5c",
-        name: "Hugging Face – Pricing",
-        url: "https://huggingface.co/pricing",
-        date_added: "13325585619455914",
-        date_last_used: "0",
-        icons: [],
-        meta: {
-          viewport: "width=device-width, initial-scale=1.0, user-scalable=no",
-          description: "The simplest way to access compute for AI",
-          "fb:app_id": "1321688464574422",
-          "twitter:card": "summary_large_image",
-          "twitter:site": "@huggingface",
-          "twitter:image":
-            "https://huggingface.co/front/thumbnails/pricing.png",
-          "og:title": "Hugging Face – Pricing",
-          "og:type": "website",
-          "og:url": "https://huggingface.co/pricing",
-          "og:image": "https://huggingface.co/front/thumbnails/pricing.png",
-        },
-      },
 
       {
         id: "147",
@@ -2735,138 +2540,6 @@ var category_sorted = [
             "https://stablediffusionxl.com/wp-content/uploads/2023/04/cropped-brush-270x270.png",
           "og:image":
             "./screenshots-flat/Stable Diffusion XL - SDXL 1.0 Model - Stable Diffusion XL.png",
-        },
-      },
-      {
-        id: "154",
-        guid: "14c19522-1618-4c4d-ac9d-e6fe4913cbe3",
-        name: "[Tailwind CSS] Tailwind CSS로 다양한 스타일 작성하기 (3d 애니메이션, bg gradient & image url, 반응형 디자인)",
-        url: "https://fay-story.com/entry/Tailwind-CSS-Tailwind-CSS%EB%A1%9C-%EB%8B%A4%EC%96%91%ED%95%9C-%EC%8A%A4%ED%83%80%EC%9D%BC-%EC%9E%91%EC%84%B1%ED%95%98%EA%B8%B0-3d-%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98-bg-gradient-image-url-%EB%B0%98%EC%9D%91%ED%98%95-%EB%94%94%EC%9E%90%EC%9D%B8",
-        date_added: "13372138327221802",
-        date_last_used: "0",
-        icons: [
-          "https://t1.daumcdn.net/tistory_admin/favicon/tistory_favicon_32x32.ico",
-          "https://t1.daumcdn.net/tistory_admin/top_v2/bi-tistory-favicon.svg",
-        ],
-        meta: {
-          "naver-site-verification": "d89f8cd80f7ed07a1a79604bf6cc0fa2d7f8d3e4",
-          "google-site-verification":
-            "-Cv7q_afLQRpYPKlaEwEsI-g2FjCTQCP82RIiRKIfao",
-          "format-detection": "telephone=no",
-          referrer: "always",
-          "google-adsense-platform-account": "ca-host-pub-9691043933427338",
-          "google-adsense-platform-domain": "tistory.com",
-          "google-adsense-account": "ca-pub-6788458277269916",
-          description:
-            '✏️ 이 글은 사이드프로젝트 "스무디"를 개발하며 알게된 점은 정리하여 기록한 글입니다.    "스무디"는 위 프로젝트 이름으로, 작년 여름 부트캠프 팀 프로젝트로 6명이 함께 작업한 사이드 프로젝트였다.이번에 여러가지 이유와 목적으로 개인 사이드 프로젝트로 처음부터 다시 작업을 했다. 기존 프로젝트에서는 CSS module을 사용해서 스타일을 작성했고, 이번 프로젝트에서는 Tailwind CSS를 적용하기로 했다. 기존에 이미 작성했던 CSS 코드도 있었기 때문에, Tailwind에 익숙해지기만 하면 빠르게 적용할 수 있을 줄 알았는데, 생각보다 이런저런 고비가 많았다. 예상보다 시간 또한 오래 걸렸다. 그 중 프로젝트 초창기 마주했던 문제들의 해결 과정을 정리해보려 한다.💅 Tailwind CSS로..',
-          "og:type": "article",
-          "og:url":
-            "https://fay-story.com/entry/Tailwind-CSS-Tailwind-CSS%EB%A1%9C-%EB%8B%A4%EC%96%91%ED%95%9C-%EC%8A%A4%ED%83%80%EC%9D%BC-%EC%9E%91%EC%84%B1%ED%95%98%EA%B8%B0-3d-%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98-bg-gradient-image-url-%EB%B0%98%EC%9D%91%ED%98%95-%EB%94%94%EC%9E%90%EC%9D%B8",
-          "og.article.author": "FAY",
-          "og:site_name": "FAY STORY",
-          "og:title":
-            "[Tailwind CSS] Tailwind CSS로 다양한 스타일 작성하기 (3d 애니메이션, bg gradient & image url, 반응형 디자인)",
-          by: "FAY",
-          "og:description":
-            '✏️ 이 글은 사이드프로젝트 "스무디"를 개발하며 알게된 점은 정리하여 기록한 글입니다.    "스무디"는 위 프로젝트 이름으로, 작년 여름 부트캠프 팀 프로젝트로 6명이 함께 작업한 사이드 프로젝트였다.이번에 여러가지 이유와 목적으로 개인 사이드 프로젝트로 처음부터 다시 작업을 했다. 기존 프로젝트에서는 CSS module을 사용해서 스타일을 작성했고, 이번 프로젝트에서는 Tailwind CSS를 적용하기로 했다. 기존에 이미 작성했던 CSS 코드도 있었기 때문에, Tailwind에 익숙해지기만 하면 빠르게 적용할 수 있을 줄 알았는데, 생각보다 이런저런 고비가 많았다. 예상보다 시간 또한 오래 걸렸다. 그 중 프로젝트 초창기 마주했던 문제들의 해결 과정을 정리해보려 한다.💅 Tailwind CSS로..',
-          "og:image":
-            "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbdSMfN%2FbtsHXfNSLKT%2FT2NBx9okAhOY9ULF2R5dcK%2Fimg.gif",
-          "article:section": "'IT 인터넷'",
-          "twitter:card": "summary_large_image",
-          "twitter:site": "@TISTORY",
-          "twitter:title":
-            "[Tailwind CSS] Tailwind CSS로 다양한 스타일 작성하기 (3d 애니메이션, bg gradient & image url, 반응형 디자인)",
-          "twitter:description":
-            '✏️ 이 글은 사이드프로젝트 "스무디"를 개발하며 알게된 점은 정리하여 기록한 글입니다.    "스무디"는 위 프로젝트 이름으로, 작년 여름 부트캠프 팀 프로젝트로 6명이 함께 작업한 사이드 프로젝트였다.이번에 여러가지 이유와 목적으로 개인 사이드 프로젝트로 처음부터 다시 작업을 했다. 기존 프로젝트에서는 CSS module을 사용해서 스타일을 작성했고, 이번 프로젝트에서는 Tailwind CSS를 적용하기로 했다. 기존에 이미 작성했던 CSS 코드도 있었기 때문에, Tailwind에 익숙해지기만 하면 빠르게 적용할 수 있을 줄 알았는데, 생각보다 이런저런 고비가 많았다. 예상보다 시간 또한 오래 걸렸다. 그 중 프로젝트 초창기 마주했던 문제들의 해결 과정을 정리해보려 한다.💅 Tailwind CSS로..',
-          "twitter:image":
-            "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbdSMfN%2FbtsHXfNSLKT%2FT2NBx9okAhOY9ULF2R5dcK%2Fimg.gif",
-          "dg:plink": "https://fay-story.com/430",
-          plink: "",
-          title:
-            "[Tailwind CSS] Tailwind CSS로 다양한 스타일 작성하기 (3d 애니메이션, bg gradient & image url, 반응형 디자인)",
-          "article:media_name": "FAY STORY",
-          "article:mobile_url":
-            "https://fay-story.com/m/entry/Tailwind-CSS-Tailwind-CSS%EB%A1%9C-%EB%8B%A4%EC%96%91%ED%95%9C-%EC%8A%A4%ED%83%80%EC%9D%BC-%EC%9E%91%EC%84%B1%ED%95%98%EA%B8%B0-3d-%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98-bg-gradient-image-url-%EB%B0%98%EC%9D%91%ED%98%95-%EB%94%94%EC%9E%90%EC%9D%B8",
-          "article:pc_url":
-            "https://fay-story.com/entry/Tailwind-CSS-Tailwind-CSS%EB%A1%9C-%EB%8B%A4%EC%96%91%ED%95%9C-%EC%8A%A4%ED%83%80%EC%9D%BC-%EC%9E%91%EC%84%B1%ED%95%98%EA%B8%B0-3d-%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98-bg-gradient-image-url-%EB%B0%98%EC%9D%91%ED%98%95-%EB%94%94%EC%9E%90%EC%9D%B8",
-          "article:mobile_view_url":
-            "https://faystory.tistory.com/m/entry/Tailwind-CSS-Tailwind-CSS%EB%A1%9C-%EB%8B%A4%EC%96%91%ED%95%9C-%EC%8A%A4%ED%83%80%EC%9D%BC-%EC%9E%91%EC%84%B1%ED%95%98%EA%B8%B0-3d-%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98-bg-gradient-image-url-%EB%B0%98%EC%9D%91%ED%98%95-%EB%94%94%EC%9E%90%EC%9D%B8",
-          "article:pc_view_url":
-            "https://faystory.tistory.com/entry/Tailwind-CSS-Tailwind-CSS%EB%A1%9C-%EB%8B%A4%EC%96%91%ED%95%9C-%EC%8A%A4%ED%83%80%EC%9D%BC-%EC%9E%91%EC%84%B1%ED%95%98%EA%B8%B0-3d-%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98-bg-gradient-image-url-%EB%B0%98%EC%9D%91%ED%98%95-%EB%94%94%EC%9E%90%EC%9D%B8",
-          "article:talk_channel_view_url":
-            "https://fay-story.com/m/entry/Tailwind-CSS-Tailwind-CSS%EB%A1%9C-%EB%8B%A4%EC%96%91%ED%95%9C-%EC%8A%A4%ED%83%80%EC%9D%BC-%EC%9E%91%EC%84%B1%ED%95%98%EA%B8%B0-3d-%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98-bg-gradient-image-url-%EB%B0%98%EC%9D%91%ED%98%95-%EB%94%94%EC%9E%90%EC%9D%B8",
-          "article:pc_service_home": "https://www.tistory.com",
-          "article:mobile_service_home": "https://www.tistory.com/m",
-          "article:txid": "3756198_430",
-          "article:published_time": "2024-06-12T19:55:29+09:00",
-          "og:regDate": "20240612075529",
-          "article:modified_time": "2024-06-12T19:58:35+09:00",
-          viewport:
-            "user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width",
-        },
-      },
-      {
-        id: "542",
-        guid: "54a0c78d-cbbd-4a9f-803d-5aba9338111a",
-        name: "[git] main 브랜치 변경 내용 적용하고 squash하기",
-        url: "https://velog.io/@mquat/git-main-%EB%B8%8C%EB%9E%9C%EC%B9%98-%EB%B3%80%EA%B2%BD-%EB%82%B4%EC%9A%A9-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B3%A0-squash%ED%95%98%EA%B8%B0",
-        date_added: "13376453775765883",
-        date_last_used: "0",
-        icons: [
-          "https://static.velog.io/favicon.ico",
-          "https://static.velog.io/favicons/favicon-32x32.png",
-          "https://static.velog.io/favicons/favicon-96x96.png",
-          "https://static.velog.io/favicons/favicon-16x16.png",
-        ],
-        meta: {
-          "fb:app_id": "203040656938507",
-          description: "\ngit branch 작업부터 변경 사항 적용, PR까지\n",
-          "og:url":
-            "https://velog.io/@mquat/git-main-브랜치-변경-내용-적용하고-squash하기",
-          "og:type": "article",
-          "og:title": "[git] main 브랜치 변경 내용 적용하고 squash하기 ",
-          "og:description": "\ngit branch 작업부터 변경 사항 적용, PR까지\n",
-          "og:image":
-            "https://velog.velcdn.com/images/mquat/post/4ef3e293-9967-4b1d-9c41-0ab7f91bef19/image.jpg",
-          "twitter:card": "summary_large_image",
-          "twitter:title": "[git] main 브랜치 변경 내용 적용하고 squash하기 ",
-          "twitter:description":
-            "\ngit branch 작업부터 변경 사항 적용, PR까지\n",
-          "twitter:image":
-            "https://velog.velcdn.com/images/mquat/post/4ef3e293-9967-4b1d-9c41-0ab7f91bef19/image.jpg",
-          viewport: "width=device-width, initial-scale=1",
-        },
-      },
-      {
-        id: "156",
-        guid: "69b6ac65-b900-43f4-82c8-b8273f97ce8b",
-        name: "daisyUI — Tailwind CSS Components ( version 4 update is here )",
-        url: "https://daisyui.com/",
-        date_added: "13370315874042327",
-        date_last_used: "0",
-        icons: [
-          "https://img.daisyui.com/images/logo/horizontal-dark.svg",
-          "https://img.daisyui.com/images/daisyui/daisyui-logo-192.png",
-        ],
-        meta: {
-          viewport: "width=device-width, initial-scale=1",
-          description:
-            "Best Tailwind Components Library - Free UI components for Tailwind CSS",
-          "twitter:card": "summary_large_image",
-          "twitter:title":
-            "daisyUI — Tailwind CSS Components ( version 5 update is here )",
-          "twitter:description":
-            "Best Tailwind Components Library - Free UI components for Tailwind CSS",
-          "twitter:image": "https://img.daisyui.com/images/default.webp",
-          "twitter:image:alt":
-            "daisyUI — Tailwind CSS Components ( version 5 update is here )",
-          "og:title":
-            "daisyUI — Tailwind CSS Components ( version 5 update is here )",
-          "og:description":
-            "Best Tailwind Components Library - Free UI components for Tailwind CSS",
-          "og:image": "https://img.daisyui.com/images/default.webp",
-          "theme-color": "oklch(var(--b1))",
-          "og:type": "website",
         },
       },
       {
@@ -2995,609 +2668,6 @@ var category_sorted = [
       },
 
       {
-        id: "609",
-        guid: "ba099641-3b8f-4b22-8150-b00f5db6f845",
-        name: "Kling AI: Next-Generation AI Creative Studio",
-        url: "https://klingai.com/global/?gad_source=1&gclid=Cj0KCQjwtJ6_BhDWARIsAGanmKcX9ywxVqTxciCwzTGeEqMVAcqV-vaCQvEFrydYa9HB3XJnA46YNYMaAnipEALw_wcB",
-        date_added: "13387729862393775",
-        date_last_used: "0",
-        icons: [
-          "https://p1-kling.kechuangai.com/kcdn/cdn-kcdn112452/kling-homepage-aio-prod_aio/favicon.ico",
-        ],
-        meta: {
-          buildId: "61594961",
-          viewport:
-            "width=device-width, initial-scale=1.00000000000001, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no",
-          keywords:
-            "Kling,Kling AI,Generative AI,AIGC,可灵,视频生成,图像生成,图片生成,生成式,人工智能,视频制作",
-          robots: "all",
-          description:
-            "Kling AI, tools for creating imaginative images and videos, based on state-of-art generative AI methods.",
-          "mobile-web-app-capable": "yes",
-          "apple-mobile-web-app-title": "Kling AI",
-          "apple-mobile-web-app-status-bar-style": "default",
-          "og:type": "website",
-          "og:image":
-            "./screenshots-flat/Kling AI_ Next-Generation AI Creative Studio.png",
-        },
-      },
-
-      {
-        id: "40",
-        guid: "853177b4-a0de-42f1-9674-117b2450aea3",
-        name: "GDWEB:지디웹",
-        url: "https://www.gdweb.co.kr/main/",
-        date_added: "13368437288565019",
-        date_last_used: "0",
-        icons: [
-          "http://www.gdweb.co.kr/favicon.ico",
-          "https://www.gdweb.co.kr/img/icon72.png",
-        ],
-        meta: {
-          viewport: "width=device-width",
-          "naver-site-verification": "667f8544d6517d24594983699d66422407c2058b",
-          description:
-            "국내 우수 웹디자인 선정 및 시상, GDWEB DESIGN AWARDS. 지디웹 디자인 어워즈, gdweb.",
-          "og:type": "website",
-          "og:title": "지디웹",
-          "og:description":
-            "국내 우수 웹사이트 선정 및 시상, 국내 우수 웹디자인 선정 및 시상, GDWEB DESIGN AWARDS",
-          "og:image": "http://www.gdweb.co.kr/img/img_site.png",
-          "og:url": "http://www.gdweb.co.kr",
-          robots: "index,follow",
-          keywords:
-            "지디웹, gdweb, 굿디자인웹, 웹디자인 트랜드, 웹사이트 트랜드, 웹디자인 벤치마킹, 웹사이트 벤치마킹, 웹에이전시 포트폴리오, 웹에이전시 포트폴리오 검색, 웹에이전시 순위, GDWEB, gd web, good design web",
-          "p:domain_verify": "91f284c3ed88b02febeadb10a389deae",
-        },
-      },
-      {
-        id: "44",
-        guid: "e1a7b554-2772-4fae-8e3b-e4d01ff412fe",
-        name: "컴포넌트 스터디: ①팝업, 바텀시트, 스낵바 | 요즘IT",
-        url: "https://yozm.wishket.com/magazine/detail/1272/",
-        date_added: "13368440268900423",
-        date_last_used: "0",
-        icons: [],
-        meta: {
-          viewport: "width=device-width, initial-scale=1",
-          "fb:app_id": "593258114025512",
-          "naver-site-verification": "dc8f6187646a72a65dd61bd285076617240199aa",
-          "slack-app-id": "A02085A8T32",
-          description:
-            "모달(modal) UI는 무엇일까? 모달은 사용자의 이목을 끌기 위해 사용하는 화면전환 기법을 의미한다. 팝업, 바텀 시트, 스낵바 등 여러 가지가 존재해, 어떤 UI를 사용하면 좋을지 헷갈릴 때가 많다. 이번 글에서는 기업의 디자인 시스템 문서를 살펴보며, 각각의 컴포넌트를 사용하기에 적합한 상황과 사용 시 주의해야 할 점에 대해 알아보자.",
-          author: "Yozm IT",
-          keywords: "컴포넌트,스낵바,바텀시트,팝업,모달UI",
-          "og:keyword": "컴포넌트,스낵바,바텀시트,팝업,모달UI",
-          date: "2022-01-12",
-          "format-detection": "telephone=no",
-          "og:title": "컴포넌트 스터디: 1팝업, 바텀시트, 스낵바 | 요즘IT",
-          "og:description":
-            "모달(modal) UI는 무엇일까? 모달은 사용자의 이목을 끌기 위해 사용하는 화면전환 기법을 의미한다. 팝업, 바텀 시트, 스낵바 등 여러 가지가 존재해, 어떤 UI를 사용하면 좋을지 헷갈릴 때가 많다. 이번 글에서는 기업의 디자인 시스템 문서를 살펴보며, 각각의 컴포넌트를 사용하기에 적합한 상황과 사용 시 주의해야 할 점에 대해 알아보자.",
-          "og:url": "https://yozm.wishket.com/magazine/detail/1272/",
-          "og:site_name": "요즘IT",
-          "og:image": "https://yozm.wishket.com/media/news/1272/image001.png",
-          "og:image:alt": "컴포넌트 스터디: 1팝업, 바텀시트, 스낵바 | 요즘IT",
-          "og:type": "website",
-          "twitter:card": "summary_large_image",
-          "twitter:site": "@wishket",
-          "twitter:title": "컴포넌트 스터디: 1팝업, 바텀시트, 스낵바 | 요즘IT",
-          "twitter:description":
-            "모달(modal) UI는 무엇일까? 모달은 사용자의 이목을 끌기 위해 사용하는 화면전환 기법을 의미한다. 팝업, 바텀 시트, 스낵바 등 여러 가지가 존재해, 어떤 UI를 사용하면 좋을지 헷갈릴 때가 많다. 이번 글에서는 기업의 디자인 시스템 문서를 살펴보며, 각각의 컴포넌트를 사용하기에 적합한 상황과 사용 시 주의해야 할 점에 대해 알아보자.",
-          "twitter:image":
-            "https://yozm.wishket.com/media/news/1272/image001.png",
-        },
-      },
-      {
-        id: "48",
-        guid: "88112755-c611-4ea4-81c2-e2486ae0b397",
-        name: "Tailwind CSS - Rapidly build modern websites without ever leaving your HTML.",
-        url: "https://tailwindcss.com/",
-        date_added: "13370316185029014",
-        date_last_used: "0",
-        icons: [
-          "https://tailwindcss.com/favicons/favicon-32x32.png?v=4",
-          "https://tailwindcss.com/favicons/favicon-16x16.png?v=4",
-          "https://tailwindcss.com/favicons/favicon.ico?v=4",
-          "https://tailwindcss.com/favicon.ico",
-        ],
-        meta: {
-          viewport: "width=device-width, initial-scale=1",
-          "next-size-adjust": "",
-          "apple-mobile-web-app-title": "Tailwind CSS",
-          "application-name": "Tailwind CSS",
-          "msapplication-TileColor": "#38bdf8",
-          "msapplication-config": "/favicons/browserconfig.xml?v=4",
-          "theme-color": "white",
-          description:
-            "Tailwind CSS is a utility-first CSS framework for rapidly building modern websites without ever leaving your HTML.",
-          "og:title":
-            "Tailwind CSS - Rapidly build modern websites without ever leaving your HTML.",
-          "og:description":
-            "Tailwind CSS is a utility-first CSS framework for rapidly building modern websites without ever leaving your HTML.",
-          "og:image:type": "image/jpeg",
-          "og:image:width": "1200",
-          "og:image:height": "630",
-          "og:image":
-            "https://tailwindcss.com/opengraph-image.jpg?fbee406903dc9e88",
-          "twitter:card": "summary_large_image",
-          "twitter:title":
-            "Tailwind CSS - Rapidly build modern websites without ever leaving your HTML.",
-          "twitter:description":
-            "Tailwind CSS is a utility-first CSS framework for rapidly building modern websites without ever leaving your HTML.",
-          "twitter:image:type": "image/jpeg",
-          "twitter:image:width": "1200",
-          "twitter:image:height": "630",
-          "twitter:image":
-            "https://tailwindcss.com/opengraph-image.jpg?fbee406903dc9e88",
-          "og:type": "website",
-        },
-      },
-      {
-        id: "54",
-        guid: "a54883ee-c96f-440d-b9e9-4149fa7d3a13",
-        name: "Adding Custom Styles - Tailwind CSS",
-        url: "https://tailwindcss.com/docs/adding-custom-styles#adding-custom-utilities",
-        date_added: "13370348617841432",
-        date_last_used: "0",
-        icons: [
-          "https://tailwindcss.com/favicons/favicon-32x32.png?v=4",
-          "https://tailwindcss.com/favicons/favicon-16x16.png?v=4",
-          "https://tailwindcss.com/favicons/favicon.ico?v=4",
-          "https://tailwindcss.com/favicon.ico",
-        ],
-        meta: {
-          viewport: "width=device-width, initial-scale=1",
-          "next-size-adjust": "",
-          "apple-mobile-web-app-title": "Tailwind CSS",
-          "application-name": "Tailwind CSS",
-          "msapplication-TileColor": "#38bdf8",
-          "msapplication-config": "/favicons/browserconfig.xml?v=4",
-          "theme-color": "white",
-          description:
-            "Best practices for adding your own custom styles in Tailwind projects.",
-          "og:title": "Adding custom styles - Core concepts",
-          "og:description":
-            "Best practices for adding your own custom styles in Tailwind projects.",
-          "og:url": "https://tailwindcss.com/docs/adding-custom-styles",
-          "og:image":
-            "https://tailwindcss.com/api/og?path=/docs/adding-custom-styles",
-          "og:type": "article",
-          "twitter:card": "summary_large_image",
-          "twitter:site": "@tailwindcss",
-          "twitter:creator": "@tailwindcss",
-          "twitter:title": "Adding custom styles - Core concepts",
-          "twitter:description":
-            "Best practices for adding your own custom styles in Tailwind projects.",
-          "twitter:image":
-            "https://tailwindcss.com/api/og?path=/docs/adding-custom-styles",
-        },
-      },
-
-      {
-        id: "691",
-        guid: "13915af6-d18e-4ba2-a5df-0e888b95e221",
-        name: "Android Kotlin JSON 수정",
-        url: "https://chatgpt.com/share/681b5155-d6f0-800b-9bd6-25ef713f30e7",
-        date_added: "13391189011610842",
-        date_last_used: "0",
-        icons: [
-          "https://cdn.oaistatic.com/assets/favicon-miwirzcw.ico",
-          "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='180'%20height='180'%20fill='none'%3e%3cstyle%3e%20:root%20{%20--primary-fill:%20%23000;%20--secondary-fill:%20%23fff;%20}%20@media%20(prefers-color-scheme:%20dark)%20{%20:root%20{%20--primary-fill:%20%23fff;%20--secondary-fill:%20%23000;%20}%20}%20%3c/style%3e%3cg%20clip-path='url(%23a)'%3e%3crect%20width='180'%20height='180'%20fill='var(--primary-fill)'%20rx='90'%20/%3e%3cg%20clip-path='url(%23b)'%3e%3cpath%20fill='var(--secondary-fill)'%20d='M75.91%2073.628V62.232c0-.96.36-1.68%201.199-2.16l22.912-13.194c3.119-1.8%206.838-2.639%2010.676-2.639%2014.394%200%2023.511%2011.157%2023.511%2023.032%200%20.839%200%201.799-.12%202.758l-23.752-13.914c-1.439-.84-2.879-.84-4.318%200L75.91%2073.627Zm53.499%2044.383v-27.23c0-1.68-.72-2.88-2.159-3.719L97.142%2069.55l9.836-5.638c.839-.48%201.559-.48%202.399%200l22.912%2013.195c6.598%203.839%2011.035%2011.995%2011.035%2019.912%200%209.116-5.397%2017.513-13.915%2020.992v.001Zm-60.577-23.99-9.836-5.758c-.84-.48-1.2-1.2-1.2-2.16v-26.39c0-12.834%209.837-22.55%2023.152-22.55%205.039%200%209.716%201.679%2013.676%204.678L70.993%2055.516c-1.44.84-2.16%202.039-2.16%203.719v34.787-.002Zm21.173%2012.234L75.91%2098.339V81.546l14.095-7.917%2014.094%207.917v16.793l-14.094%207.916Zm9.056%2036.467c-5.038%200-9.716-1.68-13.675-4.678l23.631-13.676c1.439-.839%202.159-2.038%202.159-3.718V85.863l9.956%205.757c.84.48%201.2%201.2%201.2%202.16v26.389c0%2012.835-9.957%2022.552-23.27%2022.552v.001Zm-28.43-26.75L47.72%20102.778c-6.599-3.84-11.036-11.996-11.036-19.913%200-9.236%205.518-17.513%2014.034-20.992v27.35c0%201.68.72%202.879%202.16%203.718l29.989%2017.393-9.837%205.638c-.84.48-1.56.48-2.399%200Zm-1.318%2019.673c-13.555%200-23.512-10.196-23.512-22.792%200-.959.12-1.919.24-2.879l23.63%2013.675c1.44.84%202.88.84%204.32%200l30.108-17.392v11.395c0%20.96-.361%201.68-1.2%202.16l-22.912%2013.194c-3.119%201.8-6.837%202.639-10.675%202.639Zm29.748%2014.274c14.515%200%2026.63-10.316%2029.39-23.991%2013.434-3.479%2022.071-16.074%2022.071-28.91%200-8.396-3.598-16.553-10.076-22.43.6-2.52.96-5.039.96-7.557%200-17.153-13.915-29.99-29.989-29.99-3.239%200-6.358.48-9.477%201.56-5.398-5.278-12.835-8.637-20.992-8.637-14.515%200-26.63%2010.316-29.39%2023.991-13.434%203.48-22.07%2016.074-22.07%2028.91%200%208.396%203.598%2016.553%2010.075%2022.431-.6%202.519-.96%205.038-.96%207.556%200%2017.154%2013.915%2029.989%2029.99%2029.989%203.238%200%206.357-.479%209.476-1.559%205.397%205.278%2012.835%208.637%2020.992%208.637Z'%20/%3e%3c/g%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='a'%3e%3cpath%20d='M0%200h180v180H0z'%20/%3e%3c/clipPath%3e%3cclipPath%20id='b'%3e%3cpath%20d='M29.487%2029.964h121.035v119.954H29.487z'%20/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e",
-        ],
-        meta: {
-          viewport: "width=device-width, initial-scale=1",
-          "og:site_name": "ChatGPT",
-          robots: "noindex,nofollow",
-          "og:title": "ChatGPT - Android Kotlin JSON 수정",
-          "og:description": "Shared via ChatGPT",
-          "og:image":
-            "https://cdn.oaistatic.com/assets/chatgpt-share-og-u7j5uyao.webp",
-          "og:url":
-            "https://chatgpt.com/share/681b5155-d6f0-800b-9bd6-25ef713f30e7",
-          "apple-itunes-app": "app-id=6448311069",
-          "dd-trace-id": "10663459451213060571",
-          "dd-trace-time": "1748181880280",
-          "og:type": "website",
-        },
-      },
-      {
-        id: "724",
-        guid: "6984ee0c-d4e4-4aef-b592-42b24999a1c4",
-        name: "Stitch - Design with AI",
-        url: "https://stitch.withgoogle.com/",
-        date_added: "13392626144732935",
-        date_last_used: "0",
-        icons: [
-          "https://www.gstatic.com/labs-code/favicon-16x16.png",
-          "https://www.gstatic.com/labs-code/favicon-32x32.png",
-          "https://www.gstatic.com/labs-code/favicon-48x48.png",
-        ],
-        meta: {
-          referrer: "origin",
-          "og:title": "Stitch - Design with AI",
-          "twitter:title": "Stitch - Design with AI",
-          description:
-            "Stitch generates UIs for mobile and web applications, making design ideation fast and easy.",
-          "og:description":
-            "Stitch generates UIs for mobile and web applications, making design ideation fast and easy.",
-          "twitter:description":
-            "Stitch generates UIs for mobile and web applications, making design ideation fast and easy.",
-          keywords: "stitch, AI, design, generate, mobile, web",
-          "og:type": "website",
-          "og:url": "https://stitch.withgoogle.com",
-          "og:site_name": "Stitch",
-          "og:image": "https://app-companion-430619.appspot.com/static/og.png",
-          "og:image:alt":
-            "Stitch wordmark, Stitch (Beta), on black background with particle wave",
-          "twitter:card": "summary_large_image",
-          "twitter:site": "@stitchbygoogle",
-          "twitter:creator": "@stitchbygoogle",
-          "twitter:url": "https://stitch.withgoogle.com",
-          "twitter:image":
-            "https://app-companion-430619.appspot.com/static/og.png",
-          "twitter:image:alt":
-            "Stitch wordmark, Stitch (Beta), on black background with particle wave",
-          viewport: "width=device-width, initial-scale=1.0",
-        },
-      },
-      {
-        id: "77",
-        guid: "c7dcaab4-910a-4d94-9302-29f0556d890f",
-        name: "Heroicons",
-        url: "https://heroicons.com/",
-        date_added: "13372237112831139",
-        date_last_used: "0",
-        icons: [
-          "https://heroicons.com/_next/static/media/favicon-32x32.2a23e45f.png",
-          "https://heroicons.com/_next/static/media/favicon-16x16.bbc86fa7.png",
-        ],
-        meta: {
-          viewport: "width=device-width",
-          description:
-            "Beautiful hand-crafted SVG icons, by the makers of Tailwind CSS.",
-          "og:url": "https://heroicons.com",
-          "og:type": "website",
-          "og:site_name": "Heroicons",
-          "og:description":
-            "Beautiful hand-crafted SVG icons, by the makers of Tailwind CSS.",
-          "og:title": "Heroicons",
-          "og:image":
-            "https://heroicons.com/_next/static/media/social-card.fefc68e0.jpg",
-          "twitter:card": "summary_large_image",
-          "twitter:site": "@tailwindlabs",
-          "twitter:title": "Heroicons",
-          "twitter:description":
-            "Beautiful hand-crafted SVG icons, by the makers of Tailwind CSS.",
-          "twitter:image":
-            "https://heroicons.com/_next/static/media/social-card.fefc68e0.jpg",
-          "next-head-count": "19",
-        },
-      },
-      {
-        id: "490",
-        guid: "f273b491-3e27-43f2-8e9a-824100dfb8d1",
-        name: "마크다운(Markdown) 핵심 규칙 10가지",
-        url: "https://olait.tistory.com/46",
-        date_added: "13373707254353780",
-        date_last_used: "13375893129824219",
-        icons: [
-          "https://t1.daumcdn.net/tistory_admin/favicon/tistory_favicon_32x32.ico",
-          "https://t1.daumcdn.net/tistory_admin/top_v2/bi-tistory-favicon.svg",
-        ],
-        meta: {
-          "google-site-verification":
-            "8IzNA8YzuCbQdEqOXEYHXWWQ_JsBabvGyv2UrTGUdHA",
-          "format-detection": "telephone=no",
-          referrer: "always",
-          "google-adsense-platform-account": "ca-host-pub-9691043933427338",
-          "google-adsense-platform-domain": "tistory.com",
-          "google-adsense-account": "ca-pub-3222219651015855",
-          description:
-            "마크다운(Markdown)​ 핵심 규칙 10가지 마크다운이란? 마크다운(markdown)은 일반 텍스트 기반의 경량 마크업 언어다. 일반 텍스트로 서식이 있는 문서를 작성하는 데 사용되며, 일반 마크업 언어에 비해 문법이 쉽고 간단한 것이 특징이다. 위키피디아 마크다운 언어는 어렵지 않습니다. 30분만 익히고 연습하시면 능숙하게 마크다운을 사용하시게 될 겁니다. 마크다운은 쉽게 말해 단순한 일반 텍스트를 특정 규칙에 맞게 작성하면 알아서 제목으로 만들어주기도 하고, 두껍게 보이게도 하며, 목록, 체크박스 등등으로 서식이 있는 텍스트로 바꿔주는 것입니다. 이렇게 만들어주는 규칙이 매우 쉽고 직관적입니다. 마크다운은 개발자 중심에서 대중적으로 많이 사용되고 있습니다. 마크다운은 다음과 같은 장점이 있기 때문..",
-          "og:type": "article",
-          "og:url": "https://olait.tistory.com/46",
-          "og.article.author": "Obsidianary",
-          "og:site_name": "이토록 쉬운 옵시디언",
-          "og:title": "마크다운(Markdown) 핵심 규칙 10가지",
-          by: "Obsidianary",
-          "og:description":
-            "마크다운(Markdown)​ 핵심 규칙 10가지 마크다운이란? 마크다운(markdown)은 일반 텍스트 기반의 경량 마크업 언어다. 일반 텍스트로 서식이 있는 문서를 작성하는 데 사용되며, 일반 마크업 언어에 비해 문법이 쉽고 간단한 것이 특징이다. 위키피디아 마크다운 언어는 어렵지 않습니다. 30분만 익히고 연습하시면 능숙하게 마크다운을 사용하시게 될 겁니다. 마크다운은 쉽게 말해 단순한 일반 텍스트를 특정 규칙에 맞게 작성하면 알아서 제목으로 만들어주기도 하고, 두껍게 보이게도 하며, 목록, 체크박스 등등으로 서식이 있는 텍스트로 바꿔주는 것입니다. 이렇게 만들어주는 규칙이 매우 쉽고 직관적입니다. 마크다운은 개발자 중심에서 대중적으로 많이 사용되고 있습니다. 마크다운은 다음과 같은 장점이 있기 때문..",
-          "og:image":
-            "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbqalSL%2FbtryRtPwadN%2FLcNfX9CGd7zRlBj0kLbjU0%2Fimg.png",
-          "article:section": "'IT 인터넷'",
-          "twitter:card": "summary_large_image",
-          "twitter:site": "@TISTORY",
-          "twitter:title": "마크다운(Markdown) 핵심 규칙 10가지",
-          "twitter:description":
-            "마크다운(Markdown)​ 핵심 규칙 10가지 마크다운이란? 마크다운(markdown)은 일반 텍스트 기반의 경량 마크업 언어다. 일반 텍스트로 서식이 있는 문서를 작성하는 데 사용되며, 일반 마크업 언어에 비해 문법이 쉽고 간단한 것이 특징이다. 위키피디아 마크다운 언어는 어렵지 않습니다. 30분만 익히고 연습하시면 능숙하게 마크다운을 사용하시게 될 겁니다. 마크다운은 쉽게 말해 단순한 일반 텍스트를 특정 규칙에 맞게 작성하면 알아서 제목으로 만들어주기도 하고, 두껍게 보이게도 하며, 목록, 체크박스 등등으로 서식이 있는 텍스트로 바꿔주는 것입니다. 이렇게 만들어주는 규칙이 매우 쉽고 직관적입니다. 마크다운은 개발자 중심에서 대중적으로 많이 사용되고 있습니다. 마크다운은 다음과 같은 장점이 있기 때문..",
-          "twitter:image":
-            "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbqalSL%2FbtryRtPwadN%2FLcNfX9CGd7zRlBj0kLbjU0%2Fimg.png",
-          "dg:plink": "https://olait.tistory.com/46",
-          plink: "",
-          title: "마크다운(Markdown) 핵심 규칙 10가지",
-          "article:media_name": "이토록 쉬운 옵시디언",
-          "article:mobile_url": "https://olait.tistory.com/m/46",
-          "article:pc_url": "https://olait.tistory.com/46",
-          "article:mobile_view_url": "https://olait.tistory.com/m/46",
-          "article:pc_view_url": "https://olait.tistory.com/46",
-          "article:talk_channel_view_url": "https://olait.tistory.com/m/46",
-          "article:pc_service_home": "https://www.tistory.com",
-          "article:mobile_service_home": "https://www.tistory.com/m",
-          "article:txid": "4682153_46",
-          "article:published_time": "2022-04-09T17:42:59+09:00",
-          "og:regDate": "20220409054259",
-          "article:modified_time": "2022-04-12T21:59:42+09:00",
-          viewport:
-            "user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width",
-        },
-      },
-      {
-        id: "519",
-        guid: "bc2f3d4c-ece7-4f8d-8fe7-cb7f6b79c3c6",
-        name: "에이프린트 / 배너",
-        url: "https://www.aprint1.com/order/silsa01n.asp?gb=BN&tt=%EB%B0%B0%EB%84%88",
-        date_added: "13375246420172812",
-        date_last_used: "0",
-        icons: ["https://www.aprint1.com/Assets/images/favicon2.ico"],
-        meta: {
-          "naver-site-verification": "186298e88e0912c9fbe9fea2b63ce7241e98c7b1",
-          "msvalidate.01": "FACFEA505224BA744886849E3C61BFDD",
-          viewport: "width=device-width, initial-scale=1",
-          description:
-            "싸고 품질 좋은 1등 인쇄몰, 카탈로그 리플렛 디자인부터 인쇄까지, 친절하고 빠른 인쇄 제작, 인쇄 분야 최초 AI 비교 견적, 한 눈에 보이는 공개가격표, 인쇄소",
-          keywords:
-            "에이프린트, aprint, a프린트, 인쇄, 인쇄소, 인쇄 잘하는 곳, 인쇄제작, 인쇄업체, 인쇄전문, 디자인전문, 기획사, 디자인,카탈로그 인쇄, 카탈로그 제작, 카탈로그 만들기, 카탈로그 디자인, 카달로그 인쇄, 카달로그 제작, 카달로그 만들기, 카달로그 디자인, 카타로그 인쇄, 카타로그 제작, 카타로그 만들기, 카타로그 디자인, 카다로그 인쇄, 카다로그 제작, 카다로그 만들기, 카다로그 디자인, 리플렛 인쇄, 리플렛 제작, 리플렛 만들기, 리플렛 디자인, 리플릿 인쇄, 리플릿 제작, 리플릿 만들기, 리플릿 디자인, 팜플렛 인쇄, 팜플렛 제작, 팜플렛 만들기, 팜플렛 디자인, 팜플릿 인쇄, 팜플릿 제작, 팜플릿 만들기, 팜플릿 디자인, 책 인쇄, 책 제작, 책 만들기, 책 디자인, 교재 인쇄, 교재 제작, 교재 만들기, 교재 디자인, 도록 인쇄, 도록 제작, 도록 만들기, 도록 디자인, 지명원 인쇄, 지명원 제작, 지명원 만들기, 지명원 디자인, 책소량 인쇄, 책소량 제작, 책소량 만들기, 책소량 디자인, 포스터 인쇄, 포스터 제작, 포스터 만들기, 포스터 디자인, 전단 인쇄, 전단 제작, 전단 만들기, 전단 디자인, 포트폴리오 인쇄, 포트폴리오 제작, 포트폴리오 만들기, 포트폴리오 디자인, 소량책 인쇄, 소량책 제작, 소량책 만들기 , 소량책 디자인, 보고서 인쇄, 보고서 제작, 보고서 만들기, 회사소개서 인쇄, 회사소개서 제작, 회사소개서 만들기, 회사소개서 디자인, 디지털인쇄, uv인쇄, 옵셋인쇄, 옵셋, 디지털, 윤전, 문제집 인쇄, 문제집 제작, 문제집 만들기, 문제집 디자인, 오프셋인쇄, 봉투제작, 봉투 만들기, 봉투 제작, 봉투 디자인, 인쇄하는 곳, 인쇄1등, 인쇄비, 인쇄비용, 인쇄제작비용, 인쇄제작비, 빠른출력, 빠른인쇄, 당일인쇄, 주말인쇄, 컬러인쇄, 흑백인쇄, 4도인쇄, 1도인쇄, 2도인쇄, 대량인쇄, 소량인쇄, 인쇄사이트, 인쇄제본, 인쇄업, 인쇄센터, 에이프린트 고객센터, 을지로 인쇄, 충무로 인쇄, 서울 인쇄, 2단리플렛, 2단리플릿, 2단팜플렛, 2단팜플릿\n, 3단리플렛, 3단리플릿, 3단팜플렛, 3단팜플릿, 4단리플렛, 4단리플릿, 4단팜플렛, 4단팜플릿, 대한민국1등인쇄, 친절한 인쇄, 친절한 인쇄소, 단행본, 브로슈어 제작, 브로슈어 인쇄, 브로슈어 만들기, 브로슈어 디자인, 브로셔 제작, 브로셔 인쇄, 브로셔 만들기, 브로셔 디자인, 자서전, 기념문집, 전시도록, 학급문집, 졸업작품집, 백서 사례집, 제안서, 원형스티커, 방수스티커,친환경스티커, 방수포스터, 티켓제작, 티켓인쇄, 초대장 제작, 초대장 인쇄, 초대장 만들기, 초대장 디자인, 백서, 자료집, 제안서, 종이홀더, 리플렛 비용, 리플릿 비용, 리플렛 제작비용, 리플릿 제작비용, 카탈로그 제작비용, 카달로그 제작비용, 카타로그 제작비용, 전단지 인쇄, 전단지 제작, 전단지 만들기, 전단 인쇄, 전단 제작, 전단 만들기, 학급신문, 학급문집 인쇄",
-          "og:type": "website",
-          "og:title": "에이프린트 / 품질A 가격A 믿을 수 있는 인쇄 쇼핑몰",
-          "og:description":
-            "싸고 품질 좋은 1등 인쇄몰, 카탈로그 리플렛 디자인부터 인쇄까지, 친절하고 빠른 인쇄 제작, 인쇄 분야 최초 AI 비교 견적, 한 눈에 보이는 공개가격표, 인쇄소",
-          "og:url": "https://aprint1.com/main.asp",
-          "p:domain_verify": "2db764aef83f529b634632a7c0830540",
-          "og:image": "./screenshots-flat/에이프린트 _ 배너.png",
-        },
-      },
-      {
-        id: "547",
-        guid: "736d34e8-29f4-4cad-9087-691485282e15",
-        name: "기획자들이 알아야 할 UI 기본 용어 | 요즘IT",
-        url: "https://yozm.wishket.com/magazine/detail/1302/",
-        date_added: "13377058297357389",
-        date_last_used: "0",
-        icons: [],
-        meta: {
-          viewport: "width=device-width, initial-scale=1",
-          "fb:app_id": "593258114025512",
-          "naver-site-verification": "dc8f6187646a72a65dd61bd285076617240199aa",
-          "slack-app-id": "A02085A8T32",
-          description:
-            "최근 웹 기획으로 넘어오면서 인터페이스 요소들을 살펴볼 일이 많아졌고, 헷갈리는 용어들이 눈에 밟히기 시작했다. 이미 알고 있는 용어가 어떤 회사에서는 다른 단어로 대체되어 쓰이거나, 줄여서 편하게 부르는 등 기획안이나 정책서를 보고 있으면 눈앞이 빙글빙글 돌아갈 때가 많다. 같은 이유로 고민하는 주니어들이 쉽게 따라갈 수 있도록, 기획자들이 알아야 할 기본적인 UI 용어들을 정리해 보았다.",
-          author: "Yozm IT",
-          keywords: "기획자,기획용어,컴포넌트,UI용어,UI",
-          "og:keyword": "기획자,기획용어,컴포넌트,UI용어,UI",
-          date: "2022-01-26",
-          "format-detection": "telephone=no",
-          "og:title": "기획자들이 알아야 할 UI 기본 용어 | 요즘IT",
-          "og:description":
-            "최근 웹 기획으로 넘어오면서 인터페이스 요소들을 살펴볼 일이 많아졌고, 헷갈리는 용어들이 눈에 밟히기 시작했다. 이미 알고 있는 용어가 어떤 회사에서는 다른 단어로 대체되어 쓰이거나, 줄여서 편하게 부르는 등 기획안이나 정책서를 보고 있으면 눈앞이 빙글빙글 돌아갈 때가 많다. 같은 이유로 고민하는 주니어들이 쉽게 따라갈 수 있도록, 기획자들이 알아야 할 기본적인 UI 용어들을 정리해 보았다.",
-          "og:url": "https://yozm.wishket.com/magazine/detail/1302/",
-          "og:site_name": "요즘IT",
-          "og:image": "https://yozm.wishket.com/media/news/1302/image003.png",
-          "og:image:alt": "기획자들이 알아야 할 UI 기본 용어 | 요즘IT",
-          "og:type": "website",
-          "twitter:card": "summary_large_image",
-          "twitter:site": "@wishket",
-          "twitter:title": "기획자들이 알아야 할 UI 기본 용어 | 요즘IT",
-          "twitter:description":
-            "최근 웹 기획으로 넘어오면서 인터페이스 요소들을 살펴볼 일이 많아졌고, 헷갈리는 용어들이 눈에 밟히기 시작했다. 이미 알고 있는 용어가 어떤 회사에서는 다른 단어로 대체되어 쓰이거나, 줄여서 편하게 부르는 등 기획안이나 정책서를 보고 있으면 눈앞이 빙글빙글 돌아갈 때가 많다. 같은 이유로 고민하는 주니어들이 쉽게 따라갈 수 있도록, 기획자들이 알아야 할 기본적인 UI 용어들을 정리해 보았다.",
-          "twitter:image":
-            "https://yozm.wishket.com/media/news/1302/image003.png",
-        },
-      },
-      {
-        id: "342",
-        guid: "7000f584-63ed-4b23-a49f-5954f7786539",
-        name: "designboom magazine | your first source for architecture, design & art news",
-        url: "https://www.designboom.com/",
-        date_added: "13322839693237870",
-        date_last_used: "0",
-        icons: [],
-        meta: {
-          viewport: "width=device-width, initial-scale=1",
-          "google-adsense-account": "ca-pub-9221257285808546",
-          robots:
-            "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-          description:
-            "est. 1999 designboom is the first and most popular digital magazine for architecture & design culture. daily news for a professional and creative audience.",
-          "og:locale": "en_US",
-          "og:type": "website",
-          "og:title": "designboom | architecture & design magazine",
-          "og:description":
-            "est. 1999 designboom is the first and most popular digital magazine for architecture & design culture. daily news for a professional and creative audience.",
-          "og:url": "https://www.designboom.com/",
-          "og:site_name": "designboom | architecture & design magazine",
-          "twitter:card": "summary_large_image",
-          "twitter:site": "@designboom",
-          "og:image":
-            "./screenshots-flat/designboom magazine _ your first source for architecture, design & art news.png",
-        },
-      },
-      {
-        id: "529",
-        guid: "7bcd1640-17fd-4533-9d51-97c6c4f9606d",
-        name: "Napkin AI - The visual AI for business storytelling",
-        url: "https://www.napkin.ai/",
-        date_added: "13375510206634101",
-        date_last_used: "0",
-        icons: [
-          "https://www.napkin.ai/favicon-32x32.png?v=2",
-          "https://www.napkin.ai/favicon-16x16.png?v=2",
-        ],
-        meta: {
-          viewport: "viewport-fit=cover,width=device-width,initial-scale=1",
-          description:
-            "Just type, copy-paste or generate your text and Napkin will instantly transform it into insightful visuals. Make your communication more effective with Napkin.",
-          "apple-mobile-web-app-title": "napkin",
-          "application-name": "napkin",
-          "msapplication-TileColor": "#ffe70a",
-          "theme-color": "#ffffff",
-          "google-site-verification":
-            "Yfi-pvsrLPkUf66PgeF3gAUVm8nSpy8WAdYbUtdoFOA",
-          "og:url": "https://wwww.napkin.ai",
-          "og:title": "Napkin AI - The visual AI for business storytelling",
-          "og:description":
-            "Just type, copy-paste or generate your text and Napkin will instantly transform it into insightful visuals. Make your communication more effective with Napkin.",
-          "og:site_name": "Napkin AI",
-          "og:locale": "en_US",
-          "og:image": "https://www.napkin.ai/assets/og-image-v5-1280.png?v=2",
-          "og:image:alt":
-            "Do people really read your docs?\n  We waste hours writing docs that nobody reads or understands, Words aren't enough to express your ideas. Adding visuals to your writing makes your idea vivid and understandable but it's hard to create, edit and format visuals in docs today. That's why we created Napkin, the doc editor with a built-in visual copilot that makes creating visuals as easy as typing. No drawing skills? No worries. The Napkin copilot creates icons and diagrams as you type and transforms mouse sketches in editable arrows and shapes. The copilot automatically integrates visuals, text and",
-          "og:image:width": "1280",
-          "og:image:height": "1280",
-          "og:type": "website",
-        },
-      },
-      {
-        id: "560",
-        guid: "2762fee7-bd85-4cf2-9234-7e4239d08f9c",
-        name: "Rooms",
-        url: "https://rooms.xyz/",
-        date_added: "13380184289694110",
-        date_last_used: "0",
-        icons: ["https://rooms.xyz/favicon.png"],
-        meta: {
-          description:
-            "Rooms is a collection of user-generated 3D spaces and a creative tapestry of quirky games, tranquil havens, and clever themes. Available for free on iPhone, iPad and desktop web.",
-          "og:description":
-            "Rooms is a collection of user-generated 3D spaces and a creative tapestry of quirky games, tranquil havens, and clever themes. Available for free on iPhone, iPad and desktop web.",
-          "twitter:description":
-            "Rooms is a collection of user-generated 3D spaces and a creative tapestry of quirky games, tranquil havens, and clever themes. Available for free on iPhone, iPad and desktop web.",
-          "og:title": "Rooms",
-          "twitter:title": "Rooms",
-          "twitter:card": "summary_large_image",
-          "twitter:image": "https://rooms.xyz/og.jpg",
-          "og:image": "https://rooms.xyz/og.jpg",
-          "og:image:width": "1200",
-          "og:image:height": "630",
-          viewport: "width=device-width, initial-scale=1, user-scalable=no",
-          "apple-itunes-app": "app-id=6443548715",
-          "og:type": "website",
-        },
-      },
-
-      {
-        id: "564",
-        guid: "17fd516e-c4f1-4844-ab6a-eea09eb5388b",
-        name: "how to draw a circle of arrows in Figma - YouTube",
-        url: "https://www.youtube.com/watch?v=ajj9ylxMOHM",
-        date_added: "13380284989330286",
-        date_last_used: "0",
-        icons: [
-          "https://www.youtube.com/s/desktop/e6b89e3b/img/logos/favicon.ico",
-          "https://www.youtube.com/s/desktop/e6b89e3b/img/logos/favicon_32x32.png",
-          "https://www.youtube.com/s/desktop/e6b89e3b/img/logos/favicon_48x48.png",
-          "https://www.youtube.com/s/desktop/e6b89e3b/img/logos/favicon_96x96.png",
-          "https://www.youtube.com/s/desktop/e6b89e3b/img/logos/favicon_144x144.png",
-        ],
-        meta: {
-          "theme-color": "rgba(255, 255, 255, 0.98)",
-          title: "how to draw a circle of arrows in Figma",
-          description:
-            "This is a tutorial from Daily Visual on how to make a nice curved arrow in Figma.Get more tutorials like this by joining our community: https://gumroad.com/l...",
-          keywords: "design, productivity, marketing",
-          "og:site_name": "YouTube",
-          "og:url": "https://www.youtube.com/watch?v=ajj9ylxMOHM",
-          "og:title": "how to draw a circle of arrows in Figma",
-          "og:image": "https://i.ytimg.com/vi/ajj9ylxMOHM/maxresdefault.jpg",
-          "og:image:width": "1280",
-          "og:image:height": "720",
-          "og:description":
-            "This is a tutorial from Daily Visual on how to make a nice curved arrow in Figma.Get more tutorials like this by joining our community: https://gumroad.com/l...",
-          "al:ios:app_store_id": "544007664",
-          "al:ios:app_name": "YouTube",
-          "al:ios:url":
-            "vnd.youtube://www.youtube.com/watch?v=ajj9ylxMOHM&feature=applinks",
-          "al:android:url":
-            "vnd.youtube://www.youtube.com/watch?v=ajj9ylxMOHM&feature=applinks",
-          "al:web:url":
-            "http://www.youtube.com/watch?v=ajj9ylxMOHM&feature=applinks",
-          "og:type": "video.other",
-          "og:video:url": "https://www.youtube.com/embed/ajj9ylxMOHM",
-          "og:video:secure_url": "https://www.youtube.com/embed/ajj9ylxMOHM",
-          "og:video:type": "text/html",
-          "og:video:width": "1280",
-          "og:video:height": "720",
-          "al:android:app_name": "YouTube",
-          "al:android:package": "com.google.android.youtube",
-          "og:video:tag": "marketing",
-          "fb:app_id": "87741124305",
-          "twitter:card": "player",
-          "twitter:site": "@youtube",
-          "twitter:url": "https://www.youtube.com/watch?v=ajj9ylxMOHM",
-          "twitter:title": "how to draw a circle of arrows in Figma",
-          "twitter:description":
-            "This is a tutorial from Daily Visual on how to make a nice curved arrow in Figma.Get more tutorials like this by joining our community: https://gumroad.com/l...",
-          "twitter:image":
-            "https://i.ytimg.com/vi/ajj9ylxMOHM/maxresdefault.jpg",
-          "twitter:app:name:iphone": "YouTube",
-          "twitter:app:id:iphone": "544007664",
-          "twitter:app:name:ipad": "YouTube",
-          "twitter:app:id:ipad": "544007664",
-          "twitter:app:url:iphone":
-            "vnd.youtube://www.youtube.com/watch?v=ajj9ylxMOHM&feature=applinks",
-          "twitter:app:url:ipad":
-            "vnd.youtube://www.youtube.com/watch?v=ajj9ylxMOHM&feature=applinks",
-          "twitter:app:name:googleplay": "YouTube",
-          "twitter:app:id:googleplay": "com.google.android.youtube",
-          "twitter:app:url:googleplay":
-            "https://www.youtube.com/watch?v=ajj9ylxMOHM",
-          "twitter:player": "https://www.youtube.com/embed/ajj9ylxMOHM",
-          "twitter:player:width": "1280",
-          "twitter:player:height": "720",
-          viewport: "width=device-width, initial-scale=1.0, viewport-fit=cover",
-        },
-      },
-      {
-        id: "578",
-        guid: "b891f444-445c-4128-9939-2d8cbd67e1f9",
-        name: "웹 접근성을 위한 ‘텍스트 컬러 시스템 가이드’ 만들기 | 요즘IT",
-        url: "https://yozm.wishket.com/magazine/detail/2921/",
-        date_added: "13381218678867951",
-        date_last_used: "0",
-        icons: [],
-        meta: {
-          viewport: "width=device-width, initial-scale=1",
-          "fb:app_id": "593258114025512",
-          "naver-site-verification": "dc8f6187646a72a65dd61bd285076617240199aa",
-          "slack-app-id": "A02085A8T32",
-          description:
-            "디자이너로서 디자인 시스템이 왜 중요한지 고민하던 때가 있습니다. 이번 글에서는 컬러 시스템 중 ‘Gray scale’을 정리해 보았습니다.\n",
-          "og:description":
-            "디자이너로서 디자인 시스템이 왜 중요한지 고민하던 때가 있습니다. 이번 글에서는 컬러 시스템 중 ‘Gray scale’을 정리해 보았습니다.\n",
-          "twitter:description":
-            "디자이너로서 디자인 시스템이 왜 중요한지 고민하던 때가 있습니다. 이번 글에서는 컬러 시스템 중 ‘Gray scale’을 정리해 보았습니다.\n",
-          author: "Yozm IT",
-          keywords:
-            "디자인시스템,가독성,통일성,웹접근성,컬러,팔레트,가이드,프로덕트,디자이너,텍스트,콘텐츠,페이지,레이아웃,플레이스홀더,도메인,서비스기획,Grayscale,효율성,UI,ux,레퍼런스,",
-          "og:keyword":
-            "디자인시스템,가독성,통일성,웹접근성,컬러,팔레트,가이드,프로덕트,디자이너,텍스트,콘텐츠,페이지,레이아웃,플레이스홀더,도메인,서비스기획,Grayscale,효율성,UI,ux,레퍼런스,",
-          date: "2025-01-08",
-          "format-detection": "telephone=no",
-          "og:title":
-            "웹 접근성을 위한 ‘텍스트 컬러 시스템 가이드’ 만들기 | 요즘IT",
-          "og:url": "https://yozm.wishket.com/magazine/detail/2921/",
-          "og:site_name": "요즘IT",
-          "og:image": "https://yozm.wishket.com/media/news/2921/16.png",
-          "og:image:alt":
-            "웹 접근성을 위한 ‘텍스트 컬러 시스템 가이드’ 만들기 | 요즘IT",
-          "og:type": "website",
-          "twitter:card": "summary_large_image",
-          "twitter:site": "@wishket",
-          "twitter:title":
-            "웹 접근성을 위한 ‘텍스트 컬러 시스템 가이드’ 만들기 | 요즘IT",
-          "twitter:image": "https://yozm.wishket.com/media/news/2921/16.png",
-        },
-      },
-      {
         id: "620",
         guid: "e7e6ce02-53c7-4487-aeed-391a0b2a6986",
         name: "Exploring Interactive Art Technology: A new World of Creative Expression in 2024 | Steve Zafeiriou",
@@ -3660,88 +2730,7 @@ var category_sorted = [
             "https://stevezafeiriou.com/wp-content/uploads/2024/10/cropped-FAVICON-SZ-270x270.jpg",
         },
       },
-      {
-        id: "369",
-        guid: "599865c8-37ab-4f21-9ffb-f766d7e20ef6",
-        name: "Karel Martens: Re-Production — IS A GALLERY",
-        url: "https://www.isagallery.org/exhibitions/reproduction",
-        date_added: "13323866784503479",
-        date_last_used: "13324109697712336",
-        icons: [
-          "https://cdn.prod.website-files.com/5fc6b791b4a0c54069815a6d/60dbc2ff513e0c904fa6bba2_isagallery.jpg",
-        ],
-        meta: {
-          description:
-            "Oct 15, 2021, artist: Karel Martens, curated by Zhongkai Li",
-          "og:title": "Karel Martens: Re-Production — IS A GALLERY",
-          "og:description":
-            "Oct 15, 2021, artist: Karel Martens, curated by Zhongkai Li",
-          "og:image":
-            "https://cdn.prod.website-files.com/5fcec7b08cc42bd60437c398/6170d156b63c4b1bcc769b9f__G1P8619.jpg",
-          "twitter:title": "Karel Martens: Re-Production — IS A GALLERY",
-          "twitter:description":
-            "Oct 15, 2021, artist: Karel Martens, curated by Zhongkai Li",
-          "twitter:image":
-            "https://cdn.prod.website-files.com/5fcec7b08cc42bd60437c398/6170d156b63c4b1bcc769b9f__G1P8619.jpg",
-          "og:type": "website",
-          "twitter:card": "summary_large_image",
-          viewport: "width=device-width, initial-scale=1",
-        },
-      },
-      {
-        id: "373",
-        guid: "b46d14d4-6f7a-4b58-84ca-e16b4173a431",
-        name: "Roger Pfund",
-        url: "https://rogerpfund.com/paintings",
-        date_added: "13324977761833231",
-        date_last_used: "0",
-        icons: ["https://rogerpfund.com/favicon.png"],
-        meta: {
-          viewport: "width=device-width, initial-scale=1",
-          "og:type": "website",
-          "og:image": "./screenshots-flat/Roger Pfund.png",
-        },
-      },
 
-      {
-        id: "401",
-        guid: "29719561-68f0-4eea-83dc-ba6a93f7044a",
-        name: "Gumroad – Sell what you know and see what sticks",
-        url: "https://gumroad.com/",
-        date_added: "13327566527861003",
-        date_last_used: "13341647098666344",
-        icons: [
-          "https://assets.gumroad.com/assets/pink-icon-c5f5013768a1da41246e70403f02afc8b34ac89c20f3ba2dd0a01f3973027700.png",
-        ],
-        meta: {
-          "action-cable-url": "wss://cable.gumroad.com/cable",
-          "csrf-param": "authenticity_token",
-          "csrf-token":
-            "HFVTDhDBdbBYk1jiKaMz2GqV8wtdXGdU7GsNrYeudxGMD3buIRLjN-uy2SeH648OYObItd0hsypoon_E5hfHkA",
-          "fb:app_id": "149071038533330",
-          "fb:page_id": "http://www.facebook.com/gumroad",
-          "twitter:site": "",
-          "og:image":
-            "https://assets.gumroad.com/assets/opengraph_image-4110ebae42201eaa14606ecde6ca17e380f576b25224ba270116b0439775cd0a.png",
-          "og:image:alt": "Gumroad",
-          "og:title": "Earn your first dollar online with Gumroad",
-          "gr:google_analytics:enabled": "true",
-          "gr:fb_pixel:enabled": "true",
-          "gr:logged_in_user:id": "",
-          "gr:environment": "",
-          "gr:page:type": "",
-          "gr:facebook_sdk:enabled": "true",
-          viewport: "initial-scale = 1.0, width = device-width",
-          "stripe:pk": "",
-          "stripe:api_version": "",
-          description:
-            "Start selling what you know, see what sticks, and get paid. Simple and effective.",
-          "og:description":
-            "Start selling what you know, see what sticks, and get paid. Simple and effective.",
-          "og:type": "website",
-          "og:url": "https://gumroad.com/about",
-        },
-      },
       {
         id: "402",
         guid: "b6939829-2a1b-4585-86fd-5056aa296821",
@@ -3822,171 +2811,7 @@ var category_sorted = [
           generator: "WPML ver:4.6.15 stt:59,1;",
         },
       },
-      {
-        id: "633",
-        guid: "74caa9ce-0706-494a-b0f1-a979f955c77e",
-        name: "Choo-Choo World - A Web Based Wooden Train Track Builder",
-        url: "https://choochooworld.com/?DATA=DFFBHFIJBDE/0/D",
-        date_added: "13388674647805532",
-        date_last_used: "0",
-        icons: [
-          "https://choochooworld.com/assets/meta/favicon-32x32.png",
-          "https://choochooworld.com/assets/meta/favicon-16x16.png",
-        ],
-        meta: {
-          viewport:
-            "width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no",
-          description:
-            "Build the train sets of your dreams and let your imagination run wild.",
-          robots: "index,follow",
-          googlebot: "index,follow",
-          google: "notranslate",
-          "apple-mobile-web-app-capable": "yes",
-          "mobile-web-app-capable": "yes",
-          "msapplication-config": "./assets/meta/browserconfig.xml",
-          "application-name": "Choo-Choo World",
-          "msapplication-TileColor": "#0e73cc",
-          "theme-color": "#0e73cc",
-          "apple-mobile-web-app-status-bar-style": "black",
-          "og:description":
-            "Build the train sets of your dreams and let your imagination run wild.",
-          "og:image:alt": "Choo-Choo World",
-          "og:image": "https://choochooworld.com/assets/meta/fb.jpg",
-          "og:locale": "en_US",
-          "og:site_name": "Choo-Choo World",
-          "og:title": "Choo-Choo World",
-          "og:type": "website",
-          "og:url": "https://choochooworld.com/",
-          "twitter:card": "summary_large_image",
-          "twitter:site": "@choochoowld",
-          "twitter:description":
-            "Build the train sets of your dreams and let your imagination run wild.",
-          "twitter:image:alt": "Choo-Choo World",
-          "twitter:image": "https://choochooworld.com/assets/meta/tw.jpg",
-          "twitter:title": "Choo-Choo World",
-          "twitter:url": "https://choochooworld.com/",
-        },
-      },
 
-      {
-        id: "644",
-        guid: "d294255b-e0ee-44b9-bc6b-725155dd84cc",
-        name: "Boook.Land - Internet Gems: Website Inspiration — ilovecreatives",
-        url: "https://ilovecreatives.com/internet-gem-websites/boookland?utm_source=pinterest&utm_medium=pin&utm_campaign=internet+gems",
-        date_added: "13389288733044821",
-        date_last_used: "0",
-        icons: [
-          "https://images.squarespace-cdn.com/content/v1/53a9419fe4b00d7a9215bdb6/1573181583557-YNOCYY3IL8G0ME0QOMM6/favicon.ico?format=100w",
-        ],
-        meta: {
-          viewport: "initial-scale=1",
-          "og:site_name": "ilovecreatives",
-          "og:title":
-            "Boook.Land - Internet Gems: Website Inspiration — ilovecreatives",
-          "og:latitude": "34.0390333",
-          "og:longitude": "-118.2349443",
-          "og:locality": "",
-          "og:url":
-            "https://ilovecreatives.com/internet-gem-websites/boookland",
-          "og:type": "article",
-          "og:description": "Designed by  TWOMUCH.STUDIO",
-          "og:image":
-            "http://static1.squarespace.com/static/53a9419fe4b00d7a9215bdb6/5c510151aa4a99530bd5e834/623f5bd2f4ff6b1c94b4de73/1694800368541/boook-land.jpeg?format=1500w",
-          "og:image:width": "1500",
-          "og:image:height": "853",
-          "twitter:title":
-            "Boook.Land - Internet Gems: Website Inspiration — ilovecreatives",
-          "twitter:image":
-            "http://static1.squarespace.com/static/53a9419fe4b00d7a9215bdb6/5c510151aa4a99530bd5e834/623f5bd2f4ff6b1c94b4de73/1694800368541/boook-land.jpeg?format=1500w",
-          "twitter:url":
-            "https://ilovecreatives.com/internet-gem-websites/boookland",
-          "twitter:card": "summary",
-          "twitter:description": "Designed by  TWOMUCH.STUDIO",
-          description: "",
-          "google-site-verification":
-            "WPEHA9p1Ccn8YIxtGdgGXphVQAcouIJcDF-ngUTnb9U",
-        },
-      },
-      {
-        id: "656",
-        guid: "d4adb8cf-f99f-4cbe-be0a-722ee98406aa",
-        name: "House of Gul",
-        url: "https://www.houseofgul.com/#section-garden",
-        date_added: "13389371105612766",
-        date_last_used: "13389952085940394",
-        icons: [
-          "https://cdn.prod.website-files.com/623ddce3e6f341862fe528c2/63306995829453a763025e8c_favicon.png",
-        ],
-        meta: {
-          description:
-            "We exist to make beauty visible. The creative Studio, Artistic Practice & Design Shop of Ali Godil. We specialize in (conscious) creative concepts, multidisciplinary graphic design, and photo and film production, for both commercial and artistic projects. Welcome to our joyful renaissance.",
-          viewport: "width=device-width, initial-scale=1",
-          generator: "Webflow",
-          "og:type": "website",
-          "og:image": "./screenshots-flat/House of Gul.png",
-        },
-      },
-      {
-        id: "673",
-        guid: "8773a181-6471-470c-9bd6-b0231da3936b",
-        name: "Kidzfrmnowhere",
-        url: "https://kidzfrmnowhere.com/?ref=siteinspire",
-        date_added: "13389710779196847",
-        date_last_used: "0",
-        icons: [
-          "https://kidzfrmnowhere.com/favicon-32x32.png",
-          "https://kidzfrmnowhere.com/favicon-16x16.png",
-        ],
-        meta: {
-          viewport: "width=device-width, initial-scale=1",
-          description:
-            "CREATIVE / PRODUCTION HOUSE & ARTIST REPRESENTATION WITH OFFICE IN TOKYO AND SHANGHAI.",
-          keywords: "",
-          "og:title": "Kidzfrmnowhere ",
-          "og:description":
-            "CREATIVE / PRODUCTION HOUSE & ARTIST REPRESENTATION WITH OFFICE IN TOKYO AND SHANGHAI.",
-          "twitter:card": "summary_large_image",
-          "twitter:title": "Kidzfrmnowhere ",
-          "twitter:description":
-            "CREATIVE / PRODUCTION HOUSE & ARTIST REPRESENTATION WITH OFFICE IN TOKYO AND SHANGHAI.",
-          "twitter:image":
-            "https://cdn.sanity.io/images/4hi9utlj/production/7ecefc261a427664b4b0aa46ee78f557d5bc9fb7-1200x1500.png?w=1200&fm=jpg&auto=format",
-          "og:image":
-            "https://cdn.sanity.io/images/4hi9utlj/production/7ecefc261a427664b4b0aa46ee78f557d5bc9fb7-1200x1500.png?w=1200&fm=jpg&auto=format",
-          "og:type": "website",
-        },
-      },
-      {
-        id: "670",
-        guid: "1e106c01-4d13-4f3a-848c-dbe665e787be",
-        name: "Early Studies",
-        url: "https://www.earlystudies.com/?ref=siteinspire",
-        date_added: "13389711061451367",
-        date_last_used: "0",
-        icons: [
-          "https://www.earlystudies.com/favicon.ico",
-          "https://www.earlystudies.com/favicon.svg",
-        ],
-        meta: {
-          viewport: "width=device-width",
-          description:
-            "A creative research studio in London making quant haute again by asking better questions to the right people.",
-          "og:title": "Early Studies",
-          "og:description":
-            "A creative research studio in London making quant haute again by asking better questions to the right people.",
-          "og:image":
-            "https://images.ctfassets.net/k29x3n7u25ry/3seHyKnGtVDhXX8Ctvt8av/695995be3c7bf58518715e15bd75ee6d/og.jpg",
-          "og:url": "https://www.earlystudies.com",
-          "twitter:card": "summary_large_image",
-          "twitter:title": "Early Studies",
-          "twitter:description":
-            "A creative research studio in London making quant haute again by asking better questions to the right people.",
-          "twitter:image":
-            "https://images.ctfassets.net/k29x3n7u25ry/3seHyKnGtVDhXX8Ctvt8av/695995be3c7bf58518715e15bd75ee6d/og.jpg",
-          "next-head-count": "15",
-          "og:type": "website",
-        },
-      },
       {
         id: "674",
         guid: "35f8a309-a725-4eb4-9f88-61124d8a4f99",
@@ -4035,98 +2860,7 @@ var category_sorted = [
           "og:image": "./screenshots-flat/About — Blair Simmons.png",
         },
       },
-      {
-        id: "715",
-        guid: "154cbc40-949f-4576-9af6-3291c6c861f5",
-        name: "Antlii",
-        url: "https://antlii.work/",
-        date_added: "13392625735119653",
-        date_last_used: "0",
-        icons: [
-          "https://freight.cargo.site/t/original/i/d18fca57af882f3c57bef4b2d1ea13bf11ea43e4a8b796b05b6f6f2985adc275/antlii-logo-720.ico",
-        ],
-        meta: {
-          viewport: "initial-scale=1.0, maximum-scale=1.0, user-scalable=no",
-          robots: "index,follow",
-          description:
-            "Portfolio of Anatolii Babii, an independent graphics designer and digital artist from Kyiv, Ukraine.",
-          "twitter:card": "summary_large_image",
-          "twitter:title": "Antlii",
-          "twitter:description":
-            "Portfolio of Anatolii Babii, an independent graphics designer and digital artist from Kyiv, Ukraine.",
-          "twitter:image":
-            "https://freight.cargo.site/i/1888aad0229ce914f4b81f5cbb3defeb5603b5e53b302ab9be7de48402f47060/antlii-social-sharing-img.jpg",
-          "og:locale": "en_US",
-          "og:title": "Antlii",
-          "og:description":
-            "Portfolio of Anatolii Babii, an independent graphics designer and digital artist from Kyiv, Ukraine.",
-          "og:url": "https://antlii.work",
-          "og:image":
-            "https://freight.cargo.site/i/1888aad0229ce914f4b81f5cbb3defeb5603b5e53b302ab9be7de48402f47060/antlii-social-sharing-img.jpg",
-          "og:type": "website",
-          title: "Antlii Portfolio",
-        },
-      },
-      {
-        id: "734",
-        guid: "9c039362-dc2e-4c47-a349-0573b9ef4741",
-        name: "Page Not Found",
-        url: "https://page-not-found.nl/",
-        date_added: "13392647248982411",
-        date_last_used: "0",
-        icons: [
-          "https://page-not-found.nl/wp-content/themes/blank-slate-pnf-1-1/build/assets/PNF_SocMedia_Icon3square.png",
-          "https://page-not-found.nl/wp-content/themes/blank-slate-pnf-1-1/build/assets/PNF_SocMedia_Icon3square.png",
-          "https://page-not-found.nl/wp-content/themes/blank-slate-pnf-1-1/build/assets/PNF_SocMedia_Icon3square.png",
-        ],
-        meta: {
-          "mobile-web-app-capable": "yes",
-          viewport:
-            "width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover",
-          robots: "max-image-preview:large",
-          generator: "All in One SEO (AIOSEO) 4.7.1.1",
-          description:
-            "Page Not Found is a space for artists’ publications. It is a non-profit organization that works principally as a bookshop. Its aim is to share the luxuriant production of contemporary artists who use books as a medium.   These artworks are usually self-published, or produced by small presses, in a limited number of copies, and are thus difficult to obtain. Centrally located in The Hague, and entirely dedicated to these publications, Page Not Found provides a natural outlet to make them accessible to a wider audience.   Its catalogue includes books and pamphlets made by artists, be they local or not, but also artists writings and research, fictions and essays, magazines and fanzines, which express a fascination with the printed matter.   Page Not Found is run by Sébastien Goy",
-          "og:type": "website",
-          "og:image": "./screenshots-flat/Page Not Found.png",
-        },
-      },
-      {
-        id: "430",
-        guid: "181816d7-9146-4b35-8ee7-8626ada386ea",
-        name: "응용공학설계 (업데이트되는 수업계획서)",
-        url: "https://speculativeai2023.notion.site/speculativeai2023/5aaad715830647c695a39be6f4e84136",
-        date_added: "13343721249724757",
-        date_last_used: "13354466762146023",
-        icons: ["https://speculativeai2023.notion.site/images/favicon.ico"],
-        meta: {
-          viewport:
-            "width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover",
-          description:
-            "A new tool that blends your everyday work apps into one. It's the all-in-one workspace for you and your team",
-          "twitter:card": "summary_large_image",
-          "twitter:site": "@NotionHQ",
-          "twitter:title":
-            "Your connected workspace for wiki, docs & projects | Notion",
-          "twitter:description":
-            "A new tool that blends your everyday work apps into one. It's the all-in-one workspace for you and your team",
-          "twitter:url": "https://www.notion.so",
-          "twitter:image": "https://www.notion.so/images/meta/default.png",
-          "og:site_name": "Notion",
-          "og:type": "website",
-          "og:url": "https://www.notion.so",
-          "og:title":
-            "Your connected workspace for wiki, docs & projects | Notion",
-          "og:description":
-            "A new tool that blends your everyday work apps into one. It's the all-in-one workspace for you and your team",
-          "og:image": "https://www.notion.so/images/meta/default.png",
-          "og:locale": "en_US",
-          "mobile-web-app-capable": "yes",
-          "apple-itunes-app": "app-id=1232780281",
-          "format-detection": "telephone=no",
-          "msapplication-tap-highlight": "no",
-        },
-      },
+
       {
         id: "435",
         guid: "2c0e2e04-5527-41d4-9220-35844a75ce3c",
@@ -4150,63 +2884,6 @@ var category_sorted = [
             "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
           "og:image":
             "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/stabilityai/stable-diffusion-xl-base-1.0.png",
-        },
-      },
-      {
-        id: "582",
-        guid: "70580ef4-7390-43bf-a9be-c4c94feefa66",
-        name: "시니어 세대를 위한 모바일 UX 디자인 Tips",
-        url: "https://brunch.co.kr/@hailey-hyunjee/49",
-        date_added: "13381228948690235",
-        date_last_used: "13392626340550686",
-        icons: [
-          "https://t1.daumcdn.net/brunch/static/icon/favicon/brunchstory/favicon_20230406.ico",
-        ],
-        meta: {
-          title: "시니어 세대를 위한 모바일 UX 디자인 Tips",
-          referrer: "always",
-          secureToken: "",
-          robots: "max-image-preview:large",
-          "theme-color": "#000000",
-          description:
-            "노인세대를 위한 모바일 앱 디자인을 할 때 주의해야 할 점 | 20대, 30대 UX/UI 디자이너들이 모바일 앱을 디자인할 때 간과하기 쉬운 부분 중의 하나가 시니어 세대를 위한 UX 디자인이다. 대부분의 모바일 시장이 10-30대에 맞춰져 있고 그 시장이 가장 크기 때문에 노인 세대를 위한 디자인을 생각하는 것은 쉽지 않다. 혹은 내가 거쳐온 유년시절, 청소년 시절에 대한 기억을 기반으로 유아, 어린이, 10대를 위",
-          "article:author": "헤일리",
-          "og:article:author": "헤일리",
-          byl: "헤일리",
-          "og:type": "article",
-          "og:site_name": "Brunch Story",
-          "og:title": "시니어 세대를 위한 모바일 UX 디자인 Tips",
-          "og:description":
-            "노인세대를 위한 모바일 앱 디자인을 할 때 주의해야 할 점 | 20대, 30대 UX/UI 디자이너들이 모바일 앱을 디자인할 때 간과하기 쉬운 부분 중의 하나가 시니어 세대를 위한 UX 디자인이다. 대부분의 모바일 시장이 10-30대에 맞춰져 있고 그 시장이 가장 크기 때문에 노인 세대를 위한 디자인을 생각하는 것은 쉽지 않다. 혹은 내가 거쳐온 유년시절, 청소년 시절에 대한 기억을 기반으로 유아, 어린이, 10대를 위",
-          "og:image":
-            "//img1.daumcdn.net/thumb/R1280x0/?fname=http://t1.daumcdn.net/brunch/service/user/1Yms/image/aMlHwAMbJ82hcskeR7MfaJYUxw4.jpg",
-          "og:url": "https://brunch.co.kr/@hailey-hyunjee/49",
-          "twitter:card": "summary",
-          "twitter:app:name:iphone": "브런치스토리",
-          "twitter:app:id:iphone": "1001388574",
-          "twitter:app:url:iphone": "brunchapp://open",
-          "twitter:image":
-            "https://img1.daumcdn.net/thumb/C500x500/?fname=http://t1.daumcdn.net/brunch/service/user/1Yms/image/aMlHwAMbJ82hcskeR7MfaJYUxw4.jpg",
-          "twitter:title": "시니어 세대를 위한 모바일 UX 디자인 Tips",
-          "twitter:description":
-            "노인세대를 위한 모바일 앱 디자인을 할 때 주의해야 할 점 | 20대, 30대 UX/UI 디자이너들이 모바일 앱을 디자인할 때 간과하기 쉬운 부분 중의 하나가 시니어 세대를 위한 UX 디자인이다. 대부분의 모바일 시장이 10-30대에 맞춰져 있고 그 시장이 가장 크기 때문에 노인 세대를 위한 디자인을 생각하는 것은 쉽지 않다. 혹은 내가 거쳐온 유년시절, 청소년 시절에 대한 기억을 기반으로 유아, 어린이, 10대를 위",
-          "fb:app_id": "313683402170826",
-          "dg:plink": "https://brunch.co.kr/@@1Yms/49",
-          plink: "https://brunch.co.kr/@@1Yms/49",
-          "article:mobile_url": "https://brunch.co.kr/@@1Yms/49",
-          "article:pc_url": "https://brunch.co.kr/@@1Yms/49",
-          "article:mobile_service_home": "https://brunch.co.kr",
-          "article:pc_service_home": "https://brunch.co.kr",
-          "article:mobile_view_url": "https://brunch.co.kr/@@1Yms/49",
-          "article:pc_view_url": "https://brunch.co.kr/@@1Yms/49",
-          "article:talk_channel_view_url": "https://brunch.co.kr/@@1Yms/49",
-          "article:txid": "1Yms_49",
-          "article:published_time": "2020-07-01T02:19+0900",
-          "og:regDate": "2020-07-01T02:19+0900",
-          "article:media_name": "헤일리",
-          "article:service_name": "브런치",
-          "ks:richscrap":
-            '{"site_info":{"name":"브런치","image":"https://t1.daumcdn.net/brunch/static/img/help/mw/ico_brunch_kakaostory_richscrap70x70.png","url":"https://brunch.co.kr"},"header":{"category_title":"쓰면서 정리하는 UX 디자인","subtitle":"노인세대를 위한 모바일 앱 디자인을 할 때 주의해야 할 점","title":"시니어 세대를 위한 모바일 UX 디자인 Tips","date":"2020.07.01"},"author":{"name":"헤일리","image":"http://t1.daumcdn.net/brunch/service/user/1Yms/image/vE7XpN0zu3KiLuhvcySoFTk0QR8.jpg","url":"https://brunch.co.kr/@hailey-hyunjee"},"cards":[{"type":"image","body":{"content":"","image":"https://img1.daumcdn.net/thumb/R1280x0/?fname\\u003dhttp://t1.daumcdn.net/brunch/service/user/1Yms/image/aMlHwAMbJ82hcskeR7MfaJYUxw4.jpg"}},{"type":"text","body":{"content":"20대, 30대 UX/UI 디자이너들이 모바일 앱을 디자인할 때 간과하기 쉬운 부분 중의 하나가 시니어 세대를 위한 UX 디자인이다. 대부분의 모바일 시장이 10-30대에 맞춰져 있고 그 시장이 가장 크기 때문에 노인 세대를 위한 디자인을 생각하는 것은 쉽지 않다. 혹은 내가 거쳐온 유년시절, 청소년 시절에 대한 기억을 기반으로 유아, 어린이, 10대를 위한 기발한 앱 디자인은 생각할 수 있으나 그들이 살아보지 못한 중년 이상, 노인 세대의 삶에 대해선 심각하게 생각해보지 않았을 수도 있다. ","image":""}},{"type":"text","body":{"content":" ","image":""}},{"type":"text","body":{"content":"통계청의 발표에 따르면 만 65세 이상 노인인구가 전체 인구에서 차지하는 비중은 2017년은 13.8%에서 2025년은 20.3%로 늘어날 것으로 전망했다. 또한 2030년에는 25.0%, 2035년은 29.5%, 2040년은 33.9%로 비중이 커질 것으로 예상했다. 5년 후에는 성인 인구 5명 중 1명이 65세 이상이고 10년 후에는 4명 중 1명이 노인 세대라고 생각하면 상황은 조금 심각해진다. ","image":""}},{"type":"text","body":{"content":" ","image":""}},{"type":"text","body":{"content":"10년 후 고령화 이슈는 각 산업군에서 더 심각한 문제로 인식을 해야 하며 작은 모바일 화면을 디자인하는 UX/UI 디자이너라면 노인 세대에 대한 기본 적인 이해를 바탕으로 모바일 디자인을 진행할 필요가 있다.","image":""}},{"type":"text","body":{"content":" ","image":""}},{"type":"text","body":{"content":" ","image":""}},{"type":"image","body":{"content":"","image":"https://img1.daumcdn.net/thumb/R1280x0/?fname\\u003dhttp://t1.daumcdn.net/brunch/service/user/1Yms/image/GdAD73hcDZKHgA1D95tmJxlA9IY.jpg"}},{"type":"text","body":{"content":" ","image":""}}]}',
         },
       },
 
@@ -4244,6 +2921,39 @@ var category_sorted = [
   {
     name: "Research",
     items: [
+      {
+        id: "162",
+        guid: "2fafead7-f5e9-4b71-9d65-475ae65ffc03",
+        name: "문화유산 지식e음",
+        url: "https://portal.nrich.go.kr/kor/index.do",
+        date_added: "13323785093771057",
+        date_last_used: "0",
+        icons: [
+          "https://portal.nrich.go.kr/kor/resource/2022/images/favicon.png",
+          "https://portal.nrich.go.kr/kor/resource/2022/images/favicon.png",
+          "https://portal.nrich.go.kr/kor/resource/2022/images/favicon.png",
+          "https://portal.nrich.go.kr/kor/resource/2022/images/favicon.png",
+        ],
+        meta: {
+          subject: "국가유산 지식이음",
+          title: "국가유산 지식이음",
+          keywords:
+            "국가유산 지식이음, 국립문화유산연구원, 국립문화유산연구원, 문화유산연구지식포털",
+          description: "국가유산 지식이음 입니다",
+          copyright:
+            "Copyright 2017 National Research Institute of Cultural Heritage. All rights reserved.",
+          "og:type": "website",
+          "og:site_name": "National Research Institute of Cultural Heritage",
+          "og:title": "국가유산 지식이음",
+          "og:url": "https://portal.nrich.go.kr/kor/index.do",
+          "og:description": "국가유산 지식이음 입니다.",
+          viewport:
+            "width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0",
+          "msvalidate.01": "A819933E5F44D4739512A7900FB0A872",
+          "format-detection": "telephone=no",
+          "og:image": "./screenshots-flat/문화유산 지식e음.png",
+        },
+      },
       {
         id: "204",
         guid: "9a436d9c-1f15-426e-aa44-8c0c46d858cb",
@@ -4460,6 +3170,23 @@ var category_sorted = [
             "https://photos2.insidercdn.com/leopard-preview-safari-1.jpg",
           "twitter:url":
             "https://appleinsider.com/articles/07/10/18/road_to_mac_os_x_leopard_safari_3_0",
+        },
+      },
+      {
+        id: "210",
+        guid: "0f25c623-6746-4ace-a584-c5836da1d44f",
+        name: "TTA정보통신용어사전",
+        url: "https://terms.tta.or.kr/dictionary/dictionaryView.do?subject=%EB%A9%94%ED%83%80+%EB%8D%B0%EC%9D%B4%ED%84%B0",
+        date_added: "13359038568306728",
+        date_last_used: "0",
+        icons: [],
+        meta: {
+          "og:title": "TTA정보통신용어사전",
+          "og:description":
+            "한국정보통신기술협회(TTA)는 정보통신 기술 발전과 타 분야와의 기술 융합에 따라 무수히 생성되는 정보통신용어를 해설하고 표준화하여, 전문가뿐만 아니라 비전문가들도 올바르게 활용할 수 있도록 정보통신용어사전을 서비스하고 있습니다. PC 또는 스마트폰으로 웹에 직접 접속하시거나 모바일 앱 마켓에서 정보통신용어사전 앱을 내려 받아 이용하실 수 있습니다.",
+          "og:image":
+            "http://terms.tta.or.kr/webcont/images_old/sub/test_mainimg02.gif",
+          "og:type": "website",
         },
       },
       {
@@ -5116,124 +3843,6 @@ var category_sorted = [
           "og:title": "Google Colab",
         },
       },
-
-      {
-        id: "625",
-        guid: "88ceb889-6983-40a9-ad61-d58634f19457",
-        name: "51 CSS Animations on Scroll Your Visitors Will Love",
-        url: "https://www.sliderrevolution.com/resources/css-animations-on-scroll/",
-        date_added: "13387820158884196",
-        date_last_used: "0",
-        icons: [
-          "https://www.sliderrevolution.com/wp-content/uploads/2020/05/cropped-rsicon-32x32.png",
-          "https://www.sliderrevolution.com/wp-content/uploads/2020/05/cropped-rsicon-192x192.png",
-        ],
-        meta: {
-          viewport: "width=device-width, initial-scale=1",
-          robots:
-            "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-          description:
-            "Bring your web pages to life with CSS animations on scroll! Learn how to captivate visitors with effects that trigger as they navigate.",
-          "og:locale": "en_US",
-          "og:type": "article",
-          "og:title": "51 CSS Animations on Scroll Your Visitors Will Love",
-          "og:description":
-            "Bring your web pages to life with CSS animations on scroll! Learn how to captivate visitors with effects that trigger as they navigate.",
-          "og:url":
-            "https://www.sliderrevolution.com/resources/css-animations-on-scroll/",
-          "og:site_name": "Slider Revolution",
-          "article:published_time": "2025-02-13T05:22:00+00:00",
-          "article:modified_time": "2025-03-08T20:53:42+00:00",
-          "og:image":
-            "https://www.sliderrevolution.com/wp-content/uploads/2023/03/css-animations-on-scroll.jpg",
-          "og:image:width": "1180",
-          "og:image:height": "664",
-          "og:image:type": "image/jpeg",
-          author: "Bogdan Sandu",
-          "twitter:card": "summary_large_image",
-          "twitter:label1": "Written by",
-          "twitter:data1": "Bogdan Sandu",
-          "twitter:label2": "Est. reading time",
-          "twitter:data2": "17 minutes",
-          generator:
-            "Powered by Slider Revolution 6.7.34 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface.",
-          "msapplication-TileImage":
-            "https://www.sliderrevolution.com/wp-content/uploads/2020/05/cropped-rsicon-270x270.png",
-          "format-detection": "telephone=no",
-        },
-      },
-      {
-        id: "308",
-        guid: "a0cc55ed-cad6-4732-b486-55a2c933679e",
-        name: "Fabric.com: Online Shopping for Home Decor, Apparel, Quilting & Designer Fabric",
-        url: "https://www.fabric.com/",
-        date_added: "0",
-        date_last_used: "0",
-        icons: [],
-        meta: {
-          description:
-            "다양한 제품을 보유한 미술, 공예 및 재봉 온라인 스토어에서 직물을(를) 쇼핑하세요.",
-          keywords: "직물, Fabric, 미술, 공예 및 재봉, Amazon.com",
-          "encrypted-slate-token":
-            "AnYxIoGjlJCEdmWxDf31wVd9UBNlCTzvfFDvE/VGt9bIYUUiTUdpilDgvW6xvLnUmGm7x0KG6m5UojQ2OnUep08y2uCIKaeNxthtalmQY1PycQkjvU/Ok89S6nunvoN1GNYAA3Jef51DO2nZfukDeGVObAwylglz+lPm86GKv31e/KbEqmWRWoTEfA8ZAccsCPgvP7Opr5uK+rGmAscRfIaxMqkQKQX9xXgnydhJWExv9ZnAUvyluDXVwKKtHLfT8outAwdHk5Di",
-          "og:type": "website",
-          "og:image":
-            "./screenshots-flat/Fabric.com_ Online Shopping for Home Decor, Apparel, Quilting & Designer Fabric.png",
-        },
-      },
-
-      {
-        id: "102",
-        guid: "64e1c35a-fc56-4286-9483-ef3337f814a0",
-        name: "Storyset | Customize, animate and download illustration for free",
-        url: "https://storyset.com/",
-        date_added: "13372232256151330",
-        date_last_used: "0",
-        icons: [
-          "https://storyset.com/favicon.ico",
-          "https://storyset.com/favicon.svg",
-          "https://storyset.com/favicon-32x32.png",
-          "https://storyset.com/favicon-16x16.png",
-        ],
-        meta: {
-          viewport: "width=device-width, initial-scale=1",
-          title:
-            "Storyset: Customize, animate and download illustration for free",
-          description:
-            "Edit and animate all our customizable illustrations to enhance your projects totally free. Start now to be creative in our online editor ✅",
-          "og:type": "website",
-          "og:image":
-            "./screenshots-flat/Storyset _ Customize, animate and download illustration for free.png",
-        },
-      },
-      {
-        id: "50",
-        guid: "2047f74c-2b2d-4a1d-b73a-71728c5453b7",
-        name: "TinyPNG – Compress WebP, PNG and JPEG images intelligently",
-        url: "https://tinypng.com/",
-        date_added: "13370345626049779",
-        date_last_used: "0",
-        icons: ["https://tinypng.com/images/favicon.ico"],
-        meta: {
-          "og:title": "TinyPNG – Compress AVIF, WebP, PNG and JPEG images",
-          "og:description":
-            "Free online image optimizer for faster websites! Reduce the file size of your AVIF, WEBP, JPEG and PNG images while preserving the image quality. ",
-          "og:type": "website",
-          "og:url": "https://tinypng.com/",
-          "og:image": "https://tinypng.com/images/social/website.jpg",
-          "twitter:site": "@tinypng",
-          "twitter:card": "summary_large_image",
-          "twitter:description":
-            "Free online image optimizer for faster websites! Reduce the file size of your AVIF, WEBP, JPEG and PNG images while preserving the image quality. ",
-          "twitter:image": "https://tinypng.com/images/social/website.jpg",
-          "twitter:title": "TinyPNG – Compress AVIF, WebP, PNG and JPEG images",
-          "fb:admins": "674377478",
-          viewport: "width=device-width, initial-scale=1",
-          description:
-            "Free online image optimizer for faster websites! Reduce the file size of your AVIF, WEBP, JPEG and PNG images while preserving the image quality. ",
-          "next-head-count": "17",
-        },
-      },
       {
         id: "363",
         guid: "56375a54-f81c-4778-ade1-725a5d95f45f",
@@ -5267,50 +3876,7 @@ var category_sorted = [
           viewport: "width=device-width, initial-scale=1",
         },
       },
-      {
-        id: "491",
-        guid: "9dbff1f5-f5a6-44b8-a024-13a89f46bcec",
-        name: "Pixel Surplus | Resources for Creators",
-        url: "https://pixelsurplus.com/",
-        date_added: "13373712653808033",
-        date_last_used: "0",
-        icons: [
-          "https://www.gstatic.com/images/branding/searchlogo/ico/favicon.ico",
-        ],
-        meta: {
-          "og:type": "website",
-          "og:image":
-            "./screenshots-flat/Pixel Surplus _ Resources for Creators.png",
-        },
-      },
-      {
-        id: "556",
-        guid: "73f67729-c12a-4818-90d9-bd56613dba3b",
-        name: "CPGD — The Consumer Packaged Goods Directory",
-        url: "https://www.cpgd.xyz/",
-        date_added: "13380183723999663",
-        date_last_used: "0",
-        icons: [
-          "https://cdn.prod.website-files.com/6109bb1c8d041ad67b5d60dd/612750170a9cc1f2eb0b834f_32-favicon.png",
-        ],
-        meta: {
-          description:
-            "The Consumer Packaged Goods Directory is a platform to discover new brands and resources. We share weekly trends in our newsletter and partner with services to provide vetted, recommended platforms for our Directory brands.",
-          "og:title": "CPGD — The Consumer Packaged Goods Directory",
-          "og:description":
-            "The Consumer Packaged Goods Directory is a platform to discover new brands and resources. We share weekly trends in our newsletter and partner with services to provide vetted, recommended platforms for our Directory brands.",
-          "og:image":
-            "https://cdn.prod.website-files.com/6109bb1c8d041ad67b5d60dd/61274fe1efade582d4f8bd01_CPGD_META.jpeg",
-          "twitter:title": "CPGD — The Consumer Packaged Goods Directory",
-          "twitter:description":
-            "The Consumer Packaged Goods Directory is a platform to discover new brands and resources. We share weekly trends in our newsletter and partner with services to provide vetted, recommended platforms for our Directory brands.",
-          "twitter:image":
-            "https://cdn.prod.website-files.com/6109bb1c8d041ad67b5d60dd/61274fe1efade582d4f8bd01_CPGD_META.jpeg",
-          "og:type": "website",
-          "twitter:card": "summary_large_image",
-          viewport: "width=device-width, initial-scale=1",
-        },
-      },
+
       {
         id: "376",
         guid: "d5b1a013-ca40-4980-9d9c-feb0ce63e7fa",

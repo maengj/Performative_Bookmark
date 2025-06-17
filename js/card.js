@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
   document.body.classList.add("fade-in");
 });
 
+var eventCount = 0;
 const stack = document.getElementById("stack");
 const toggleBtn = document.getElementById("toggle-view");
 const imageBase = "https://framerusercontent.com/images";
@@ -24,6 +25,7 @@ const category = params.get("cate"); // "Development"
 const bigcategory = params.get("bigcate"); // "Development"
 if (bigcategory) {
   $(".big-cate").html(" > " + bigcategory);
+  $(".big-cate").attr("href", `drawer2.html?bigcate=${bigcategory}`);
 } else {
   $(".big-cate").html("");
 }
@@ -43,7 +45,7 @@ var folderArr = [
   "Class",
 ];
 var tagArr = [
-  "design",
+  "Design",
   "AI",
   "Thesis",
   "interactive",
@@ -101,7 +103,9 @@ $.each(modelData, function (i, d) {
   back.innerHTML = `
     <div class="card-table">
       <div class="row card-header">
-        <div class="icon"><img src="${d["icons"][0]}"></div>
+        <div class="icon" style="background-image:url(${
+          d["icons"][0]
+        });background-size:cover"></div>
         
         <a href="${d["url"]}" target="_blank" class="card_title"> ${
     d["name"]
@@ -133,7 +137,7 @@ $.each(modelData, function (i, d) {
       </div>
       <div class="row">
         <div class="center">
-          MEMO. <span class="serif-right"> my inspiration</span>
+          MEMO. <span class="serif-right">Please add a memo!</span>
         </div>
       </div>
       <div class="row">
@@ -151,7 +155,9 @@ $.each(modelData, function (i, d) {
   book.style.transition = "transform 2s ease-in";
 
   // ─── 클릭(뒤집기 또는 preview) ───
-  book.addEventListener("click", () => {
+  book.addEventListener("click", (event) => {
+    event.stopPropagation(); // 이벤트 버블링 방지
+
     if (document.body.classList.contains("grid-view")) {
       // 그리드 모드: .book 요소에 flipped 클래스 토글
       book.classList.toggle("flipped");
@@ -160,15 +166,19 @@ $.each(modelData, function (i, d) {
       content.style.transform = ""; // 호버로 인한 transform 초기화
       content.style.boxShadow = "0 12px 24px rgba(0,0,0,0.1)";
       return;
-
-      return;
     } else {
       // Stack 모드: 기존 preview-layer 로직
       const existing = document.querySelector(".preview-layer");
-      if (existing) return existing.remove();
+      if (existing) {
+        existing.remove();
+        if (existing.dataset.bookIndex === i.toString()) {
+          return;
+        }
+      }
 
       const preview = document.createElement("div");
       preview.className = "preview-layer";
+      preview.dataset.bookIndex = i.toString(); // 어떤 책에서 열렸는지 인덱스 저장
 
       const pf = document.createElement("div");
       pf.className = "preview-front";
@@ -179,7 +189,8 @@ $.each(modelData, function (i, d) {
       pb.innerHTML = back.innerHTML;
 
       preview.append(pf, pb);
-      preview.addEventListener("click", () => {
+      preview.addEventListener("click", (e) => {
+        e.stopPropagation(); // preview-layer 내부 클릭 시 document 클릭 이벤트 방지
         preview.style.transform = preview.style.transform.includes(
           "rotateY(180deg)"
         )
@@ -219,6 +230,17 @@ $.each(modelData, function (i, d) {
   });
 });
 
+// `document`에 클릭 이벤트 리스너 추가 (가장 바깥 클릭 감지)
+document.addEventListener("click", (event) => {
+  const existingPreview = document.querySelector(".preview-layer");
+  if (existingPreview) {
+    // 클릭된 요소가 preview-layer 자신이거나 그 자손이 아니라면 preview-layer를 닫음
+    if (!existingPreview.contains(event.target)) {
+      existingPreview.remove();
+    }
+  }
+});
+
 // 2) Grid/Stack 토글
 toggleBtn.addEventListener("click", () => {
   document.querySelectorAll(".preview-layer").forEach((el) => el.remove());
@@ -240,11 +262,16 @@ toggleBtn.addEventListener("click", () => {
 
 // 3) 휠 스크롤 (Stack 모드에서만)
 window.addEventListener("wheel", (e) => {
+  eventCount++;
+  console.log(eventCount);
   if (document.body.classList.contains("grid-view")) return;
-  // if (document.querySelector(".preview-layer")) return;
-  if (e.deltaY > 0 && currentTopIndex < books.length - 1) currentTopIndex++;
-  else if (e.deltaY < 0 && currentTopIndex > 0) currentTopIndex--;
-  updateBookTransforms();
+  // if (document.querySelector(".preview-layer")) return; // 이 줄은 이제 필요 없습니다.
+  if (eventCount > 3) {
+    if (e.deltaY > 0 && currentTopIndex < books.length - 1) currentTopIndex++;
+    else if (e.deltaY < 0 && currentTopIndex > 0) currentTopIndex--;
+    updateBookTransforms();
+    eventCount = 0;
+  }
 });
 
 function updateBookTransforms() {
@@ -342,13 +369,14 @@ $(document).ready(function () {
   $("#home").on("click", function () {
     window.location.href = "index.html";
   });
+  s;
   currentTopIndex = 15;
   updateBookTransforms();
   setTimeout(() => {
     books.forEach((book) => {
       book.style.transition = "transform 0.2s ease";
     });
-  }, 3000);
+  }, 1000);
   // 3000 - 3초
   $("body").on("click", function () {
     $("");
@@ -382,7 +410,7 @@ function convertTimestampToYYYYMMDD(microTimestamp) {
   // 4. Date 객체 생성 (UTC 기준)
   const date = new Date(unixMilliTimestamp);
 
-  // 5. yyyy-mm-dd 포맷팅
+  // 5. YYYY-mm-dd 포맷팅
   const yyyy = date.getUTCFullYear();
   const mm = String(date.getUTCMonth() + 1).padStart(2, "0");
   const dd = String(date.getUTCDate()).padStart(2, "0");

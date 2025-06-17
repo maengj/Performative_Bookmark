@@ -242,7 +242,7 @@ body.grid-view .book.flipped .card-content {
     .desc {
       font-family: var(--space-mono);
       text-transform: capitalize;
-      font-size: 12px;
+      font-size: 14px;
       padding: 1rem;
     }
   }
@@ -251,7 +251,7 @@ body.grid-view .book.flipped .card-content {
 .icon {
   width: 32px;
   height: 32px;
-  background-color: white;
+  background-color: transparent;
   flex: 32px 0 0;
   padding: 4px;
   img {

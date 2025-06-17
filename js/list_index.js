@@ -177,9 +177,11 @@ $(document).ready(function () {
           </div>`;
 
           // html += `<div class="type">${item}</div>`;
-          html += `<div class="type">${item.type}</div>`;
-          html += `<div class="saved">${item.saved}</div>`;
-          html += `<div class="category">${item.category}</div>`;
+          html += `<div class="type">${item.type ? item.type : "-"}</div>`;
+          html += `<div class="saved">${item.saved ? item.saved : "-"}</div>`;
+          html += `<div class="category">${
+            item.category ? item.category : "-"
+          }</div>`;
           html += `<div class="callno">${item.callno}</div>`;
 
           html += `</div>`;

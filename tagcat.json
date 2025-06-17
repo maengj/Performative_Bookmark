@@ -1,9 +1,9 @@
 [
   {
-    "name": "design",
+    "name": "Design",
     "child1": "Figma",
-    "child2": "UX",
-    "child3": "UI"
+    "child2": "UIUX",
+    "child3": "Product"
   },
   {
     "name": "AI",
@@ -15,8 +15,7 @@
     "name": "Thesis",
     "child1": "reference",
     "child2": "abstract",
-    "child3": "SNU",
-    "child4": "DBpia"
+    "child3": "SNU"
   },
   {
     "name": "interactive",
@@ -40,9 +39,16 @@
   },
   {
     "name": "document",
-    "child1": "G-mail",
+    "child1": "Google",
     "child2": "Drive",
-    "child3": "Google Slide",
-    "child4": "doc"
+    "child3": "presentation"
+  },
+  {
+    "name": " ",
+    "child1": " "
+  },
+  {
+    "name": " ",
+    "child1": " "
   }
 ]
