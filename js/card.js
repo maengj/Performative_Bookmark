@@ -369,7 +369,7 @@ $(document).ready(function () {
   $("#home").on("click", function () {
     window.location.href = "index.html";
   });
-  s;
+
   currentTopIndex = 15;
   updateBookTransforms();
   setTimeout(() => {
