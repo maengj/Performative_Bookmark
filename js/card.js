@@ -376,7 +376,7 @@ $(document).ready(function () {
     books.forEach((book) => {
       book.style.transition = "transform 0.2s ease";
     });
-  }, 1000);
+  }, 1500);
   // 3000 - 3초
   $("body").on("click", function () {
     $("");
